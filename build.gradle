@@ -1,0 +1,123 @@
+import org.gradle.api.tasks.testing.logging.TestExceptionFormat
+import org.gradle.api.tasks.testing.logging.TestLogEvent
+import groovy.time.TimeCategory
+
+ext.testsResults = []
+
+subprojects {
+    apply plugin: "java"
+    apply plugin: "idea"
+
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+
+    ext {
+        runTests = true
+    }
+
+    dependencies {
+        testCompile 'junit:junit:4.12'
+    }
+
+    sourceSets {
+        main {
+            java {
+                srcDirs = ['src/main/java']
+            }
+            resources {
+                srcDirs = ['src/main/resources']
+            }
+        }
+        test {
+            java {
+                srcDirs = ['src/test/java']
+            }
+            resources {
+                srcDirs = ['src/test/resources']
+            }
+        }
+    }
+
+    tasks.withType(Test) { testTask ->
+
+        testLogging {
+
+            events TestLogEvent.FAILED,
+                    TestLogEvent.PASSED,
+                    TestLogEvent.SKIPPED,
+                    TestLogEvent.STANDARD_OUT
+
+            exceptionFormat TestExceptionFormat.FULL
+            showStandardStreams true
+
+            showExceptions true
+            showCauses true
+            showStackTraces true
+
+            debug {
+                events TestLogEvent.STARTED,
+                        TestLogEvent.FAILED,
+                        TestLogEvent.PASSED,
+                        TestLogEvent.SKIPPED,
+                        TestLogEvent.STANDARD_ERROR,
+                        TestLogEvent.STANDARD_OUT
+                exceptionFormat TestExceptionFormat.FULL
+            }
+            info.events = debug.events
+            info.exceptionFormat = debug.exceptionFormat
+
+            afterSuite { desc, result ->
+
+                if (desc.parent) return
+
+                String summary = "${testTask.project.name}:${testTask.name} results: ${result.resultType} " +
+                        "(" +
+                        "${result.testCount} tests, " +
+                        "${result.successfulTestCount} successes, " +
+                        "${result.failedTestCount} failures, " +
+                        "${result.skippedTestCount} skipped" +
+                        ") " +
+                        "in ${TimeCategory.minus(new Date(result.endTime), new Date(result.startTime))}" +
+                        "\n" +
+                        "Report file: ${testTask.reports.html.entryPoint}"
+
+
+                if (result.resultType == TestResult.ResultType.SUCCESS) {
+                    rootProject.testsResults.add(0, summary)
+                } else {
+                    rootProject.testsResults += summary
+                }
+            }
+        }
+
+        ignoreFailures = false
+        reports {
+            junitXml.enabled = false
+            html.enabled = false
+        }
+    }
+}
+
+gradle.buildFinished {
+    def allResults = rootProject.ext.testsResults
+
+    if (!allResults.isEmpty()) {
+        printResults allResults
+    }
+}
+
+private static void printResults(allResults) {
+    def maxLength = allResults*.readLines().flatten().collect { it.length() }.max()
+
+    println "┌${"${"─" * maxLength}"}┐"
+
+    println allResults.collect {
+        it.readLines().collect {
+            "│" + it + " " * (maxLength - it.length()) + "│"
+        }.join("\n")
+    }.join("\n├${"${"─" * maxLength}"}┤\n")
+
+    println "└${"${"─" * maxLength}"}┘"
+}
