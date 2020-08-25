@@ -14,7 +14,10 @@ public class TestGraphValidTree {
         int[][] dataFalse = new int[][]{{0,1}, {1,2}, {2,3}, {1,3}, {1,4}};
         int nFalse = 5;
 
-        assertEquals(true, new GraphValidTree().validTree(nTrue, dataTrue));
-        assertEquals(false, new GraphValidTree().validTree(nFalse, dataFalse));
+        assertEquals(true, new GraphValidTree().validTree_DFS(nTrue, dataTrue));
+        assertEquals(false, new GraphValidTree().validTree_DFS(nFalse, dataFalse));
+
+        assertEquals(true, new GraphValidTree().validTree_BFS(nTrue, dataTrue));
+        assertEquals(false, new GraphValidTree().validTree_BFS(nFalse, dataFalse));
     }
 }

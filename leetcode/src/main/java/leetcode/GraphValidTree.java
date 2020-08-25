@@ -1,9 +1,45 @@
 package leetcode;
 
-import java.util.ArrayList;
+import java.util.*;
+
 
 public class GraphValidTree {
-    public boolean validTree(int n, int[][] edges) {
+    public boolean validTree_BFS(int n, int[][] edges) {
+
+        Set<Integer> visit = new HashSet<>();
+        Map<Integer, ArrayList<Integer>> graph = new HashMap<>();
+
+        for (int i = 0; i < n; i++) {
+            graph.put(i, new ArrayList<>());
+        }
+
+        for (int i = 0; i < edges.length; i++) {
+            graph.get(edges[i][0]).add(edges[i][1]);
+            graph.get(edges[i][1]).add(edges[i][0]);
+        }
+
+        Queue<Integer> queue = new LinkedList<>();
+        queue.offer(0);
+
+        while(!queue.isEmpty()) {
+            int cur = queue.poll();
+            visit.add(cur);
+
+            for (int next : graph.get(cur)) {
+                if (queue.contains(next)) {
+                    return false;
+                }
+                if (!visit.contains(next)) {
+                    queue.offer(next);
+                }
+
+            }
+        }
+
+        return visit.size() == n;
+    }
+
+    public boolean validTree_DFS(int n, int[][] edges) {
         // [[0, 1], [0, 2], [0, 3], [1, 4]]
         // n = 5
         // detect if there is a circle and all node are present
