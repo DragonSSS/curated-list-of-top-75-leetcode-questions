@@ -1,6 +1,5 @@
 rootProject.name = 'T.B.D'
 include 'leetcode'
 include 'hackerrank'
-include 'designpattern'
 include 'dailycodingprogram'
 
