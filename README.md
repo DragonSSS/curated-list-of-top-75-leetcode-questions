@@ -16,3 +16,10 @@
   - tree traversal (pre-order, in-order and post-order)
   - iteratively bfs
   - recursively dfs
+
+## Dynamic Programming
+
+- [x] LeetCode #332 Coin Change
+  - [description](https://leetcode.com/problems/coin-change/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/CoinChange.java)
+  - hint: dfs recursively with memorization
