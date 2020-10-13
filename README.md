@@ -14,8 +14,8 @@
 
 - [ ] LeetCode #297 Serialize and Deserialize Binary Tree
   - tree traversal (pre-order, in-order and post-order)
-  - iteratively bfs
-  - recursively dfs
+  - bfs iteratively
+  - dfs recursively
 
 ## Dynamic Programming
 
