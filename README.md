@@ -17,9 +17,16 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/SerializeDeserializeBinaryTree.java)
   - hint: tree traversal (pre-order, in-order and post-order), bfs iteratively and dfs recursively
   
-- [ ] LeetCode #572 Subtree of Another Tree
+- [x] LeetCode #572 Subtree of Another Tree
   - [description](https://leetcode.com/problems/subtree-of-another-tree/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/SubtreeOfAnotherTree.java)
+  - hint: use SameTree recursion + one more recursion
+  
+- [x] LeetCode #100 Same Tree
+  - [description](https://leetcode.com/problems/same-tree/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/SameTree.java)
+  - hint: recursion
+  
 
 ## Dynamic Programming
 
