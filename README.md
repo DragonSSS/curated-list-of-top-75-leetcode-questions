@@ -27,6 +27,11 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/SameTree.java)
   - hint: recursion
   
+- [ ] LeetCode #105 Construct Binary Tree from Preorder and Inorder Traversal
+  - [description](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java)
+
+  
 
 ## Dynamic Programming
 
