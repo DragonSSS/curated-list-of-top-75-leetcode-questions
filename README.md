@@ -31,6 +31,10 @@
   - [description](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java)
 
+- [ ] LeetCode #208 Implement Trie (Prefix Tree)
+  - [description](https://leetcode.com/problems/implement-trie-prefix-tree/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/Trie.java)
+  - hint: prefix tree (Trie data structure)
   
 
 ## Dynamic Programming
