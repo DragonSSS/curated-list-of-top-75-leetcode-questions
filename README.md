@@ -43,3 +43,10 @@
   - [description](https://leetcode.com/problems/coin-change/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/CoinChange.java)
   - hint: dfs recursively with memorization
+
+## Matrix
+
+- [ ] LeetCode #79 Word Search
+  - [description](https://leetcode.com/problems/word-search/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/matrix/WordSearch.java)
+  - hint: dfs + recursion + backtracking
