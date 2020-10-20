@@ -36,6 +36,9 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/Trie.java)
   - hint: prefix tree (Trie data structure)
   
+- [ ] LeetCode #98 Validate Binary Search Tree
+  - [description](https://leetcode.com/problems/validate-binary-search-tree/)
+  
 
 ## Dynamic Programming
 
