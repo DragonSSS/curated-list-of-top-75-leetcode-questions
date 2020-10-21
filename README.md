@@ -44,9 +44,10 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/LowestCommonAncestorOfBinarySearchTree.java)
   - hint: recursion + bst
   
-- [ ] LeetCode #212 Word Search II
+- [x] LeetCode #212 Word Search II
   - [description](https://leetcode.com/problems/word-search-ii/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/WordSearch2.java)
+  - hint: trie + dfs + memorization + backtracking
 
 ## Dynamic Programming
 
@@ -60,4 +61,4 @@
 - [x] LeetCode #79 Word Search
   - [description](https://leetcode.com/problems/word-search/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/matrix/WordSearch.java)
-  - hint: dfs + recursion + backtracking
+  - hint: dfs + memorization + backtracking
