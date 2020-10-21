@@ -43,6 +43,10 @@
   - [description](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/LowestCommonAncestorOfBinarySearchTree.java)
   - hint: recursion + bst
+  
+- [ ] LeetCode #212 Word Search II
+  - [description](https://leetcode.com/problems/word-search-ii/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/WordSearch2.java)
 
 ## Dynamic Programming
 
