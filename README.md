@@ -49,9 +49,10 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/WordSearch2.java)
   - hint: trie + dfs + memorization + backtracking
   
-- [ ] LeetCode #230 Kth Smallest Element in a BST
+- [x] LeetCode #230 Kth Smallest Element in a BST
   - [description](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/KthSmallestElementInBST.java)
+  - hint: inorder traversal
 
 ## Dynamic Programming
 
