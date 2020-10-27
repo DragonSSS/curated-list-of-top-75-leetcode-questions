@@ -27,9 +27,10 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/SameTree.java)
   - hint: recursion
   
-- [ ] LeetCode #105 Construct Binary Tree from Preorder and Inorder Traversal
+- [x] LeetCode #105 Construct Binary Tree from Preorder and Inorder Traversal
   - [description](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java)
+  - hint: recursion + use preorder to find root + use inorder to split array into right and left tree
 
 - [ ] LeetCode #208 Implement Trie (Prefix Tree)
   - [description](https://leetcode.com/problems/implement-trie-prefix-tree/)
