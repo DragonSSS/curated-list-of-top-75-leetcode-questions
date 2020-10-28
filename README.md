@@ -39,6 +39,8 @@
   
 - [x] LeetCode #98 Validate Binary Search Tree
   - [description](https://leetcode.com/problems/validate-binary-search-tree/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/ValidateBinarySearchTree.java)
+  - hint: preorder traversal + stack or recursion with max and min boundaries 
   
 - [x] LeetCode #235 Lowest Common Ancestor of a Binary Search Tree
   - [description](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)

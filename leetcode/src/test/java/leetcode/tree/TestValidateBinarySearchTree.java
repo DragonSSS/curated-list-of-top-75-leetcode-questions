@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.tree;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -12,6 +12,7 @@ public class TestValidateBinarySearchTree {
     public void init() {
 
     }
+
     @Test
     public void testIsValidBST() {
         ValidateBinarySearchTree vbst = new ValidateBinarySearchTree();
