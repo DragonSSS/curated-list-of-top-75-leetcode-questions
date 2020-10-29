@@ -24,10 +24,28 @@ public class ValidateBinarySearchTree {
     }
 
     public boolean isValidBST_Inorder(TreeNode root) {
+        if (root == null)
+            return true;
+
         Stack<TreeNode> stack = new Stack<>();
         TreeNode pre = null;
 
         while(root != null || !stack.isEmpty()) {
+
+            // one way
+            while(root != null) {
+                stack.push(root);
+                root = root.left;
+            }
+
+            TreeNode cur = stack.pop();
+            if (pre != null && cur.val <= pre.val)
+                return false;
+            pre = cur;
+            root = cur.right;
+
+            // the other way
+            /*
             if (root != null) {
                 stack.push(root);
                 root = root.left;
@@ -38,7 +56,7 @@ public class ValidateBinarySearchTree {
                     return false;
                 pre = root;
                 root = root.right;
-            }
+            }*/
         }
         return true;
     }
