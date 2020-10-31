@@ -56,6 +56,11 @@
   - [description](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/KthSmallestElementInBST.java)
   - hint: inorder traversal
+  
+- [ ] LeetCode #211 Design Add and Search Words Data Structure
+  - [description](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/AddSearchWord.java)
+  - hint: trie
 
 ## Dynamic Programming
 
