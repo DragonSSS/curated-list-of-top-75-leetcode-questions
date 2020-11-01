@@ -1,5 +1,29 @@
 # T.B.D
 
+## Array
+
+## Binary
+
+## Dynamic Programming
+
+- [x] LeetCode #332 Coin Change
+  - [description](https://leetcode.com/problems/coin-change/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/CoinChange.java)
+  - hint: dfs recursively with memorization
+
+## Graph
+
+## Interval
+
+## Linked List
+
+## Matrix
+
+- [x] LeetCode #79 Word Search
+  - [description](https://leetcode.com/problems/word-search/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/matrix/WordSearch.java)
+  - hint: dfs + memorization + backtracking
+  
 ## String
 
 - [x] LeetCode #3 Longest Substring Without Repeating Characters
@@ -61,17 +85,12 @@
   - [description](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/AddSearchWord.java)
   - hint: trie
+  
+## Heap
+  
+## Add-on
 
-## Dynamic Programming
-
-- [x] LeetCode #332 Coin Change
-  - [description](https://leetcode.com/problems/coin-change/)
-  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/CoinChange.java)
-  - hint: dfs recursively with memorization
-
-## Matrix
-
-- [x] LeetCode #79 Word Search
-  - [description](https://leetcode.com/problems/word-search/)
-  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/matrix/WordSearch.java)
-  - hint: dfs + memorization + backtracking
+- [ ] LeetCode #34 Find First and Last Position of Element in Sorted Array 
+  - [description](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/FindFirstLastPositionOfElementInSortedArray.java)
+  - hint: two binary search
