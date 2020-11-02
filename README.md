@@ -90,7 +90,12 @@
   
 ## Add-on
 
-- [ ] LeetCode #34 Find First and Last Position of Element in Sorted Array 
+- [ ] LeetCode #34 Find First and Last Position of Element in Sorted Array (Array)
   - [description](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/FindFirstLastPositionOfElementInSortedArray.java)
   - hint: two binary search
+
+- [x] LeetCode #1557 Minimum Number of Vertices to Reach All Nodes (Graph)
+  - [description](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/MinimumNumberOfVerticesToReachAllNodes.java)
+  - hint: vertices.filter(vertex => vertex.inDegree == 0)
