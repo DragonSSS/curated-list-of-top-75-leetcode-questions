@@ -84,7 +84,7 @@
 - [ ] LeetCode #211 Design Add and Search Words Data Structure
   - [description](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/AddSearchWord.java)
-  - hint: trie
+  - hint: trie + dfs
   
 ## Heap
   
