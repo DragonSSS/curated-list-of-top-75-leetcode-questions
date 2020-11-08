@@ -28,8 +28,12 @@
 
 - [x] LeetCode #3 Longest Substring Without Repeating Characters
   - [description](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/str/LongestSubstringWithoutRepeatingCharacters.java)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/LongestSubstringWithoutRepeatingCharacters.java)
   - hint: two pointers and sliding window
+  
+- [ ] LeetCode #424 Longest Repeating Character Replacement
+  - [description](https://leetcode.com/problems/longest-repeating-character-replacement/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/LongestRepeatingCharacterReplacement.java)
 
 - [ ] LeetCode #125 Valid Palindrome
   - two pointers
