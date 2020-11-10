@@ -60,7 +60,7 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/ConstructBinaryTreeFromPreorderAndInorderTraversal.java)
   - hint: recursion + use preorder to find root + use inorder to split array into right and left tree
 
-- [ ] LeetCode #208 Implement Trie (Prefix Tree)
+- [x] LeetCode #208 Implement Trie (Prefix Tree)
   - [description](https://leetcode.com/problems/implement-trie-prefix-tree/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/Trie.java)
   - hint: prefix tree (Trie data structure)
@@ -85,7 +85,7 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/KthSmallestElementInBST.java)
   - hint: inorder traversal
   
-- [ ] LeetCode #211 Design Add and Search Words Data Structure
+- [x] LeetCode #211 Design Add and Search Words Data Structure
   - [description](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/AddSearchWord.java)
   - hint: trie + dfs
