@@ -40,6 +40,21 @@
 
 ## Tree
 
+- [ ] LeetCode #104 Maximum Depth of Binary Tree
+  - [description](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/MaximumDepthOfBinaryTree.java)
+  - hint: recursion + dfs
+
+- [x] LeetCode #100 Same Tree
+  - [description](https://leetcode.com/problems/same-tree/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/SameTree.java)
+  - hint: recursion
+  
+- [ ] LeetCode #266 Invert Binary Tree
+  - [description](https://leetcode.com/problems/invert-binary-tree/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/InvertBinaryTree.java)
+  - hint: queue + bfs or recursion
+
 - [x] LeetCode #297 Serialize and Deserialize Binary Tree
   - [description](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/SerializeDeserializeBinaryTree.java)
@@ -49,11 +64,6 @@
   - [description](https://leetcode.com/problems/subtree-of-another-tree/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/SubtreeOfAnotherTree.java)
   - hint: use SameTree recursion + one more recursion
-  
-- [x] LeetCode #100 Same Tree
-  - [description](https://leetcode.com/problems/same-tree/)
-  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/SameTree.java)
-  - hint: recursion
   
 - [x] LeetCode #105 Construct Binary Tree from Preorder and Inorder Traversal
   - [description](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
