@@ -35,6 +35,12 @@
   - [description](https://leetcode.com/problems/longest-repeating-character-replacement/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/LongestRepeatingCharacterReplacement.java)
 
+- [ ] LeetCode #76 Minimum Window Substring
+  - [description](https://leetcode.com/problems/minimum-window-substring/)
+
+- [ ] LeetCode #242 Valid Anagram
+  - [description](https://leetcode.com/problems/valid-anagram/)
+
 - [ ] LeetCode #125 Valid Palindrome
   - two pointers
 
