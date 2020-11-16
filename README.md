@@ -41,7 +41,9 @@
 - [ ] LeetCode #242 Valid Anagram
   - [description](https://leetcode.com/problems/valid-anagram/)
 
-- [ ] LeetCode #125 Valid Palindrome
+- [x] LeetCode #125 Valid Palindrome
+  - [description](https://leetcode.com/problems/valid-palindrome/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/ValidPalindrome.java)
   - two pointers
 
 ## Tree
