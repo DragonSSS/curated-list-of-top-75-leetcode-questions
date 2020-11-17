@@ -43,6 +43,9 @@
   
 - [ ] LeetCode #49 Group Anagrams
   - [description](https://leetcode.com/problems/group-anagrams/)
+  
+- [ ] LeetCode #20 Valid Parentheses
+  - [description](https://leetcode.com/problems/valid-parentheses/)
 
 - [x] LeetCode #125 Valid Palindrome
   - [description](https://leetcode.com/problems/valid-palindrome/)
