@@ -40,6 +40,9 @@
 
 - [ ] LeetCode #242 Valid Anagram
   - [description](https://leetcode.com/problems/valid-anagram/)
+  
+- [ ] LeetCode #49 Group Anagrams
+  - [description](https://leetcode.com/problems/group-anagrams/)
 
 - [x] LeetCode #125 Valid Palindrome
   - [description](https://leetcode.com/problems/valid-palindrome/)
