@@ -51,6 +51,9 @@
   - [description](https://leetcode.com/problems/valid-palindrome/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/ValidPalindrome.java)
   - two pointers
+  
+- [ ] LeetCode #5 Longest Palindromic Substring
+  - [description](https://leetcode.com/problems/longest-palindromic-substring/)
 
 ## Tree
 
