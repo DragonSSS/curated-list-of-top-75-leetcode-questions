@@ -57,7 +57,7 @@
 
 ## Tree
 
-- [ ] LeetCode #104 Maximum Depth of Binary Tree
+- [x] LeetCode #104 Maximum Depth of Binary Tree
   - [description](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/MaximumDepthOfBinaryTree.java)
   - hint: recursion + dfs
@@ -67,7 +67,7 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/SameTree.java)
   - hint: recursion
   
-- [ ] LeetCode #266 Invert Binary Tree
+- [x] LeetCode #266 Invert Binary Tree
   - [description](https://leetcode.com/problems/invert-binary-tree/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/InvertBinaryTree.java)
   - hint: queue + bfs or recursion
