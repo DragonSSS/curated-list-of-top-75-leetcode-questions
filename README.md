@@ -54,6 +54,9 @@
   
 - [ ] LeetCode #5 Longest Palindromic Substring
   - [description](https://leetcode.com/problems/longest-palindromic-substring/)
+  
+- [ ] LeetCode #647 Palindromic Substrings
+  - [description](https://leetcode.com/problems/palindromic-substrings/)
 
 ## Tree
 
