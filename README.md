@@ -31,9 +31,10 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/LongestSubstringWithoutRepeatingCharacters.java)
   - hint: two pointers and sliding window
   
-- [ ] LeetCode #424 Longest Repeating Character Replacement
+- [x] LeetCode #424 Longest Repeating Character Replacement
   - [description](https://leetcode.com/problems/longest-repeating-character-replacement/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/LongestRepeatingCharacterReplacement.java)
+  - hint: two pointers and sliding window
 
 - [ ] LeetCode #76 Minimum Window Substring
   - [description](https://leetcode.com/problems/minimum-window-substring/)
