@@ -39,8 +39,10 @@
 - [ ] LeetCode #76 Minimum Window Substring
   - [description](https://leetcode.com/problems/minimum-window-substring/)
 
-- [ ] LeetCode #242 Valid Anagram
+- [x] LeetCode #242 Valid Anagram
   - [description](https://leetcode.com/problems/valid-anagram/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/ValidAnagram.java)
+  - hint: hashtable
   
 - [ ] LeetCode #49 Group Anagrams
   - [description](https://leetcode.com/problems/group-anagrams/)
