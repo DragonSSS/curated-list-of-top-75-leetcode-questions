@@ -44,8 +44,10 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/ValidAnagram.java)
   - hint: hashtable
   
-- [ ] LeetCode #49 Group Anagrams
+- [x] LeetCode #49 Group Anagrams
   - [description](https://leetcode.com/problems/group-anagrams/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/GroupAnagrams.java)
+  - hint: hashtable + Arrays.toString()
   
 - [ ] LeetCode #20 Valid Parentheses
   - [description](https://leetcode.com/problems/valid-parentheses/)
