@@ -36,8 +36,9 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/LongestRepeatingCharacterReplacement.java)
   - hint: two pointers and sliding window
 
-- [ ] LeetCode #76 Minimum Window Substring
+- [x] LeetCode #76 Minimum Window Substring
   - [description](https://leetcode.com/problems/minimum-window-substring/)
+  - hint: two pointers, hashtable and sliding window
 
 - [x] LeetCode #242 Valid Anagram
   - [description](https://leetcode.com/problems/valid-anagram/)
