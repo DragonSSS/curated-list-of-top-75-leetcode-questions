@@ -51,8 +51,10 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/GroupAnagrams.java)
   - hint: hashtable + Arrays.toString()
   
-- [ ] LeetCode #20 Valid Parentheses
+- [x] LeetCode #20 Valid Parentheses
   - [description](https://leetcode.com/problems/valid-parentheses/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/ValidPalindrome.java)
+  - hint: stack
 
 - [x] LeetCode #125 Valid Palindrome
   - [description](https://leetcode.com/problems/valid-palindrome/)
