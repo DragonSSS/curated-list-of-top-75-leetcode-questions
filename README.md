@@ -29,16 +29,17 @@
 - [x] LeetCode #3 Longest Substring Without Repeating Characters
   - [description](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/LongestSubstringWithoutRepeatingCharacters.java)
-  - hint: two pointers and sliding window
+  - hint: two pointers + sliding window
   
 - [x] LeetCode #424 Longest Repeating Character Replacement
   - [description](https://leetcode.com/problems/longest-repeating-character-replacement/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/LongestRepeatingCharacterReplacement.java)
-  - hint: two pointers and sliding window
+  - hint: two pointers + sliding window
 
 - [x] LeetCode #76 Minimum Window Substring
   - [description](https://leetcode.com/problems/minimum-window-substring/)
-  - hint: two pointers, hashtable and sliding window
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/MinimumWindowSubstring.java)
+  - hint: two pointers + hashtable + sliding window
 
 - [x] LeetCode #242 Valid Anagram
   - [description](https://leetcode.com/problems/valid-anagram/)
