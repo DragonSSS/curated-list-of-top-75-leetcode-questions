@@ -1,30 +1,32 @@
 # T.B.D
 
-## Array
+## TL;DR
+## Categories
+### Array
 
-## Binary
+### Binary
 
-## Dynamic Programming
+### Dynamic Programming
 
 - [x] LeetCode #332 Coin Change
   - [description](https://leetcode.com/problems/coin-change/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/CoinChange.java)
   - hint: dfs recursively with memorization
 
-## Graph
+### Graph
 
-## Interval
+### Interval
 
-## Linked List
+### Linked List
 
-## Matrix
+### Matrix
 
 - [x] LeetCode #79 Word Search
   - [description](https://leetcode.com/problems/word-search/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/matrix/WordSearch.java)
   - hint: dfs + memorization + backtracking
   
-## String
+### String
 
 - [x] LeetCode #3 Longest Substring Without Repeating Characters
   - [description](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
@@ -61,18 +63,20 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/ValidPalindrome.java)
   - hint: two pointers
   
-- [ ] LeetCode #5 Longest Palindromic Substring
+- [x] LeetCode #5 Longest Palindromic Substring
   - [description](https://leetcode.com/problems/longest-palindromic-substring/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/LongestPalindromicSubstring.java)
   - hint: two pointers + expand around center
  
 - [ ] LeetCode #647 Palindromic Substrings
   - [description](https://leetcode.com/problems/palindromic-substrings/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/PalindromicSubstrings.java)
+  - hint: two pointers + expand around center
   
 - [ ] LeetCode #271 Encode and Decode Strings
   - [description](https://leetcode.com/problems/encode-and-decode-strings/)
 
-## Tree
+### Tree
 
 - [x] LeetCode #104 Maximum Depth of Binary Tree
   - [description](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
@@ -140,9 +144,9 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/AddSearchWord.java)
   - hint: trie + dfs
   
-## Heap
+### Heap
   
-## Add-on
+### Add-on
 
 - [ ] LeetCode #34 Find First and Last Position of Element in Sorted Array (Array)
   - [description](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
