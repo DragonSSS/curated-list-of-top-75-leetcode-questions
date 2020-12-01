@@ -162,3 +162,7 @@
   - [description](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/FindAllAnagramsInString.java)
   - hint: hashtable
+  
+- [ ] LeetCode #332 Reconstruct Itinerary
+  - [description](https://leetcode.com/problems/reconstruct-itinerary/)
+  - hint: DFS + PriorityQueue
