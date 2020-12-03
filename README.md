@@ -73,8 +73,10 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/PalindromicSubstrings.java)
   - hint: two pointers + expand around center
   
-- [ ] LeetCode #271 Encode and Decode Strings
+- [x] LeetCode #271 Encode and Decode Strings
   - [description](https://leetcode.com/problems/encode-and-decode-strings/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/EncodeAndDecodeStrings.java)
+  - hint: length + '/' +str + length + '/' + str
 
 ### Tree
 
