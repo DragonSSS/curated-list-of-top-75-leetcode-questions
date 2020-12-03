@@ -68,7 +68,7 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/LongestPalindromicSubstring.java)
   - hint: two pointers + expand around center
  
-- [ ] LeetCode #647 Palindromic Substrings
+- [x] LeetCode #647 Palindromic Substrings
   - [description](https://leetcode.com/problems/palindromic-substrings/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/PalindromicSubstrings.java)
   - hint: two pointers + expand around center
