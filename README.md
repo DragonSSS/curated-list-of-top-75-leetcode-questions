@@ -15,6 +15,11 @@
 
 ### Graph
 
+- [x] LeetCode #269 Alien Dictionary
+  - [description](https://leetcode.com/problems/coin-change/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/AlienDictionary.java)
+  - hint: build graph + indegree map + bfs with queue
+
 ### Interval
 
 ### Linked List
