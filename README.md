@@ -176,4 +176,4 @@
   
 - [ ] LeetCode #332 Reconstruct Itinerary
   - [description](https://leetcode.com/problems/reconstruct-itinerary/)
-  - hint: DFS + PriorityQueue
+  - hint: dfs + PriorityQueue
