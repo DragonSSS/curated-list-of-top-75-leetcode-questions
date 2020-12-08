@@ -100,11 +100,15 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/InvertBinaryTree.java)
   - hint: queue + bfs or recursion
   
-- [ ] LeetCode #124 Binary Tree Maximum Path Sum
+- [x] LeetCode #124 Binary Tree Maximum Path Sum
   - [description](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/BinaryTreeMaximumPathSum.java)
+  - hint: recursion
 
 - [ ] LeetCode #102 Binary Tree Level Order Traversal
   - [description](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/BinaryTreeMaximumPathSum.java)
+  - hint: dfs + recursion or bfs + queue
 
 - [x] LeetCode #297 Serialize and Deserialize Binary Tree
   - [description](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
