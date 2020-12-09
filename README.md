@@ -105,7 +105,7 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/BinaryTreeMaximumPathSum.java)
   - hint: recursion
 
-- [ ] LeetCode #102 Binary Tree Level Order Traversal
+- [x] LeetCode #102 Binary Tree Level Order Traversal
   - [description](https://leetcode.com/problems/binary-tree-level-order-traversal/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/BinaryTreeMaximumPathSum.java)
   - hint: dfs + recursion or bfs + queue
