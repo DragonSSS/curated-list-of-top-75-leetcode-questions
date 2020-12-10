@@ -13,7 +13,12 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/CoinChange.java)
   - hint: dfs recursively with memorization
 
-### Graph
+### Graph (8)
+
+- [ ] LeetCode #133 Clone Graph
+  - [description](https://leetcode.com/problems/clone-graph/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/CloneGraph.java)
+  - dfs + hashmap
 
 - [x] LeetCode #269 Alien Dictionary
   - [description](https://leetcode.com/problems/coin-change/)
@@ -31,7 +36,7 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/matrix/WordSearch.java)
   - hint: dfs + memorization + backtracking
   
-### String
+### String (10)
 
 - [x] LeetCode #3 Longest Substring Without Repeating Characters
   - [description](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
@@ -83,7 +88,7 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/EncodeAndDecodeStrings.java)
   - hint: length + '/' +str + length + '/' + str
 
-### Tree
+### Tree (14)
 
 - [x] LeetCode #104 Maximum Depth of Binary Tree
   - [description](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
