@@ -174,6 +174,9 @@
   - hint: trie + dfs
   
 ### Heap
+
+- [ ] LeetCode #23 Merge k Sorted Lists
+  - [description](https://leetcode.com/problems/merge-k-sorted-lists/)
   
 ### Add-on
 
