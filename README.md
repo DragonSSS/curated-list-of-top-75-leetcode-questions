@@ -28,6 +28,10 @@
 - [ ] Leetcode #417 Pacific Atlantic Water Flow
   - [description](https://leetcode.com/problems/pacific-atlantic-water-flow/)
   - hint: dfs
+  
+- [ ] Leetcode #200 Number of Islands
+  - [description](https://leetcode.com/problems/number-of-islands/)
+  - hint: dfs + memorization
 
 - [x] LeetCode #269 Alien Dictionary
   - [description](https://leetcode.com/problems/coin-change/)
