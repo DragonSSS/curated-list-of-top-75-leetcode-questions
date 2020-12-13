@@ -20,10 +20,10 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/CloneGraph.java)
   - hint: dfs + hashmap
   
-- [ ] LeetCode #207 Course Schedule
+- [x] LeetCode #207 Course Schedule
   - [description](https://leetcode.com/problems/course-schedule/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/CourseSchedule.java)
-  - hint: topological sort
+  - hint: topological sort (indegree and neighbours map + queue + bfs)
 
 - [ ] Leetcode #417 Pacific Atlantic Water Flow
   - [description](https://leetcode.com/problems/pacific-atlantic-water-flow/)
