@@ -12,6 +12,10 @@
   - [description](https://leetcode.com/problems/coin-change/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/CoinChange.java)
   - hint: dfs recursively with memorization
+  
+- [ ] LeetCode #62 Unique Paths
+  - [description](https://leetcode.com/problems/coin-change/)
+  - hint: top-down + memorization + dfs
 
 ### Graph (8)
 
