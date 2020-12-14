@@ -11,11 +11,11 @@
 - [x] LeetCode #332 Coin Change
   - [description](https://leetcode.com/problems/coin-change/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/CoinChange.java)
-  - hint: dfs recursively with memorization
+  - hint: recursion + memorization
   
 - [ ] LeetCode #62 Unique Paths
   - [description](https://leetcode.com/problems/coin-change/)
-  - hint: top-down + memorization + dfs
+  - hint: top-down + memorization + recursion
 
 ### Graph (8)
 
@@ -202,3 +202,7 @@
 - [ ] LeetCode #332 Reconstruct Itinerary
   - [description](https://leetcode.com/problems/reconstruct-itinerary/)
   - hint: dfs + PriorityQueue
+  
+- [ ] LeetCode #64 Minimum Path Sum
+  - [description](https://leetcode.com/problems/minimum-path-sum/)
+  - hint: top-down + memorization + recursion
