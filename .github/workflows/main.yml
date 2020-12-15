@@ -1,4 +1,4 @@
-name: ci-pipeline-for-java
+name: curated-list-of-coding-questions
 
 on: [push]
 
