@@ -32,7 +32,7 @@
 - [x] Leetcode #417 Pacific Atlantic Water Flow
   - [description](https://leetcode.com/problems/pacific-atlantic-water-flow/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/PacificAtlanticWaterFlow.java)
-  - hint: dfs + reverse
+  - hint: dfs + memorization
   
 - [ ] Leetcode #200 Number of Islands
   - [description](https://leetcode.com/problems/number-of-islands/)
