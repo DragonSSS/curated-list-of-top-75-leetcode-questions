@@ -1,3 +1,5 @@
+[![curated-list-of-coding-questions
+-master Actions Status](https://github.com/DragonSSS/curated-list-of-coding-questions/workflows/ci-pipeline-for-java/badge.svg)](https://github.com/DragonSSS/curated-list-of-coding-questions/actions)
 # Curated List of Coding Questions
 
 ## TL;DR
