@@ -11,7 +11,11 @@
 - [x] LeetCode #332 Coin Change
   - [description](https://leetcode.com/problems/coin-change/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/CoinChange.java)
-  - hint: dfs recursively with memorization
+  - hint: recursion + memorization
+  
+- [ ] LeetCode #62 Unique Paths
+  - [description](https://leetcode.com/problems/coin-change/)
+  - hint: top-down + memorization + recursion
 
 ### Graph (8)
 
@@ -28,6 +32,10 @@
 - [ ] Leetcode #417 Pacific Atlantic Water Flow
   - [description](https://leetcode.com/problems/pacific-atlantic-water-flow/)
   - hint: dfs
+  
+- [ ] Leetcode #200 Number of Islands
+  - [description](https://leetcode.com/problems/number-of-islands/)
+  - hint: dfs + memorization
 
 - [x] LeetCode #269 Alien Dictionary
   - [description](https://leetcode.com/problems/coin-change/)
@@ -169,7 +177,10 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/AddSearchWord.java)
   - hint: trie + dfs
   
-### Heap
+### Heap (3)
+
+- [ ] LeetCode #23 Merge k Sorted Lists
+  - [description](https://leetcode.com/problems/merge-k-sorted-lists/)
   
 ### Add-on
 
@@ -191,3 +202,7 @@
 - [ ] LeetCode #332 Reconstruct Itinerary
   - [description](https://leetcode.com/problems/reconstruct-itinerary/)
   - hint: dfs + PriorityQueue
+  
+- [ ] LeetCode #64 Minimum Path Sum
+  - [description](https://leetcode.com/problems/minimum-path-sum/)
+  - hint: top-down + memorization + recursion
