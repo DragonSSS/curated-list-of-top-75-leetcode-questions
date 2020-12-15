@@ -29,9 +29,10 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/CourseSchedule.java)
   - hint: topological sort (indegree and neighbours map + queue + bfs)
 
-- [ ] Leetcode #417 Pacific Atlantic Water Flow
+- [x] Leetcode #417 Pacific Atlantic Water Flow
   - [description](https://leetcode.com/problems/pacific-atlantic-water-flow/)
-  - hint: dfs
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/PacificAtlanticWaterFlow.java)
+  - hint: dfs + reverse
   
 - [ ] Leetcode #200 Number of Islands
   - [description](https://leetcode.com/problems/number-of-islands/)
