@@ -1,15 +1,13 @@
-[![curated-list-of-coding-questions
--master Actions Status](https://github.com/DragonSSS/curated-list-of-coding-questions/workflows/curated-list-of-coding-questions
-/badge.svg)](https://github.com/DragonSSS/curated-list-of-coding-questions/actions)
+[![curated-list-of-coding-questions-master Actions Status](https://github.com/DragonSSS/curated-list-of-coding-questions/workflows/curated-list-of-coding-questions/badge.svg)](https://github.com/DragonSSS/curated-list-of-coding-questions/actions)
 # Curated List of Coding Questions
 
 ## TL;DR
 ## Categories
-### Array
+### Array (10)
 
-### Binary
+### Binary (5)
 
-### Dynamic Programming
+### Dynamic Programming (11)
 
 - [x] LeetCode #332 Coin Change
   - [description](https://leetcode.com/problems/coin-change/)
@@ -47,11 +45,11 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/AlienDictionary.java)
   - hint: build graph + indegree map + bfs with queue
 
-### Interval
+### Interval (5)
 
-### Linked List
+### Linked List (6)
 
-### Matrix
+### Matrix (4)
 
 - [x] LeetCode #79 Word Search
   - [description](https://leetcode.com/problems/word-search/)
