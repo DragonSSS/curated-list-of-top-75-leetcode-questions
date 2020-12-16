@@ -37,8 +37,9 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/PacificAtlanticWaterFlow.java)
   - hint: dfs + memorization
   
-- [ ] Leetcode #200 Number of Islands
+- [x] Leetcode #200 Number of Islands
   - [description](https://leetcode.com/problems/number-of-islands/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/NumberOfIslands.java)
   - hint: dfs + memorization
 
 - [x] LeetCode #269 Alien Dictionary
