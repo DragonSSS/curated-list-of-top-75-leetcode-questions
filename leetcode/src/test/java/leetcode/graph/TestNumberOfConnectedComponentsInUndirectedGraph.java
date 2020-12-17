@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.graph;
 
 import org.junit.Test;
 
@@ -14,7 +14,7 @@ public class TestNumberOfConnectedComponentsInUndirectedGraph {
         int n2 = 5;
         int[][] edeges2 = new int[][]{{0,1}, {1,2}, {2,3}, {3,4}};
 
-        assertEquals(2, new  NumberOfConnectedComponentsInUndirectedGraph().countComponents(n1, edeges1));
+        assertEquals(2, new NumberOfConnectedComponentsInUndirectedGraph().countComponents(n1, edeges1));
         assertEquals(1, new NumberOfConnectedComponentsInUndirectedGraph().countComponents(n2, edeges2));
     }
 }

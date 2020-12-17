@@ -45,6 +45,16 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/LongestConsecutiveSequence.java)
   - hint: sort first + iteration with while loop (could use union-find or hashtable as well)
 
+- [x] Leetcode #261 Graph Valid Tree
+  - [description](https://leetcode.com/problems/longest-consecutive-sequence/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/GraphValidTree.java)
+  - hint: dfs/bfs + memorization
+
+- [x] Leetcode #323 Number of Connected Components in an Undirected Graph
+  - [description](https://leetcode.com/problems/longest-consecutive-sequence/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/GraphValidTree.java)
+  - hint: bfs + memorization
+
 - [x] LeetCode #269 Alien Dictionary
   - [description](https://leetcode.com/problems/coin-change/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/AlienDictionary.java)
