@@ -40,6 +40,11 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/NumberOfIslands.java)
   - hint: dfs + memorization
 
+- [x] Leetcode #128 Longest Consecutive Sequence
+  - [description](https://leetcode.com/problems/longest-consecutive-sequence/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/LongestConsecutiveSequence.java)
+  - hint: sort first + iteration with while loop (could use union-find or hashtable as well)
+
 - [x] LeetCode #269 Alien Dictionary
   - [description](https://leetcode.com/problems/coin-change/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/AlienDictionary.java)
