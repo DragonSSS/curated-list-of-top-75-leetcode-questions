@@ -9,6 +9,9 @@
 
 ### Dynamic Programming (11)
 
+- [ ] LeetCode #70 Climbing Stairs
+  - [description](https://leetcode.com/problems/climbing-stairs/)
+
 - [x] LeetCode #332 Coin Change
   - [description](https://leetcode.com/problems/coin-change/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/CoinChange.java)
@@ -44,6 +47,11 @@
   - [description](https://leetcode.com/problems/longest-consecutive-sequence/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/LongestConsecutiveSequence.java)
   - hint: sort first + iteration with while loop (could use union-find or hashtable as well)
+  
+- [x] LeetCode #269 Alien Dictionary
+  - [description](https://leetcode.com/problems/coin-change/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/AlienDictionary.java)
+  - hint: build graph + indegree map + bfs with queue
 
 - [x] Leetcode #261 Graph Valid Tree
   - [description](https://leetcode.com/problems/longest-consecutive-sequence/)
@@ -55,16 +63,14 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/GraphValidTree.java)
   - hint: bfs + memorization
 
-- [x] LeetCode #269 Alien Dictionary
-  - [description](https://leetcode.com/problems/coin-change/)
-  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/AlienDictionary.java)
-  - hint: build graph + indegree map + bfs with queue
-
 ### Interval (5)
 
 ### Linked List (6)
 
 ### Matrix (4)
+
+- [ ] LeetCode #73 Set Matrix Zeroes
+  - [description](https://leetcode.com/problems/set-matrix-zeroes/)
 
 - [x] LeetCode #79 Word Search
   - [description](https://leetcode.com/problems/word-search/)
