@@ -74,6 +74,9 @@
 
 - [ ] LeetCode #54 Spiral Matrix
   - [description](https://leetcode.com/problems/spiral-matrix/)
+  
+- [ ] LeetCode #48 Rotate Image
+  - [description](https://leetcode.com/problems/rotate-image/)
 
 - [x] LeetCode #79 Word Search
   - [description](https://leetcode.com/problems/word-search/)
