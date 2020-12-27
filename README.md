@@ -240,3 +240,7 @@
 - [ ] LeetCode #979 Distribute Coins in Binary Tree (Tree)
   - [description](https://leetcode.com/problems/distribute-coins-in-binary-tree/)
   - hint: dfs + post-order
+  
+- [ ] LeetCode #1443 Minimum Time to Collect All Apples in a Tree (Tree)
+  - [description](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)
+  - hint: dfs
