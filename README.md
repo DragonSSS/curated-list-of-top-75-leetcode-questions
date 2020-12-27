@@ -224,19 +224,19 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/MinimumNumberOfVerticesToReachAllNodes.java)
   - hint: vertices.filter(vertex => vertex.inDegree == 0)
   
-- [x] LeetCode #438 Find All Anagrams in a String
+- [x] LeetCode #438 Find All Anagrams in a String (String)
   - [description](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/FindAllAnagramsInString.java)
   - hint: sliding window + hashtable + two pointers
   
-- [ ] LeetCode #332 Reconstruct Itinerary
+- [ ] LeetCode #332 Reconstruct Itinerary (Graph)
   - [description](https://leetcode.com/problems/reconstruct-itinerary/)
   - hint: dfs + PriorityQueue
   
-- [ ] LeetCode #64 Minimum Path Sum
+- [ ] LeetCode #64 Minimum Path Sum (DP)
   - [description](https://leetcode.com/problems/minimum-path-sum/)
   - hint: top-down + memorization + recursion
   
-- [ ] LeetCode #979 Distribute Coins in Binary Tree
+- [ ] LeetCode #979 Distribute Coins in Binary Tree (Tree)
   - [description](https://leetcode.com/problems/distribute-coins-in-binary-tree/)
   - hint: dfs + post-order
