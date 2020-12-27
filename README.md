@@ -236,3 +236,7 @@
 - [ ] LeetCode #64 Minimum Path Sum
   - [description](https://leetcode.com/problems/minimum-path-sum/)
   - hint: top-down + memorization + recursion
+  
+- [ ] LeetCode #979 Distribute Coins in Binary Tree
+  - [description](https://leetcode.com/problems/distribute-coins-in-binary-tree/)
+  - hint: dfs + post-order
