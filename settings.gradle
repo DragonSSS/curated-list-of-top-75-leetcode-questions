@@ -1,4 +1,4 @@
-rootProject.name = 'curated-list-of-coding-questions'
+rootProject.name = 'curated-list-of-top-75-leetcode-questions'
 include 'leetcode'
 include 'hackerrank'
 include 'dailycodingprogram'
