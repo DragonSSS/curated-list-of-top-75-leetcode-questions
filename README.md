@@ -67,6 +67,16 @@
 
 ### Linked List (6)
 
+- [ ] LeetCode #206 Reverse Linked List
+  - [description](https://leetcode.com/problems/reverse-linked-list/)
+
+- [ ] LeetCode #141 Linked List Cycle
+  - [description](https://leetcode.com/problems/linked-list-cycle/)
+  - hint: slow and fast pointers
+  
+- [ ] LeetCode #21 Merge Two Sorted Lists
+  - [description](https://leetcode.com/problems/merge-two-sorted-lists/)
+  
 ### Matrix (4)
 
 - [x] LeetCode #73 Set Matrix Zeroes
