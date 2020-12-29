@@ -72,10 +72,12 @@
 - [x] LeetCode #73 Set Matrix Zeroes
   - [description](https://leetcode.com/problems/set-matrix-zeroes/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/matrix/SetMatrixZeroes.java)
-  - use hashtable/hashset to record row and column of 0 in matrix
+  - hint: use hashtable/hashset to record row and column of 0 in matrix
 
-- [ ] LeetCode #54 Spiral Matrix
+- [x] LeetCode #54 Spiral Matrix
   - [description](https://leetcode.com/problems/spiral-matrix/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/matrix/SpiralMatrix.java)
+  - hint: four pointers for corners: top, bottom, left and right when res.size() < m * n
   
 - [ ] LeetCode #48 Rotate Image
   - [description](https://leetcode.com/problems/rotate-image/)
