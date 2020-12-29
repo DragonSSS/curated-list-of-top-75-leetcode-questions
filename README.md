@@ -79,8 +79,10 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/matrix/SpiralMatrix.java)
   - hint: four pointers for corners: top, bottom, left and right when res.size() < m * n
   
-- [ ] LeetCode #48 Rotate Image
+- [x] LeetCode #48 Rotate Image
   - [description](https://leetcode.com/problems/rotate-image/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/matrix/RotateImage.java)
+  - hint: clockwise rotate = reverse up to down + swap the symmetry, anticlockwise = reverse left to right + swap the symmetry
 
 - [x] LeetCode #79 Word Search
   - [description](https://leetcode.com/problems/word-search/)
