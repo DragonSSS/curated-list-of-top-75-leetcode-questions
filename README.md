@@ -69,8 +69,10 @@
 
 ### Matrix (4)
 
-- [ ] LeetCode #73 Set Matrix Zeroes
+- [x] LeetCode #73 Set Matrix Zeroes
   - [description](https://leetcode.com/problems/set-matrix-zeroes/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/matrix/SetMatrixZeroes.java)
+  - use hashtable/hashset to record row and column of 0 in matrix
 
 - [ ] LeetCode #54 Spiral Matrix
   - [description](https://leetcode.com/problems/spiral-matrix/)

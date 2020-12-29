@@ -1,25 +1,22 @@
 package leetcode.matrix;
 
-import java.util.HashSet;
-import java.util.Set;
-
 public class SetMatrixZeroes {
     public void setZeroes(int[][] matrix) {
-        Set<Integer> row = new HashSet<>();
-        Set<Integer> col = new HashSet<>();
+        int[] row = new int[matrix.length];
+        int[] col = new int[matrix[0].length];
 
         for(int i = 0; i < matrix.length; i++) {
-            for(int j = 0; j < matrix[0].length; j++){
-                if(matrix[i][j] == 0) {
-                    row.add(i);
-                    col.add(j);
+            for (int j = 0; j < matrix[0].length; j++) {
+                if(matrix[i][j] == 0){
+                    row[i] = 1;
+                    col[j] = 1;
                 }
             }
         }
 
         for(int i = 0; i < matrix.length; i++) {
-            for(int j = 0; j < matrix[0].length; j++){
-                if(row.contains(i) || col.contains(j)) {
+            for (int j = 0; j < matrix[0].length; j++) {
+                if(row[i] == 1 || col[j] == 1){
                     matrix[i][j] = 0;
                 }
             }
