@@ -67,11 +67,14 @@
 
 ### Linked List (6)
 
-- [ ] LeetCode #206 Reverse Linked List
+- [x] LeetCode #206 Reverse Linked List
   - [description](https://leetcode.com/problems/reverse-linked-list/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/ReverseLinkedList.java)
+  - hint: previous ListNode pointer
 
-- [ ] LeetCode #141 Linked List Cycle
+- [x] LeetCode #141 Linked List Cycle
   - [description](https://leetcode.com/problems/linked-list-cycle/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/LinkedListCycle.java)
   - hint: slow and fast pointers
   
 - [ ] LeetCode #21 Merge Two Sorted Lists
