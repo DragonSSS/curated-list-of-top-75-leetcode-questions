@@ -77,8 +77,10 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/LinkedListCycle.java)
   - hint: slow and fast pointers
   
-- [ ] LeetCode #21 Merge Two Sorted Lists
+- [x] LeetCode #21 Merge Two Sorted Lists
   - [description](https://leetcode.com/problems/merge-two-sorted-lists/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/MergeTwoSortedLists.java)
+  - hint: two pointers with while loop + extra linked list
   
 ### Matrix (4)
 
