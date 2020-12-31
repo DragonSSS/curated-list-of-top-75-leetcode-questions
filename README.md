@@ -82,9 +82,10 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/MergeTwoSortedLists.java)
   - hint: two pointers with while loop + extra linked list
 
-- [ ] LeetCode #23 Merge k Sorted Lists
+- [x] LeetCode #23 Merge k Sorted Lists
   - [description](https://leetcode.com/problems/merge-k-sorted-lists/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/MergeKSortedLists.java)
+  - hint: heap/priority queue or merge sort
   
 ### Matrix (4)
 
