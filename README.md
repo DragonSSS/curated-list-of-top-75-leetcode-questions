@@ -87,10 +87,10 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/MergeKSortedLists.java)
   - hint: heap/priority queue or merge sort
 
-- [ ] LeetCode #19 Remove Nth Node From End of List
+- [x] LeetCode #19 Remove Nth Node From End of List
   - [description](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/RemoveNthNodeFromEndOfList.java)
-  - hint: slow and fast pointers
+  - hint: slow and fast pointers + sliding window
 
 - [ ] LeetCode #143 Reorder List
   - [description](https://leetcode.com/problems/reorder-list/)
