@@ -92,7 +92,7 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/RemoveNthNodeFromEndOfList.java)
   - hint: slow and fast pointers + sliding window
 
-- [ ] LeetCode #143 Reorder List
+- [x] LeetCode #143 Reorder List
   - [description](https://leetcode.com/problems/reorder-list/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/ReorderList.java)
   - hint: find the mid to split two linked lists, reverse second one and merge two linked list into one
