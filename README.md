@@ -260,6 +260,11 @@
   - [description](https://leetcode.com/problems/top-k-frequent-elements/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/heap/TopKFrequentElements.java)
   - hint: hashmap + priorityQueue as heap
+
+- [ ] LeetCode #295 Find Median from Data Stream
+  - [description](https://leetcode.com/problems/find-median-from-data-stream/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/heap/FindMedianfromDataStream.java)
+  - hint: two priorityQueue as heap
   
 ### Add-on
 
