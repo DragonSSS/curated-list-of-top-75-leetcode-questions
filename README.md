@@ -253,6 +253,9 @@
 
 - [ ] LeetCode #23 Merge k Sorted Lists
   - [description](https://leetcode.com/problems/merge-k-sorted-lists/)
+
+- [ ] LeetCode #347 Top K Frequent Elements
+  - [description](https://leetcode.com/problems/top-k-frequent-elements/)
   
 ### Add-on
 
