@@ -7,6 +7,12 @@
 
 ### Binary (5)
 
+- [ ] LeetCode #371 Sum of Two Integers
+  - [description](https://leetcode.com/problems/sum-of-two-integers/)
+
+- [ ] LeetCode #191 Number of 1 Bits
+  - [description](https://leetcode.com/problems/number-of-1-bits/)
+
 ### Dynamic Programming (11)
 
 - [ ] LeetCode #70 Climbing Stairs
