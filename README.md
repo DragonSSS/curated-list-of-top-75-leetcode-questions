@@ -251,8 +251,10 @@
   
 ### Heap (3)
 
-- [ ] LeetCode #23 Merge k Sorted Lists
+- [x] LeetCode #23 Merge k Sorted Lists
   - [description](https://leetcode.com/problems/merge-k-sorted-lists/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/heap/MergeKSortedLists.java)
+  - hint: PriorityQueue as heap
 
 - [ ] LeetCode #347 Top K Frequent Elements
   - [description](https://leetcode.com/problems/top-k-frequent-elements/)
