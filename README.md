@@ -256,8 +256,9 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/heap/MergeKSortedLists.java)
   - hint: priorityQueue as heap
 
-- [ ] LeetCode #347 Top K Frequent Elements
+- [x] LeetCode #347 Top K Frequent Elements
   - [description](https://leetcode.com/problems/top-k-frequent-elements/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/heap/TopKFrequentElements.java)
   - hint: hashmap + priorityQueue as heap
   
 ### Add-on
