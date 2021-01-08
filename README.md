@@ -26,6 +26,9 @@
 - [ ] LeetCode #62 Unique Paths
   - [description](https://leetcode.com/problems/coin-change/)
   - hint: top-down + memorization + recursion
+  
+- [ ] LeetCode #139 Word Break
+  - [description](https://leetcode.com/problems/word-break/)
 
 ### Graph (8)
 
