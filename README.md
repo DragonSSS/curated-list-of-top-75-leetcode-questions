@@ -301,3 +301,7 @@
 - [ ] LeetCode #1443 Minimum Time to Collect All Apples in a Tree (Tree)
   - [description](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)
   - hint: dfs
+  
+- [ ] LeetCode #140 Word Break II (DP)
+  - [description](https://leetcode.com/problems/word-break-ii/)
+  - hint: dfs + memorization
