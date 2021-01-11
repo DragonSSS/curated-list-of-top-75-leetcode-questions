@@ -304,6 +304,7 @@
   - [description](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)
   - hint: dfs
   
-- [ ] LeetCode #140 Word Break II (DP)
+- [x] LeetCode #140 Word Break II (DP)
   - [description](https://leetcode.com/problems/word-break-ii/)
-  - hint: dfs + memorization
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/WordBreakII.java)
+  - hint: dfs + memorization + recursion
