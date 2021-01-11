@@ -27,8 +27,10 @@
   - [description](https://leetcode.com/problems/coin-change/)
   - hint: top-down + memorization + recursion
   
-- [ ] LeetCode #139 Word Break
+- [x] LeetCode #139 Word Break
   - [description](https://leetcode.com/problems/word-break/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/WordBreak.java)
+  - hint: dfs + memorization + recursion
 
 ### Graph (8)
 
