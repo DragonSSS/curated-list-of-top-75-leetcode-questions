@@ -12,6 +12,9 @@
 
 - [ ] LeetCode #191 Number of 1 Bits
   - [description](https://leetcode.com/problems/number-of-1-bits/)
+  
+- [ ] LeetCode #338 Counting Bits
+  - [description](https://leetcode.com/problems/counting-bits/)
 
 ### Dynamic Programming (11)
 
