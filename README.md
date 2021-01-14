@@ -7,8 +7,10 @@
 
 ### Binary (5)
 
-- [ ] LeetCode #371 Sum of Two Integers
+- [x] LeetCode #371 Sum of Two Integers
   - [description](https://leetcode.com/problems/sum-of-two-integers/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/binary/SumOfTwoIntegers.java)
+  - hint: use carry with shift 1 to get common components, xor operation is to get opposite components
 
 - [ ] LeetCode #191 Number of 1 Bits
   - [description](https://leetcode.com/problems/number-of-1-bits/)
