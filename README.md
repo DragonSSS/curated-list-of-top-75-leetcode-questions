@@ -317,3 +317,11 @@
   - [description](https://leetcode.com/problems/word-break-ii/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/WordBreakII.java)
   - hint: dfs + memorization + recursion
+
+- [ ] LeetCode #392 Is Subsequence (String)
+ - [description](https://leetcode.com/problems/is-subsequence/)
+ - hint: two pointers or binary search
+ 
+- [ ] LeetCode #791 Accounts Merge (Graph)
+ - [description](https://leetcode.com/problems/accounts-merge/)
+ - hint: dfs or union find
