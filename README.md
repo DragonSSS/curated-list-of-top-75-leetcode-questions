@@ -18,6 +18,10 @@
 - [ ] LeetCode #338 Counting Bits
   - [description](https://leetcode.com/problems/counting-bits/)
 
+- [ ] LeetCode #268 Missing Number
+  - [description](https://leetcode.com/problems/missing-number/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/binary/MissingNumber.java)
+
 ### Dynamic Programming (11)
 
 - [ ] LeetCode #70 Climbing Stairs
