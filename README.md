@@ -299,7 +299,7 @@
   
 - [ ] LeetCode #332 Reconstruct Itinerary (Graph)
   - [description](https://leetcode.com/problems/reconstruct-itinerary/)
-  - hint: dfs + PriorityQueue
+  - hint: dfs + priorityQueue
   
 - [ ] LeetCode #64 Minimum Path Sum (DP)
   - [description](https://leetcode.com/problems/minimum-path-sum/)
