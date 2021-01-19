@@ -325,6 +325,6 @@
  - [description](https://leetcode.com/problems/is-subsequence/)
  - hint: two pointers or binary search
  
-- [ ] LeetCode #791 Accounts Merge (Graph)
+- [x] LeetCode #791 Accounts Merge (Graph)
  - [description](https://leetcode.com/problems/accounts-merge/)
  - hint: dfs or union find
