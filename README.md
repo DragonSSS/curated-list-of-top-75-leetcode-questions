@@ -18,9 +18,10 @@
 - [ ] LeetCode #338 Counting Bits
   - [description](https://leetcode.com/problems/counting-bits/)
 
-- [ ] LeetCode #268 Missing Number
+- [x] LeetCode #268 Missing Number
   - [description](https://leetcode.com/problems/missing-number/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/binary/MissingNumber.java)
+  - xor operation or binary search on sorted array
   
 - [ ] LeetCode #190 Reverse Bits
   - [description](https://leetcode.com/problems/reverse-bits/)
