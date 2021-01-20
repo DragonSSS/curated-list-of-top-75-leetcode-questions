@@ -321,8 +321,9 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/WordBreakII.java)
   - hint: dfs + memorization + recursion
 
-- [ ] LeetCode #392 Is Subsequence (String)
+- [x] LeetCode #392 Is Subsequence (String)
  - [description](https://leetcode.com/problems/is-subsequence/)
+ - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/IsSubsequence.java)
  - hint: two pointers or binary search
  
 - [x] LeetCode #791 Accounts Merge (Graph)
