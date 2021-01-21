@@ -301,8 +301,9 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/FindAllAnagramsInString.java)
   - hint: sliding window + hashtable + two pointers
   
-- [ ] LeetCode #332 Reconstruct Itinerary (Graph)
+- [x] LeetCode #332 Reconstruct Itinerary (Graph)
   - [description](https://leetcode.com/problems/reconstruct-itinerary/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/ReconstructItinerary.java)
   - hint: dfs + priorityQueue
   
 - [ ] LeetCode #64 Minimum Path Sum (DP)
