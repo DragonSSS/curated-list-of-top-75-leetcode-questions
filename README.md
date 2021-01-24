@@ -335,3 +335,8 @@
  
 - [ ] LeetCode #1138 Alphabet Board Path (String)
  - [description](https://leetcode.com/problems/alphabet-board-path/)
+
+- [x] LeetCode #303 Range Sum Query - Immutable (Array)
+- [description](https://leetcode.com/problems/range-sum-query-immutable/)
+- [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/RangeSumQuery.java)
+- hint: dp, sum from i to j inclusively = sums[j] - sums[i - 1]
