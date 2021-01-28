@@ -15,6 +15,11 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/BestTimeToBuyAndSellStock.java)
   - hint: minPrice + maxProfit + one loop
 
+- [x] LeetCode #217 Contains Duplicate
+  - [description](https://leetcode.com/problems/contains-duplicate/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/ContainsDuplicate.java)
+  - hint: hashset
+
 ### Binary (5)
 
 - [x] LeetCode #371 Sum of Two Integers
