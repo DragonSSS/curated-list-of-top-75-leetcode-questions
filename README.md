@@ -20,9 +20,10 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/ContainsDuplicate.java)
   - hint: hashset
 
-- [ ] LeetCode #238 Product of Array Except Self
+- [x] LeetCode #238 Product of Array Except Self
   - [description](https://leetcode.com/problems/product-of-array-except-self/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/ProductOfArrayExceptSelf.java)
+  - hint: prefix product + backward
 
 ### Binary (5)
 
