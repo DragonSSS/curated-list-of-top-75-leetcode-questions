@@ -10,6 +10,11 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/TwoSum.java)
   - hint: hashtable `{key: rest_value, value: index}`
 
+- [x] LeetCode #121 Best Time to Buy and Sell Stock
+  - [description](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/BestTimeToBuyAndSellStock.java)
+  - hint: minPrice + maxProfit + one loop
+
 ### Binary (5)
 
 - [x] LeetCode #371 Sum of Two Integers
