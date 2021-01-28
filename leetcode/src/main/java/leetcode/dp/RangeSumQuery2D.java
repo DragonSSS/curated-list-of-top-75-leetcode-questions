@@ -13,7 +13,8 @@ public class RangeSumQuery2D {
 
         for (int i = 1; i <=m; i++) {
             for(int j = 1; j <= n; j++) {
-                sums[i][j] = sums[i - 1][j] + sums[i][j - 1] + matrix[i - 1][j - 1] - sums[i - 1][j - 1];             // sums[0][0] = 0;
+                sums[i][j] = sums[i - 1][j] + sums[i][j - 1] + matrix[i - 1][j - 1] - sums[i - 1][j - 1];             
+                // sums[0][0] = 0;
                 // sums[1][1] = sums[0][1] + sums[1][0] + matrix[0][0] - sums[0][0];
                 // sums[2][2] = sums[1][2] + sums[2][1] + matrix[1][1] - sums[1][1];
             }
