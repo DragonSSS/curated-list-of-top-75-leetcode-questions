@@ -5,6 +5,11 @@
 ## Categories
 ### Array (10)
 
+- [x] LeetCode #1 Two Sum
+  - [description](https://leetcode.com/problems/two-sum/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/TwoSum.java)
+  - hint: hashtable `{key: rest_value, value: index}`
+
 ### Binary (5)
 
 - [x] LeetCode #371 Sum of Two Integers
