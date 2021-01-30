@@ -30,6 +30,9 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/MaximumSubarray.java)
   - hint: dp
 
+- [ ] LeetCode #53 Maximum Product Subarray
+  - [description](https://leetcode.com/problems/maximum-product-subarray/)
+
 ### Binary (5)
 
 - [x] LeetCode #371 Sum of Two Integers
