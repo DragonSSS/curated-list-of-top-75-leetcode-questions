@@ -25,6 +25,11 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/ProductOfArrayExceptSelf.java)
   - hint: prefix product + backward
 
+- [x] LeetCode #53 Maximum Subarray
+  - [description](https://leetcode.com/problems/maximum-subarray/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/MaximumSubarray.java)
+  - hint: dp
+
 ### Binary (5)
 
 - [x] LeetCode #371 Sum of Two Integers
