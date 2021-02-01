@@ -35,6 +35,11 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/MaximumProductSubarray.java)
   - hint: dp
 
+- [ ] LeetCode #153 Find Minimum in Rotated Sorted Array
+  - [description](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/FindMinimumInRotatedSortedArray.java)
+  - hint: binary search
+
 ### Binary (5)
 
 - [x] LeetCode #371 Sum of Two Integers
