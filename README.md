@@ -380,3 +380,6 @@
  - [description](https://leetcode.com/problems/range-sum-query-2d-immutable/)
  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/RangeSumQuery2D.java)
  - hint: dp
+
+- [ ] LeetCode #42 Trapping Rain Water
+ - [description](https://leetcode.com/problems/trapping-rain-water/)
