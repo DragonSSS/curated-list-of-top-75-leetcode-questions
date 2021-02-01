@@ -15,5 +15,20 @@ public class MaximumSubarray {
         }
 
         return res;
+
+
+        // Make space O(1)
+        /*
+        if (nums.length == 0)
+            return 0;
+
+        int curMax = nums[0];
+        int res = nums[0];
+        for(int i = 1; i < nums.length; i++) {
+            curMax = Math.max(curMax + nums[i], nums[i]);
+            res = Math.max(res, curMax);
+        }
+        return res;
+        */
     }
 }
