@@ -39,6 +39,9 @@
   - [description](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/FindMinimumInRotatedSortedArray.java)
   - hint: binary search
+ 
+- [ ] LeetCode #33 Search in Rotated Sorted Array
+  - [description](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
 ### Binary (5)
 
