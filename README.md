@@ -43,6 +43,10 @@
 - [ ] LeetCode #33 Search in Rotated Sorted Array
   - [description](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
+- [ ] LeetCode #15 3Sum
+  - [description](https://leetcode.com/problems/3sum/)
+  - hint: two pointers
+  
 ### Binary (5)
 
 - [x] LeetCode #371 Sum of Two Integers
