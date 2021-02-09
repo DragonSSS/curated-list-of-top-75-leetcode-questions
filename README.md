@@ -376,8 +376,11 @@
  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/AccountsMerge.java)
  - hint: build undirected graph using email + dfs
  
-- [ ] LeetCode #1138 Alphabet Board Path (String)
+- [x] LeetCode #1138 Alphabet Board Path (String)
  - [description](https://leetcode.com/problems/alphabet-board-path/)
+ - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/AlphabetBoardPath.java)
+ - hint: calculate x, y of alphabet matrix by `/ 5` and `% 5`, put L U before R D as 'z' is special
+ 
 
 - [x] LeetCode #303 Range Sum Query - Immutable (DP, Array)
  - [description](https://leetcode.com/problems/range-sum-query-immutable/)
