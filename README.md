@@ -39,12 +39,15 @@
   - [description](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/FindMinimumInRotatedSortedArray.java)
   - hint: binary search
-
+ 
+- [ ] LeetCode #33 Search in Rotated Sorted Array
+  - [description](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+  
 - [x] LeetCode #15 3Sum
   - [description](https://leetcode.com/problems/3sum/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/ThreeSum.java)
   - hint: sorted + two pointers
-
+  
 ### Binary (5)
 
 - [x] LeetCode #371 Sum of Two Integers
