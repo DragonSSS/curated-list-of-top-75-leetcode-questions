@@ -397,3 +397,7 @@
 
 - [ ] LeetCode #234 Palindrome Linked List (Linked List)
  - [description](https://leetcode.com/problems/palindrome-linked-list/)
+ 
+- [ ] LeetCode #78 Subsets (Array)
+ - [description](https://leetcode.com/problems/subsets/)
+ - hint: dfs
