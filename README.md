@@ -402,3 +402,8 @@
  - [description](https://leetcode.com/problems/subsets/)
  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/Subsets.java)
  - hint: dfs + recursion + backtracking
+
+- [x] LeetCode #78 Subsets II (Array)
+ - [description](https://leetcode.com/problems/subsets-ii/)
+ - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/SubsetsII.java)
+ - hint: dfs + recursion + backtracking
