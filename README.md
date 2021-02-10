@@ -398,6 +398,7 @@
 - [ ] LeetCode #234 Palindrome Linked List (Linked List)
  - [description](https://leetcode.com/problems/palindrome-linked-list/)
  
-- [ ] LeetCode #78 Subsets (Array)
+- [x] LeetCode #78 Subsets (Array)
  - [description](https://leetcode.com/problems/subsets/)
- - hint: dfs
+ - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/Subsets.java)
+ - hint: dfs + recursion + backtracking
