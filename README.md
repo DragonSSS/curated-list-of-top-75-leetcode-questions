@@ -367,43 +367,43 @@
   - hint: dfs + memorization + recursion
 
 - [x] LeetCode #392 Is Subsequence (String)
- - [description](https://leetcode.com/problems/is-subsequence/)
- - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/IsSubsequence.java)
- - hint: two pointers or binary search
+  - [description](https://leetcode.com/problems/is-subsequence/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/IsSubsequence.java)
+  - hint: two pointers or binary search
  
 - [x] LeetCode #791 Accounts Merge (Graph)
- - [description](https://leetcode.com/problems/accounts-merge/)
- - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/AccountsMerge.java)
- - hint: build undirected graph using email + dfs
+  - [description](https://leetcode.com/problems/accounts-merge/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/AccountsMerge.java)
+  - hint: build undirected graph using email + dfs
  
 - [x] LeetCode #1138 Alphabet Board Path (String)
- - [description](https://leetcode.com/problems/alphabet-board-path/)
- - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/AlphabetBoardPath.java)
- - hint: calculate x, y of alphabet matrix by `/ 5` and `% 5`, put L U before R D as 'z' is special
+  - [description](https://leetcode.com/problems/alphabet-board-path/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/AlphabetBoardPath.java)
+  - hint: calculate x, y of alphabet matrix by `/ 5` and `% 5`, put L U before R D as 'z' is special
  
 
 - [x] LeetCode #303 Range Sum Query - Immutable (DP, Array)
- - [description](https://leetcode.com/problems/range-sum-query-immutable/)
- - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/RangeSumQuery.java)
- - hint: dp, sum from i to j inclusively = sums[j] - sums[i - 1]
+  - [description](https://leetcode.com/problems/range-sum-query-immutable/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/RangeSumQuery.java)
+  - hint: dp, sum from i to j inclusively = sums[j] - sums[i - 1]
 
 - [x] LeetCode #304 Range Sum Query 2D - Immutable (DP, Matrix)
- - [description](https://leetcode.com/problems/range-sum-query-2d-immutable/)
- - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/RangeSumQuery2D.java)
- - hint: dp
+  - [description](https://leetcode.com/problems/range-sum-query-2d-immutable/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/RangeSumQuery2D.java)
+  - hint: dp
 
 - [ ] LeetCode #42 Trapping Rain Water
- - [description](https://leetcode.com/problems/trapping-rain-water/)
+  - [description](https://leetcode.com/problems/trapping-rain-water/)
 
 - [ ] LeetCode #234 Palindrome Linked List (Linked List)
- - [description](https://leetcode.com/problems/palindrome-linked-list/)
+  - [description](https://leetcode.com/problems/palindrome-linked-list/)
  
 - [x] LeetCode #78 Subsets (Array)
- - [description](https://leetcode.com/problems/subsets/)
- - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/Subsets.java)
- - hint: dfs + recursion + backtracking
+  - [description](https://leetcode.com/problems/subsets/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/Subsets.java)
+  - hint: dfs + recursion + backtracking
 
 - [x] LeetCode #78 Subsets II (Array)
- - [description](https://leetcode.com/problems/subsets-ii/)
- - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/SubsetsII.java)
- - hint: dfs + recursion + backtracking
+  - [description](https://leetcode.com/problems/subsets-ii/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/SubsetsII.java)
+  - hint: dfs + recursion + backtracking
