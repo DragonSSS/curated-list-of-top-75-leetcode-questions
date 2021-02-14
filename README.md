@@ -407,3 +407,8 @@
   - [description](https://leetcode.com/problems/subsets-ii/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/SubsetsII.java)
   - hint: dfs + recursion + backtracking
+
+- [x] LeetCode #916 Word Subsets (String)
+  - [description](https://leetcode.com/problems/word-subsets/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/WordSubsets.java)
+  - hint: hashtable records frequency of chars
