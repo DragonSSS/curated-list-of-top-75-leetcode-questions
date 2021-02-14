@@ -418,5 +418,8 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/FirstUniqueCharacterInString.java)
   - hint: hashtable records frequency of chars
   
+- [ ] LeetCode #127 Word Ladder (Graph)
+  - [description](https://leetcode.com/problems/word-ladder/)
+  
 - [ ] LeetCode #126 Word Ladder II (Graph)
   - [description](https://leetcode.com/problems/word-ladder-ii/)
