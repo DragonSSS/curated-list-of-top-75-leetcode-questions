@@ -412,3 +412,8 @@
   - [description](https://leetcode.com/problems/word-subsets/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/WordSubsets.java)
   - hint: hashtable records frequency of chars
+
+- [x] LeetCode #387 First Unique Character in a String (String)
+  - [description](https://leetcode.com/problems/first-unique-character-in-a-string/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/FirstUniqueCharacterInString.java)
+  - hint: hashtable records frequency of chars
