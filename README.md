@@ -70,7 +70,7 @@
 - [x] LeetCode #338 Counting Bits
   - [description](https://leetcode.com/problems/counting-bits/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/binary/CountingBits.java)
-  - hint: dp, num is `2^n` (`dp[n] = 1`) or `n % 2 == 0` (`dp[n] = dp[n / 2]`) or `n % 2 == 1` (`dp[n] = dp[n - 1] + 1`)
+  - hint: dp, n is `2^x` (`dp[n] = 1`) or `n % 2 == 0` (`dp[n] = dp[n / 2]`) or `n % 2 == 1` (`dp[n] = dp[n - 1] + 1`)
 
 - [x] LeetCode #268 Missing Number
   - [description](https://leetcode.com/problems/missing-number/)

@@ -13,7 +13,7 @@ public class CountingBits {
             return dp;
 
         for (int i = 2; i < num + 1; i++) {
-            // 2^n
+            // 2^x
             if ((i & (i - 1)) == 0) {
                 dp[i] = 1;
             } else {
