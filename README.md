@@ -62,8 +62,10 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/binary/SumOfTwoIntegers.java)
   - hint: use carry with shift 1 to get common components, xor operation is to get opposite components
 
-- [ ] LeetCode #191 Number of 1 Bits
+- [x] LeetCode #191 Number of 1 Bits
   - [description](https://leetcode.com/problems/number-of-1-bits/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/binary/NumberOfOneBits.java)
+  - hint: `res += n & 1` and unsigned right shift `n >>>= 1`
   
 - [ ] LeetCode #338 Counting Bits
   - [description](https://leetcode.com/problems/counting-bits/)
