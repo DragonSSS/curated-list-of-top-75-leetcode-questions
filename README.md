@@ -150,6 +150,11 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/interval/InsertInterval.java)
   - hint: if `newInterval[1] < interval[0]` else if `newInterval[0] > interval[1]` else
 
+- [x] Leetcode #57 Merge Intervals
+  - [description](https://leetcode.com/problems/merge-intervals/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/interval/MergeIntervals.java)
+  - hint: same as Insert Interval, if `newInterval[1] < interval[0]` else if `newInterval[0] > interval[1]` else
+
 ### Linked List (6)
 
 - [x] LeetCode #206 Reverse Linked List
