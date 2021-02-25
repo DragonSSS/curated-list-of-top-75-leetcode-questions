@@ -113,17 +113,17 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/CourseSchedule.java)
   - hint: topological sort (indegree and neighbours map + queue + bfs)
 
-- [x] Leetcode #417 Pacific Atlantic Water Flow
+- [x] LeetCode #417 Pacific Atlantic Water Flow
   - [description](https://leetcode.com/problems/pacific-atlantic-water-flow/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/PacificAtlanticWaterFlow.java)
   - hint: dfs + memorization
   
-- [x] Leetcode #200 Number of Islands
+- [x] LeetCode #200 Number of Islands
   - [description](https://leetcode.com/problems/number-of-islands/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/NumberOfIslands.java)
   - hint: dfs + memorization
 
-- [x] Leetcode #128 Longest Consecutive Sequence
+- [x] LeetCode #128 Longest Consecutive Sequence
   - [description](https://leetcode.com/problems/longest-consecutive-sequence/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/LongestConsecutiveSequence.java)
   - hint: sort first + iteration with while loop (could use union-find or hashtable as well)
@@ -133,27 +133,32 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/AlienDictionary.java)
   - hint: build graph + indegree map + bfs with queue
 
-- [x] Leetcode #261 Graph Valid Tree
+- [x] LeetCode #261 Graph Valid Tree
   - [description](https://leetcode.com/problems/longest-consecutive-sequence/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/GraphValidTree.java)
   - hint: dfs/bfs + memorization
 
-- [x] Leetcode #323 Number of Connected Components in an Undirected Graph
+- [x] LeetCode #323 Number of Connected Components in an Undirected Graph
   - [description](https://leetcode.com/problems/longest-consecutive-sequence/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/graph/GraphValidTree.java)
   - hint: bfs + memorization
 
 ### Interval (5)
 
-- [x] Leetcode #57 Insert Interval
+- [x] LeetCode #57 Insert Interval
   - [description](https://leetcode.com/problems/insert-interval/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/interval/InsertInterval.java)
   - hint: if `newInterval[1] < interval[0]` else if `newInterval[0] > interval[1]` else
 
-- [x] Leetcode #57 Merge Intervals
+- [x] LeetCode #57 Merge Intervals
   - [description](https://leetcode.com/problems/merge-intervals/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/interval/MergeIntervals.java)
   - hint: same as Insert Interval, if `newInterval[1] < interval[0]` else if `newInterval[0] > interval[1]` else
+
+- [x] LeetCode #435 Non-overlapping Intervals
+  - [description](https://leetcode.com/problems/non-overlapping-intervals/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/interval/NonOverlappingIntervals.java)
+  - hint: sort array first by start of interval, record preEnd and compare it with intervals
 
 ### Linked List (6)
 
