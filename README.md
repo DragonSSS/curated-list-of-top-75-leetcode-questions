@@ -145,6 +145,11 @@
 
 ### Interval (5)
 
+- [x] Leetcode #57 Insert Interval
+  - [description](https://leetcode.com/problems/insert-interval/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/interval/InsertInterval.java)
+  - hint: if `newInterval[1] < interval[0]` else if `newInterval[0] > interval[1]` else
+
 ### Linked List (6)
 
 - [x] LeetCode #206 Reverse Linked List
