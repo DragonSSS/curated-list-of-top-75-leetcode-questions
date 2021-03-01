@@ -453,4 +453,6 @@
 - [ ] LeetCode #126 Word Ladder II (Graph)
   - [description](https://leetcode.com/problems/word-ladder-ii/)
 
+- [ ] LeetCode #1268 Search Suggestions System (Tree)
+  - [description](https://leetcode.com/problems/search-suggestions-system/)
 -->
