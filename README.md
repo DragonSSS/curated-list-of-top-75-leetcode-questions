@@ -165,10 +165,10 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/interval/MeetingRooms.java)
   - hint: sort array first by start of interval, compare two intervals with sliding window size of 2
 
-- [x] LeetCode #253 Meeting Rooms II
+- [ ] LeetCode #253 Meeting Rooms II
   - [description](https://leetcode.com/problems/meeting-rooms-ii/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/interval/MeetingRoomsII.java)
-  - hint: 
+  - hint:
 
 ### Linked List (6)
 
