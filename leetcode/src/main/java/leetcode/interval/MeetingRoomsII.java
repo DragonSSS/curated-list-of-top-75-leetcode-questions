@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 
 public class MeetingRoomsII {
+    /*
     public int minMeetingRooms(int[][] intervals) {
         if (intervals == null || intervals.length == 0)
             return 0;
@@ -18,6 +19,23 @@ public class MeetingRoomsII {
                 queue.poll();
             }
             queue.offer(intervals[i]);
+        }
+
+        return queue.size();
+    }*/
+
+
+    public int minMeetingRooms(int[][] intervals) {
+        if (intervals == null || intervals.length == 0)
+            return 0;
+
+        Arrays.sort(intervals, (i1, i2) -> i1[0] - i2[0]);
+        PriorityQueue<Integer> queue = new PriorityQueue<>();
+
+        for (int[] interval : intervals) {
+            if (queue.size() > 0 && queue.peek() <= interval[0])
+                queue.poll();
+            queue.offer(interval[1]);
         }
 
         return queue.size();
