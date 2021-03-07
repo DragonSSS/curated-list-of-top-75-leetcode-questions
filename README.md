@@ -366,7 +366,7 @@
   - hint: two priorityQueue as heap, smallHalf as reverse order, largeHalf as increasing order
 
 <!---
-### Add-on
+### Misc
 
 - [ ] LeetCode #34 Find First and Last Position of Element in Sorted Array (Array)
   - [description](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
@@ -465,4 +465,13 @@
 
 - [ ] LeetCode #1268 Search Suggestions System (Tree)
   - [description](https://leetcode.com/problems/search-suggestions-system/)
+  - hint: trie
+
+- [ ] LeetCode #588 Design In-Memory File System (Tree)
+  - [description](https://leetcode.com/problems/design-in-memory-file-system/)
+  - hint: trie
+
+- [ ] LeetCode #1166 Design File System (Tree)
+  - [description](https://leetcode.com/problems/design-file-system/)
+  - hint: trie
 -->
