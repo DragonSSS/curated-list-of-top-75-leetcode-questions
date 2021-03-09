@@ -475,8 +475,8 @@
   - [description](https://leetcode.com/problems/design-file-system/)
   - hint: trie
 
-- [ ] LeetCode #983 Minimum Cost For Tickets (DP)
+- [x] LeetCode #983 Minimum Cost For Tickets (DP)
   - [description](https://leetcode.com/problems/minimum-cost-for-tickets/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/MinimumCostForTickets.java)
-  - hint: dp
+  - hint: dp or recursion + memorization (top-down)
 -->
