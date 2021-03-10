@@ -484,4 +484,8 @@
   - [description](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/MinimumCostToCutStick.java)
   - hint: dp or recursion + memorization (top-down)
+
+- [ ] LeetCode #116 Populating Next Right Pointers in Each Node (Tree)
+  - [description](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
+  - hint: BFS via queue
 -->
