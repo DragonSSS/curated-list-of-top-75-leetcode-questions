@@ -479,4 +479,9 @@
   - [description](https://leetcode.com/problems/minimum-cost-for-tickets/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/MinimumCostForTickets.java)
   - hint: dp or recursion + memorization (top-down)
+
+- [x] LeetCode #1547 Minimum Cost to Cut a Stick (DP)
+  - [description](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/MinimumCostToCutStick.java)
+  - hint: dp or recursion + memorization (top-down)
 -->
