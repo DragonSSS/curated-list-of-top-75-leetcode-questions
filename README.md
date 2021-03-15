@@ -475,8 +475,9 @@
   - [description](https://leetcode.com/problems/design-file-system/)
   - hint: trie
 
-- [ ] LeetCode #109 Convert Sorted List to Binary Search Tree (Tree)
+- [x] LeetCode #109 Convert Sorted List to Binary Search Tree (Tree)
   - [description](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/tree/ConvertSortedListToBinarySearchTree.java)
   - hint: slow and fast two pointers + recursion
 
 - [x] LeetCode #983 Minimum Cost For Tickets (DP)
