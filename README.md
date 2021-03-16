@@ -85,8 +85,10 @@
 
 ### Dynamic Programming (11)
 
-- [ ] LeetCode #70 Climbing Stairs
+- [x] LeetCode #70 Climbing Stairs
   - [description](https://leetcode.com/problems/climbing-stairs/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/ClimbingStairs.java)
+  - hint: recursion + memorization
 
 - [x] LeetCode #332 Coin Change
   - [description](https://leetcode.com/problems/coin-change/)
