@@ -39,11 +39,12 @@
 - [x] LeetCode #153 Find Minimum in Rotated Sorted Array
   - [description](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/FindMinimumInRotatedSortedArray.java)
-  - hint: binary search
+  - hint: binary search, compare `nums[mid]` with `nums[end]`
  
-- [ ] LeetCode #33 Search in Rotated Sorted Array
+- [x] LeetCode #33 Search in Rotated Sorted Array
   - [description](https://leetcode.com/problems/search-in-rotated-sorted-array/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/array/SearchInRotatedSortedArray.java)
+  - hint: binary search, compare `target` with `nums[mid]`
   
 - [x] LeetCode #15 3Sum
   - [description](https://leetcode.com/problems/3sum/)
