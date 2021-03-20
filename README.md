@@ -497,7 +497,8 @@
   - [description](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
   - hint: BFS via queue
 
-- [ ] LeetCode #518 Coin Change 2 （DP）
+- [x] LeetCode #518 Coin Change 2 （DP）
   - [description](https://leetcode.com/problems/coin-change-2/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/CoinChange2.java)
+  - hint: recursion + memorization, two paths - use current coin or not
 -->
