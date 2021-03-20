@@ -94,6 +94,10 @@
   - [description](https://leetcode.com/problems/coin-change/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/CoinChange.java)
   - hint: recursion + memorization
+
+- [ ] LeetCode #300 Longest Increasing Subsequence
+  - [description](https://leetcode.com/problems/longest-increasing-subsequence/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/LongestIncreasingSubsequence.java)
   
 - [ ] LeetCode #62 Unique Paths
   - [description](https://leetcode.com/problems/coin-change/)
