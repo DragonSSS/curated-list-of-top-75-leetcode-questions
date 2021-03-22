@@ -98,7 +98,7 @@
 - [x] LeetCode #300 Longest Increasing Subsequence
   - [description](https://leetcode.com/problems/longest-increasing-subsequence/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/LongestIncreasingSubsequence.java)
-  - hint: pointer of current index and previous index (start with -1) + recursion + memorization
+  - hint: two pointers of current index and previous index (`start with -1`) + recursion + memorization
 
 - [ ] LeetCode #1143 Longest Common Subsequence
   - [description](https://leetcode.com/problems/longest-common-subsequence/)
