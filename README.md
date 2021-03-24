@@ -100,9 +100,10 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/LongestIncreasingSubsequence.java)
   - hint: two pointers of current index and previous index (`start with -1`) + recursion + memorization
 
-- [ ] LeetCode #1143 Longest Common Subsequence
+- [x] LeetCode #1143 Longest Common Subsequence
   - [description](https://leetcode.com/problems/longest-common-subsequence/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/LongestCommonSubsequence.java)
+  - hint: recursion + memorization
   
 - [ ] LeetCode #62 Unique Paths
   - [description](https://leetcode.com/problems/coin-change/)
