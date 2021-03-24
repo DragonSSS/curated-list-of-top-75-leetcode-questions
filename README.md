@@ -105,14 +105,18 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/LongestCommonSubsequence.java)
   - hint: recursion + memorization
   
-- [ ] LeetCode #62 Unique Paths
-  - [description](https://leetcode.com/problems/coin-change/)
-  - hint: top-down + memorization + recursion
-  
 - [x] LeetCode #139 Word Break
   - [description](https://leetcode.com/problems/word-break/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/WordBreak.java)
   - hint: dfs + memorization + recursion
+
+- [ ] LeetCode #377 Combination Sum IV
+  - [description](https://leetcode.com/problems/combination-sum-iv/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/CombinationSumIV.java)
+
+- [ ] LeetCode #62 Unique Paths
+  - [description](https://leetcode.com/problems/unique-paths/)
+  - hint: top-down + memorization + recursion
 
 ### Graph (8)
 
