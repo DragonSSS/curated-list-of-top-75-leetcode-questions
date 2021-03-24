@@ -515,4 +515,9 @@
   - [description](https://leetcode.com/problems/coin-change-2/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/CoinChange2.java)
   - hint: recursion + memorization, two paths - use current coin or not
+
+- [x] LeetCode #409 Longest Palindrome (String)
+  - [description](https://leetcode.com/problems/longest-palindrome/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/string/LongestPalindrome.java)
+  - hint: hashtable
 -->
