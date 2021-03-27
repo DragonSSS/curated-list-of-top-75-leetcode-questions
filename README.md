@@ -110,10 +110,11 @@
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/WordBreak.java)
   - hint: dfs + memorization + recursion
 
-- [ ] LeetCode #377 Combination Sum IV
+- [x] LeetCode #377 Combination Sum IV
   - [description](https://leetcode.com/problems/combination-sum-iv/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/CombinationSumIV.java)
-
+  - hint: top-down recursion + memorization
+  
 - [ ] LeetCode #62 Unique Paths
   - [description](https://leetcode.com/problems/unique-paths/)
   - hint: top-down + memorization + recursion
