@@ -114,6 +114,15 @@
   - [description](https://leetcode.com/problems/combination-sum-iv/)
   - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/CombinationSumIV.java)
   - hint: top-down recursion + memorization
+
+- [x] LeetCode #198 House Robber
+  - [description](https://leetcode.com/problems/house-robber/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/HouseRobber.java)
+  - hint: top-down recursion + memorization or dp
+
+- [ ] LeetCode #213 House Robber II
+  - [description](https://leetcode.com/problems/house-robber-ii/)
+  - [solution](https://github.com/DragonSSS/T.B.D/blob/master/leetcode/src/main/java/leetcode/dp/HouseRobberII.java)
   
 - [ ] LeetCode #62 Unique Paths
   - [description](https://leetcode.com/problems/unique-paths/)
