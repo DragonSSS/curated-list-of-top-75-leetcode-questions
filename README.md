@@ -135,8 +135,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/UniquePaths.java)
   - hint: top-down + memorization + recursion
 
-- [ ] LeetCode #55 Jump Game
+- [x] LeetCode #55 Jump Game
   - [description](https://leetcode.com/problems/jump-game/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/JumpGame.java)
+  - hint: greedy (ascending or descending order)
 
 ### Graph (8)
 
