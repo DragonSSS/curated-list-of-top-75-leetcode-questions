@@ -1,15 +1,12 @@
 [![curated-list-of-coding-questions-master Actions Status](https://github.com/DragonSSS/curated-list-of-coding-questions/workflows/curated-list-of-coding-questions/badge.svg)](https://github.com/DragonSSS/curated-list-of-coding-questions/actions)
-# Curated List of Top 75 Leetcode Questions
+# Curated List of Top 75 LeetCode Questions
 
 ## TL;DR
 [source](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
-## Categories
-### Array (10)
-
-- [x] LeetCode #1 Two Sum
-  - [description](https://leetcode.com/problems/two-sum/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/TwoSum.java)
-  - hint: hashtable `{key: rest_value, value: index}`
+## Array (10)
+|  #  |   Title  |  Solution  |  Difficulty  |  Comment  |
+|-----|----------|------------|--------------|-----------|
+|  1  |[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/TwoSum.java)| Easy | hashtable `{key: rest_value, value: index}`|
 
 - [x] LeetCode #121 Best Time to Buy and Sell Stock
   - [description](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
