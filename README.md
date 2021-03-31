@@ -1,10 +1,12 @@
 [![curated-list-of-coding-questions-master Actions Status](https://github.com/DragonSSS/curated-list-of-coding-questions/workflows/curated-list-of-coding-questions/badge.svg)](https://github.com/DragonSSS/curated-list-of-coding-questions/actions)
-# Curated List of Top 75 Leetcode Questions
+
+# Curated List of Top 75 LeetCode Questions
 
 ## TL;DR
+
 [source](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
-## Categories
-### Array (10)
+
+## Array (10)
 
 - [x] LeetCode #1 Two Sum
   - [description](https://leetcode.com/problems/two-sum/)
@@ -31,7 +33,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MaximumSubarray.java)
   - hint: dp
 
-- [x] LeetCode #53 Maximum Product Subarray
+- [x] LeetCode #152 Maximum Product Subarray
   - [description](https://leetcode.com/problems/maximum-product-subarray/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MaximumProductSubarray.java)
   - hint: dp
@@ -40,7 +42,7 @@
   - [description](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FindMinimumInRotatedSortedArray.java)
   - hint: binary search, compare `nums[mid]` with `nums[end]`
- 
+
 - [x] LeetCode #33 Search in Rotated Sorted Array
   - [description](https://leetcode.com/problems/search-in-rotated-sorted-array/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/SearchInRotatedSortedArray.java)
@@ -56,7 +58,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ContainerWithMostWater.java)
   - hint: two pointers
   
-### Binary (5)
+## Binary (5)
 
 - [x] LeetCode #371 Sum of Two Integers
   - [description](https://leetcode.com/problems/sum-of-two-integers/)
@@ -83,7 +85,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binary/ReverseBits.java)
   - hint: left shift `<<=` on result, right shift `>>=` on number
 
-### Dynamic Programming (11)
+## Dynamic Programming (11)
 
 - [x] LeetCode #70 Climbing Stairs
   - [description](https://leetcode.com/problems/climbing-stairs/)
@@ -140,7 +142,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/JumpGame.java)
   - hint: greedy (ascending or descending order)
 
-### Graph (8)
+## Graph (8)
 
 - [x] LeetCode #133 Clone Graph
   - [description](https://leetcode.com/problems/clone-graph/)
@@ -182,7 +184,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/GraphValidTree.java)
   - hint: bfs + memorization
 
-### Interval (5)
+## Interval (5)
 
 - [x] LeetCode #57 Insert Interval
   - [description](https://leetcode.com/problems/insert-interval/)
@@ -209,7 +211,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/interval/MeetingRoomsII.java)
   - hint: sort array first by start of interval, use priorityQueue (sorted by end of interval) to record the intervals as required rooms
 
-### Linked List (6)
+## Linked List (6)
 
 - [x] LeetCode #206 Reverse Linked List
   - [description](https://leetcode.com/problems/reverse-linked-list/)
@@ -241,7 +243,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/ReorderList.java)
   - hint: find the mid to split two linked lists, reverse second one and merge two linked list into one
   
-### Matrix (4)
+## Matrix (4)
 
 - [x] LeetCode #73 Set Matrix Zeroes
   - [description](https://leetcode.com/problems/set-matrix-zeroes/)
@@ -263,7 +265,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/matrix/WordSearch.java)
   - hint: dfs + memorization + backtracking
   
-### String (10)
+## String (10)
 
 - [x] LeetCode #3 Longest Substring Without Repeating Characters
   - [description](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
@@ -304,7 +306,7 @@
   - [description](https://leetcode.com/problems/longest-palindromic-substring/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/LongestPalindromicSubstring.java)
   - hint: two pointers + expand around center
- 
+
 - [x] LeetCode #647 Palindromic Substrings
   - [description](https://leetcode.com/problems/palindromic-substrings/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/PalindromicSubstrings.java)
@@ -315,7 +317,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/EncodeAndDecodeStrings.java)
   - hint: length + '/' +str + length + '/' + str
 
-### Tree (14)
+## Tree (14)
 
 - [x] LeetCode #104 Maximum Depth of Binary Tree
   - [description](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
@@ -387,7 +389,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/AddSearchWord.java)
   - hint: trie + dfs
   
-### Heap (3)
+## Heap (3)
 
 - [x] LeetCode #23 Merge k Sorted Lists
   - [description](https://leetcode.com/problems/merge-k-sorted-lists/)
@@ -405,7 +407,7 @@
   - hint: two priorityQueue as heap, smallHalf as reverse order, largeHalf as increasing order
 
 <!---
-### Misc
+## Misc
 
 - [ ] LeetCode #34 Find First and Last Position of Element in Sorted Array (Array)
   - [description](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
