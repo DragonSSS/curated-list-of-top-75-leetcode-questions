@@ -1,26 +1,58 @@
 [![curated-list-of-coding-questions-master Actions Status](https://github.com/DragonSSS/curated-list-of-coding-questions/workflows/curated-list-of-coding-questions/badge.svg)](https://github.com/DragonSSS/curated-list-of-coding-questions/actions)
-
 # Curated List of Top 75 LeetCode Questions
 
 ## TL;DR
-
 [source](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
-
 ## Array (10)
-
 |  #  |   Title  |  Solution  |  Difficulty  |  Comment  |
 |-----|----------|------------|--------------|-----------|
-|  1  |[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/TwoSum.java)|Easy| hashtable `{key: rest_value, value: index}`|
-| 121 |[Best Time to Buy and Sell Stock](ttps://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/BestTimeToBuyAndSellStock.java)|Easy|minPrice + maxProfit + one loop|
-| 217 |[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ContainsDuplicate.java)|Easy|hashset|
-| 238 |[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[Solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ProductOfArrayExceptSelf.java)|Medium|prefix product + backward|
-|  53 |[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MaximumSubarray.java)|Easy|dp|
-| 152 |[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MaximumProductSubarray.java)|Medium|dp|
-| 153 |[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FindMinimumInRotatedSortedArray.java)|Medium|binary search, compare `nums[mid]` with `nums[end]`|
-|  33 |[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/SearchInRotatedSortedArray.java)|Medium|binary search, compare `target` with `nums[mid]`|
-|  15 |[3Sum](https://leetcode.com/problems/3sum/)|[Solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ThreeSum.java)|Medium|sorted + two pointers|
-|  11 |[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ContainerWithMostWater.java)|Medium|two pointers|
+|  1  |[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/TwoSum.java)| Easy | hashtable `{key: rest_value, value: index}`|
 
+- [x] LeetCode #121 Best Time to Buy and Sell Stock
+  - [description](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/BestTimeToBuyAndSellStock.java)
+  - hint: minPrice + maxProfit + one loop
+
+- [x] LeetCode #217 Contains Duplicate
+  - [description](https://leetcode.com/problems/contains-duplicate/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ContainsDuplicate.java)
+  - hint: hashset
+
+- [x] LeetCode #238 Product of Array Except Self
+  - [description](https://leetcode.com/problems/product-of-array-except-self/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ProductOfArrayExceptSelf.java)
+  - hint: prefix product + backward
+
+- [x] LeetCode #53 Maximum Subarray
+  - [description](https://leetcode.com/problems/maximum-subarray/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MaximumSubarray.java)
+  - hint: dp
+
+- [x] LeetCode #53 Maximum Product Subarray
+  - [description](https://leetcode.com/problems/maximum-product-subarray/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MaximumProductSubarray.java)
+  - hint: dp
+
+- [x] LeetCode #153 Find Minimum in Rotated Sorted Array
+  - [description](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FindMinimumInRotatedSortedArray.java)
+  - hint: binary search, compare `nums[mid]` with `nums[end]`
+ 
+- [x] LeetCode #33 Search in Rotated Sorted Array
+  - [description](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/SearchInRotatedSortedArray.java)
+  - hint: binary search, compare `target` with `nums[mid]`
+  
+- [x] LeetCode #15 3Sum
+  - [description](https://leetcode.com/problems/3sum/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ThreeSum.java)
+  - hint: sorted + two pointers
+
+- [x] LeetCode #11 Container With Most Water
+  - [description](https://leetcode.com/problems/container-with-most-water/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ContainerWithMostWater.java)
+  - hint: two pointers
+  
 ### Binary (5)
 
 - [x] LeetCode #371 Sum of Two Integers
