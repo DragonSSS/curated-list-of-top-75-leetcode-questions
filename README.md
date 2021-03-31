@@ -11,7 +11,7 @@
 |  #  |   Title  |  Solution  |  Difficulty  |  Comment  |
 |-----|----------|------------|--------------|-----------|
 |  1  |[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/TwoSum.java)|Easy| hashtable `{key: rest_value, value: index}`|
-| 121 |[Best Time to Buy and Sell Stock](ttps://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/BestTimeToBuyAndSellStock.java)|Easy|minPrice + maxProfit + one loop|
+| 121 |[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/BestTimeToBuyAndSellStock.java)|Easy|minPrice + maxProfit + one loop|
 | 217 |[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ContainsDuplicate.java)|Easy|hashset|
 | 238 |[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[Solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ProductOfArrayExceptSelf.java)|Medium|prefix product + backward|
 |  53 |[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MaximumSubarray.java)|Easy|dp|
