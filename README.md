@@ -215,32 +215,32 @@
 
 - [x] LeetCode #206 Reverse Linked List
   - [description](https://leetcode.com/problems/reverse-linked-list/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/ReverseLinkedList.java)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/ReverseLinkedList.java)
   - hint: previous ListNode pointer
 
 - [x] LeetCode #141 Linked List Cycle
   - [description](https://leetcode.com/problems/linked-list-cycle/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/LinkedListCycle.java)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/LinkedListCycle.java)
   - hint: slow and fast pointers
   
 - [x] LeetCode #21 Merge Two Sorted Lists
   - [description](https://leetcode.com/problems/merge-two-sorted-lists/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/MergeTwoSortedLists.java)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/MergeTwoSortedLists.java)
   - hint: two pointers with while loop + extra linked list
 
 - [x] LeetCode #23 Merge k Sorted Lists
   - [description](https://leetcode.com/problems/merge-k-sorted-lists/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/MergeKSortedLists.java)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/MergeKSortedLists.java)
   - hint: heap/priority queue or merge sort
 
 - [x] LeetCode #19 Remove Nth Node From End of List
   - [description](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/RemoveNthNodeFromEndOfList.java)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/RemoveNthNodeFromEndOfList.java)
   - hint: slow and fast pointers + sliding window
 
 - [x] LeetCode #143 Reorder List
   - [description](https://leetcode.com/problems/reorder-list/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/ReorderList.java)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/ReorderList.java)
   - hint: find the mid to split two linked lists, reverse second one and merge two linked list into one
   
 ## Matrix (4)
@@ -545,7 +545,13 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/LongestPalindrome.java)
   - hint: hashtable
 
-- [ ] LeetCode #1306 Jump Game III (DP)
+- [x] LeetCode #1306 Jump Game III (DP)
   - [description](https://leetcode.com/problems/jump-game-iii/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/JumpGameIII.java)
   - hint: top-down + memorization + recursion
+
+- [x] LeetCode #445 Add Two Numbers II (Linked List)
+  - [description](https://leetcode.com/problems/add-two-numbers-ii/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/AddTwoNumbersII.java)
+  - hint: two stack, pop up both and record carry
 -->
