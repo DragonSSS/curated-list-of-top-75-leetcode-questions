@@ -406,6 +406,18 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/FindMedianfromDataStream.java)
   - hint: two priorityQueue as heap, smallHalf as reverse order, largeHalf as increasing order
 
+## High Frequency (Bonus)
+
+### Array
+
+- [ ] LeetCode #4 Median of Two Sorted Arrays
+  - [description](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+
+- [x] LeetCode #42 Trapping Rain Water
+  - [description](https://leetcode.com/problems/trapping-rain-water/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/TrappingRainWater.java)
+  - hint: two pointers or you can use two arrays to record leftMax and rightMax
+  
 <!---
 ## Misc
 
@@ -471,9 +483,6 @@
   - [description](https://leetcode.com/problems/range-sum-query-2d-immutable/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/RangeSumQuery2D.java)
   - hint: dp
-
-- [ ] LeetCode #42 Trapping Rain Water
-  - [description](https://leetcode.com/problems/trapping-rain-water/)
 
 - [ ] LeetCode #234 Palindrome Linked List (Linked List)
   - [description](https://leetcode.com/problems/palindrome-linked-list/)
