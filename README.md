@@ -412,6 +412,8 @@
 
 - [ ] LeetCode #4 Median of Two Sorted Arrays
   - [description](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MedianOfTwoSortedArrays.java)
+  - hint: binary search with the shortest array, cut two arrays and compare leftMax/rightMin
 
 - [x] LeetCode #42 Trapping Rain Water
   - [description](https://leetcode.com/problems/trapping-rain-water/)
