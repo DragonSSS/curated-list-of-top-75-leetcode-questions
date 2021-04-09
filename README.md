@@ -565,4 +565,9 @@
   - [description](https://leetcode.com/problems/add-two-numbers-ii/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/AddTwoNumbersII.java)
   - hint: two stack, pop up both and record carry
+
+- [x] LeetCode #366 Find Leaves of Binary Tree (Tree)
+  - [description](https://leetcode.com/problems/find-leaves-of-binary-tree/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/FindLeavesOfBinaryTree.java)
+  - hint: recursion using height to the deepest TreeNode as index of arraylist
 -->
