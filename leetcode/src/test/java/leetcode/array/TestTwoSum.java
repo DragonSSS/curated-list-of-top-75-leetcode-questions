@@ -8,9 +8,8 @@ public class TestTwoSum {
 
     @Test
     public void testTwoSum() {
-        TwoSum s = new TwoSum();
-        int[] result = s.twoSum( new int[] {1,2,3}, 5);
-        //System.out.print(Arrays.toString(result));
-        assertEquals(Arrays.toString(result), "[1, 2]");
+        TwoSum testInstance = new TwoSum();
+        int[] result = testInstance.twoSum( new int[] {1,2,3}, 5);
+        assertEquals("[1, 2]", Arrays.toString(result));
     }
 }
