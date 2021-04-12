@@ -410,7 +410,7 @@
 
 ### Array
 
-- [ ] LeetCode #4 Median of Two Sorted Arrays
+- [x] LeetCode #4 Median of Two Sorted Arrays
   - [description](https://leetcode.com/problems/median-of-two-sorted-arrays/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MedianOfTwoSortedArrays.java)
   - hint: binary search with the shortest array, cut two arrays and compare leftMax/rightMin
@@ -570,4 +570,9 @@
   - [description](https://leetcode.com/problems/find-leaves-of-binary-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/FindLeavesOfBinaryTree.java)
   - hint: recursion using height to the deepest TreeNode as index of arraylist
+
+- [x] LeetCode #863 All Nodes Distance K in Binary Tree (Tree)
+  - [description](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/AllNodesDistanceKInBinaryTree.java)
+  - hint: convert tree to graph via hashmap, avoid duplicates via hashset, bfs with queue or dfs with recursion
 -->
