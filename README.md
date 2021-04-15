@@ -420,6 +420,13 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/TrappingRainWater.java)
   - hint: two pointers or you can use two arrays to record leftMax and rightMax
   
+### Dynamic Programming
+
+- [ ] LeetCode #741 Cherry Pickup
+  - [description](https://leetcode.com/problems/cherry-pickup/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/CherryPickup.java)
+  - hint: 
+  
 <!---
 ## Misc
 
@@ -441,7 +448,7 @@
 - [x] LeetCode #332 Reconstruct Itinerary (Graph)
   - [description](https://leetcode.com/problems/reconstruct-itinerary/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/ReconstructItinerary.java)
-  - hint: dfs + priorityQueue
+  - hint: dfs + priorityQueue + `list.add(0, ticket)` for reverse result list
   
 - [ ] LeetCode #64 Minimum Path Sum (DP)
   - [description](https://leetcode.com/problems/minimum-path-sum/)
