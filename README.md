@@ -422,11 +422,19 @@
   
 ### Dynamic Programming
 
-- [ ] LeetCode #741 Cherry Pickup
+- [x] LeetCode #741 Cherry Pickup
   - [description](https://leetcode.com/problems/cherry-pickup/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/CherryPickup.java)
-  - hint: 
+  - hint: TODO
   
+### Tree
+
+- [ ] LeetCode #95 Unique Binary Search Trees II
+  - [description](https://leetcode.com/problems/unique-binary-search-trees-ii/)
+
+- [ ] LeetCode #96 Unique Binary Search Trees
+  - [description](https://leetcode.com/problems/unique-binary-search-trees/)
+
 <!---
 ## Misc
 
