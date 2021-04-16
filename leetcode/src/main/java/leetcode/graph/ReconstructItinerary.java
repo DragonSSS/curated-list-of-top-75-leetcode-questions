@@ -12,8 +12,7 @@ public class ReconstructItinerary {
     public List<String> findItinerary(List<List<String>> tickets) {
         List<String> res = new ArrayList<>();
         Map<String, Queue<String>> graph = new HashMap<>();
-
-        // build graph using PriorityQueue
+        // build graph
         for(List<String> ticket : tickets) {
             graph.putIfAbsent(ticket.get(0), new PriorityQueue<>());
             graph.get(ticket.get(0)).offer(ticket.get(1));
@@ -23,16 +22,12 @@ public class ReconstructItinerary {
     }
 
     private void helper(String ticket, Map<String, Queue<String>> graph, List<String> res) {
-        // trick 1 kind of post traversal with removing previous edge
+        // trick 1
         while(graph.containsKey(ticket) && !graph.get(ticket).isEmpty()) {
             String next = graph.get(ticket).poll();
             helper(next, graph, res);
         }
-        // trick 2 kind of adding to stack then reverse it by pop
+        // trick 2
         res.add(0, ticket);
-    }
-
-    private boolean helper_backtracking(String start, Map<String, List<String>> graph, List<String> res){
-        return false;
     }
 }
