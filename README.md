@@ -427,6 +427,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/CherryPickup.java)
   - hint: TODO
   
+- [x] LeetCode #343 Integer Break
+  - [description](https://leetcode.com/problems/integer-break/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/IntegerBreak.java)
+  - hint: use dp array to record max product for `i`, the formula is `dp[i] = Math.max(dp[i], Math.max(j * (i - j), dp[i - j] * j));` where `i` starts with 3 and `j` smaller than `i`
+  
 ### Tree
 
 - [ ] LeetCode #95 Unique Binary Search Trees II
