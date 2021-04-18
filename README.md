@@ -439,6 +439,8 @@
 
 - [ ] LeetCode #96 Unique Binary Search Trees
   - [description](https://leetcode.com/problems/unique-binary-search-trees/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/UniqueBinarySearchTrees.java)
+  - hint: 
 
 <!---
 ## Misc
