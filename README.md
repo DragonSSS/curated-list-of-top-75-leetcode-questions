@@ -437,10 +437,10 @@
 - [ ] LeetCode #95 Unique Binary Search Trees II
   - [description](https://leetcode.com/problems/unique-binary-search-trees-ii/)
 
-- [ ] LeetCode #96 Unique Binary Search Trees
+- [x] LeetCode #96 Unique Binary Search Trees
   - [description](https://leetcode.com/problems/unique-binary-search-trees/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/UniqueBinarySearchTrees.java)
-  - hint: 
+  - hint: recursion (top-down) + memorization or dp: `dp[i] += dp[j - 1] (left substree) * dp[i - j] (right subtree)` where `i` is the number of node (value), `j` is the current root
 
 <!---
 ## Misc
