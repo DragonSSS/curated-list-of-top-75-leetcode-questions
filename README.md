@@ -434,9 +434,11 @@
   
 ### Tree
 
-- [ ] LeetCode #95 Unique Binary Search Trees II
+- [x] LeetCode #95 Unique Binary Search Trees II
   - [description](https://leetcode.com/problems/unique-binary-search-trees-ii/)
-
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/UniqueBinarySearchTreesII.java)
+  - hint: recursion (top-down) + calculate sub left tree and sub right tree, store new root node with these two sub trees
+  
 - [x] LeetCode #96 Unique Binary Search Trees
   - [description](https://leetcode.com/problems/unique-binary-search-trees/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/UniqueBinarySearchTrees.java)
