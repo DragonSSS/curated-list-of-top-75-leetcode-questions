@@ -408,6 +408,20 @@
 
 ## High Frequency (Bonus)
 
+### Graph
+
+- [x] LeetCode #332 Reconstruct Itinerary
+  - [description](https://leetcode.com/problems/reconstruct-itinerary/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/ReconstructItinerary.java)
+  - hint: post traversal with removing edge: dfs + priorityQueue + `list.add(0, ticket)` for reverse result list or backtracking with dfs
+  
+### DFS
+
+- [x] LeetCode #332 Reconstruct Itinerary
+  - [description](https://leetcode.com/problems/reconstruct-itinerary/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/ReconstructItinerary.java)
+  - hint: post traversal with removing edge: dfs + priorityQueue + `list.add(0, ticket)` for reverse result list or backtracking with dfs
+
 ### Array
 
 - [x] LeetCode #4 Median of Two Sorted Arrays
@@ -425,7 +439,7 @@
 - [x] LeetCode #741 Cherry Pickup
   - [description](https://leetcode.com/problems/cherry-pickup/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/CherryPickup.java)
-  - hint: TODO
+  - hint: simulate two ppl collect cherries together to right-down corner cell, return `Integer.MIN_VALUE` for invalid path
   
 - [x] LeetCode #343 Integer Break
   - [description](https://leetcode.com/problems/integer-break/)
@@ -461,11 +475,6 @@
   - [description](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/FindAllAnagramsInString.java)
   - hint: sliding window + hashtable + two pointers
-  
-- [x] LeetCode #332 Reconstruct Itinerary (Graph)
-  - [description](https://leetcode.com/problems/reconstruct-itinerary/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/ReconstructItinerary.java)
-  - hint: dfs + priorityQueue + `list.add(0, ticket)` for reverse result list
   
 - [ ] LeetCode #64 Minimum Path Sum (DP)
   - [description](https://leetcode.com/problems/minimum-path-sum/)
