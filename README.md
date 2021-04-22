@@ -422,6 +422,14 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/ReconstructItinerary.java)
   - hint: post traversal with removing edge: dfs + priorityQueue + `list.add(0, ticket)` for reverse result list or backtracking with dfs
 
+### BFS
+
+- [x] LeetCode #199 Binary Tree Right Side View
+  - [description](https://leetcode.com/problems/binary-tree-right-side-view/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BinaryTreeRightSideView.java)
+  - hint: bfs via queue to do level traversal and pick up last node at each level
+  
+
 ### Array
 
 - [x] LeetCode #4 Median of Two Sorted Arrays
@@ -458,6 +466,18 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/UniqueBinarySearchTrees.java)
   - hint: recursion (top-down) + memorization or dp: `dp[i] += dp[j - 1] (left substree) * dp[i - j] (right subtree)` where `i` is the number of node (value), `j` is the current root
 
+- [x] LeetCode #199 Binary Tree Right Side View
+  - [description](https://leetcode.com/problems/binary-tree-right-side-view/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BinaryTreeRightSideView.java)
+  - hint: bfs via queue to do level traversal and pick up last node at each level
+  
+### Greedy
+
+- [ ] LeetCode #134 Gas Station
+  - [description](https://leetcode.com/problems/gas-station/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/GasStation.java)
+  - hint: 
+  
 <!---
 ## Misc
 
