@@ -470,13 +470,18 @@
   - [description](https://leetcode.com/problems/binary-tree-right-side-view/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BinaryTreeRightSideView.java)
   - hint: bfs via queue to do level traversal and pick up last node at each level
+
+- [ ] LeetCode #314 Binary Tree Vertical Order Traversal (Tree, BFS, even DFS or HashTable)
+  - [description](https://leetcode.com/problems/binary-tree-vertical-order-traversal)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BinaryTreeVerticalOrderTraversal.java)
+  - hint: 
   
 ### Greedy
 
 - [ ] LeetCode #134 Gas Station
   - [description](https://leetcode.com/problems/gas-station/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/GasStation.java)
-  - hint: 
+  - hint: record current gas amount and total gas amount across all stations
   
 <!---
 ## Misc
@@ -628,4 +633,10 @@
   - [description](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/AllNodesDistanceKInBinaryTree.java)
   - hint: convert tree to graph via hashmap, avoid duplicates via hashset, bfs with queue or dfs with recursion
+
+- [ ] LeetCode #987 Vertical Order Traversal of a Binary Tree (Tree)
+  - [https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/VerticalOrderTraversalOfBinaryTree.java)
+  - hint:
+  
 -->
