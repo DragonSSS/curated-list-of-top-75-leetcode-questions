@@ -474,14 +474,26 @@
 - [x] LeetCode #314 Binary Tree Vertical Order Traversal (Tree, BFS, even DFS or HashTable)
   - [description](https://leetcode.com/problems/binary-tree-vertical-order-traversal)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BinaryTreeVerticalOrderTraversal.java)
+  - hint: dfs to get min and max vertical levels (root is 0), bfs (two queues) to put node into res with vertical level, or hashtable(treemap, red-black tree) + bfs (two queues)
+  
+### LinkedList
+
+- [ ] LeetCode #61 Rotate List
+  - [description](https://leetcode.com/problems/rotate-list/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/RotateList.java)
   - hint: 
   
+### Stack
+
+- [ ] LeetCode #71 Simplify Path
+  - [description](https://leetcode.com/problems/simplify-path/)
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
   - [description](https://leetcode.com/problems/gas-station/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/GasStation.java)
-  - hint: record current gas amount and total gas amount across all stations
+  - hint: record current gas amount and total gas amount across all stations, update res station if current gas amount is negative, check total gas amount at end for returning `-1`
   
 <!---
 ## Misc
