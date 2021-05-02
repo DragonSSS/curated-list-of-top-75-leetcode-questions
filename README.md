@@ -478,10 +478,10 @@
   
 ### LinkedList
 
-- [ ] LeetCode #61 Rotate List
+- [x] LeetCode #61 Rotate List
   - [description](https://leetcode.com/problems/rotate-list/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/RotateList.java)
-  - hint: 
+  - hint: make the linked list to a circle and count total number `n` of nodes, then iterate nodes and return new head using `n - k % n - 1`
   
 ### Stack
 
