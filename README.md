@@ -649,5 +649,5 @@
 - [x] LeetCode #987 Vertical Order Traversal of a Binary Tree (Tree)
   - [https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/VerticalOrderTraversalOfBinaryTree.java)
-  - hint: similar to  LeetCode #314, but use dfs (vertical and horizontal params) + `TreeMap<Integer, TreeMap<Integer, PriorityQueue<Integer>>> map`
+  - hint: similar to  LeetCode #314, but use dfs (vertical and horizontal params) + `TreeMap<Integer, TreeMap<Integer, PriorityQueue<Integer>>> map`, time complexity `O(nlogn)`
 -->

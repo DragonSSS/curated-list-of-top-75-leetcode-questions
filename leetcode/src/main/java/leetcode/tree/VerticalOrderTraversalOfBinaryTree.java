@@ -17,12 +17,14 @@ public class VerticalOrderTraversalOfBinaryTree {
             return res;
 
         Map<Integer, Map<Integer, PriorityQueue<Integer>>> map = new TreeMap<>();
+        // O(nlogn)
         helper(root, 0, 0 , map);
 
         for(Map<Integer, PriorityQueue<Integer>> subMap : map.values()) {
             res.add(new ArrayList<>());
             for(PriorityQueue<Integer> pq : subMap.values()) {
                 while(!pq.isEmpty()) {
+                    // O(logn)
                     res.get(res.size() - 1).add(pq.poll());
                 }
             }
@@ -36,6 +38,7 @@ public class VerticalOrderTraversalOfBinaryTree {
 
         map.putIfAbsent(hor, new TreeMap<>());
         map.get(hor).putIfAbsent(ver, new PriorityQueue<>());
+        // O(logn)
         map.get(hor).get(ver).offer(node.val);
 
         helper(node.left, hor - 1, ver + 1, map);
