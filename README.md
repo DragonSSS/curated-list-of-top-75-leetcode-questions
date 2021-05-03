@@ -487,6 +487,15 @@
 
 - [ ] LeetCode #71 Simplify Path
   - [description](https://leetcode.com/problems/simplify-path/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/SimplifyPath.java)
+  - hint: 
+  
+### String
+
+- [ ] LeetCode #71 Simplify Path
+  - [description](https://leetcode.com/problems/simplify-path/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/SimplifyPath.java)
+  - hint:
 
 ### Greedy
 
