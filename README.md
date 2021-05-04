@@ -485,17 +485,17 @@
   
 ### Stack
 
-- [ ] LeetCode #71 Simplify Path
+- [x] LeetCode #71 Simplify Path
   - [description](https://leetcode.com/problems/simplify-path/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/SimplifyPath.java)
-  - hint: 
+  - hint: use stack to track the parent directory, `..` triggers `stack.pop()` and `dir` triggers `stack.push(dir)`
   
 ### String
 
-- [ ] LeetCode #71 Simplify Path
+- [x] LeetCode #71 Simplify Path
   - [description](https://leetcode.com/problems/simplify-path/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/SimplifyPath.java)
-  - hint:
+  - hint: use stack to track the parent directory, `..` triggers `stack.pop()` and `dir` triggers `stack.push(dir)`
 
 ### Greedy
 
