@@ -656,7 +656,12 @@
   - hint: convert tree to graph via hashmap, avoid duplicates via hashset, bfs with queue or dfs with recursion
 
 - [x] LeetCode #987 Vertical Order Traversal of a Binary Tree (Tree)
-  - [https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
+  - [description](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/VerticalOrderTraversalOfBinaryTree.java)
   - hint: similar to  LeetCode #314, but use dfs (vertical and horizontal params) + `TreeMap<Integer, TreeMap<Integer, PriorityQueue<Integer>>> map`, time complexity `O(nlogn)`
+
+- [x] LeetCode #1094 Car Pooling
+  - [description](https://leetcode.com/problems/car-pooling/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/CarPooling.java)
+  - hint: greedy, use hashmap to store the number of ppl (`pick up` - `drop off`) at each station
 -->
