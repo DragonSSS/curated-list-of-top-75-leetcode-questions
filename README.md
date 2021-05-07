@@ -417,6 +417,9 @@
   
 ### DFS
 
+- [ ] LeetCode #301 Remove Invalid Parentheses
+  - [description](https://leetcode.com/problems/remove-invalid-parentheses/)
+
 - [x] LeetCode #332 Reconstruct Itinerary
   - [description](https://leetcode.com/problems/reconstruct-itinerary/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/ReconstructItinerary.java)
@@ -428,7 +431,9 @@
   - [description](https://leetcode.com/problems/binary-tree-right-side-view/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BinaryTreeRightSideView.java)
   - hint: bfs via queue to do level traversal and pick up last node at each level
-  
+
+- [ ] LeetCode #301 Remove Invalid Parentheses
+  - [description](https://leetcode.com/problems/remove-invalid-parentheses/)
 
 ### Array
 
