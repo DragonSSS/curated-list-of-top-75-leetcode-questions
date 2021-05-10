@@ -427,6 +427,9 @@
 
 ### BFS
 
+- [ ] LeetCode #103 Binary Tree Zigzag Level Order Traversal
+  - [description](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+
 - [x] LeetCode #199 Binary Tree Right Side View
   - [description](https://leetcode.com/problems/binary-tree-right-side-view/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BinaryTreeRightSideView.java)
@@ -470,6 +473,9 @@
   - [description](https://leetcode.com/problems/unique-binary-search-trees/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/UniqueBinarySearchTrees.java)
   - hint: recursion (top-down) + memorization or dp: `dp[i] += dp[j - 1] (left substree) * dp[i - j] (right subtree)` where `i` is the number of node (value), `j` is the current root
+
+- [ ] LeetCode #103 Binary Tree Zigzag Level Order Traversal
+  - [description](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
 
 - [x] LeetCode #199 Binary Tree Right Side View
   - [description](https://leetcode.com/problems/binary-tree-right-side-view/)
