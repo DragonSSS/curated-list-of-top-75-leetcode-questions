@@ -427,8 +427,10 @@
 
 ### BFS
 
-- [ ] LeetCode #103 Binary Tree Zigzag Level Order Traversal
+- [x] LeetCode #103 Binary Tree Zigzag Level Order Traversal
   - [description](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BinaryTreeZigzagLevelOrderTraversal.java)
+  - hint: bfs with queue or dfs recursion
 
 - [x] LeetCode #199 Binary Tree Right Side View
   - [description](https://leetcode.com/problems/binary-tree-right-side-view/)
@@ -474,8 +476,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/UniqueBinarySearchTrees.java)
   - hint: recursion (top-down) + memorization or dp: `dp[i] += dp[j - 1] (left substree) * dp[i - j] (right subtree)` where `i` is the number of node (value), `j` is the current root
 
-- [ ] LeetCode #103 Binary Tree Zigzag Level Order Traversal
+- [x] LeetCode #103 Binary Tree Zigzag Level Order Traversal
   - [description](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BinaryTreeZigzagLevelOrderTraversal.java)
+  - hint: bfs with queue or dfs recursion
 
 - [x] LeetCode #199 Binary Tree Right Side View
   - [description](https://leetcode.com/problems/binary-tree-right-side-view/)
