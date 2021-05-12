@@ -678,5 +678,5 @@
 - [x] LeetCode #1094 Car Pooling
   - [description](https://leetcode.com/problems/car-pooling/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/CarPooling.java)
-  - hint: greedy, use hashmap to store the number of ppl (`pick up` - `drop off`) at each station
+  - hint: greedy, use hashmap to store the number of ppl (`pick up` - `drop off`) at each station (the relative change in amount of ppl per station)
 -->
