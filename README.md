@@ -417,8 +417,10 @@
   
 ### DFS
 
-- [ ] LeetCode #301 Remove Invalid Parentheses
+- [x] LeetCode #301 Remove Invalid Parentheses
   - [description](https://leetcode.com/problems/remove-invalid-parentheses/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/RemoveInvalidParentheses.java)
+  - hint: dfs, use count as stack to figure out where delete invalid char, record lastRemove position, reverse string for another round dfs to cover the case with more left parentheses
 
 - [x] LeetCode #332 Reconstruct Itinerary
   - [description](https://leetcode.com/problems/reconstruct-itinerary/)
