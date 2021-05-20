@@ -13,7 +13,7 @@ public class RemoveInvalidParentheses {
     private void helper(String s, char[] pattern, int start, int lastRemove, List<String> res) {
         int count = 0;
 
-        for(int i = 0; i < s.length(); i++) {
+        for(int i = start; i < s.length(); i++) {
             if(s.charAt(i) == pattern[0])
                 count++;
             if(s.charAt(i) == pattern[1])
@@ -24,10 +24,13 @@ public class RemoveInvalidParentheses {
                 for(int j = lastRemove; j <= i; j++) {
                     char c = s.charAt(j);
                     if(c == pattern[1] && (j == lastRemove || c != s.charAt( j - 1) )) {
+                        // prefix s.substring(0, j) is valid
                         String rest = s.substring(0, j) + s.substring(j + 1);
                         helper(rest, pattern, i, j, res);
                     }
                 }
+                // important after try to remove invalid parentheses at diff positions, return
+                // otherwise the invalid string will be in res
                 return;
             }
         }
