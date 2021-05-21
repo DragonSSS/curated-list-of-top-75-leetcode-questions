@@ -1,10 +1,14 @@
 package leetcode.string;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
+import java.util.Set;
 
 public class RemoveInvalidParentheses {
-    public List<String> removeInvalidParentheses(String s) {
+    public List<String> removeInvalidParentheses_dfs(String s) {
         List<String> res = new ArrayList<>();
         helper(s, new char[]{'(', ')'}, 0, 0, res);
         return res;
@@ -41,5 +45,50 @@ public class RemoveInvalidParentheses {
         } else {
             res.add(reverse);
         }
+    }
+
+    public List<String> removeInvalidParentheses_bfs(String s) {
+        List<String> res = new ArrayList<>();
+        if(s == null)
+            return res;
+        Queue<String> queue = new LinkedList<>();
+        // avoid duplicates
+        Set<String> visited = new HashSet<>();
+        queue.offer(s);
+        visited.add(s);
+
+        boolean foundValid = false;
+        while (!queue.isEmpty()) {
+            s = queue.poll();
+            if(isValid(s)) {
+                res.add(s);
+                foundValid = true;
+            }
+
+            // we don't do any further bfs using items pending in the queue since any further bfs would only yield strings of smaller length.
+            // However the items already in queue need to be processed since there could be other solutions of the same length.
+            if (foundValid) continue;
+            for(int i = 0; i < s.length(); i++) {
+                if(s.charAt(i) != '(' && s.charAt(i) != ')') continue;
+                String rest = s.substring(0, i) + s.substring(i + 1);
+                if(!visited.contains(rest)) {
+                    queue.offer(rest);
+                    visited.add(rest);
+                }
+            }
+        }
+
+        return res;
+    }
+
+    private boolean isValid(String s) {
+        int count = 0;
+        for(int i = 0; i < s.length(); i++) {
+            if(s.charAt(i) == '(') count++;
+            if(s.charAt(i) == ')') count--;
+            if (count < 0)
+                return false;
+        }
+        return count == 0;
     }
 }
