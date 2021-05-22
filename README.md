@@ -520,7 +520,13 @@
   - [description](https://leetcode.com/problems/gas-station/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/GasStation.java)
   - hint: record current gas amount and total gas amount across all stations, update res station if current gas amount is negative, check total gas amount at end for returning `-1`
-  
+
+### Backtracking
+
+- [ ] LeetCode #40 Combination Sum II (dfs + backtracking)
+  - [description](https://leetcode.com/problems/combination-sum-ii/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/CombinationSumII.java)\
+  - hint:
 <!---
 ## Misc
 
