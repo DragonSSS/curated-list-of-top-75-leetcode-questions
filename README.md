@@ -527,6 +527,13 @@
   - [description](https://leetcode.com/problems/combination-sum-ii/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/CombinationSumII.java)
   - hint: dfs + backtracking
+  
+### Heap
+
+- [ ] LeetCode #378 Kth Smallest Element in a Sorted Matrix (binary search)
+  - [description](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/KthSmallestElementInSortedMatrix.java)
+  - hint: priorityQueue
 <!---
 ## Misc
 
