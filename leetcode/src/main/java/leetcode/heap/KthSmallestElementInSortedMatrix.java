@@ -22,4 +22,8 @@ public class KthSmallestElementInSortedMatrix {
     public int kthSmallest_binarySearch(int[][] matrix, int k) {
         return 0;
     }
+
+    private int CountLessOrEqual(int[][] matrix, int val, int n) {
+        return 0;
+    }
 }
