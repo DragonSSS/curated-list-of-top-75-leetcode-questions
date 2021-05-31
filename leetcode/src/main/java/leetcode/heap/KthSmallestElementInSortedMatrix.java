@@ -18,4 +18,8 @@ public class KthSmallestElementInSortedMatrix {
 
         return res;
     }
+
+    public int kthSmallest_binarySearch(int[][] matrix, int k) {
+        return 0;
+    }
 }
