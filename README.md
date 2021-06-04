@@ -533,7 +533,7 @@
 - [x] LeetCode #378 Kth Smallest Element in a Sorted Matrix
   - [description](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/KthSmallestElementInSortedMatrix.java)
-  - hint: priorityQueue
+  - hint: priorityQueue or binary search by counting the numbers that are less or equal mid value (`low = matrix[0][0]` and `high = matrix[n - 1][n - 1]`)
 <!---
 ## Misc
 
