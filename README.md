@@ -537,7 +537,7 @@
 <!---
 ## Misc
 
-- [ ] LeetCode #34 Find First and Last Position of Element in Sorted Array (Array)
+- [x] LeetCode #34 Find First and Last Position of Element in Sorted Array (Array)
   - [description](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FindFirstLastPositionOfElementInSortedArray.java)
   - hint: two binary search
