@@ -552,9 +552,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/FindAllAnagramsInString.java)
   - hint: sliding window + hashtable + two pointers
   
-- [ ] LeetCode #64 Minimum Path Sum (DP)
+- [x] LeetCode #64 Minimum Path Sum (DP)
   - [description](https://leetcode.com/problems/minimum-path-sum/)
-  - hint: top-down + memorization + recursion
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/MinimumPathSum.java)
+  - hint: top-down + memorization + recursion (trick: reverse the path)
   
 - [ ] LeetCode #979 Distribute Coins in Binary Tree (Tree)
   - [description](https://leetcode.com/problems/distribute-coins-in-binary-tree/)
