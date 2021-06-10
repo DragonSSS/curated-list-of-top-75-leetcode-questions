@@ -557,9 +557,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/MinimumPathSum.java)
   - hint: top-down + memorization + recursion (trick: reverse the path)
   
-- [ ] LeetCode #979 Distribute Coins in Binary Tree (Tree)
+- [x] LeetCode #979 Distribute Coins in Binary Tree (Tree)
   - [description](https://leetcode.com/problems/distribute-coins-in-binary-tree/)
-  - hint: dfs + post-order
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/DistributeCoinsInBinaryTree.java)
+  - hint: dfs + post-order traversal recursively
   
 - [ ] LeetCode #1443 Minimum Time to Collect All Apples in a Tree (Tree)
   - [description](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)
