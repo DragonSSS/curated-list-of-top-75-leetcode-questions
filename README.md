@@ -696,4 +696,9 @@
   - [description](https://leetcode.com/problems/car-pooling/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/CarPooling.java)
   - hint: greedy, use hashmap to store the number of ppl (`pick up` - `drop off`) at each station (the relative change in amount of ppl per station)
+
+- [x] LeetCode #513 Find Bottom Left Tree Value (Tree)
+  - [description](https://leetcode.com/problems/find-bottom-left-tree-value/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/FindBottomLeftTreeValue.java)
+  - hint: bfs using queue or dfs recursively
 -->
