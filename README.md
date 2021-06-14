@@ -564,6 +564,7 @@
   
 - [x] LeetCode #1443 Minimum Time to Collect All Apples in a Tree (Graph)
   - [description](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/MinimumTimeToCollectAllApplesInTree.java)
   - hint: dfs + memorization, each node makes count += 2 except node 0
   
 - [x] LeetCode #140 Word Break II (DP)
