@@ -13,5 +13,6 @@ jobs:
         with:
           distribution: 'adopt'
           java-version: '8'
+          javafx: true
       - name: Build with Gradle
         run: ./gradlew clean build
