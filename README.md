@@ -534,6 +534,9 @@
   - [description](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/KthSmallestElementInSortedMatrix.java)
   - hint: priorityQueue or binary search by counting the numbers that are less or equal mid value (`low = matrix[0][0]` and `high = matrix[n - 1][n - 1]`)
+
+### Design
+
 <!---
 ## Misc
 
@@ -600,7 +603,9 @@
 
 - [ ] LeetCode #234 Palindrome Linked List (Linked List)
   - [description](https://leetcode.com/problems/palindrome-linked-list/)
- 
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/PalindromeLinkedList.java)
+  - hint: 
+
 - [x] LeetCode #78 Subsets (Array)
   - [description](https://leetcode.com/problems/subsets/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/Subsets.java)
@@ -654,8 +659,9 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/MinimumCostToCutStick.java)
   - hint: dp or recursion + memorization (top-down)
 
-- [ ] LeetCode #116 Populating Next Right Pointers in Each Node (Tree)
+- [x] LeetCode #116 Populating Next Right Pointers in Each Node (Tree)
   - [description](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/PopulatingNextRightPointersInEachNode.java)
   - hint: BFS via queue
 
 - [x] LeetCode #518 Coin Change 2 （DP）
@@ -702,4 +708,8 @@
   - [description](https://leetcode.com/problems/find-bottom-left-tree-value/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/FindBottomLeftTreeValue.java)
   - hint: bfs using queue or dfs recursively
+
+- [ ] LeeCode #1396 Design Underground System (Design)
+  - [description](https://leetcode.com/problems/find-bottom-left-tree-value/)
+  - hint: two hashtables
 -->
