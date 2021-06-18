@@ -601,10 +601,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/RangeSumQuery2D.java)
   - hint: dp
 
-- [ ] LeetCode #234 Palindrome Linked List (Linked List)
+- [x] LeetCode #234 Palindrome Linked List (Linked List)
   - [description](https://leetcode.com/problems/palindrome-linked-list/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/PalindromeLinkedList.java)
-  - hint: 
+  - hint: slow and fast pointers, reverse second part and compare two sub linkedlists
 
 - [x] LeetCode #78 Subsets (Array)
   - [description](https://leetcode.com/problems/subsets/)
