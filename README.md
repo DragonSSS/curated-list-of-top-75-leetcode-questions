@@ -709,7 +709,12 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/FindBottomLeftTreeValue.java)
   - hint: bfs using queue or dfs recursively
 
-- [ ] LeeCode #1396 Design Underground System (Design)
-  - [description](https://leetcode.com/problems/find-bottom-left-tree-value/)
+- [x] LeetCode #1396 Design Underground System (Design)
+  - [description](https://leetcode.com/problems/design-underground-system/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/UndergroundSystem.java)
   - hint: two hashtables
+
+- [ ] LeetCode #365 Water and Jug Problem
+  - [description](https://leetcode.com/problems/water-and-jug-problem/)
+  - hint:
 -->
