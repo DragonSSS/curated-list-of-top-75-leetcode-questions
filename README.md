@@ -716,5 +716,5 @@
 
 - [ ] LeetCode #365 Water and Jug Problem
   - [description](https://leetcode.com/problems/water-and-jug-problem/)
-  - hint:
+  - hint: bfs `[x, -x, y, -y]`
 -->

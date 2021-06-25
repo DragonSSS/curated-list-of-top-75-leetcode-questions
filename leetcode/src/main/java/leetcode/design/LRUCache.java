@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.design;
 
 /**
 146. LRU Cache
