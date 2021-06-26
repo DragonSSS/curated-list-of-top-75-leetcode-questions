@@ -714,7 +714,8 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/UndergroundSystem.java)
   - hint: two hashtables
 
-- [ ] LeetCode #365 Water and Jug Problem
+- [x] LeetCode #365 Water and Jug Problem
   - [description](https://leetcode.com/problems/water-and-jug-problem/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/WaterAndJugProblem.java)
   - hint: bfs `[x, -x, y, -y]`
 -->
