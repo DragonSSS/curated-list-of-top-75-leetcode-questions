@@ -34,7 +34,18 @@ public class LRUCache {
     }
 
     public void put(int key, int value) {
+        if(map.containsKey(key)) {
+            Node node = map.get(key);
+            node.value = value;
+            removeNode(node);
+            setHead(node);
+        } else {
+            if (map.size() < cap) {
 
+            } else {
+
+            }
+        }
     }
 
     private void removeNode(Node node) {
