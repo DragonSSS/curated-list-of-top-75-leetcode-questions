@@ -40,10 +40,17 @@ public class LRUCache {
             removeNode(node);
             setHead(node);
         } else {
-            if (map.size() < cap) {
-
+            Node node = new Node(key, value);
+            if (map.size() >= cap) {
+                map.remove(tail.key);
+                tail = tail.pre;
+                if (tail != null)
+                    tail.next = null;
+                setHead(node);
+                map.put(key, node);
             } else {
-
+                setHead(node);
+                map.put(key, node);
             }
         }
     }
