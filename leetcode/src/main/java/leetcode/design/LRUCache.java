@@ -56,10 +56,32 @@ public class LRUCache {
     }
 
     private void removeNode(Node node) {
+        Node cur = node;
+        Node pre = cur.pre;
+        Node next = cur.next;
 
+        if (pre != null) {
+            pre.next = next;
+        } else  {
+            head = next;
+        }
+
+        if (next != null) {
+            next.pre = pre;
+        } else {
+            tail = pre;
+        }
     }
 
-    private  void setHead(Node node) {
-
+    private void setHead(Node node) {
+        node.next = head;
+        node.pre = null;
+        if ( head != null) {
+            head.pre = node;
+        }
+        head = node;
+        if (tail == null) {
+            tail = node;
+        }
     }
 }
