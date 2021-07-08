@@ -506,6 +506,11 @@
   - [description](https://leetcode.com/problems/simplify-path/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/SimplifyPath.java)
   - hint: use stack to track the parent directory, `..` triggers `stack.pop()` and `dir` triggers `stack.push(dir)`
+
+- [ ] LeetCode #173 Binary Search Tree Iterator (Tree)
+  - [description](https://leetcode.com/problems/binary-search-tree-iterator/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BinarySearchTreeIterator.java)
+  - hint:
   
 ### String
 
