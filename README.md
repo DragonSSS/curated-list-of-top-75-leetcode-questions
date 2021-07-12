@@ -507,10 +507,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/SimplifyPath.java)
   - hint: use stack to track the parent directory, `..` triggers `stack.pop()` and `dir` triggers `stack.push(dir)`
 
-- [ ] LeetCode #173 Binary Search Tree Iterator (Tree)
+- [x] LeetCode #173 Binary Search Tree Iterator (Tree)
   - [description](https://leetcode.com/problems/binary-search-tree-iterator/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BinarySearchTreeIterator.java)
-  - hint:
+  - hint: keep pushing left node into stack, if stack is not empty, it means `hasNext()` returns true. `next()` add right node into stack
   
 ### String
 
