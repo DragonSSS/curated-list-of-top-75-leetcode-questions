@@ -493,10 +493,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BinaryTreeVerticalOrderTraversal.java)
   - hint: dfs to get min and max vertical levels (root is 0), bfs (two queues) to put node into res with vertical level, or hashtable(treemap, red-black tree) + bfs (two queues)
   
-- [ ] LeetCode #99 Recover Binary Search Tree
+- [x] LeetCode #99 Recover Binary Search Tree
   - [description](https://leetcode.com/problems/recover-binary-search-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/RecoverBinarySearchTree.java)
-  - hint:
+  - hint: in-order traversal, use gloabl variables to track the previous, first, and second nodes. At end swap values between first and second nodes.
 
 ### LinkedList
 
