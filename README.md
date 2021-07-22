@@ -453,6 +453,10 @@
   - [description](https://leetcode.com/problems/trapping-rain-water/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/TrappingRainWater.java)
   - hint: two pointers or you can use two arrays to record leftMax and rightMax
+
+- [ ] LeetCode #162 Find Peak Element
+  - [description](hhttps://leetcode.com/problems/find-peak-element/)
+  - hint:
   
 ### Dynamic Programming
 
