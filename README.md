@@ -456,6 +456,7 @@
 
 - [ ] LeetCode #162 Find Peak Element
   - [description](hhttps://leetcode.com/problems/find-peak-element/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FindPeakElement.java)
   - hint:
   
 ### Dynamic Programming
