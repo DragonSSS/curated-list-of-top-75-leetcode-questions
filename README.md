@@ -454,10 +454,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/TrappingRainWater.java)
   - hint: two pointers or you can use two arrays to record leftMax and rightMax
 
-- [ ] LeetCode #162 Find Peak Element
+- [x] LeetCode #162 Find Peak Element
   - [description](hhttps://leetcode.com/problems/find-peak-element/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FindPeakElement.java)
-  - hint:
+  - hint: linear scan to find the first index that drops or binary search via comparing `nums[mid]` and `nums[mid + 1]`
   
 ### Dynamic Programming
 
