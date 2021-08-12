@@ -684,6 +684,9 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/PopulatingNextRightPointersInEachNode.java)
   - hint: BFS via queue
 
+- [ ] LeetCode #117 Populating Next Right Pointers in Each Node II (Tree)
+  - [description](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
+
 - [x] LeetCode #518 Coin Change 2 （DP）
   - [description](https://leetcode.com/problems/coin-change-2/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/CoinChange2.java)
