@@ -758,5 +758,6 @@
 
 - [ ] LeetCode #404 Sum of Left Leaves
   - [description](https://leetcode.com/problems/sum-of-left-leaves/)
-  - hint:
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/SumOfLeftLeaves.java)
+  - hint: dfs recursively
 -->
