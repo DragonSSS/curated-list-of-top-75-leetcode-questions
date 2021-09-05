@@ -507,6 +507,10 @@
   - [description](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/SumRootToLeafNumbers.java)
   - hint: dfs recursion with `int currentSum = sum * 10 + node.val`
+
+- [ ] LeetCode #222 Count Complete Tree Nodes
+  - [description](https://leetcode.com/problems/count-complete-tree-nodes/)
+  - hint:
   
 ### LinkedList
 
