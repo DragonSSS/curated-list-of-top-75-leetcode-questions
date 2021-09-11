@@ -759,7 +759,8 @@
 
 - [ ] LeetCode #130 Surrounded Regions
   - [description](https://leetcode.com/problems/surrounded-regions/)
-  - hint:
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/matrix/SurroundedRegions.java)
+  - hint: dfs recursively
 
 - [ ] LeetCode #404 Sum of Left Leaves
   - [description](https://leetcode.com/problems/sum-of-left-leaves/)
