@@ -757,12 +757,12 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/CountGoodNodesInBinaryTree.java)
   - hint: pre-order + compare node val with current max
 
-- [ ] LeetCode #130 Surrounded Regions
+- [x] LeetCode #130 Surrounded Regions
   - [description](https://leetcode.com/problems/surrounded-regions/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/matrix/SurroundedRegions.java)
-  - hint: dfs recursively
+  - hint: dfs recursively to find the island that cannot be flipped
 
-- [ ] LeetCode #404 Sum of Left Leaves
+- [x] LeetCode #404 Sum of Left Leaves
   - [description](https://leetcode.com/problems/sum-of-left-leaves/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/SumOfLeftLeaves.java)
   - hint: dfs recursively
