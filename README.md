@@ -766,4 +766,9 @@
   - [description](https://leetcode.com/problems/sum-of-left-leaves/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/SumOfLeftLeaves.java)
   - hint: dfs recursively
+
+- [ ] LeetCode #310 Minimum Height Trees
+  - [description](https://leetcode.com/problems/minimum-height-trees/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/MinimumHeightTrees.java)
+  - hint: 
 -->
