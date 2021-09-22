@@ -409,42 +409,39 @@
 ## High Frequency (Bonus)
 
 ### Graph
-
-- [x] LeetCode #332 Reconstruct Itinerary
-  - [description](https://leetcode.com/problems/reconstruct-itinerary/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/ReconstructItinerary.java)
-  - hint: post traversal with removing edge: dfs + priorityQueue + `list.add(0, ticket)` for reverse result list or backtracking with dfs
   
 ### DFS
 
-- [x] LeetCode #301 Remove Invalid Parentheses
-  - [description](https://leetcode.com/problems/remove-invalid-parentheses/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/RemoveInvalidParentheses.java)
-  - hint: dfs, use count as stack to figure out where delete invalid char, record lastRemove position, reverse string for another round dfs to cover the case with more left parentheses
-
 - [x] LeetCode #332 Reconstruct Itinerary
   - [description](https://leetcode.com/problems/reconstruct-itinerary/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/ReconstructItinerary.java)
   - hint: post traversal with removing edge: dfs + priorityQueue + `list.add(0, ticket)` for reverse result list or backtracking with dfs
+
+- [ ] LeetCode #529 Minesweeper
+  - [description](https://leetcode.com/problems/minesweeper/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/Minesweeper.java)
+  - hint: 
 
 ### BFS
 
 - [x] LeetCode #103 Binary Tree Zigzag Level Order Traversal
   - [description](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BinaryTreeZigzagLevelOrderTraversal.java)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/BinaryTreeZigzagLevelOrderTraversal.java)
   - hint: bfs with queue or dfs recursion
 
 - [x] LeetCode #199 Binary Tree Right Side View
   - [description](https://leetcode.com/problems/binary-tree-right-side-view/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BinaryTreeRightSideView.java)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/BinaryTreeRightSideView.java)
   - hint: bfs via queue to do level traversal and pick up last node at each level
 
-- [ ] LeetCode #301 Remove Invalid Parentheses
+- [x] LeetCode #301 Remove Invalid Parentheses
   - [description](https://leetcode.com/problems/remove-invalid-parentheses/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/RemoveInvalidParentheses.java)
+  - hint: dfs, use count as stack to figure out where delete invalid char, record lastRemove position, reverse string for another round dfs to cover the case with more left parentheses
 
-- [ ] LeetCode #310 Minimum Height Trees
+- [x] LeetCode #310 Minimum Height Trees
   - [description](https://leetcode.com/problems/minimum-height-trees/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/MinimumHeightTrees.java)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/MinimumHeightTrees.java)
   - hint: BFS topological sorting
 
 ### Array
@@ -762,7 +759,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/CountGoodNodesInBinaryTree.java)
   - hint: pre-order + compare node val with current max
 
-- [x] LeetCode #130 Surrounded Regions
+- [x] LeetCode #130 Surrounded Regions (move to dfs)
   - [description](https://leetcode.com/problems/surrounded-regions/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/matrix/SurroundedRegions.java)
   - hint: dfs recursively to find the island that cannot be flipped

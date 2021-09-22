@@ -1,4 +1,4 @@
-package leetcode.string;
+package leetcode.bfs;
 
 import java.util.ArrayList;
 import java.util.HashSet;
