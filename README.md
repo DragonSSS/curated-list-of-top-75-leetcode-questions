@@ -420,7 +420,11 @@
 - [ ] LeetCode #529 Minesweeper
   - [description](https://leetcode.com/problems/minesweeper/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/Minesweeper.java)
-  - hint: 
+  - hint:
+
+- [ ] LeetCode #547 Number of Provinces
+  - [description](https://leetcode.com/problems/number-of-provinces/)
+  - hint:
 
 ### BFS
 
