@@ -426,6 +426,10 @@
   - [description](https://leetcode.com/problems/number-of-provinces/)
   - hint:
 
+- [ ] LeetCode #695 Max Area of Island
+  - [description](https://leetcode.com/problems/number-of-provinces/)
+  - hint:
+
 ### BFS
 
 - [x] LeetCode #103 Binary Tree Zigzag Level Order Traversal
