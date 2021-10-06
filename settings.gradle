@@ -1,4 +1,3 @@
 rootProject.name = 'curated-list-of-top-75-leetcode-questions'
 include 'leetcode'
-include 'hackerrank'
 
