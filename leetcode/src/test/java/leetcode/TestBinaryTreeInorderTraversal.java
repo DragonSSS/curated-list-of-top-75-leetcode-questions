@@ -5,6 +5,8 @@ import util.TreeNode;
 
 import java.util.List;
 
+import static org.junit.Assert.assertEquals;
+
 public class TestBinaryTreeInorderTraversal {
 
     private TreeNode root;
@@ -18,5 +20,6 @@ public class TestBinaryTreeInorderTraversal {
     public void testInorderTraversal(){
         BinaryTreeInorderTraversal btit = new BinaryTreeInorderTraversal();
         List<Integer> result = btit.inorderTraversal(root);
+        assertEquals(0, result.size());
     }
 }

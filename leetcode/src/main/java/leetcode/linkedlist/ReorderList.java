@@ -1,6 +1,5 @@
 package leetcode.linkedlist;
 
-import org.w3c.dom.ls.LSException;
 import util.ListNode;
 
 public class ReorderList {

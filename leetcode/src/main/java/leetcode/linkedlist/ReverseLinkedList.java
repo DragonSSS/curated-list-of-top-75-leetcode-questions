@@ -21,12 +21,12 @@ public class ReverseLinkedList {
     }
 
     // recursion
-    private ListNode helper(ListNode node, ListNode pre) {
-        if (node == null)
-            return pre;
+    // private ListNode helper(ListNode node, ListNode pre) {
+    //     if (node == null)
+    //         return pre;
 
-        ListNode temp = node.next;
-        node.next = pre;
-        return helper(temp, node);
-    }
+    //     ListNode temp = node.next;
+    //     node.next = pre;
+    //     return helper(temp, node);
+    // }
 }
