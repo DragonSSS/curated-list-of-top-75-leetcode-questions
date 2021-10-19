@@ -417,14 +417,15 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/ReconstructItinerary.java)
   - hint: post traversal with removing edge: dfs + priorityQueue + `list.add(0, ticket)` for reverse result list or backtracking with dfs
 
-- [ ] LeetCode #529 Minesweeper
+- [x] LeetCode #529 Minesweeper
   - [description](https://leetcode.com/problems/minesweeper/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/Minesweeper.java)
   - hint: dfs recursion
 
 - [ ] LeetCode #547 Number of Provinces
   - [description](https://leetcode.com/problems/number-of-provinces/)
-  - hint:
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/NumberOfProvinces.java)
+  - hint: dfs or bfs recursively
 
 - [ ] LeetCode #695 Max Area of Island
   - [description](https://leetcode.com/problems/number-of-provinces/)
