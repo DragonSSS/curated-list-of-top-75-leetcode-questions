@@ -428,8 +428,9 @@
   - hint: dfs or bfs recursively
 
 - [ ] LeetCode #695 Max Area of Island
-  - [description](https://leetcode.com/problems/number-of-provinces/)
-  - hint:
+  - [description](https://leetcode.com/problems/max-area-of-island/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/MaxAreaOfIsland.java)
+  - hint: dfs recursion
 
 ### BFS
 
