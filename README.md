@@ -422,7 +422,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/Minesweeper.java)
   - hint: dfs recursion
 
-- [ ] LeetCode #547 Number of Provinces
+- [x] LeetCode #547 Number of Provinces
   - [description](https://leetcode.com/problems/number-of-provinces/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/NumberOfProvinces.java)
   - hint: dfs or bfs recursively
