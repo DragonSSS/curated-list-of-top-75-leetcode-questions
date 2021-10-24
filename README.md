@@ -1,5 +1,4 @@
 [![curated-list-of-coding-questions-master Actions Status](https://github.com/DragonSSS/curated-list-of-coding-questions/workflows/curated-list-of-coding-questions/badge.svg)](https://github.com/DragonSSS/curated-list-of-coding-questions/actions)
-<a href="https://codeclimate.com/github/DragonSSS/curated-list-of-top-75-leetcode-questions/maintainability"><img src="https://api.codeclimate.com/v1/badges/f2d40fff3f8c283ddb2f/maintainability" /></a>
 
 # Curated List of Top 75 LeetCode Questions
 
