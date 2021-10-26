@@ -427,10 +427,15 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/NumberOfProvinces.java)
   - hint: dfs or bfs recursively
 
-- [ ] LeetCode #695 Max Area of Island
+- [x] LeetCode #695 Max Area of Island
   - [description](https://leetcode.com/problems/max-area-of-island/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/MaxAreaOfIsland.java)
   - hint: dfs recursion
+
+- [ ] LeetCode #934 Shortest Bridge
+  - [description](https://leetcode.com/problems/shortest-bridge/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/ShortestBridge.java)
+  - hint: dfs + bfs
 
 ### BFS
 
