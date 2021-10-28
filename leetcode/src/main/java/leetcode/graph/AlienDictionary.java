@@ -3,6 +3,7 @@ package leetcode.graph;
 import java.util.*;
 
 public class AlienDictionary {
+    // Kahn's algorithm or dfs approach
     public String alienOrder(String[] words) {
         if (words == null || words.length == 0)
             return "";
