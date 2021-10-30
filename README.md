@@ -432,10 +432,20 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/MaxAreaOfIsland.java)
   - hint: dfs recursion
 
-- [ ] LeetCode #934 Shortest Bridge
+- [x] LeetCode #934 Shortest Bridge
   - [description](https://leetcode.com/problems/shortest-bridge/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/ShortestBridge.java)
   - hint: dfs + bfs
+
+- [x] LeetCode #341 Flatten Nested List Iterator
+  - [description](https://leetcode.com/problems/flatten-nested-list-iterator/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/FlattenNestedListIterator.java)
+  - hint: dfs recursion to flatten nested list
+
+- [ ] LeetCode #694 Number of Distinct Islands
+  - [description](https://leetcode.com/problems/number-of-distinct-islands/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/NumberOfDistinctIslands.java)
+  - hint: dfs recursion, use appending string of directions to store unique shape of island. remember to append `back` after recursion
 
 ### BFS
 
