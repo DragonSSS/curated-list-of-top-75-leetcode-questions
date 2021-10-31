@@ -22,6 +22,11 @@ public class AlienDictionary {
             String first = words[i - 1];
             String second = words[i];
 
+            // make sure it is valid lexicographical order, otherwise return empty string. e.g.
+            // ["abc", "ab"]
+            if ( first.length() > second.length() && first.startsWith(second))
+            return "";
+
             char[] arrFirst = first.toCharArray();
             char[] arrSecond = second.toCharArray();
 
@@ -38,9 +43,18 @@ public class AlienDictionary {
             }
         }
 
+        // make sure it is DAG. e.g.
+        // ["z","x","a","zb","zx"]
+        // z -> x - > a -> z
+        // b -> x
+        boolean[] visited = new boolean[26];
+        for (char c : graph.keySet()) {
+            if (isCircle(graph, visited, c))
+                return "";
+        }
+
         //bfs using queue
         Queue<Character> queue = new LinkedList<>();
-
         for (char c : graph.keySet()) {
             if (indegree[c - 'a'] == 0) {
                 queue.offer(c);
@@ -61,5 +75,18 @@ public class AlienDictionary {
         }
 
         return res.toString();
+    }
+
+    private boolean isCircle(Map<Character, List<Character>> graph, boolean[] visited, char c) {
+        if (visited[c - 'a']) {
+            return true;
+        }
+        visited[c - 'a'] = true;
+        for (char next : graph.get(c)) {
+            if (isCircle(graph, visited, next))
+                return true;
+        }
+        visited[c - 'a'] = false;
+        return false;
     }
 }
