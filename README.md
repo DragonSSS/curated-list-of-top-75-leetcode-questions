@@ -442,7 +442,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/FlattenNestedListIterator.java)
   - hint: dfs recursion to flatten nested list
 
-- [ ] LeetCode #694 Number of Distinct Islands
+- [x] LeetCode #694 Number of Distinct Islands
   - [description](https://leetcode.com/problems/number-of-distinct-islands/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/NumberOfDistinctIslands.java)
   - hint: dfs recursion, use appending string of directions to store unique shape of island. remember to append `back` after recursion
@@ -468,6 +468,12 @@
   - [description](https://leetcode.com/problems/minimum-height-trees/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/MinimumHeightTrees.java)
   - hint: BFS topological sorting
+
+- [ ] LeetCode #127 Word Ladder
+  - [description](https://leetcode.com/problems/word-ladder/)
+
+- [ ] LeetCode #815 Bus Routes
+  - [description](https://leetcode.com/problems/bus-routes/)
 
 ### Array
 
@@ -682,9 +688,6 @@
   - [description](https://leetcode.com/problems/first-unique-character-in-a-string/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/FirstUniqueCharacterInString.java)
   - hint: hashtable records frequency of chars
-  
-- [ ] LeetCode #127 Word Ladder (Graph)
-  - [description](https://leetcode.com/problems/word-ladder/)
   
 - [ ] LeetCode #126 Word Ladder II (Graph)
   - [description](https://leetcode.com/problems/word-ladder-ii/)
