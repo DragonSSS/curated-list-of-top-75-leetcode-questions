@@ -469,8 +469,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/MinimumHeightTrees.java)
   - hint: BFS topological sorting
 
-- [ ] LeetCode #127 Word Ladder
+- [x] LeetCode #127 Word Ladder
   - [description](https://leetcode.com/problems/word-ladder/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/WordLadder.java)
+  - hint: bfs, find next possible word by replacing one character every time
 
 - [ ] LeetCode #815 Bus Routes
   - [description](https://leetcode.com/problems/bus-routes/)
