@@ -477,6 +477,10 @@
 - [ ] LeetCode #815 Bus Routes
   - [description](https://leetcode.com/problems/bus-routes/)
 
+- [ ] LeetCode #787 Cheapest Flights Within K Stops (DFS, BFS, PriorityQueue)
+  - [description](https://leetcode.com/problems/bus-routes/)
+  - hint: bfs, dfs(backtracing), Dijkstra's algorithm(minHeap) or Bellman Ford(dp)
+
 ### Array
 
 - [x] LeetCode #4 Median of Two Sorted Arrays
