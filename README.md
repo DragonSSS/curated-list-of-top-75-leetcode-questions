@@ -570,7 +570,17 @@
   - [description](https://leetcode.com/problems/binary-search-tree-iterator/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BinarySearchTreeIterator.java)
   - hint: keep pushing left node into stack, if stack is not empty, it means `hasNext()` returns true. `next()` add right node into stack
-  
+
+- [x] LeetCode #496 Next Greater Element I
+  - [description](https://leetcode.com/problems/next-greater-element-i/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/NextGreaterElementI.java)
+  - hint: use stack to store the number that hasn't found next greater element, pop up if current one `>` peek of stack
+
+- [x] LeetCode #503 Next Greater Element II
+  - [description](https://leetcode.com/problems/next-greater-element-ii/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/NextGreaterElementII.java)
+  - hint: compared to #496 Next Greater Element I, loop twice and use stack to sore index instead
+
 ### String
 
 - [x] LeetCode #71 Simplify Path
