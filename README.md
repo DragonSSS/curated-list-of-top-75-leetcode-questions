@@ -447,6 +447,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/NumberOfDistinctIslands.java)
   - hint: dfs recursion, use appending string of directions to store unique shape of island. remember to append `back` after recursion
 
+- [x] LeetCode #339 Nested List Weight Sum
+  - [description](https://leetcode.com/problems/nested-list-weight-sum/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/NestedListWeightSum.java)
+  - hint: dfs recursion
+
 ### BFS
 
 - [x] LeetCode #103 Binary Tree Zigzag Level Order Traversal
