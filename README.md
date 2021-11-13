@@ -452,8 +452,9 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/NestedListWeightSum.java)
   - hint: dfs recursion
 
-- [ ] LeetCode #363 Nested List Weight Sum II
+- [x] LeetCode #363 Nested List Weight Sum II
   - [description](https://leetcode.com/problems/nested-list-weight-sum-ii/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/NestedListWeightSumII.java)
   - hint: two dfs recursion, one find max depth, the other calculate weight sum
 
 ### BFS
