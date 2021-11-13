@@ -457,6 +457,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/NestedListWeightSumII.java)
   - hint: two dfs recursion, one find max depth, the other calculate weight sum
 
+- [ ] LeetCode #399 Evaluate Division
+  - [description](https://leetcode.com/problems/evaluate-division/)
+  - hint: build graph based on each equation, dfs to find each result of query
+
 ### BFS
 
 - [x] LeetCode #103 Binary Tree Zigzag Level Order Traversal
@@ -486,6 +490,8 @@
 
 - [ ] LeetCode #815 Bus Routes
   - [description](https://leetcode.com/problems/bus-routes/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/BusRoutes.java)
+  - hint:
 
 - [ ] LeetCode #787 Cheapest Flights Within K Stops (DFS, BFS, PriorityQueue)
   - [description](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
