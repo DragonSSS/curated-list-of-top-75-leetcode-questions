@@ -457,8 +457,9 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/NestedListWeightSumII.java)
   - hint: two dfs recursion, one find max depth, the other calculate weight sum
 
-- [ ] LeetCode #399 Evaluate Division
+- [x] LeetCode #399 Evaluate Division
   - [description](https://leetcode.com/problems/evaluate-division/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/EvaluateDivision.java)
   - hint: build graph based on each equation, dfs to find each result of query
 
 ### BFS
