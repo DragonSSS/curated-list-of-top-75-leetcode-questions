@@ -462,7 +462,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/EvaluateDivision.java)
   - hint: build graph based on each equation, dfs to find each result of query
 
-- [ ] LeetCode #463 Island Perimeter
+- [x] LeetCode #463 Island Perimeter
   - [description](https://leetcode.com/problems/island-perimeter/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/IslandPerimeter.java)
   - hint: dfs recursion + memorization, trick is to make the condition when return 1 or 0 in recursion func.
@@ -471,10 +471,18 @@
   - [description](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
   - hint: dfs recursion + memorization (like addressing DP question)
 
-- [ ] LeetCode #733 Flood Fill
+- [x] LeetCode #733 Flood Fill
   - [description](https://leetcode.com/problems/flood-fill/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/FloodFill.java)
   - hint: dfs recursion
+
+- [ ] LeetCode #472 Concatenated Words
+  - [description](https://leetcode.com/problems/concatenated-words/)
+  - hint:
+
+- [ ] LeetCode #827 Making A Large Island
+  - [description](https://leetcode.com/problems/making-a-large-island/)
+  - hint:
 
 ### BFS
 
