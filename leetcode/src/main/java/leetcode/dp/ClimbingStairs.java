@@ -1,5 +1,8 @@
 package leetcode.dp;
 
+import java.util.Map;
+import java.util.HashMap;
+
 public class ClimbingStairs {
     // 1 <= n <= 45
     // step 1 or 2 to n
@@ -27,6 +30,29 @@ public class ClimbingStairs {
             res = memo[n];
 
         memo[n] = res;
+        return res;
+    }
+
+    int[] steps = new int[]{1, 2};
+    public int climbStairs_dfs(int n) {
+        Map<Integer, Integer> memo = new HashMap<>();
+        return helper(n, memo);
+    }
+
+    private int helper(int remain, Map<Integer, Integer> memo) {
+        if (memo.containsKey(remain))
+            return memo.get(remain);
+        int res = 0;
+        if (remain < 0)
+            return 0;
+        if (remain == 0) {
+            return 1;
+        }
+        
+        for (int next : steps) {
+           res += helper(remain - next, memo);
+        }
+        memo.put(remain, res);
         return res;
     }
 }
