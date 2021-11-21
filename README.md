@@ -467,8 +467,9 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/IslandPerimeter.java)
   - hint: dfs recursion + memorization, trick is to make the condition when return 1 or 0 in recursion func.
 
-- [ ] LeetCode #329 Longest Increasing Path in a Matrix
+- [x] LeetCode #329 Longest Increasing Path in a Matrix
   - [description](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/LongestIncreasingPathInMatrix.java)
   - hint: dfs recursion + memorization (like addressing DP question)
 
 - [x] LeetCode #733 Flood Fill
