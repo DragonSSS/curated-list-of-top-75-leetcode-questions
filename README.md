@@ -485,6 +485,10 @@
   - [description](https://leetcode.com/problems/making-a-large-island/)
   - hint:
 
+- [ ] LeetCode #1192 Critical Connections in a Network
+  - [description](https://leetcode.com/problems/critical-connections-in-a-network/)
+  - hint:
+
 ### BFS
 
 - [x] LeetCode #103 Binary Tree Zigzag Level Order Traversal
