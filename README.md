@@ -477,9 +477,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/FloodFill.java)
   - hint: dfs recursion
 
-- [ ] LeetCode #472 Concatenated Words
+- [x] LeetCode #472 Concatenated Words
   - [description](https://leetcode.com/problems/concatenated-words/)
-  - hint:
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/ConcatenatedWords.java)
+  - hint: use trie to store all words, dfs for each word with memeorization and check existence of prefix word by `TrieNode.isWord`
 
 - [ ] LeetCode #827 Making A Large Island
   - [description](https://leetcode.com/problems/making-a-large-island/)
