@@ -486,9 +486,10 @@
   - [description](https://leetcode.com/problems/making-a-large-island/)
   - hint:
 
-- [ ] LeetCode #1192 Critical Connections in a Network
+- [x] LeetCode #1192 Critical Connections in a Network
   - [description](https://leetcode.com/problems/critical-connections-in-a-network/)
-  - hint:
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/CriticalConnectionsInNetwork.java)
+  - hint: Tarjan's algorithm, record visitedTimes and lowTimes for each node, dfs with visited set, previous node and current node
 
 ### BFS
 
