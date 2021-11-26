@@ -482,9 +482,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/ConcatenatedWords.java)
   - hint: use trie to store all words, dfs for each word with memeorization and check existence of prefix word by `TrieNode.isWord`
 
-- [ ] LeetCode #827 Making A Large Island
+- [x] LeetCode #827 Making A Large Island
   - [description](https://leetcode.com/problems/making-a-large-island/)
-  - hint:
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/MakingALargeIsland.java)
+  - hint: group island using group index, calcualte group area by dfs and save `<group, area>` to a map, try four directions for each `gird[][] == 0` and use hash set to track visited groups, record largest area
 
 - [x] LeetCode #1192 Critical Connections in a Network
   - [description](https://leetcode.com/problems/critical-connections-in-a-network/)
