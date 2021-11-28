@@ -18,7 +18,7 @@ public class LongestIncreasingPathInMatrix {
         return finalRes;
     }
 
-    // bottom to up
+    // top-down
     private int helper(int[][] matrix, int[][] memo, int x, int y, int preVal) {
         // edge/bottom case
         if (x < 0 || x >= matrix.length || y < 0 || y >= matrix[0].length || preVal >= matrix[x][y]) {
@@ -31,7 +31,7 @@ public class LongestIncreasingPathInMatrix {
         }
         
 
-        // dfs, bottom to up
+        // dfs, top-down
         int res = 0;
         for (int[] dir : dirs) {
             res = Math.max(res, helper(matrix, memo, x + dir[0], y + dir[1], matrix[x][y]));
