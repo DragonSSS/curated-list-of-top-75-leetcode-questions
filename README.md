@@ -526,7 +526,7 @@
 
 - [x] LeetCode #787 Cheapest Flights Within K Stops (DFS, BFS, PriorityQueue)
   - [description](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
-    - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/CheapestFlightsWithinKStops.java)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/CheapestFlightsWithinKStops.java)
   - hint: bfs, dfs(backtracing), Dijkstra's algorithm(minHeap) or Bellman Ford(dp)
 
 ### Array
