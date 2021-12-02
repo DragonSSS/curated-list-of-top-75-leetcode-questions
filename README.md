@@ -519,10 +519,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/WordLadder.java)
   - hint: bfs, find next possible word by replacing one character every time
 
-- [ ] LeetCode #815 Bus Routes
+- [x] LeetCode #815 Bus Routes
   - [description](https://leetcode.com/problems/bus-routes/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/BusRoutes.java)
-  - hint:
+  - hint: bfs finds shortest number of buses from source to target, build graph based on which buses (value) could reach each stop (key)
 
 - [x] LeetCode #787 Cheapest Flights Within K Stops (DFS, BFS, PriorityQueue)
   - [description](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
