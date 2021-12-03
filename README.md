@@ -860,4 +860,12 @@
   - [description](https://leetcode.com/problems/sum-of-left-leaves/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/SumOfLeftLeaves.java)
   - hint: dfs recursively
+
+- [ ] LeetCode #990 Satisfiability of Equality Equations
+  - [description](https://leetcode.com/problems/satisfiability-of-equality-equations/)
+  - hint: build graph, find conflict by dfs
+
+- [ ] LeetCode #1319 Number of Operations to Make Network Connected
+  - [description](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
+  - hint: similar to number of islands
 -->
