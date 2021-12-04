@@ -534,6 +534,14 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/MinimumKnightMoves.java)
   - hint: only bfs on positive ones instead of searching both positieve and negative
 
+- [ ] LeeCode #909 Snakes and Ladders
+  - [description](https://leetcode.com/problems/snakes-and-ladders/)
+    - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/SnakesAndLadders.java)
+    - hint:
+
+- [ ] LeetCode #126 Word Ladder II
+  - [description](https://leetcode.com/problems/word-ladder-ii/)
+
 ### Array
 
 - [x] LeetCode #4 Median of Two Sorted Arrays
@@ -757,9 +765,6 @@
   - [description](https://leetcode.com/problems/first-unique-character-in-a-string/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/FirstUniqueCharacterInString.java)
   - hint: hashtable records frequency of chars
-  
-- [ ] LeetCode #126 Word Ladder II (Graph)
-  - [description](https://leetcode.com/problems/word-ladder-ii/)
 
 - [ ] LeetCode #1268 Search Suggestions System (Tree)
   - [description](https://leetcode.com/problems/search-suggestions-system/)
