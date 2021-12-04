@@ -529,6 +529,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/CheapestFlightsWithinKStops.java)
   - hint: bfs, dfs(backtracing), Dijkstra's algorithm(minHeap) or Bellman Ford(dp)
 
+- [x] LeetCode #1197 Minimum Knight Moves
+  - [description](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/MinimumKnightMoves.java)
+  - hint: only bfs on positive ones instead of searching both positieve and negative
+
 ### Array
 
 - [x] LeetCode #4 Median of Two Sorted Arrays
