@@ -534,10 +534,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/MinimumKnightMoves.java)
   - hint: only bfs on positive ones instead of searching both positieve and negative
 
-- [ ] LeeCode #909 Snakes and Ladders
+- [x] LeeCode #909 Snakes and Ladders
   - [description](https://leetcode.com/problems/snakes-and-ladders/)
     - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/SnakesAndLadders.java)
-    - hint:
+    - hint: bfs with square value `1 to n^2`, one tricky function for converting square one `1 to n^2` to board matrix value `board[x][y]`
 
 - [ ] LeetCode #126 Word Ladder II
   - [description](https://leetcode.com/problems/word-ladder-ii/)
@@ -878,4 +878,8 @@
 - [ ] LeetCode #1319 Number of Operations to Make Network Connected
   - [description](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
   - hint: similar to number of islands
+
+- [ ] LeetCode #45 Jump Game II
+  - [description](https://leetcode.com/problems/jump-game-ii/)
+  - hint: bfs or greedy
 -->
