@@ -541,6 +541,8 @@
 
 - [ ] LeetCode #126 Word Ladder II
   - [description](https://leetcode.com/problems/word-ladder-ii/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/WordLadderII.java)
+  - hint: use bfs to build the graph and record the distance between beginWord and currentWord, use dfs to find all shortest paths between beginWord and endWord
 
 ### Array
 
