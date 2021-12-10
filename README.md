@@ -544,6 +544,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/WordLadderII.java)
   - hint: use bfs to build the graph and record the distance between beginWord and currentWord, use dfs to find all shortest paths between beginWord and endWord
 
+- [x] LeetCode #210 Course Schedule II
+  - [description](https://leetcode.com/problems/course-schedule-ii/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/CourseScheduleII.java)
+  - hint: topological sort with bfs or dfs with `int[] visited, 0 - unknown, 1 - visiting, 2 - visited` to detect existing circle.
+
 ### Array
 
 - [x] LeetCode #4 Median of Two Sorted Arrays
@@ -657,6 +662,11 @@
   - [description](https://leetcode.com/problems/gas-station/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/GasStation.java)
   - hint: record current gas amount and total gas amount across all stations, update res station if current gas amount is negative, check total gas amount at end for returning `-1`
+
+- [ ] LeetCode #45 Jump Game II
+  - [description](https://leetcode.com/problems/jump-game-ii/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/JumpGameII.java)
+  - hint: bfs or greedy
 
 ### Backtracking
 
@@ -880,8 +890,4 @@
 - [ ] LeetCode #1319 Number of Operations to Make Network Connected
   - [description](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
   - hint: similar to number of islands
-
-- [ ] LeetCode #45 Jump Game II
-  - [description](https://leetcode.com/problems/jump-game-ii/)
-  - hint: bfs or greedy
 -->
