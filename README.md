@@ -663,7 +663,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/GasStation.java)
   - hint: record current gas amount and total gas amount across all stations, update res station if current gas amount is negative, check total gas amount at end for returning `-1`
 
-- [ ] LeetCode #45 Jump Game II
+- [x] LeetCode #45 Jump Game II
   - [description](https://leetcode.com/problems/jump-game-ii/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/JumpGameII.java)
   - hint: bfs or greedy
