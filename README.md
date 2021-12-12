@@ -294,7 +294,7 @@
   
 - [x] LeetCode #20 Valid Parentheses
   - [description](https://leetcode.com/problems/valid-parentheses/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/ValidPalindrome.java)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/ValidParentheses.java)
   - hint: stack
 
 - [x] LeetCode #125 Valid Palindrome
