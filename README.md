@@ -656,6 +656,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/SimplifyPath.java)
   - hint: use stack to track the parent directory, `..` triggers `stack.pop()` and `dir` triggers `stack.push(dir)`
 
+- [x] LeetCode #680 Valid Palindrome II
+  - [description](https://leetcode.com/problems/valid-palindrome-ii/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/ValidPalindromeII.java)
+  - hint: two pointers, recursively to check if it is palindrom
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
