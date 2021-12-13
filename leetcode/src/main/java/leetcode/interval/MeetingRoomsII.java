@@ -25,6 +25,10 @@ public class MeetingRoomsII {
     }*/
 
 
+    // sort the arrays by start time
+    // use priorityQueue to store finish time of each meeting
+    // poll() the value if peek() is earlier than start time of current meeting
+    // keep adding finish time into pq
     public int minMeetingRooms(int[][] intervals) {
         if (intervals == null || intervals.length == 0)
             return 0;

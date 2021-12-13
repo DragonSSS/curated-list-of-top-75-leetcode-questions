@@ -687,6 +687,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/KthSmallestElementInSortedMatrix.java)
   - hint: priorityQueue or binary search by counting the numbers that are less or equal mid value (`low = matrix[0][0]` and `high = matrix[n - 1][n - 1]`)
 
+- [x] LeetCode #973 K Closest Points to Origin
+  - [description](https://leetcode.com/problems/k-closest-points-to-origin/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/KClosestPointsToOrigin.java)
+  - hint: use priorityQueue to store the points based on shortest distance to origin, `poll()` first kth points
+
 ### Design
 
 - [ ] LeetCode #146 LRU Cache
