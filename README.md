@@ -680,7 +680,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/CombinationSumII.java)
   - hint: dfs + backtracking
   
-### Heap
+### Heap (Priority Queue)
 
 - [x] LeetCode #378 Kth Smallest Element in a Sorted Matrix
   - [description](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
@@ -691,6 +691,11 @@
   - [description](https://leetcode.com/problems/k-closest-points-to-origin/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/KClosestPointsToOrigin.java)
   - hint: use priorityQueue to store the points based on shortest distance to origin, `poll()` first kth points
+
+- [x] LeetCode #239 Sliding Window Maximum
+  - [description](https://leetcode.com/problems/sliding-window-maximum/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/SlidingWindowMaximum.java)
+  - hint: priorityQueue is TLE, use deque to track valid index of nums that is at `peek()`, keep cleaning old index from `peek()` that is out of the window, keep cleaning useless index that has smaller value from `peekLast()`
 
 ### Design
 
