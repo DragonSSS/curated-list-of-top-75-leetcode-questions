@@ -679,6 +679,11 @@
   - [description](https://leetcode.com/problems/combination-sum-ii/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/CombinationSumII.java)
   - hint: dfs + backtracking
+
+- [x] LeetCode #526 Beautiful Arrangement
+  - [description](https://leetcode.com/problems/beautiful-arrangement/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/BeautifulArrangement.java)
+  - hint: try every number at each index position, dfs + backtracking
   
 ### Heap (Priority Queue)
 
