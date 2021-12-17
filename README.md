@@ -685,10 +685,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/BeautifulArrangement.java)
   - hint: try every number at each index position, dfs + backtracking
 
-- [ ] LeetCode #94 Restore IP Addresses
+- [x] LeetCode #94 Restore IP Addresses
   - [description](https://leetcode.com/problems/restore-ip-addresses/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/RestoreIpAddresses.java)
-  - hint:
+  - hint: dfs + backtracking
 
 ### Heap (Priority Queue)
 
