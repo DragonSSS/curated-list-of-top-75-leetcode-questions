@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Random;
 public class InsertDeleteGetRandom {
     List<Integer> res; // store the val at tail of list
-    Map<Integer, Integer> map; // store the key - value -> index - val
+    Map<Integer, Integer> map; // store the key - value -> val - index
     Random rand = new java.util.Random();
 
     public InsertDeleteGetRandom() {
