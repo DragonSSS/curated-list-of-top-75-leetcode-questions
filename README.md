@@ -714,8 +714,13 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/LRUCache.java)
   - hint: double linked list to set head and remove tail node, hashmap to get and put node
 
-- [ ] LeetCode #380 Insert Delete GetRandom `O(1)`
+- [x] LeetCode #380 Insert Delete GetRandom `O(1)`
   - [description](https://leetcode.com/problems/insert-delete-getrandom-o1/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/InsertDeleteGetRandom.java)
+  - hint: use list to store val, use map to store val as key and index of val as value. trick is to remove val by swapping last one with removed one
+
+- [ ] LeetCode #381 Insert Delete GetRandom `O(1)` - Duplicates allowed
+  - [description](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)
   - hint:
 
 <!---
