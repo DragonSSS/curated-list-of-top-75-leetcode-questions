@@ -719,9 +719,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/InsertDeleteGetRandom.java)
   - hint: use list to store val, use map to store val as key and index of val as value. trick is to remove val by swapping last one with removed one
 
-- [ ] LeetCode #381 Insert Delete GetRandom `O(1)` - Duplicates allowed
+- [x] LeetCode #381 Insert Delete GetRandom `O(1)` - Duplicates allowed
   - [description](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)
-  - hint:
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/InsertDeleteGetRandomDuplicates.java)
+  - hint: use list to store val, use map to store val as key and the list of indexes of val as value. trick is to remove val by swapping last one with removed one
 
 <!---
 ## Misc
