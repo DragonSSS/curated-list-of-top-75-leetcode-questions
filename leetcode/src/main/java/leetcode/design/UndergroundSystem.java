@@ -1,36 +1,55 @@
 package leetcode.design;
 
-import javafx.util.Pair;
-
 import java.util.HashMap;
 import java.util.Map;
 
 public class UndergroundSystem{
-    // calculate average time for traval, needs total time and count of travel
-    // Map<String, Pair<Integer, Integer>> checkoutMap = new HashMap<>();
-    // checkin info
-    // Map<Integer, Pair<String, Integer>> checkinMap = new HashMap<>();
+    class Checkout {
+        int totalTime;
+        int count;
+        
+        public Checkout(int totalTime, int count){
+            this.totalTime = totalTime;
+            this.count = count;
+        }
+    }
     
-    private Map<String, Pair<Integer, Integer>> checkoutMap = new HashMap<>();
-    private Map<Integer, Pair<String, Integer>> checkinMap = new HashMap<>();
+    class Checkin {
+        String station;
+        int timestamp;
+        
+        public Checkin(String station, int timestamp) {
+            this.station = station;
+            this.timestamp = timestamp;
+        }
+    }
+    // calculate average time for traval, needs total time and count of travel
+    // Map<String, Checkout> checkoutMap = new HashMap<>();
+    // checkin info, station name and timestamp
+    // Map<Integer, Checkin> checkinMap = new HashMap<>();
+    
+    Map<String, Checkout> checkoutMap;
+    Map<Integer, Checkin> checkinMap;
 
     public UndergroundSystem() {
+        checkoutMap = new HashMap<>();
+        checkinMap = new HashMap<>();
     }
     
     public void checkIn(int id, String stationName, int t) {
-        checkinMap.put(id, new Pair<>(stationName, t));
+        checkinMap.put(id, new Checkin(stationName, t));
     }
     
     public void checkOut(int id, String stationName, int t) {
-        Pair<String, Integer> checkin = checkinMap.get(id);
-        String route = checkin.getKey() + "_" + stationName;
-        int totalTime = t - checkin.getValue();
-        Pair<Integer, Integer> checkout = checkoutMap.getOrDefault(route, new Pair<>(0, 0));
-        checkoutMap.put(route, new Pair<>(checkout.getKey() + totalTime, checkout.getValue() + 1));
+        Checkin checkin = checkinMap.get(id);
+        String route = checkin.station + "_" + stationName;
+        int totalTime = t - checkin.timestamp;
+        Checkout curCheckout = checkoutMap.getOrDefault(route, new Checkout(0, 0));
+        checkoutMap.put(route, new Checkout(curCheckout.totalTime + totalTime, curCheckout.count + 1));
     }
     
     public double getAverageTime(String startStation, String endStation) {
         String route = startStation + "_" + endStation;
-        return (double) checkoutMap.get(route).getKey() / checkoutMap.get(route).getValue();
+        return (double) checkoutMap.get(route).totalTime / checkoutMap.get(route).count;
     }
 }

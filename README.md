@@ -719,6 +719,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/DesignInMemoryFileSystem.java)
   - hint: use trie with an unit class like `File`
 
+- [x] LeetCode #1396 Design Underground System
+  - [description](https://leetcode.com/problems/design-underground-system/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/UndergroundSystem.java)
+  - hint: two hashtables
+
 - [x] LeetCode #380 Insert Delete GetRandom `O(1)`
   - [description](https://leetcode.com/problems/insert-delete-getrandom-o1/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/InsertDeleteGetRandom.java)
@@ -897,11 +902,6 @@
   - [description](https://leetcode.com/problems/find-bottom-left-tree-value/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/FindBottomLeftTreeValue.java)
   - hint: bfs using queue or dfs recursively
-
-- [x] LeetCode #1396 Design Underground System (Design)
-  - [description](https://leetcode.com/problems/design-underground-system/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/UndergroundSystem.java)
-  - hint: two hashtables
 
 - [x] LeetCode #365 Water and Jug Problem
   - [description](https://leetcode.com/problems/water-and-jug-problem/)
