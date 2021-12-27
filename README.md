@@ -734,6 +734,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/InsertDeleteGetRandomDuplicates.java)
   - hint: use list to store val, use map to store val as key and the list of indexes of val as value. trick is to remove val by swapping last one with removed one
 
+- [x] LeetCode #1570 Dot Product of Two Sparse Vectors
+  - [description](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/SparseVector.java)
+  - hint: use hashmap only store the index with value which is not zero
+
 <!---
 ## Misc
 
