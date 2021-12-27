@@ -714,6 +714,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/LRUCache.java)
   - hint: double linked list to set head and remove tail node, hashmap to get and put node
 
+- [ ] LeetCode #588 Design In-Memory File System
+  - [description](https://leetcode.com/problems/design-in-memory-file-system/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/DesignInMemoryFileSystem.java)
+  - hint: trie
+
 - [x] LeetCode #380 Insert Delete GetRandom `O(1)`
   - [description](https://leetcode.com/problems/insert-delete-getrandom-o1/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/InsertDeleteGetRandom.java)
