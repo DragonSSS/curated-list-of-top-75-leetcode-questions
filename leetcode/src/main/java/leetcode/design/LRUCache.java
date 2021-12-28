@@ -16,8 +16,8 @@ class Node {
 }
 
 public class LRUCache {
-    Node head, tail;
-    Map<Integer, Node> map;
+    Node head, tail; // head and tail nodes of double linked list
+    Map<Integer, Node> map; // key - node.key, val - node
     int cap = 0;
     public LRUCache(int capacity) {
         this.cap = capacity;
