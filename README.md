@@ -744,9 +744,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/SparseVector.java)
   - hint: use hashmap only store the index with value which is not zero
 
-- [ ] LeetCode #981 Time Based Key-Value Store
+- [x] LeetCode #981 Time Based Key-Value Store
   - [description](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)
-  - hint:
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/TimeMap.java)
+  - hint: use treeMap with `floorKey()` or use arrayList( of `class Value(){}`) with binary search as the value of map
 
 <!---
 ## Misc
