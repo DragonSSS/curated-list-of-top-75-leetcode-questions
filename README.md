@@ -944,4 +944,8 @@
 - [ ] LeetCode #1319 Number of Operations to Make Network Connected
   - [description](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
   - hint: similar to number of islands
+
+- [ ] LeetCode #1171 Remove Zero Sum Consecutive Nodes from Linked List
+  - [description](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)
+  - hint: prefix sum + hashmap
 -->
