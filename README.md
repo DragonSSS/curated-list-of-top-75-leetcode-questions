@@ -774,6 +774,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/CustomStack.java)
   - hint: use arraylist, `pop()` is to remove from tail of list
 
+- [x] LeetCode #1146 Snapshot Array
+  - [description](https://leetcode.com/problems/snapshot-array/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/SnapshotArray.java)
+  - hint: use `List<Map<Integer, Integer>>` to store the diff/delta between each snapshot
+
 <!---
 ## Misc
 
