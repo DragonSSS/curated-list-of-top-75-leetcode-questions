@@ -759,6 +759,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/HitCounter.java)
   - hint: use queue or could just use two arrays as buckets (one is for `hits[300]`, the other is `times[300]` and index could be `timestamp mod 300`)
 
+- [x] LeetCode #716 Max Stack
+  - [description](https://leetcode.com/problems/max-stack/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/MaxStack.java)
+  - hint: two stack, one for max val to track current max
+
 <!---
 ## Misc
 
