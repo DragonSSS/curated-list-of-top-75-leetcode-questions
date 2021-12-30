@@ -347,7 +347,7 @@
 - [x] LeetCode #297 Serialize and Deserialize Binary Tree
   - [description](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/SerializeDeserializeBinaryTree.java)
-  - hint: tree traversal (pre-order, in-order and post-order), bfs iteratively and dfs recursively
+  - hint: tree traversal (**pre-order**, in-order and post-order), bfs iteratively and **dfs** recursively
   
 - [x] LeetCode #572 Subtree of Another Tree
   - [description](https://leetcode.com/problems/subtree-of-another-tree/)
