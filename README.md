@@ -745,9 +745,14 @@
   - hint: use hashmap only store the index with value which is not zero
 
 - [x] LeetCode #981 Time Based Key-Value Store
-  - [description](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)
+  - [description](https://leetcode.com/problems/time-based-key-value-store/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/TimeMap.java)
   - hint: use treeMap with `floorKey()` or use arrayList( of `class Value(){}`) with binary search as the value of map
+
+- [x] LeetCode #244 Shortest Word Distance II
+  - [description](https://leetcode.com/problems/shortest-word-distance-ii/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/WordDistance.java)
+  - hint: hashtable
 
 <!---
 ## Misc
