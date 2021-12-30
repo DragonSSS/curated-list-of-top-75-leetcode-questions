@@ -951,7 +951,8 @@
   - [description](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
   - hint: similar to number of islands
 
-- [ ] LeetCode #1171 Remove Zero Sum Consecutive Nodes from Linked List
+- [x] LeetCode #1171 Remove Zero Sum Consecutive Nodes from Linked List
   - [description](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/RemoveZeroSumConsecutiveNodesFromLinkedList.java)
   - hint: prefix sum + hashmap
 -->
