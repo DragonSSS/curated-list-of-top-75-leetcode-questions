@@ -762,7 +762,12 @@
 - [x] LeetCode #716 Max Stack
   - [description](https://leetcode.com/problems/max-stack/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/MaxStack.java)
-  - hint: two stack, one for max val to track current max
+  - hint: two stacks, one for max val to track current max
+
+- [x] LeetCode #155 Min Stack
+  - [description](https://leetcode.com/problems/min-stack/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/MinStack.java)
+  - hint: two stacks, one for min val to track current min
 
 <!---
 ## Misc
