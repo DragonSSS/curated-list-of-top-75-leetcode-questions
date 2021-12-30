@@ -769,6 +769,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/MinStack.java)
   - hint: two stacks, one for min val to track current min
 
+- [x] LeetCode #1381 Design a Stack With Increment Operation
+  - [description](https://leetcode.com/problems/design-a-stack-with-increment-operation/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/CustomStack.java)
+  - hint: use arraylist, `pop()` is to remove from tail of list
+
 <!---
 ## Misc
 
