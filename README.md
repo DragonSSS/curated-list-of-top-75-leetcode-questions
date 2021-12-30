@@ -754,6 +754,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/WordDistance.java)
   - hint: hashtable
 
+- [x] LeetCode #362 Design Hit Counter
+  - [description](https://leetcode.com/problems/design-hit-counter/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/HitCounter.java)
+  - hint: use queue or could just use two arrays as buckets (one is for `hits[300]`, the other is `times[300]` and index could be `timestamp mod 300`)
+
 <!---
 ## Misc
 
