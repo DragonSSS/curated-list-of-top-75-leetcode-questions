@@ -784,6 +784,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/MyHashMap.java)
   - hint: use array of `ListNode` with `key`, `value` and `next` ListNode
 
+- [x] LeetCode #1472 Design Browser History
+  - [description](https://leetcode.com/problems/design-browser-history/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/BrowserHistory.java)
+  - hint: double linkedlist
+
 <!---
 ## Misc
 
