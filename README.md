@@ -793,6 +793,10 @@
   - [description](https://leetcode.com/problems/design-tic-tac-toe/)
   - hint:
 
+- [ ] LeetCode #642 Design Search Autocomplete System
+  - [description](https://leetcode.com/problems/design-search-autocomplete-system/)
+  - hint:
+
 <!---
 ## Misc
 
