@@ -779,6 +779,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/SnapshotArray.java)
   - hint: use `List<Map<Integer, Integer>>` to store the diff/delta between each snapshot
 
+- [x] LeetCode #706 Design HashMap
+  - [description](https://leetcode.com/problems/design-hashmap/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/MyHashMap.java)
+  - hint: use array of `ListNode` with `key`, `value` and `next` ListNode
+
 <!---
 ## Misc
 
