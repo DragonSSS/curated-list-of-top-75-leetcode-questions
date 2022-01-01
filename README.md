@@ -789,8 +789,9 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/BrowserHistory.java)
   - hint: double linkedlist
 
-- [ ] LeetCode #348 Design Tic-Tac-Toe
+- [x] LeetCode #348 Design Tic-Tac-Toe
   - [description](https://leetcode.com/problems/design-tic-tac-toe/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/TicTacToe.java)
   - hint:
 
 - [ ] LeetCode #642 Design Search Autocomplete System
