@@ -792,7 +792,7 @@
 - [x] LeetCode #348 Design Tic-Tac-Toe
   - [description](https://leetcode.com/problems/design-tic-tac-toe/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/TicTacToe.java)
-  - hint:
+  - hint: the better solution could be to check sum of rows, cols and diagonals with one player `+1` and the other `-1`
 
 - [ ] LeetCode #642 Design Search Autocomplete System
   - [description](https://leetcode.com/problems/design-search-autocomplete-system/)
