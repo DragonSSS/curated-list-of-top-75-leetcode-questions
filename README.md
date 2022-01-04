@@ -566,6 +566,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FindPeakElement.java)
   - hint: linear scan to find the first index that drops or binary search via comparing `nums[mid]` and `nums[mid + 1]`
   
+- [x] LeetCode #1235 Maximum Profit in Job Scheduling
+  - [description](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MaximumProfitInJobScheduling.java)
+  - hint: sort jobs based on start time, use dfs + memorization
+  
 ### Dynamic Programming
 
 - [x] LeetCode #741 Cherry Pickup
