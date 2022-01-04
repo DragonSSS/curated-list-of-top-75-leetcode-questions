@@ -796,7 +796,8 @@
 
 - [ ] LeetCode #642 Design Search Autocomplete System
   - [description](https://leetcode.com/problems/design-search-autocomplete-system/)
-  - hint:
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/AutocompleteSystem.java)
+  - hint: trie
 
 <!---
 ## Misc
