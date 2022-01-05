@@ -671,6 +671,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/ValidPalindromeII.java)
   - hint: two pointers, recursively to check if it is palindrom
 
+- [x] LeetCode #828 Count Unique Characters of All Substrings of a Given String
+  - [description](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/CountUniqueCharactersOfAllSubstringsoOfGivenString.java)
+  - hint: use two arrays to find most left and right positions of char at each index in string, result will be calculated by `res += (i - leftBound + 1) * (rightBound - i + 1)`
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
