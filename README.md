@@ -576,6 +576,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/SubdomainVisitCount.java)
   - hint: hashtable
 
+- [x] LeetCode #1710 Maximum Units on a Truck
+  - [description](https://leetcode.com/problems/maximum-units-on-a-truck/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MaximumUnitsOnTruck.java)
+  - hint: sort array by numberOfUnitsPerBox first
+
 ### Dynamic Programming
 
 - [x] LeetCode #741 Cherry Pickup
