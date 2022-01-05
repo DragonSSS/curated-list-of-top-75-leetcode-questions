@@ -570,7 +570,12 @@
   - [description](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MaximumProfitInJobScheduling.java)
   - hint: sort jobs based on start time, use dfs + memorization
-  
+
+- [x] LeetCode #811 Subdomain Visit Count
+  - [description](https://leetcode.com/problems/subdomain-visit-count/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/SubdomainVisitCount.java)
+  - hint: hashtable
+
 ### Dynamic Programming
 
 - [x] LeetCode #741 Cherry Pickup
