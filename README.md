@@ -686,6 +686,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/CountUniqueCharactersOfAllSubstringsoOfGivenString.java)
   - hint: use two arrays to find most left and right positions of char at each index in string, result will be calculated by `res += (i - leftBound + 1) * (rightBound - i + 1)`
 
+- [x] LeetCode #696 Count Binary Substrings
+  - [description](https://leetcode.com/problems/count-binary-substrings/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/CountBinarySubstrings.java)
+  - hint: two pointers: `curRunLength` and `preRunLength`, `res++` only when `preRunLength >= curRunLength`
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
