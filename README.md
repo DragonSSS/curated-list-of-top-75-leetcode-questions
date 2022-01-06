@@ -581,6 +581,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MaximumUnitsOnTruck.java)
   - hint: sort array by numberOfUnitsPerBox first
 
+- [x] LeetCode #937 Reorder Data in Log Files
+  - [description](https://leetcode.com/problems/reorder-data-in-log-files/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ReorderDataInLogFiles.java)
+  - hint: `Arrays.sort(arr, (a, b) -> {...})`
+
 ### Dynamic Programming
 
 - [x] LeetCode #741 Cherry Pickup
