@@ -691,6 +691,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/CountBinarySubstrings.java)
   - hint: two pointers: `curRunLength` and `preRunLength`, `res++` only when `preRunLength >= curRunLength`
 
+- [x] LeetCode #926 Flip String to Monotone Increasing
+  - [description](https://leetcode.com/problems/flip-string-to-monotone-increasing/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/FlipStringToMonotoneIncreasing.java)
+  - hint: use `flipCount` to track `flip 0 -> 1`, and `oneCount` to track `flip 1 -> 0`, do `flipCount = oneCount` if `oneCount < flipCount`
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
