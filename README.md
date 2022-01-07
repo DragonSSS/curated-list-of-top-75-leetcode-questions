@@ -586,6 +586,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ReorderDataInLogFiles.java)
   - hint: `Arrays.sort(arr, (a, b) -> {...})`
 
+- [x] LeetCode #1152 Analyze User Website Visit Pattern
+  - [description](https://leetcode.com/problems/reorder-data-in-log-files/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/AnalyzeUserWebsiteVisitPattern.java)
+
 ### Dynamic Programming
 
 - [x] LeetCode #741 Cherry Pickup
