@@ -747,6 +747,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/SlidingWindowMaximum.java)
   - hint: priorityQueue is TLE, use deque to track valid index of nums that is at `peek()`, keep cleaning old index from `peek()` that is out of the window, keep cleaning useless index that has smaller value from `peekLast()`
 
+- [x] LeetCode #1167 Minimum Cost to Connect Sticks
+  - [description](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/MinimumCostToConnectSticks.java)
+  - hint: the earlier stick combined will be added into cost again, so we want to smaller stick combined first asap and cost will be minimum (greedy)
+
 ### Design
 
 - [x] LeetCode #146 LRU Cache
