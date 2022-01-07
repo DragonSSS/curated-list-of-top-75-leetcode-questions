@@ -589,6 +589,7 @@
 - [x] LeetCode #1152 Analyze User Website Visit Pattern
   - [description](https://leetcode.com/problems/reorder-data-in-log-files/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/AnalyzeUserWebsiteVisitPattern.java)
+  - hint: build userToSite map by `Map<String, TreeMap<Integer, String>>` where timeToSite map is `TreeMap<Integer, String>`, build sequenceCount map by `Map<String, Integer>`
 
 ### Dynamic Programming
 
