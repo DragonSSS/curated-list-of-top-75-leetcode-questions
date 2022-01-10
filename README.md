@@ -591,6 +591,16 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/AnalyzeUserWebsiteVisitPattern.java)
   - hint: build userToSite map by `Map<String, TreeMap<Integer, String>>` where timeToSite map is `TreeMap<Integer, String>`, build sequenceCount map by `Map<String, Integer>`
 
+- [x] LeetCode #1151 Minimum Swaps to Group All 1's Together
+  - [description](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimumSwapsToGroupAllOnesTogether.java)
+  - hint: result is `allOnes - maxOnesInWindow` where window size is `allOnes`
+
+- [x] LeetCode #2134 Minimum Swaps to Group All 1's Together II
+  - [description](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimumSwapsToGroupAllOnesTogetherII.java)
+  - hint: address circular array by doubling array, the result is `allOnes - maxOnesInWindow` where window size is `allOnes`
+
 ### Dynamic Programming
 
 - [x] LeetCode #741 Cherry Pickup
@@ -751,6 +761,11 @@
   - [description](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/MinimumCostToConnectSticks.java)
   - hint: the earlier stick combined will be added into cost again, so we want to smaller stick combined first asap and cost will be minimum (greedy)
+
+- [ ] LeetCode #1648 Sell Diminishing-Valued Colored Balls
+  - [description](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/SellDiminishingValuedColoredBalls.java)
+  - hint:
 
 ### Design
 
