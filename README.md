@@ -599,7 +599,7 @@
 - [x] LeetCode #2134 Minimum Swaps to Group All 1's Together II
   - [description](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimumSwapsToGroupAllOnesTogetherII.java)
-  - hint: address circular array by doubling array, the result is `allOnes - maxOnesInWindow` where window size is `allOnes`
+  - hint: address circular array by doubling array, the result is `allOnes - maxOnesInWindow` where window size is `allOnes`Sell Diminishing-Valued Colored Balls
 
 ### Dynamic Programming
 
@@ -762,10 +762,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/MinimumCostToConnectSticks.java)
   - hint: the earlier stick combined will be added into cost again, so we want to smaller stick combined first asap and cost will be minimum (greedy)
 
-- [ ] LeetCode #1648 Sell Diminishing-Valued Colored Balls
+- [x] LeetCode #1648 Sell Diminishing-Valued Colored Balls
   - [description](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/SellDiminishingValuedColoredBalls.java)
-  - hint:
+  - hint: use priorityqueue to store `Ball(val, 1)`, `poll()` each Ball and compare with `peek()` to see if we can use up all of orders
 
 ### Design
 
