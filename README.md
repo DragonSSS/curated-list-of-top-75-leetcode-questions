@@ -601,6 +601,8 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimumSwapsToGroupAllOnesTogetherII.java)
   - hint: address circular array by doubling array, the result is `allOnes - maxOnesInWindow` where window size is `allOnes`Sell Diminishing-Valued Colored Balls
 
+### Prefix Sum
+
 - [x] LeetCode #370 Range Addition
   - [description](https://leetcode.com/problems/range-addition/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/RangeAddition.java)
