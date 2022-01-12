@@ -603,6 +603,11 @@
 
 ### Prefix Sum
 
+- [x] LeetCode #560 Subarray Sum Equals K
+  - [description](https://leetcode.com/problems/range-addition/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/SubarraySumEqualsK.java)
+  - hint: `sum[i, j]` = `sum[0, j]` - `sum[0, i]`, use hastable to store prefix sum and its frequency
+
 - [x] LeetCode #370 Range Addition
   - [description](https://leetcode.com/problems/range-addition/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/RangeAddition.java)
