@@ -601,12 +601,17 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimumSwapsToGroupAllOnesTogetherII.java)
   - hint: address circular array by doubling array, the result is `allOnes - maxOnesInWindow` where window size is `allOnes`Sell Diminishing-Valued Colored Balls
 
+- [x] LeetCode #1481 Least Number of Unique Integers after K Removals
+  - [description](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/LeastNumberOfUniqueIntegersAfterKRemovals.java)
+  - hint: use hashtable to store value with its frequency, use priorityQueue to store values by comparing their frequencies
+
 ### Prefix Sum
 
 - [x] LeetCode #560 Subarray Sum Equals K
   - [description](https://leetcode.com/problems/range-addition/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/SubarraySumEqualsK.java)
-  - hint: `sum[i, j]` = `sum[0, j]` - `sum[0, i]`, use hastable to store prefix sum and its frequency
+  - hint: `sum[i, j]` = `prefixSum[0, j]` - `prefixSum[0, i]`, use hastable to store prefix sum and its frequency
 
 - [x] LeetCode #370 Range Addition
   - [description](https://leetcode.com/problems/range-addition/)
