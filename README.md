@@ -789,6 +789,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/SellDiminishingValuedColoredBalls.java)
   - hint: use priorityqueue to store `Ball(val, 1)`, `poll()` each Ball and compare with `peek()` to see if we can use up all of orders
 
+- [x] LeetCode #1135 Connecting Cities With Minimum Cost
+  - [description](https://leetcode.com/problems/connecting-cities-with-minimum-cost/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/ConnectingCitiesWithMinimumCost.java)
+  - hint: build graph with next city and its cost, use priorityQueue to choose next city with minimum cost on new edge
+
 ### Design
 
 - [x] LeetCode #146 LRU Cache
