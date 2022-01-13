@@ -613,6 +613,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/RangeAddition.java)
   - hint: prefix sum by only applying value at the index of `start` and `end + 1`
 
+- [x] LeetCode #528 Random Pick with Weight
+  - [description](https://leetcode.com/problems/random-pick-with-weight/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/RandomPickWithWeight.java)
+  - hint: use prefix sum to build an arry, randomly generate value between `[0, totalSum]`, binary search to return target index
+
 ### Dynamic Programming
 
 - [x] LeetCode #741 Cherry Pickup
