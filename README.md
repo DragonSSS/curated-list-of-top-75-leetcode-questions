@@ -886,6 +886,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/AutocompleteSystem.java)
   - hint: trie, trieNode uses arraylist to store top 3 hot sentences that pass through current node
 
+- [x] LeetCode #1628 Design an Expression Tree With Evaluate Function
+  - [description](https://leetcode.com/problems/design-an-expression-tree-with-evaluate-function/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/TreeBuilder.java)
+  - hint: use postorder traveral by recursion to evaluate, use stack to build tree from array
+
 <!---
 ## Misc
 
