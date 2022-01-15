@@ -549,6 +549,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/CourseScheduleII.java)
   - hint: topological sort with bfs or dfs with `int[] visited, 0 - unknown, 1 - visiting, 2 - visited` to detect existing circle.
 
+- [x] LeetCode #1730 Shortest Path to Get Food
+  - [description](https://leetcode.com/problems/shortest-path-to-get-food/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/ShortestPathToGetFood.java)
+  - hint: standard bfs
+
 ### Array
 
 - [x] LeetCode #4 Median of Two Sorted Arrays
