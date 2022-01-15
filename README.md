@@ -683,6 +683,11 @@
   - [description](https://leetcode.com/problems/rotate-list/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/RotateList.java)
   - hint: make the linked list to a circle and count total number `n` of nodes, then iterate nodes and return new head using `n - k % n - 1`
+
+- [x] LeetCode #1019 Next Greater Node In Linked List
+  - [description](https://leetcode.com/problems/next-greater-node-in-linked-list/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/NextGreaterNodeInLinkedList.java)
+  - hint: use list to store all nodes, use monotonic stack to find array of next greater node
   
 ### Stack
 
