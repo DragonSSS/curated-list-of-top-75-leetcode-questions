@@ -804,6 +804,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/ConnectingCitiesWithMinimumCost.java)
   - hint: build graph with next city and its cost, use priorityQueue to choose next city with minimum cost on new edge
 
+- [ ] LeetCode #1353 Maximum Number of Events That Can Be Attended
+  - [description](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/MaximumNumberOfEventsThatCanBeAttended.java)
+  - hint:
+
 ### Design
 
 - [x] LeetCode #146 LRU Cache
