@@ -490,7 +490,7 @@
 - [x] LeetCode #1192 Critical Connections in a Network
   - [description](https://leetcode.com/problems/critical-connections-in-a-network/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/CriticalConnectionsInNetwork.java)
-  - hint: Tarjan's algorithm, record visitedTimes and lowTimes for each node, dfs with visited set, previous node and current node
+  - hint: Tarjan's algorithm, record visitedTimes and lowTimes for each node, dfs with visited set, track previous node and current node
 
 ### BFS
 
@@ -641,6 +641,11 @@
   - hint: use dp array to record max product for `i`, the formula is `dp[i] = Math.max(dp[i], Math.max(j * (i - j), dp[i - j] * j));` where `i` starts with 3 and `j` smaller than `i`
   
 ### Tree
+
+- [x] LeetCode #236 Lowest Common Ancestor of a Binary Tree
+  - [description](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/LowestCommonAncestorOfBinaryTree.java)
+  - hint: dfs with preorder traversal
 
 - [x] LeetCode #95 Unique Binary Search Trees II
   - [description](https://leetcode.com/problems/unique-binary-search-trees-ii/)
