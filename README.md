@@ -716,6 +716,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/NextGreaterElementII.java)
   - hint: compared to #496 Next Greater Element I, loop twice and use stack to sore index instead
 
+- [x] LeetCode #901 Online Stock Span
+  - [description](https://leetcode.com/problems/online-stock-span/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/StockSpanner.java)
+  - hint: use monotonic stack to track consecutive days with less than or equal price of the day by `stack<int[]>` where `arr[0]` is the price and `arr[1]` is the number of consecutive days.
+
 ### String
 
 - [x] LeetCode #71 Simplify Path
