@@ -804,10 +804,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/ConnectingCitiesWithMinimumCost.java)
   - hint: build graph with next city and its cost, use priorityQueue to choose next city with minimum cost on new edge
 
-- [ ] LeetCode #1353 Maximum Number of Events That Can Be Attended
+- [x] LeetCode #1353 Maximum Number of Events That Can Be Attended
   - [description](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/MaximumNumberOfEventsThatCanBeAttended.java)
-  - hint:
+  - hint: sort event by starting time, iterate day 1 to 10^5, use priorityQueue to track closing time, `poll()` already closed event, `offer()` the event can be attended at `ith` day, `poll()` event attended, make `res += 1`
 
 ### Design
 
