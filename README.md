@@ -639,7 +639,12 @@
   - [description](https://leetcode.com/problems/integer-break/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/IntegerBreak.java)
   - hint: use dp array to record max product for `i`, the formula is `dp[i] = Math.max(dp[i], Math.max(j * (i - j), dp[i - j] * j));` where `i` starts with 3 and `j` smaller than `i`
-  
+
+- [x] LeetCode #516 Longest Palindromic Subsequence
+  - [description](https://leetcode.com/problems/longest-palindromic-subsequence/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/LongestPalindromicSubsequence.java)
+  - hint: recursion with memorization, similar to #1143 Longest Common Subsequence
+
 ### Tree
 
 - [x] LeetCode #236 Lowest Common Ancestor of a Binary Tree
