@@ -645,6 +645,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/LongestPalindromicSubsequence.java)
   - hint: recursion with memorization, similar to #1143 Longest Common Subsequence
 
+- [x] LeetCode #1312 Minimum Insertion Steps to Make a String Palindrome
+  - [description](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/MinimumInsertionStepsToMakeStringPalindrome.java)
+  - hint: similar to #516 Longest Palindromic Subsequence, figure out minimum number of add or deletion to make string palindrome by `s.length() - lps.length()`
+
 ### Tree
 
 - [x] LeetCode #236 Lowest Common Ancestor of a Binary Tree
