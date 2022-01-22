@@ -741,6 +741,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/MinimumRemoveToMakeValidParentheses.java)
   - hint: use stack to push index of `(`, pop index of `(` if see `)`, record index `)` if stack is empty, any index of `(` in stack left, need to remove, and any recorded index `)`, need to remove
 
+- [x] LeetCode #921 Minimum Add to Make Parentheses Valid
+  - [description](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/MinimumAddToMakeParenthesesValid.java)
+  - hint: similar to #1249 Minimum Remove to Make Valid Parentheses, use count (add `(` at left side) to record number of index `)` if stack is empty, return `stack.size() + count`
+
 ### String
 
 - [x] LeetCode #71 Simplify Path
