@@ -736,6 +736,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/StockSpanner.java)
   - hint: use monotonic stack to track consecutive days with less than or equal price of the day by `stack<int[]>` where `arr[0]` is the price and `arr[1]` is the number of consecutive days.
 
+- [x] LeetCode #1249 Minimum Remove to Make Valid Parentheses
+  - [description](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/MinimumRemoveToMakeValidParentheses.java)
+  - hint: use stack to push index of `(`, pop index of `(` if see `)`, record index `)` if stack is empty, any index of `(` in stack left, need to remove, and any recorded index `)`, need to remove
+
 ### String
 
 - [x] LeetCode #71 Simplify Path
