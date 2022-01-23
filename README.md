@@ -785,6 +785,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/JumpGameII.java)
   - hint: bfs or greedy
 
+- [x] LeetCode #763 Partition Labels
+  - [description](https://leetcode.com/problems/partition-labels/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/PartitionLabels.java)
+  - hint: use hashtable to track last index of char in the string, greedily split the string at at the last index of any char
+
 ### Backtracking
 
 - [x] LeetCode #40 Combination Sum II
