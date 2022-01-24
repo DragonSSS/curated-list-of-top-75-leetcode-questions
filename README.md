@@ -746,6 +746,12 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/MinimumAddToMakeParenthesesValid.java)
   - hint: similar to #1249 Minimum Remove to Make Valid Parentheses, use count (add `(` at left side) to record number of index `)` if stack is empty, return `stack.size() + count`
 
+- [ ] LeetCode #772 Basic Calculator III
+  - [description](https://leetcode.com/problems/basic-calculator-iii/)
+
+- [ ] LeetCode #1597 Build Binary Expression Tree From Infix Expression
+  - [description](https://leetcode.com/problems/build-binary-expression-tree-from-infix-expression/)
+
 ### String
 
 - [x] LeetCode #71 Simplify Path
