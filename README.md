@@ -812,6 +812,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/PalindromePartitioning.java)
   - hint: dfs + backtracking
 
+- [x] LeetCode #2151 Maximum Good People Based on Statements
+  - [description](https://leetcode.com/problems/maximum-good-people-based-on-statements/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/MaximumGoodPeopleBasedOnStatements.java)
+  - hint: dfs + backtracking
+
 ### Heap (Priority Queue)
 
 - [x] LeetCode #378 Kth Smallest Element in a Sorted Matrix
