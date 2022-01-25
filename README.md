@@ -554,6 +554,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/ShortestPathToGetFood.java)
   - hint: standard bfs
 
+- [x] LeetCode #752 Open the Lock
+  - [description](https://leetcode.com/problems/open-the-lock/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/OpenTheLock.java)
+  - hint: standard bfs
+
 ### Array
 
 - [x] LeetCode #4 Median of Two Sorted Arrays
