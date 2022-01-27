@@ -761,6 +761,9 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/BasicCalculator.java)
   - hint: use one stack to store nums and the other to store operators, handle cases of `-(1 + 1)` and `1-(-2)` carefully
 
+- [ ] LeetCode #772 Basic Calculator II
+  - [description](https://leetcode.com/problems/basic-calculator-ii/)
+
 - [ ] LeetCode #772 Basic Calculator III
   - [description](https://leetcode.com/problems/basic-calculator-iii/)
 
