@@ -660,6 +660,16 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/MinimumInsertionStepsToMakeStringPalindrome.java)
   - hint: similar to #516 Longest Palindromic Subsequence, figure out minimum number of add or deletion to make string palindrome by `s.length() - lps.length()`
 
+- [x] LeetCode #740 Delete and Earn
+  - [description](https://leetcode.com/problems/delete-and-earn/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/DeleteAndEarn.java)
+  - hint: convert to #198 house robber
+
+- [x] LeetCode #72 Edit Distance
+  - [description](https://leetcode.com/problems/edit-distance/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/EditDistance.java)
+  - hint: dfs + memorization (starts with len instead of index)
+
 ### Tree
 
 - [x] LeetCode #236 Lowest Common Ancestor of a Binary Tree
