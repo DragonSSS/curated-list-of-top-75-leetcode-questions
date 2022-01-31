@@ -409,7 +409,13 @@
 ## High Frequency (Bonus)
 
 ### Graph
-  
+
+- [ ] LeetCode #1761 Minimum Degree of a Connected Trio in a Graph
+  - [description](https://leetcode.com/problems/minimum-degree-of-a-connected-trio-in-a-graph/)
+
+- [ ] LeetCode #277 Find the Celebrity
+  - [description](https://leetcode.com/problems/find-the-celebrity/)
+
 ### DFS
 
 - [x] LeetCode #332 Reconstruct Itinerary
