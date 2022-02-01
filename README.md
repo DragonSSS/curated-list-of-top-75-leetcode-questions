@@ -413,9 +413,6 @@
 - [ ] LeetCode #1761 Minimum Degree of a Connected Trio in a Graph
   - [description](https://leetcode.com/problems/minimum-degree-of-a-connected-trio-in-a-graph/)
 
-- [ ] LeetCode #277 Find the Celebrity
-  - [description](https://leetcode.com/problems/find-the-celebrity/)
-
 ### DFS
 
 - [x] LeetCode #332 Reconstruct Itinerary
@@ -791,6 +788,11 @@
   - [description](https://leetcode.com/problems/build-binary-expression-tree-from-infix-expression/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/BuildBinaryExpressionTreeFromInfixExpression.java)
   - hint: use one stack to store nums and the other to store operators, create node instead of making operation
+
+- [x] LeetCode #277 Find the Celebrity
+  - [description](https://leetcode.com/problems/find-the-celebrity/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/FindTheCelebrity.java)
+  - hint: push all people into stack, every time `pop()` two people to check, `push()` the people back to stack if he is possible celebrity
 
 ### String
 
