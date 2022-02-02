@@ -621,6 +621,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/LeastNumberOfUniqueIntegersAfterKRemovals.java)
   - hint: use hashtable to store value with its frequency, use priorityQueue to store values by comparing their frequencies
 
+- [x] LeetCode #986 Interval List Intersections
+  - [description](https://leetcode.com/problems/interval-list-intersections/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/IntervalListIntersections.java)
+  - hint: two points iterate two arrays, calculate `earlyEnd` and `lateStart`
+
 ### Prefix Sum
 
 - [x] LeetCode #560 Subarray Sum Equals K
