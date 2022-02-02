@@ -410,8 +410,10 @@
 
 ### Graph
 
-- [ ] LeetCode #1761 Minimum Degree of a Connected Trio in a Graph
+- [x] LeetCode #1761 Minimum Degree of a Connected Trio in a Graph
   - [description](https://leetcode.com/problems/minimum-degree-of-a-connected-trio-in-a-graph/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/MinimumDegreeOfConnectedTrioInGraph.java)  
+  - hint: compute degree for each node, build hashmap for each edge to indicate if it is a edge with given two nodes, calculate min degree by sum of degree of three nodes in a trio
 
 ### DFS
 
