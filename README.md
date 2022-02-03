@@ -828,6 +828,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/FlipStringToMonotoneIncreasing.java)
   - hint: use `flipCount` to track `flip 0 -> 1`, and `oneCount` to track `flip 1 -> 0`, do `flipCount = oneCount` if `oneCount < flipCount`
 
+- [x] LeetCode #809 Expressive Words
+  - [description](https://leetcode.com/problems/expressive-words/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/ExpressiveWords.java)
+  - hint: two pointers
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
