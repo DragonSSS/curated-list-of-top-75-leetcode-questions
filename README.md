@@ -833,6 +833,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/ExpressiveWords.java)
   - hint: two pointers
 
+- [x] LeetCode #443 String Compression
+  - [description](https://leetcode.com/problems/string-compression/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/StringCompression.java)
+  - hint: two pointers
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
