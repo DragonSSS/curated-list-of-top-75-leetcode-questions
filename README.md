@@ -680,6 +680,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/EditDistance.java)
   - hint: dfs + memorization (starts with len instead of index)
 
+- [x] LeetCode #1048 Longest String Chain
+  - [description](https://leetcode.com/problems/longest-string-chain/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/LongestStringChain.java)
+  - hint: dfs + memorization
+
 ### Tree
 
 - [x] LeetCode #236 Lowest Common Ancestor of a Binary Tree
