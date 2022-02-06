@@ -731,7 +731,12 @@
   - [description](https://leetcode.com/problems/count-complete-tree-nodes/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/CountCompleteTreeNodes.java)
   - hint: divide and conquer to get left and right height, then compare heights and do recursion if necessary
-  
+
+- [x] LeetCode #366 Find Leaves of Binary Tree
+  - [description](https://leetcode.com/problems/find-leaves-of-binary-tree/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/FindLeavesOfBinaryTree.java)
+  - hint: dfs and use height (number of edges to lowest node of subtree) as index of subarray in array
+
 ### LinkedList
 
 - [x] LeetCode #61 Rotate List
@@ -1169,11 +1174,6 @@
   - [description](https://leetcode.com/problems/add-two-numbers-ii/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/AddTwoNumbersII.java)
   - hint: two stack, pop up both and record carry
-
-- [x] LeetCode #366 Find Leaves of Binary Tree (Tree)
-  - [description](https://leetcode.com/problems/find-leaves-of-binary-tree/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/FindLeavesOfBinaryTree.java)
-  - hint: recursion using height to the deepest TreeNode as index of arraylist
 
 - [x] LeetCode #863 All Nodes Distance K in Binary Tree (Tree)
   - [description](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
