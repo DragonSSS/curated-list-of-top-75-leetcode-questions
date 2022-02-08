@@ -897,7 +897,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/MaximumGoodPeopleBasedOnStatements.java)
   - hint: dfs + backtracking
 
-- [ ] LeetCode #51 N-Queens
+- [x] LeetCode #51 N-Queens
   - [description](https://leetcode.com/problems/n-queens/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/NQueens.java)
   - hint: dfs + backtracking
