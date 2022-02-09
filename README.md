@@ -631,6 +631,9 @@
 - [ ] LeetCode #540 Single Element in a Sorted Array
   - [description](https://leetcode.com/problems/single-element-in-a-sorted-array/)
 
+- [ ] LeetCode #875 Koko Eating Bananas
+  - [description](https://leetcode.com/problems/koko-eating-bananas/)
+
 ### Prefix Sum
 
 - [x] LeetCode #560 Subarray Sum Equals K
