@@ -626,6 +626,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/IntervalListIntersections.java)
   - hint: two points iterate two arrays, calculate `earlyEnd` and `lateStart`
 
+### Binary Search
+
+- [ ] LeetCode #540 Single Element in a Sorted Array
+  - [description](https://leetcode.com/problems/single-element-in-a-sorted-array/)
+
 ### Prefix Sum
 
 - [x] LeetCode #560 Subarray Sum Equals K
