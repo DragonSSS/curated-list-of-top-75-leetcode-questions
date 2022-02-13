@@ -631,6 +631,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/IntervalListIntersections.java)
   - hint: two points iterate two arrays, calculate `earlyEnd` and `lateStart`
 
+- [x] LeetCode #1366 Rank Teams by Votes
+  - [description](https://leetcode.com/problems/rank-teams-by-votes/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/RankTeamsByVotes.java)
+  - hint: hashtable `Map<Character, int[]> map`
+
 ### Binary Search
 
 - [x] LeetCode #540 Single Element in a Sorted Array
