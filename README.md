@@ -12,13 +12,11 @@
   - [description](https://leetcode.com/problems/two-sum/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/TwoSum.java)
   - hint: hashtable `{key: rest_value, value: index}`
-  - [x] secoud round
 
 - [x] LeetCode #121 Best Time to Buy and Sell Stock
   - [description](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/BestTimeToBuyAndSellStock.java)
   - hint: minPrice + maxProfit + one loop
-  - [x] secoud round
 
 - [x] LeetCode #217 Contains Duplicate
   - [description](https://leetcode.com/problems/contains-duplicate/)
