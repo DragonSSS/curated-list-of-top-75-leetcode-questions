@@ -55,4 +55,47 @@ public class ClimbingStairs {
         memo.put(remain, res);
         return res;
     }
+
+    // 1 -> 1
+    // 2 -> 2
+    // 3 -> [2] + [1] = 3
+    // 4 -> [2] + [3] = 5
+    public int climbStairs_2r_dp(int n) {
+        int[] dp = new int[n + 1];
+        if (n == 1)
+            return 1;
+        
+        if (n == 2)
+            return 2;
+        
+        dp[1] = 1;
+        dp[2] = 2;
+        
+        for(int i = 3; i <= n; i++) {
+            dp[i] = dp[i - 2] + dp[i - 1];
+        }
+        
+        return dp[n];
+    }
+    
+    public int climbStairs_2r_recursion_memo(int n) {
+        return helper(n, new Integer[n + 1]);
+    }
+    
+    private int helper(int n, Integer[] memo) {
+        if (n == 1)
+            return 1;
+        
+        if (n == 2)
+            return 2;
+        
+        if(memo[n] != null)
+            return memo[n];
+        
+        
+        int res = helper(n - 1, memo) + helper(n - 2, memo);
+         
+        memo[n] = res;
+        return res;
+    }
 }
