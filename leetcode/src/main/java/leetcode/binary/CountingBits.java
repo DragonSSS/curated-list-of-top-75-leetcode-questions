@@ -28,4 +28,22 @@ public class CountingBits {
         }
         return dp;
     }
+
+    public int[] countBits_2r(int n) {
+        int[] dp = new int[n  + 1];
+        dp[0] = 0;
+        if(n == 0) {
+            return dp;
+        }
+        
+        dp[1] = 1;
+        if (n == 1) {
+            return dp;
+        }
+    
+        for(int i = 2; i <= n; i++) {
+            dp[i] = dp[i >> 1] + (i & 1); //trick
+        }
+        return dp;
+    }
 }
