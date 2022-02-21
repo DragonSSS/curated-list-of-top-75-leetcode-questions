@@ -1,5 +1,10 @@
 package leetcode.dp;
 
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Set;
+
 public class CoinChange {
     public int coinChange(int[] coins, int amount) {
         // dfs without dp
@@ -48,5 +53,30 @@ public class CoinChange {
         }
 
         return res == Integer.MAX_VALUE ? -1 : res;
+    }
+
+    public int coinChange_2r_bfs(int[] coins, int amount) {
+        int count = 0;
+        Queue<Integer> queue = new LinkedList<>();
+        Set<Integer> visited = new HashSet<>();
+        queue.offer(amount);
+        visited.add(amount);
+        
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                int curAmount = queue.poll();
+                if (curAmount == 0) return count;
+                for(int coin : coins) {
+                    int nextAmount = curAmount - coin;
+                    if(nextAmount >= 0 && !visited.contains(nextAmount)) {
+                        queue.offer(nextAmount);
+                        visited.add(nextAmount);
+                    }
+                }
+            }
+            count++;
+        }
+        return -1;
     }
 }
