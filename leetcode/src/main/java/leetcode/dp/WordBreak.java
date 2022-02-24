@@ -9,6 +9,7 @@ import java.util.Set;
 public class WordBreak {
     public boolean wordBreak(String s, List<String> wordDict) {
         boolean[] visited = new boolean[s.length() + 1];
+        // return helper_2r_dfs(s, 0, new HashSet<String>(wordDict), new HashSet<Integer>());
         return helper(s, 0, wordDict, visited);
     }
 
@@ -25,6 +26,20 @@ public class WordBreak {
                 return true;
         }
 
+        return false;
+    }
+
+    private boolean helper_2r_dfs(String s, int index, Set<String> words, Set<Integer> visited) {
+        if (index == s.length())
+            return true;
+        
+        visited.add(index);
+        
+        for(int i = index + 1; i < s.length() + 1; i++) {
+            if(!visited.contains(i) && words.contains(s.substring(index, i)) && helper_2r_dfs(s, i, words, visited)) {
+                return true;
+            }
+        }
         return false;
     }
 
