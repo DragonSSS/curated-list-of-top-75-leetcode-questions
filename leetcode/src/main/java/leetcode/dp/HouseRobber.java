@@ -1,8 +1,10 @@
 package leetcode.dp;
 
 public class HouseRobber {
+    Integer[] memo;
     public int rob(int[] nums) {
-        Integer[] memo = new Integer[nums.length + 1];
+        memo = new Integer[nums.length + 1];
+        // return helper_2r(nums, 0);
         return helper(nums, 0, memo);
     }
 
@@ -21,6 +23,21 @@ public class HouseRobber {
         int res = Math.max(res1, res2);
         memo[cur] = res;
 
+        return res;
+    }
+
+    private int helper_2r(int[] nums, int index) {
+        if(index >= nums.length)
+            return 0;
+        if(memo[index] != null)
+            return memo[index];
+        
+        int skip = helper_2r(nums, index + 1);
+        int nonSkip = helper_2r(nums, index + 2) + nums[index];
+        
+        int res = Math.max(skip, nonSkip);
+        memo[index] = res;
+        
         return res;
     }
 }
