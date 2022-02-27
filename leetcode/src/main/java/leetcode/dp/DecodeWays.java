@@ -29,4 +29,35 @@ public class DecodeWays {
         memo[index] = res;
         return res;
     }
+
+    Integer[] memo;
+    public int numDecodings_2r(String s) {
+        memo = new Integer[s.length()];
+        return helper_2r(s, 0);
+    }
+    
+    private int helper_2r(String s, int index) {
+        if(index == s.length())
+            return 1;
+        
+        if(memo[index] != null)
+            return memo[index];
+        
+        int cur = 0;
+        int singleNum = Integer.valueOf(s.substring(index, index + 1));
+        
+        if(singleNum > 0 && singleNum < 10) {
+            cur += helper_2r(s, index + 1);
+        }
+        
+        if(index + 2 <= s.length()) {
+            int doubleNum =  Integer.valueOf(s.substring(index, index + 2));
+            if (doubleNum > 9 && doubleNum < 27) {
+                cur += helper_2r(s, index + 2);
+            }
+        }
+        
+        memo[index] = cur;
+        return cur;
+    }
 }
