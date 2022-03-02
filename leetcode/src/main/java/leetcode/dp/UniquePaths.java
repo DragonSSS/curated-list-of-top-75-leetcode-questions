@@ -24,4 +24,31 @@ public class UniquePaths {
 
         return res;
     }
+
+    int[][] dirs = new int[][]{{0, 1}, {1, 0}};
+    Integer[][] memo;
+    public int uniquePaths_2r(int m, int n) {
+        memo = new Integer[m][n];
+        return helper_2r(m, n, 0, 0);
+    }
+    
+    private int helper_2r(int m, int n, int i, int j) {
+        if (i < 0 || i >= m || j < 0 || j >= n)
+            return 0;
+        
+        if(i == m - 1 && j == n - 1)
+            return 1;
+        
+        if(memo[i][j] != null)
+            return memo[i][j];
+        
+        int res = 0;
+        
+        for(int[] dir : dirs) {
+            res += helper_2r(m, n, i + dir[0], j + dir[1]);
+        }
+        
+        memo[i][j] = res;
+        return res;
+    }
 }
