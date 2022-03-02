@@ -24,4 +24,29 @@ public class JumpGame {
 
         return lastIndex == 0;
     }
+
+    Integer[] memo;
+    public boolean canJump_2r(int[] nums) {
+        memo = new Integer[nums.length];
+        return helper_2r(nums, 0);
+    }
+    
+    private boolean helper_2r(int[] nums, int index) {
+        if (index >= nums.length - 1)
+            return true;
+        
+        int rangeMax = nums[index];
+        if(memo[index] != null)
+            return memo[index] == 1;
+        
+        for(int i = rangeMax; i >= 1; i--) {
+            if (helper_2r(nums, index + i)) {
+                memo[index] = 1;
+                return true;
+            }   
+        }
+        
+        memo[index] = 0;
+        return false;
+    }
 }
