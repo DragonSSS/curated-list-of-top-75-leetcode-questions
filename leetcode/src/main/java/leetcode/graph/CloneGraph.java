@@ -27,4 +27,22 @@ public class CloneGraph {
 
         return map.get(node.val);
     }
+
+    // dfs
+    Map<Integer, Node> map = new HashMap<>();
+    public Node cloneGraph_2r_dfs(Node node) {
+        if(node == null)
+            return node;
+        
+        if(map.containsKey(node.val)) {
+            return map.get(node.val);
+        } else {
+            map.put(node.val, new Node(node.val));
+            for(Node neighbor : node.neighbors) {
+                map.get(node.val).neighbors.add(cloneGraph_2r_dfs(neighbor));
+            }
+        }
+        
+        return map.get(node.val);
+    }
 }
