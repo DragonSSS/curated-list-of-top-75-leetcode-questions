@@ -3,7 +3,9 @@ package leetcode.graph;
 import util.Node;
 
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.Map;
+import java.util.Queue;
 
 public class CloneGraph {
     // dfs
@@ -44,5 +46,30 @@ public class CloneGraph {
         }
         
         return map.get(node.val);
+    }
+
+    public Node cloneGraph_2r_bfs(Node node) {
+        if (node == null)
+            return null;
+        Map<Node, Node> visited = new HashMap<>();
+        Queue<Node> queue = new LinkedList<>();
+        queue.offer(node);
+        visited.put(node, new Node(node.val));
+        
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                Node cur = queue.poll();
+                for(Node next : cur.neighbors) {
+                    if(!visited.containsKey(next)) {
+                        visited.put(next, new Node(next.val));
+                        queue.offer(next);
+                    }
+                    visited.get(cur).neighbors.add(visited.get(next));
+                }
+            }
+        }
+        
+        return visited.get(node);
     }
 }
