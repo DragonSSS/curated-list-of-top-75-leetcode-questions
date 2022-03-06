@@ -1063,6 +1063,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/TreeBuilder.java)
   - hint: use postorder traveral by recursion to evaluate, use stack to build tree from array
 
+- [ ] LeetCode #353 Design Snake Game
+  - [description](https://leetcode.com/problems/design-snake-game/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/SnakeGame.java)
+  - hint:
+
 <!---
 ## Misc
 
