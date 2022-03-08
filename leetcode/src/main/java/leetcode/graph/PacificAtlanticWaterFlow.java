@@ -47,4 +47,46 @@ public class PacificAtlanticWaterFlow {
             helper(i + dirs[k][0], j + dirs[k][1], matrix[i][j], matrix, visited);
         }
     }
+
+    public List<List<Integer>> pacificAtlantic_2r_dfs(int[][] heights) {
+        List<List<Integer>> res = new ArrayList<>();
+        
+        int m = heights.length;
+        int n = heights[0].length;
+        
+        boolean[][] pacific = new boolean[m][n];
+        boolean[][] atlantic = new boolean[m][n];
+        
+        for(int i = 0; i < n; i++) {
+            helper_2r_dfs(0, i, Integer.MIN_VALUE, heights, pacific);
+            helper_2r_dfs(m - 1, i, Integer.MIN_VALUE, heights, atlantic);
+        }
+        
+        for(int i = 0; i < m; i++) {
+            helper_2r_dfs(i, 0, Integer.MIN_VALUE, heights, pacific);
+            helper_2r_dfs(i, n - 1, Integer.MIN_VALUE, heights, atlantic);
+        }
+        
+        for(int i = 0; i < m; i++) {
+            for(int j = 0; j < n; j++) {
+                if(pacific[i][j] && atlantic[i][j]) {
+                    res.add(Arrays.asList(i, j));
+                }
+            }
+        }
+        return res;
+    }
+    
+    private void helper_2r_dfs(int i, int j, int pre, int[][] ocean, boolean[][] visited) {
+        if (i < 0 || i >= ocean.length || j < 0 || j >= ocean[0].length || visited[i][j] || pre > ocean[i][j])
+            return;
+        
+        visited[i][j] = true;
+        
+        for(int[] dir : dirs) {
+            helper_2r_dfs(i + dir[0], j + dir[1], ocean[i][j], ocean, visited);
+        }
+        
+        return;
+    }
 }
