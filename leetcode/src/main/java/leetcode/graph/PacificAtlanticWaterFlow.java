@@ -2,7 +2,9 @@ package leetcode.graph;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class PacificAtlanticWaterFlow {
     private int[][] dirs = new int[][]{{0,1}, {1,0}, {-1,0}, {0,-1}};
@@ -88,5 +90,64 @@ public class PacificAtlanticWaterFlow {
         }
         
         return;
+    }
+
+    // bfs
+    public List<List<Integer>> pacificAtlantic_2r_bfs(int[][] heights) {
+        Queue<int[]> pacificQueue = new LinkedList<>();
+        Queue<int[]> atlanticQueue = new LinkedList<>();
+        
+        int m = heights.length;
+        int n = heights[0].length;
+        boolean[][] pacific = new boolean[m][n];
+        boolean[][] atlantic = new boolean[m][n];
+        
+        for(int i = 0; i < n; i++) {
+            pacificQueue.offer(new int[]{0, i});
+            pacific[0][i] = true;
+            atlanticQueue.offer(new int[]{m - 1, i});
+            atlantic[m - 1][i] = true;
+        }
+        
+        for(int i = 0; i < m; i++) {
+            pacificQueue.offer(new int[]{i, 0});
+            pacific[i][0] = true;
+            atlanticQueue.offer(new int[]{i, n - 1});
+            atlantic[i][n - 1] = true;
+        }
+        
+        helper_2r_bfs(pacificQueue, pacific, heights);
+        helper_2r_bfs(atlanticQueue, atlantic, heights);
+        
+        List<List<Integer>> res = new ArrayList<>();
+        
+        for(int i = 0; i < m; i++) {
+            for(int j = 0; j < n; j++) {
+                if(pacific[i][j] && atlantic[i][j]) {
+                    res.add(Arrays.asList(i, j));
+                }
+            }
+        }
+        
+        return res;
+    }
+    
+    private void helper_2r_bfs(Queue<int[]> queue, boolean[][] visited, int[][] heights) {
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i< size; i++) {
+                int[] cur = queue.poll();
+                for(int[] dir : dirs) {
+                    int x = cur[0] + dir[0];
+                    int y = cur[1] + dir[1];
+                    
+                    if (x < 0 || x >= heights.length || y < 0 || y >= heights[0].length || visited[x][y] || heights[x][y] < heights[cur[0]][cur[1]])
+                        continue;
+                    
+                    visited[x][y] = true;
+                    queue.offer(new int[]{x, y});
+                }
+            }
+        }
     }
 }
