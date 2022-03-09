@@ -63,4 +63,36 @@ public class NumberOfIslands {
             }
         }
     }
+
+    public int numIslands_2r_dfs(char[][] grid) {
+        int m = grid.length;
+        int n = grid[0].length;
+        
+        int res = 0;
+        boolean[][] visited = new boolean[m][n];
+        for(int i = 0; i < m; i++) {
+            for(int j = 0; j < n; j++) {
+                if(grid[i][j] == '1' && !visited[i][j]) {
+                    res++;
+                    helper_2r_dfs(grid, i, j, visited);
+                }
+            }
+        }
+        
+        return res;
+    }
+    
+    private void helper_2r_dfs(char[][] grid, int i, int j, boolean[][] visited) {
+        visited[i][j] = true;
+        
+        for(int[] dir : dirs) {
+            int x = i + dir[0];
+            int y = j + dir[1];
+            
+            if (x < 0 || x >= grid.length || y < 0 || y >= grid[0].length || visited[x][y] || grid[x][y] != '1')
+                continue;
+            
+            helper_2r_dfs(grid, x, y, visited);
+        }
+    }
 }
