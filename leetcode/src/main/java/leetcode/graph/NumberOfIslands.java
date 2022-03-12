@@ -95,4 +95,41 @@ public class NumberOfIslands {
             helper_2r_dfs(grid, x, y, visited);
         }
     }
+
+    public int numIslands_2r_bfs(char[][] grid) {
+        int m = grid.length;
+        int n = grid[0].length;
+        
+        int res = 0;
+        boolean[][] visited = new boolean[m][n];
+        for(int i = 0; i < m; i++) {
+            for(int j = 0; j < n; j++) {
+                if(grid[i][j] == '1' && !visited[i][j]) {
+                    res++;
+                    helper_2r_bfs(grid, i, j, visited);
+                }
+            }
+        }
+        
+        return res;
+    }
+    
+    private void helper_2r_bfs(char[][] grid, int i, int j, boolean[][] visited) {
+        Queue<int[]> queue = new LinkedList<>();
+        queue.offer(new int[]{i, j});
+        visited[i][j] = true;
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int k = 0; k < size; k++) {
+                int[] cur = queue.poll();
+                for(int[] dir : dirs) {
+                    int[] next = new int[]{cur[0] + dir[0], cur[1] + dir[1]};
+                    if(next[0] < 0 || next[0] >= grid.length || next[1] < 0 || next[1] >= grid[0].length || grid[next[0]][next[1]] == '0' || visited[next[0]][next[1]])
+                        continue;
+                    queue.offer(next);
+                    visited[next[0]][next[1]] = true;
+                }
+            }
+        }
+    }
 }
