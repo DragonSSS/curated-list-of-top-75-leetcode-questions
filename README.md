@@ -170,17 +170,17 @@
   - hint: sort first + iteration with while loop (could use union-find or hashtable as well)
   
 - [x] LeetCode #269 Alien Dictionary
-  - [description](https://leetcode.com/problems/coin-change/)
+  - [description](https://leetcode.com/problems/alien-dictionary/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/AlienDictionary.java)
   - hint: build graph + indegree map + bfs with queue
 
 - [x] LeetCode #261 Graph Valid Tree
-  - [description](https://leetcode.com/problems/longest-consecutive-sequence/)
+  - [description](https://leetcode.com/problems/graph-valid-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/GraphValidTree.java)
   - hint: dfs/bfs + memorization
 
 - [x] LeetCode #323 Number of Connected Components in an Undirected Graph
-  - [description](https://leetcode.com/problems/longest-consecutive-sequence/)
+  - [description](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/GraphValidTree.java)
   - hint: bfs + memorization
 
