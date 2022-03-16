@@ -838,6 +838,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/FindTheCelebrity.java)
   - hint: push all people into stack, every time `pop()` two people to check, `push()` the people back to stack if he is possible celebrity
 
+- [ ] LeetCode #907 Sum of Subarray Minimums
+  - [description](https://leetcode.com/problems/sum-of-subarray-minimums/)
+  - hint: monotonic stack
+
 ### String
 
 - [x] LeetCode #71 Simplify Path
