@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 import java.util.Queue;
 import java.util.Set;
@@ -82,5 +83,47 @@ public class GraphValidTree {
         }
 
         return visit.size() == n;
+    }
+
+    Map<Integer, List<Integer>> graph = new HashMap<>();
+    boolean[] visited;
+    public boolean validTree_2r_dfs(int n, int[][] edges) {
+        visited = new boolean[n];
+        
+        for(int i = 0; i < n; i++) {
+            graph.put(i, new ArrayList<>());
+        }
+        
+        for(int[] edge : edges) {
+            int node1 = edge[0];
+            int node2 = edge[1];
+            graph.get(node1).add(node2);
+            graph.get(node2).add(node1);
+        }
+        
+        if (helper_2r_dfs(-1, 0, visited)) {
+            return false;
+        }
+        
+        for(boolean v : visited) {
+            if(!v) {
+                return false;
+            }
+        }
+        return true;
+    }
+    
+    private boolean helper_2r_dfs(int pre, int cur, boolean[] visited) {
+        if(visited[cur])
+            return true;
+        
+        visited[cur] = true;
+        for(int next : graph.get(cur)) {
+            if (next != pre && helper_2r_dfs(cur, next, visited)) {
+                return true;
+            }
+        }
+        
+        return false;
     }
 }
