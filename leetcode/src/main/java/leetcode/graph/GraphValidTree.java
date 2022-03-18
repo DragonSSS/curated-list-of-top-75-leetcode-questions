@@ -113,6 +113,7 @@ public class GraphValidTree {
         return true;
     }
     
+    // detect a cycle in undirected graph, no backtracking
     private boolean helper_2r_dfs(int pre, int cur, boolean[] visited) {
         if(visited[cur])
             return true;
@@ -125,5 +126,43 @@ public class GraphValidTree {
         }
         
         return false;
+    }
+
+    Set<Integer> visited_bfs = new HashSet<>();
+    public boolean validTree_2r_bfs(int n, int[][] edges) {
+        for(int i = 0; i < n; i++) {
+            graph.put(i, new ArrayList<>());
+        }
+        
+        for(int[] edge : edges) {
+            int node1 = edge[0];
+            int node2 = edge[1];
+            graph.get(node1).add(node2);
+            graph.get(node2).add(node1);
+        }
+        
+        Queue<Integer> queue = new LinkedList<>();
+        queue.offer(0);
+        visited_bfs.add(0);
+        
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                int cur = queue.poll();
+                
+                for(int next : graph.get(cur)) {
+                    if (queue.contains(next)) {
+                        return false;
+                    }
+                    
+                    if(!visited_bfs.contains(next)) {
+                        queue.offer(next);
+                        visited_bfs.add(next);
+                    }
+                }
+            }
+        }
+                
+        return visited_bfs.size() == n;
     }
 }

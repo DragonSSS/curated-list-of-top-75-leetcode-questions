@@ -131,7 +131,7 @@ public class AlienDictionary {
 
         // check DAG, make sure there is no circle
         for(char c : graph.keySet()) {
-            if(circleExist_2r(c, graph, new HashSet<>())) {
+            if(circleExist_2r(c, new HashSet<>())) {
                 return "";
             }
         }
@@ -163,14 +163,14 @@ public class AlienDictionary {
     }
     
     // dfs + backtracking
-    private boolean circleExist_2r(char c, Map<Character, List<Character>> graph, Set<Character> visited)
+    private boolean circleExist_2r(char c, Set<Character> visited)
     {
         if(visited.contains(c))
             return true;
         
         visited.add(c);
         for(char next : graph.get(c)) {
-            if(circleExist_2r(next, graph, visited))
+            if(circleExist_2r(next, visited))
                 return true;
         }
         visited.remove(c);
