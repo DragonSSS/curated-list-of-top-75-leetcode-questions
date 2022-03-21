@@ -30,4 +30,31 @@ public class MergeIntervals {
         res.add(newInterval);
         return res.toArray(new int[][]{});
     }
+
+    public int[][] merge_2r(int[][] intervals) {
+        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+        int[] merge = intervals[0];
+        List<int[]> list = new ArrayList<>();
+        
+        for(int i = 1; i < intervals.length; i++) {
+            int[] cur = intervals[i];
+            if (merge[1] < cur[0]) {
+                list.add(merge);
+                merge = cur;
+            } else if (merge[0] > cur[1] ) {
+                list.add(cur);
+            } else {
+                merge[0] = Math.min(merge[0], cur[0]);
+                merge[1] = Math.max(merge[1], cur[1]);
+            }
+        }
+        list.add(merge);
+        
+        int[][] res = new int[list.size()][2];
+        for(int i = 0; i < list.size(); i++) {
+            res[i] = new int[]{list.get(i)[0], list.get(i)[1]};
+        }
+        
+        return res;
+    }
 }
