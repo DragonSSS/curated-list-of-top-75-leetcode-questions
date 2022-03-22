@@ -197,7 +197,7 @@
   - hint: same as Insert Interval, if `newInterval[1] < interval[0]` else if `newInterval[0] > interval[1]` else do sth
 
 - [x] LeetCode #435 Non-overlapping Intervals
-  - [description](https://leetcode.com/problems/meeting-rooms/)
+  - [description](https://leetcode.com/problems/non-overlapping-intervals/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/interval/NonOverlappingIntervals.java)
   - hint: sort array first by start of interval, record preEnd and compare it with intervals
 
