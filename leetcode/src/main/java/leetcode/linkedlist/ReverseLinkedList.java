@@ -29,4 +29,19 @@ public class ReverseLinkedList {
     //     node.next = pre;
     //     return helper(temp, node);
     // }
+
+    public ListNode reverseList_2r(ListNode head) {
+        if(head == null)
+            return head;
+        
+        ListNode pre = null;
+        while(head != null) {
+            ListNode temp = head.next;
+            head.next = pre;
+            pre = head;
+            head = temp;
+        }
+        
+        return pre;
+    }
 }
