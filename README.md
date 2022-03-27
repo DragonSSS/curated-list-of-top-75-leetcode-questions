@@ -253,7 +253,7 @@
 - [x] LeetCode #54 Spiral Matrix
   - [description](https://leetcode.com/problems/spiral-matrix/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/matrix/SpiralMatrix.java)
-  - hint: four pointers for corners: top, bottom, left and right when res.size() < m * n
+  - hint: four pointers for corners: top, bottom, left and right when `res.size() < m * n`
   
 - [x] LeetCode #48 Rotate Image
   - [description](https://leetcode.com/problems/rotate-image/)
