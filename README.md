@@ -263,7 +263,7 @@
 - [x] LeetCode #79 Word Search
   - [description](https://leetcode.com/problems/word-search/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/matrix/WordSearch.java)
-  - hint: dfs + memorization + backtracking
+  - hint: dfs + backtracking
   
 ## String (10)
 
