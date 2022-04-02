@@ -970,9 +970,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/MaximumNumberOfEventsThatCanBeAttended.java)
   - hint: sort event by starting time, iterate day 1 to 10^5, use priorityQueue to track closing time, `poll()` already closed event, `offer()` the event can be attended at `ith` day, `poll()` event attended, make `res += 1`
 
-- [ ] LeetCode #1405 Longest Happy String
+- [x] LeetCode #1405 Longest Happy String
   - [description](https://leetcode.com/problems/longest-happy-string/)
-  - hint:
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/LongestHappyString.java)
+  - hint: use priorityQueue to store the char with its frequency
 
 ### Design
 
