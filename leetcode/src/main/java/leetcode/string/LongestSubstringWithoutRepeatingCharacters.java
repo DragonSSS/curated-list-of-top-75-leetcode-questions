@@ -22,4 +22,20 @@ public class LongestSubstringWithoutRepeatingCharacters {
         }
         return res;
     }
+    public int lengthOfLongestSubstring_2r(String s) {
+        int res = 0, left = 0, right = 0;
+        Set<Character> set = new HashSet<>();
+        while(right < s.length()) {
+            if (!set.contains(s.charAt(right))) {
+                set.add(s.charAt(right));
+                right++;
+                res = Math.max(res, set.size());
+            } else {
+                set.remove(s.charAt(left));
+                left++;
+            }
+        }
+        
+        return res;
+    }
 }
