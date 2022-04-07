@@ -315,7 +315,7 @@
 - [x] LeetCode #271 Encode and Decode Strings
   - [description](https://leetcode.com/problems/encode-and-decode-strings/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/EncodeAndDecodeStrings.java)
-  - hint: length + '/' +str + length + '/' + str
+  - hint: `length + '/' +str + length + '/' + str`
 
 ## Tree (14)
 
