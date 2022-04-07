@@ -26,4 +26,25 @@ public class LongestRepeatingCharacterReplacement {
 
         return res;
     }
+
+    public int characterReplacement_2r(String s, int k) {
+        int[] freq = new int[26];
+        int left = 0;
+        int maxFreq = 0;
+        int res = 0;
+        char[] chars = s.toCharArray();
+        for(int right = 0; right < s.length(); right++) {
+            char cur = chars[right];
+            freq[cur - 'A']++;
+            maxFreq = Math.max(maxFreq, freq[cur - 'A']);
+            int curLen = right - left + 1;
+            if (curLen - maxFreq > k) {
+                freq[chars[left] - 'A']--;
+                left++;
+            } else {
+                res = Math.max(res, curLen);
+            }
+        }
+        return res;
+    }
 }
