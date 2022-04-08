@@ -50,4 +50,55 @@ public class MinimumWindowSubstring {
 
         return minLen == Integer.MAX_VALUE? "" : s.substring(index, index + minLen);
     }
+
+    // O(n)
+    public String minWindow_2r(String s, String t) {
+        if(t.length() > s.length())
+            return "";
+        
+        Map<Character, Integer> map = new HashMap<>(); 
+        for(char c : t.toCharArray()) {
+            map.put(c, map.getOrDefault(c, 0) + 1);
+        }
+        
+        int count = 0; // number of chars to consider
+        int minLen = Integer.MAX_VALUE; // minimum length
+        int left = 0; // slow pointer
+        int index = 0; // minLen start index
+        
+        for(int right = 0; right < s.length(); right++) {
+            char rightChar = s.charAt(right);
+            if(!map.containsKey(rightChar)) {
+                continue;
+            }
+            
+            int curRightCount = map.get(rightChar);
+            map.put(rightChar, curRightCount - 1);
+            if (curRightCount == 1) {
+                count++;
+            }
+            
+            while(count == map.size()) {
+                
+                if(right - left + 1 < minLen) {
+                    minLen = right - left + 1;
+                    index = left;
+                }
+                
+                char leftChar = s.charAt(left);
+                left++;
+                if (!map.containsKey(leftChar)) {
+                    continue;
+                }
+                
+                int curLeftCount = map.get(leftChar);
+                map.put(leftChar, curLeftCount + 1);
+                if (curLeftCount == 0) {
+                    count--;
+                }
+            }
+        }
+        
+        return minLen == Integer.MAX_VALUE? "" : s.substring(index, index + minLen);
+    }
 }
