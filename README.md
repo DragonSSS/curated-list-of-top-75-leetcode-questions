@@ -300,7 +300,7 @@
 - [x] LeetCode #125 Valid Palindrome
   - [description](https://leetcode.com/problems/valid-palindrome/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/ValidPalindrome.java)
-  - hint: two pointers
+  - hint: two pointers + `Character.isLetterOrDigit()`
   
 - [x] LeetCode #5 Longest Palindromic Substring
   - [description](https://leetcode.com/problems/longest-palindromic-substring/)
