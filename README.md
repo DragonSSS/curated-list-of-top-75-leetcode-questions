@@ -322,27 +322,27 @@
 - [x] LeetCode #104 Maximum Depth of Binary Tree
   - [description](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/MaximumDepthOfBinaryTree.java)
-  - hint: recursion + dfs
+  - hint: dfs
 
 - [x] LeetCode #100 Same Tree
   - [description](https://leetcode.com/problems/same-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/SameTree.java)
-  - hint: recursion
+  - hint: dfs
   
 - [x] LeetCode #266 Invert Binary Tree
   - [description](https://leetcode.com/problems/invert-binary-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/InvertBinaryTree.java)
-  - hint: queue + bfs or recursion
+  - hint: queue + bfs or dfs
   
 - [x] LeetCode #124 Binary Tree Maximum Path Sum
   - [description](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BinaryTreeMaximumPathSum.java)
-  - hint: recursion
+  - hint: dfs
 
 - [x] LeetCode #102 Binary Tree Level Order Traversal
   - [description](https://leetcode.com/problems/binary-tree-level-order-traversal/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BinaryTreeMaximumPathSum.java)
-  - hint: dfs + recursion or bfs + queue
+  - hint: dfs or bfs + queue
 
 - [x] LeetCode #297 Serialize and Deserialize Binary Tree
   - [description](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)

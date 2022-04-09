@@ -33,4 +33,23 @@ public class BinaryTreeLevelOrderTraversal {
         }
         return res;
     }
+
+    List<List<Integer>> res = new ArrayList<>();
+    public List<List<Integer>> levelOrder_2r(TreeNode root) {
+        helper(root, 0);
+        return res;
+    }
+    
+    private void helper(TreeNode node, int level) {
+        if (node == null)
+            return;
+        
+        if (res.size() <= level) {
+            res.add(new ArrayList<>());
+        }
+        
+        res.get(level).add(node.val);
+        helper(node.left, level + 1);
+        helper(node.right, level + 1);
+    }
 }

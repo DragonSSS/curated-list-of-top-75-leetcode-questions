@@ -28,4 +28,18 @@ public class InvertBinaryTree {
 
         return root;
     }
+
+    // dfs - O(n)
+    public TreeNode invertTree_2r(TreeNode root) {
+        if(root == null)
+            return null;
+        
+        TreeNode left = invertTree_2r(root.left);
+        TreeNode right = invertTree_2r(root.right);
+        
+        root.left = right;
+        root.right = left;
+        
+        return root;
+    }
 }

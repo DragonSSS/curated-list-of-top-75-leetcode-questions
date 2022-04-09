@@ -22,4 +22,23 @@ public class BinaryTreeMaximumPathSum {
         return maxTemp;
     }
 
+    // dfs - O(n)
+    int res = Integer.MIN_VALUE;
+    public int maxPathSum_2r(TreeNode root) {
+        helper(root);
+        return res;
+    }
+    
+    private int helper(TreeNode node) {
+        if (node == null)
+            return 0;
+        
+        int left = helper(node.left);
+        int right = helper(node.right);
+        
+        int nodeMax = Math.max(node.val, Math.max(node.val + left, node.val + right));
+        
+        res = Math.max(res, Math.max(nodeMax, left + node.val + right));
+        return nodeMax;   
+    }
 }
