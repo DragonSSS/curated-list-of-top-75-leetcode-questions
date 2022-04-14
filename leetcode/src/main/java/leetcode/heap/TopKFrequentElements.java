@@ -27,4 +27,23 @@ public class TopKFrequentElements {
 
         return res;
     }
+
+    public int[] topKFrequent_2r(int[] nums, int k) {
+        Map<Integer, Integer> map = new HashMap<>();
+        PriorityQueue<Map.Entry<Integer, Integer>> queue = new PriorityQueue<>((a, b) -> b.getValue() - a.getValue());
+        for(int num : nums) {
+            map.put(num, map.getOrDefault(num, 0) + 1);
+        }
+        
+        for(Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            queue.offer(entry);
+        }
+        
+        int[] res = new int[k];
+        for(int i = 0; i < k; i++) {
+            res[i] = queue.poll().getKey();
+        }
+        
+        return res;
+    }
 }
