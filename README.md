@@ -394,7 +394,7 @@
 - [x] LeetCode #23 Merge k Sorted Lists
   - [description](https://leetcode.com/problems/merge-k-sorted-lists/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/MergeKSortedLists.java)
-  - hint: priorityQueue as heap
+  - hint: priorityQueue as minHeap
 
 - [x] LeetCode #347 Top K Frequent Elements
   - [description](https://leetcode.com/problems/top-k-frequent-elements/)
