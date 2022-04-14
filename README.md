@@ -399,12 +399,12 @@
 - [x] LeetCode #347 Top K Frequent Elements
   - [description](https://leetcode.com/problems/top-k-frequent-elements/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/TopKFrequentElements.java)
-  - hint: hashmap + priorityQueue as heap
+  - hint: hashmap + priorityQueue as minHeap
 
 - [x] LeetCode #295 Find Median from Data Stream
   - [description](https://leetcode.com/problems/find-median-from-data-stream/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/FindMedianfromDataStream.java)
-  - hint: two priorityQueue as heap, smallHalf as reverse order, largeHalf as increasing order
+  - hint: two priorityQueue as heaps, smallHalf as maxHeap, largeHalf as minHeap
 
 ## High Frequency (Bonus)
 
