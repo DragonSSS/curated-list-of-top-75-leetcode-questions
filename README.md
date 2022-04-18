@@ -775,7 +775,12 @@
   - [description](https://leetcode.com/problems/next-greater-node-in-linked-list/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/NextGreaterNodeInLinkedList.java)
   - hint: use list to store all nodes, use monotonic stack to find array of next greater node
-  
+
+- [x] LeetCode #2130 Maximum Twin Sum of a Linked List
+  - [description](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/MaximumTwinSumOfLinkedList.java)
+  - hint: two points to break linkedlist into two parts, reverse second one, iterate two linkedlist
+
 ### Stack
 
 - [x] LeetCode #71 Simplify Path
