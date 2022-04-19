@@ -636,6 +636,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/RankTeamsByVotes.java)
   - hint: hashtable `Map<Character, int[]> map`
 
+- [ ] LeetCode #1567 Maximum Length of Subarray With Positive Product
+  - [description](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MaximumLengthOfSubarrayWithPositiveProduct.java)
+
 ### Binary Search
 
 - [x] LeetCode #540 Single Element in a Sorted Array
