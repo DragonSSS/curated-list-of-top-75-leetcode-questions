@@ -497,6 +497,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/CriticalConnectionsInNetwork.java)
   - hint: Tarjan's algorithm, record visitedTimes and lowTimes for each node, dfs with visited set, track previous node and current node
 
+- [x] LeetCode #582 Kill Process
+- [description](https://leetcode.com/problems/kill-process/)
+- [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/KillProcess.java)
+- hint: dfs or bfs with buidling graph
+
 ### BFS
 
 - [x] LeetCode #103 Binary Tree Zigzag Level Order Traversal
@@ -636,9 +641,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/RankTeamsByVotes.java)
   - hint: hashtable `Map<Character, int[]> map`
 
-- [ ] LeetCode #1567 Maximum Length of Subarray With Positive Product
+- [x] LeetCode #1567 Maximum Length of Subarray With Positive Product
   - [description](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MaximumLengthOfSubarrayWithPositiveProduct.java)
+  - hint: record latest zeroIndex(`-1`) and first negativeIndex(`-1`), update max length by `i - zeroIndex` and `i - negativeIndex` only if `negativeCount%2 != 0`
 
 ### Binary Search
 
