@@ -899,6 +899,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/AddStrings.java)
   - hint: two pointers
 
+- [x] LeetCode #1268 Search Suggestions System
+  - [description](https://leetcode.com/problems/search-suggestions-system/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/SearchSuggestionsSystem.java)  
+  - hint: trie, treeNode has additional property `linkedList<String>`, so size could be limited to 3 and sorted by `Collections.sort()`
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
@@ -1180,10 +1185,6 @@
   - [description](https://leetcode.com/problems/first-unique-character-in-a-string/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/FirstUniqueCharacterInString.java)
   - hint: hashtable records frequency of chars
-
-- [ ] LeetCode #1268 Search Suggestions System (Tree)
-  - [description](https://leetcode.com/problems/search-suggestions-system/)
-  - hint: trie
 
 - [ ] LeetCode #588 Design In-Memory File System (Tree)
   - [description](https://leetcode.com/problems/design-in-memory-file-system/)
