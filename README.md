@@ -853,9 +853,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/FindTheCelebrity.java)
   - hint: push all people into stack, every time `pop()` two people to check, `push()` the people back to stack if he is possible celebrity
 
-- [ ] LeetCode #907 Sum of Subarray Minimums
+- [x] LeetCode #907 Sum of Subarray Minimums
   - [description](https://leetcode.com/problems/sum-of-subarray-minimums/)
-  - hint: monotonic stack
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/SumOfSubarrayMinimums.java)
+  - hint: monotonic stack to find index of preSmaller and nextSmaller for `arr[i]`
 
 ### String
 
