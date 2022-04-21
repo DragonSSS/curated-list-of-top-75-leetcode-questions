@@ -619,7 +619,7 @@
 - [x] LeetCode #1151 Minimum Swaps to Group All 1's Together
   - [description](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimumSwapsToGroupAllOnesTogether.java)
-  - hint: result is `allOnes - maxOnesInWindow` where window size is `allOnes`
+  - hint: result is `allOnes - maxOnesInWindow` where window size is `allOnes` or use deque to maintain the window size
 
 - [x] LeetCode #2134 Minimum Swaps to Group All 1's Together II
   - [description](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/)
