@@ -41,8 +41,8 @@ public class MergeIntervals {
             if (merge[1] < cur[0]) {
                 list.add(merge);
                 merge = cur;
-            } else if (merge[0] > cur[1] ) {
-                list.add(cur);
+            // } else if (merge[0] > cur[1] ) {
+            //     list.add(cur);
             } else {
                 merge[0] = Math.min(merge[0], cur[0]);
                 merge[1] = Math.max(merge[1], cur[1]);
