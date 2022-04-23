@@ -858,6 +858,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/SumOfSubarrayMinimums.java)
   - hint: monotonic stack to find index of preSmaller and nextSmaller for `arr[i]`
 
+- [x] LeetCode #2104 Sum of Subarray Ranges
+  - [description](https://leetcode.com/problems/sum-of-subarray-ranges/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/SumOfSubarrayRanges.java)
+  - hint: similar to `Sum of Subarray Minimums`, could user monotonic stack to find index of preSmaller nextSmaller, preGreater and nextGreater for `arr[i]`
+
 ### String
 
 - [x] LeetCode #71 Simplify Path
