@@ -51,4 +51,40 @@ public class WordLadder {
         }
         return nextWords;
     }
+
+    public int ladderLength_2r(String beginWord, String endWord, List<String> wordList) {
+        Set<String> words = new HashSet<>(wordList);
+        Set<String> visited = new HashSet<>();
+        visited.add(beginWord);
+        Queue<String> queue = new LinkedList<>();
+        queue.offer(beginWord);
+        
+        if (!words.contains(endWord)) {
+            return 0;
+        }
+        
+        int len = 1;
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                String cur = queue.poll();
+                if (cur.equals(endWord))
+                    return len;
+                for(int j = 0; j < cur.length(); j++) {
+                    for(char c = 'a'; c <= 'z'; c++) {
+                        char[] chars = cur.toCharArray();
+                        chars[j] = c;
+                        String newStr = new String(chars);
+                        
+                        if(words.contains(newStr) && !visited.contains(newStr)) {
+                            visited.add(newStr);
+                            queue.offer(newStr);
+                        }
+                    }
+                }    
+            }
+            len++;
+        }
+        return 0;
+    }
 }
