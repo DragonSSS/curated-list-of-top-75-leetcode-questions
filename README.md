@@ -1098,6 +1098,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/TreeBuilder.java)
   - hint: use postorder traveral by recursion to evaluate, use stack to build tree from array
 
+- [x] LeetCode #1166 Design File System
+  - [description](https://leetcode.com/problems/design-file-system/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/FileSystem.java)
+  - hint: trie, similar to `Design In-Memory File System`
+
 - [ ] LeetCode #353 Design Snake Game
   - [description](https://leetcode.com/problems/design-snake-game/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/SnakeGame.java)
@@ -1191,14 +1196,6 @@
   - [description](https://leetcode.com/problems/first-unique-character-in-a-string/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/FirstUniqueCharacterInString.java)
   - hint: hashtable records frequency of chars
-
-- [ ] LeetCode #588 Design In-Memory File System (Tree)
-  - [description](https://leetcode.com/problems/design-in-memory-file-system/)
-  - hint: trie
-
-- [ ] LeetCode #1166 Design File System (Tree)
-  - [description](https://leetcode.com/problems/design-file-system/)
-  - hint: trie
 
 - [x] LeetCode #109 Convert Sorted List to Binary Search Tree (Tree)
   - [description](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
