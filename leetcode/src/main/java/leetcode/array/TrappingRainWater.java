@@ -28,9 +28,9 @@ public class TrappingRainWater {
   
         // trapped water (when i==0 and i == height.length - 1, it cannot trapped any water)
         for (i = 1; i < height.length-1; i++) {  
-            int bit = Math.min(left[i], right[i]) - height[i];  
-            if (bit > 0)  
-                total += bit;  
+            int bit = Math.min(left[i], right[i]) - height[i];
+            // bit >= 0 as max include height[i] itself
+            total += bit;  
         }  
   
         return total;  
