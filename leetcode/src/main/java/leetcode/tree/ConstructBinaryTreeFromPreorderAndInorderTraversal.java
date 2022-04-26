@@ -52,7 +52,7 @@ public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
         return root;
     }
 
-        // 3,9,20,15,7 (in-order)
+    // 3,9,20,15,7 (in-order)
     // 9,3,15,20,7 (pre-order) 
     // O(n)
     public TreeNode buildTree_3r(int[] preorder, int[] inorder) {
