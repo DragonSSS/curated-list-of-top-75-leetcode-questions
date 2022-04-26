@@ -51,4 +51,29 @@ public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
         
         return root;
     }
+
+        // 3,9,20,15,7 (in-order)
+    // 9,3,15,20,7 (pre-order) 
+    // O(n)
+    public TreeNode buildTree_3r(int[] preorder, int[] inorder) {
+        return helper_3r(0, 0, inorder.length - 1, preorder, inorder);
+    }
+    
+    private TreeNode helper_3r(int preIndex, int inStart, int inEnd, int[] preorder, int[] inorder) {
+        if (preIndex == preorder.length || inStart > inEnd) {
+            return null;
+        }
+        
+        TreeNode node = new TreeNode(preorder[preIndex]);
+        
+        for(int i = inStart; i <= inEnd; i++) {
+            if (preorder[preIndex] == inorder[i]) {
+                int inIndex = i;
+                node.left = helper_3r(preIndex + 1, inStart, inIndex - 1, preorder, inorder);
+                node.right = helper_3r(preIndex + inIndex - inStart  + 1, inIndex + 1, inEnd, preorder, inorder);
+            }
+        }
+        
+        return node;
+    }
 }
