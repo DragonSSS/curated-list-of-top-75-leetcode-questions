@@ -21,4 +21,26 @@ public class ProductOfArrayExceptSelf {
 
         return res;
     }
+
+    public int[] productExceptSelf_2r(int[] nums) {
+        int[] leftPrefixProduct = new int[nums.length];
+        int[] rightPrefixProduct = new int[nums.length];
+        
+        leftPrefixProduct[0] = 1;
+        for(int i = 1; i < nums.length; i++) {
+            leftPrefixProduct[i] = leftPrefixProduct[i - 1] * nums[i - 1];
+        }
+        
+        rightPrefixProduct[nums.length - 1] = 1;
+        for(int i = nums.length - 2; i >= 0; i--) {
+            rightPrefixProduct[i] = rightPrefixProduct[i + 1] * nums[i + 1];
+        }
+        
+        int[] res = new int[nums.length];
+        for(int i = 0; i < nums.length; i++) {
+            res[i] = leftPrefixProduct[i] * rightPrefixProduct[i];
+        }
+        
+        return res;
+    }
 }
