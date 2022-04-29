@@ -46,4 +46,26 @@ public class FindMinimumInRotatedSortedArray {
         
         return res;
     }
+    //    /
+    //   / 
+    //      /
+    //     /
+    public int findMin_3r(int[] nums) {
+        if (nums.length == 1)
+            return nums[0];
+        
+        int left = 0;
+        int right = nums.length - 1;
+        int res = Integer.MAX_VALUE;
+        while(left <= right) {
+            int mid = left + (right - left) / 2;
+            res = Math.min(res, nums[mid]);
+            if (nums[right] > nums[mid]) {
+                right = mid - 1;
+            } else {
+                left = mid + 1;
+            }
+        }
+        return res;
+    }
 }
