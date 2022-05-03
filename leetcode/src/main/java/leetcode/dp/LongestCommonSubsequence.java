@@ -47,4 +47,47 @@ public class LongestCommonSubsequence {
         memo[index1][index2] = res;
         return res;
     }
+
+    // O(m*n)
+    Integer[][] memo;
+    public int longestCommonSubsequence_3r(String text1, String text2) {
+        memo = new Integer[text1.length()][text2.length()];
+        return helper_3r(0, 0, text1, text2);
+    }
+        
+    private int helper_3r(int index1, int index2, String text1, String text2) {
+        if (index1 == text1.length() || index2 == text2.length()) {
+            return 0;
+        }
+            
+        if (memo[index1][index2] != null)
+            return memo[index1][index2];
+            
+        int res = 0;
+        if(text1.charAt(index1) == text2.charAt(index2)) {
+            res = helper_3r(index1 + 1, index2 + 1, text1, text2) + 1;
+        } else {
+            res = Math.max(
+                helper_3r(index1 + 1, index2, text1, text2),
+                helper_3r(index1, index2 + 1, text1, text2));
+        }
+        memo[index1][index2] = res;
+        return res;
+    }
+
+    public int longestCommonSubsequence_3r_dp(String text1, String text2) {
+        // text1 is row, text2 is col
+        int[][] dp = new int[text1.length() + 1][text2.length() + 1];
+        for(int i = text1.length() - 1; i >= 0; i--) {
+            for(int j = text2.length() - 1; j >= 0; j--) {
+                if(text1.charAt(i) == text2.charAt(j)) {
+                    dp[i][j] = dp[i + 1][j + 1] + 1;
+                } else {
+                    dp[i][j] = Math.max(dp[i + 1][j], dp[i][j + 1]);
+                }
+            }
+        }
+        
+        return dp[0][0];
+    }    
 }
