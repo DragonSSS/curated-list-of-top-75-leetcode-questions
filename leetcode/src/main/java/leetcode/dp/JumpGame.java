@@ -49,4 +49,15 @@ public class JumpGame {
         memo[index] = 0;
         return false;
     }
+
+    public boolean canJump_3r(int[] nums) {
+        int curIndex = nums.length - 1;
+        for(int i = nums.length - 1; i >= 0; i--) {
+            if (nums[i] + i >= curIndex) {
+                curIndex = i;
+            }
+        }
+        
+        return curIndex == 0;
+    }
 }
