@@ -67,4 +67,32 @@ public class WordBreak {
         }
         return false;
     }
+
+    //O(n^3) because of substr
+    public boolean wordBreak_3r_bfs(String s, List<String> wordDict) {
+        Set<String> words = new HashSet<>(wordDict);
+        Set<Integer> visited = new HashSet<>();
+        Queue<Integer> queue = new LinkedList<>();
+        visited.add(0);
+        queue.offer(0);
+        
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                int cur = queue.poll();
+                if (cur == s.length())
+                    return true;
+                
+                for(int j = cur + 1; j <= s.length(); j++) {
+                    String next = s.substring(cur, j);
+                    if(words.contains(next) && !visited.contains(j)) {
+                        queue.offer(j);
+                        visited.add(j);
+                    }
+                }
+            }
+        }
+        
+        return false;
+    }
 }
