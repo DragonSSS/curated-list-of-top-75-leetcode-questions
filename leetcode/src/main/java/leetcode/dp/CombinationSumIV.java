@@ -72,4 +72,29 @@ public class CombinationSumIV {
         
         return res;
     }
+
+    // O(nums * target)
+    Integer[] memo_3r;
+    public int combinationSum4_3r(int[] nums, int target) {
+        memo_3r = new Integer[target + 1];
+        return helper_3r(nums, target);
+    }
+    
+    private int helper_3r(int[] nums, int target) {
+        if (target == 0)
+            return 1;
+        
+        if (memo_3r[target] != null)
+            return memo_3r[target];
+        
+        int res = 0;
+        for(int num : nums) {
+            if (target - num >= 0) {
+                res += helper_3r(nums, target - num);
+            }
+        }
+        
+        memo_3r[target] = res;
+        return res;
+    }
 }
