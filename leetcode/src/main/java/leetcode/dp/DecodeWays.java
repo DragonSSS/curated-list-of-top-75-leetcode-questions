@@ -60,4 +60,34 @@ public class DecodeWays {
         memo[index] = cur;
         return cur;
     }
+
+    Integer[] memo_3r;
+    public int numDecodings_3r(String s) {
+        memo_3r = new Integer[s.length()];
+        return helper_3r(0, s);
+    }
+    
+    private int helper_3r(int index, String s) {
+        if (index == s.length())
+            return 1;
+        
+        if (memo_3r[index] != null)
+            return memo_3r[index];
+        
+        int res = 0;
+        int singleDigit = Integer.valueOf(s.substring(index, index+1));
+        if (singleDigit >= 1 && singleDigit <= 9) {
+            res = helper_3r(index + 1, s);
+        }
+        
+        if (index <= s.length() - 2) {
+            int doubleDigits = Integer.valueOf(s.substring(index, index+2));
+            if (doubleDigits >= 10 && doubleDigits <= 26) {
+                res += helper_3r(index + 2, s);
+            }
+        }
+        
+        memo_3r[index] = res;
+        return res;
+    }
 }
