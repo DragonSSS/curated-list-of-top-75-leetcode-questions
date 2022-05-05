@@ -71,4 +71,40 @@ public class HouseRobberII {
         
         return res;
     }
+
+    Integer[] memo1_3r;
+    Integer[] memo2_3r;
+    public int rob_3r(int[] nums) {
+        if (nums.length == 1)
+            return nums[0];
+        memo1_3r = new Integer[nums.length];
+        memo2_3r = new Integer[nums.length];
+        return Math.max(helper_3r(0, nums, true), helper_3r(1, nums, false));
+    }
+    
+    private int helper_3r(int index, int[] nums, boolean robFirst) {
+        if (robFirst && index >= nums.length - 1) {
+            return 0;
+        } else if (!robFirst && index >= nums.length) {
+            return 0;
+        }
+        
+        if (robFirst && memo1_3r[index] != null) {
+            return memo1_3r[index];
+        } else if (!robFirst && memo2_3r[index] != null) {
+            return memo2_3r[index];
+        }
+        
+        int with = helper_3r(index + 2, nums, robFirst) + nums[index];
+        int without = helper_3r(index + 1, nums, robFirst);
+        
+        int res = Math.max(with, without);
+        if (robFirst) {
+            memo1_3r[index] = res;
+        } else {
+            memo2_3r[index] = res;
+        }
+        
+        return res;
+    }
 }
