@@ -1,5 +1,7 @@
 package leetcode.dp;
 
+import java.util.Arrays;
+
 public class UniquePaths {
     public int uniquePaths(int m, int n) {
         Integer[][] memo = new Integer[m][n];
@@ -75,5 +77,20 @@ public class UniquePaths {
         
         memo[i][j] = res;
         return res;
+    }
+
+    public int uniquePaths_3r_dp(int m, int n) {
+        int[][] dp = new int[m][n];
+        for(int[] subarr : dp) {
+            Arrays.fill(subarr, 1);
+        }
+        
+        for(int i = 1; i < m; i++) {
+            for(int j = 1; j < n; j++) {
+                dp[i][j] = dp[i - 1][j] + dp[i][j - 1];
+            }
+        }
+        
+        return dp[m - 1][n - 1];
     }
 }
