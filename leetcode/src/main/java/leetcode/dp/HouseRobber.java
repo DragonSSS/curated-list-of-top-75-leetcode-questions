@@ -40,4 +40,28 @@ public class HouseRobber {
         
         return res;
     }
+
+        // O(n)
+        Integer[] memo_3r;
+        public int rob_3r(int[] nums) {
+            memo_3r = new Integer[nums.length];
+            return helper_3r(0, nums);
+        }
+        
+        private int helper_3r(int index, int[] nums) {
+            if (index >= nums.length) {
+                return 0;
+            }
+            
+            if (memo_3r[index] != null) {
+                return memo_3r[index];
+            }
+            
+            int with = helper_3r(index + 2, nums) + nums[index];
+            int without = helper_3r(index + 1, nums);
+            
+            int res = Math.max(with, without);
+            memo_3r[index] = res;
+            return res;
+        }
 }
