@@ -74,7 +74,7 @@ public class CloneGraph {
     }
 
     // Map<Integer, Node> map = new HashMap<>();
-    public Node cloneGraph_3r(Node node) {
+    public Node cloneGraph_3r_dfs(Node node) {
         if (node == null)
             return node;
         
@@ -83,10 +83,35 @@ public class CloneGraph {
         } else {
             map.put(node.val, new Node(node.val));
             for(Node next: node.neighbors) {
-                map.get(node.val).neighbors.add(cloneGraph_3r(next));
+                map.get(node.val).neighbors.add(cloneGraph_3r_dfs(next));
             }
         }
         
+        return map.get(node.val);
+    }
+
+    public Node cloneGraph_3r_bfs(Node node) {
+        if (node == null)
+            return node;
+        
+        Map<Integer, Node> map = new HashMap<>();
+        Queue<Node> queue = new LinkedList<>();
+        queue.offer(node);
+        map.put(node.val, new Node(node.val));
+        
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                Node cur = queue.poll();
+                for(Node next : cur.neighbors) {
+                    if(!map.containsKey(next.val)) {
+                        map.put(next.val, new Node(next.val));
+                        queue.offer(next);
+                    }
+                    map.get(cur.val).neighbors.add(map.get(next.val));
+                }
+            }
+        }
         return map.get(node.val);
     }
 }
