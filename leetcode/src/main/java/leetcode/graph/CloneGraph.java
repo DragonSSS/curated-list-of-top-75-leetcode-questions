@@ -72,4 +72,21 @@ public class CloneGraph {
         
         return visited.get(node);
     }
+
+    // Map<Integer, Node> map = new HashMap<>();
+    public Node cloneGraph_3r(Node node) {
+        if (node == null)
+            return node;
+        
+        if (map.containsKey(node.val)) {
+            return map.get(node.val);
+        } else {
+            map.put(node.val, new Node(node.val));
+            for(Node next: node.neighbors) {
+                map.get(node.val).neighbors.add(cloneGraph_3r(next));
+            }
+        }
+        
+        return map.get(node.val);
+    }
 }
