@@ -55,4 +55,29 @@ public class LongestConsecutiveSequence {
         int curLen = helper_2r_dfs(num - 1) + 1 + helper_2r_dfs(num + 1);
         return curLen;
     }
+
+    // O(n)
+    Set<Integer> visited_3r = new HashSet<>();
+    Set<Integer> numSet_3r = new HashSet<>();
+    public int longestConsecutive_3r(int[] nums) {
+        for(int num : nums) {
+            numSet_3r.add(num);
+        }
+        
+        int res = 0;
+        for(int num : nums) {
+            res = Math.max(res, helper_3r(num));
+        }
+        return res;
+    }
+    
+    private int helper_3r(int num) {
+        if (visited_3r.contains(num) || !numSet_3r.contains(num))
+            return 0;
+        
+            visited_3r.add(num);
+        
+        int cur = helper_3r(num - 1) + 1 + helper_3r(num + 1);
+        return cur;
+    }
 }
