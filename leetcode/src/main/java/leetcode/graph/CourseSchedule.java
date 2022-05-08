@@ -106,4 +106,48 @@ public class CourseSchedule {
         
         return count == numCourses;
     }
+
+    // [0, 1]  0 <- 1
+    public boolean canFinish_3r(int numCourses, int[][] prerequisites) {
+        int[] indegree = new int[numCourses];
+        Map<Integer, List<Integer>> graph = new HashMap<>();
+        Set<Integer> visited = new HashSet<>();
+        Queue<Integer> queue = new LinkedList<>();
+
+        for(int i = 0; i < numCourses; i++) {
+            graph.put(i, new ArrayList<>());
+        }
+
+        for(int[] prerequisite : prerequisites) {
+            int start = prerequisite[1];
+            int end = prerequisite[0];
+            graph.get(start).add(end);
+            indegree[end]++;
+        }
+
+        for (int i = 0; i < numCourses; i++) {
+            if(indegree[i] == 0) {
+                queue.offer(i);
+                visited.add(i);
+            }
+        }
+
+        int count = 0;
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                int cur = queue.poll();
+                count++;
+
+                for(int next: graph.get(cur)) {
+                    indegree[next]--;
+                    if(indegree[next] == 0 && !visited.contains(next)) {
+                        queue.offer(next);
+                        visited.add(next);
+                    }
+                }
+            }
+        }
+        return count == numCourses;
+    }
 }
