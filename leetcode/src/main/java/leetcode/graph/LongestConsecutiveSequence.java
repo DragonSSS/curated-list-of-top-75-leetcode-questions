@@ -32,7 +32,7 @@ public class LongestConsecutiveSequence {
 
     Set<Integer> numsSet = new HashSet<>();
     Set<Integer> visited = new HashSet<>();
-    public int longestConsecutive_sr_dfs(int[] nums) {
+    public int longestConsecutive_2r_dfs(int[] nums) {
         if(nums.length == 0)
             return 0;
         
