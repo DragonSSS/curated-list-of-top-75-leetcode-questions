@@ -30,4 +30,27 @@ public class NextGreaterElementI {
         }
         return res;
     }
+
+    public int[] nextGreaterElement_2r(int[] nums1, int[] nums2) {
+        Map<Integer, Integer> map = new HashMap<>();
+        Stack<Integer> stack = new Stack<>();
+        for(int num : nums2){
+            while(!stack.isEmpty() && stack.peek() < num) {
+                map.put(stack.pop(), num);
+            }
+            stack.push(num);
+        }
+        
+        int[] res = new int[nums1.length];
+        int index = 0;
+        for(int num : nums1) {
+            if (!map.containsKey(num)) {
+                res[index] = -1;
+            } else {
+                res[index] = map.get(num);
+            }
+            index++;
+        }
+        return res;
+    }
 }
