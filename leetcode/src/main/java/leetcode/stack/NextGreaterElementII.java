@@ -23,4 +23,19 @@ public class NextGreaterElementII {
         
         return res;
     }
+
+    public int[] nextGreaterElements_2r(int[] nums) {
+        int size = nums.length;
+        int[] res = new int[size];
+        Stack<Integer> stack = new Stack<>();
+        Arrays.fill(res, -1);
+        for(int i = 0; i < size * 2; i++) {
+            while(!stack.isEmpty() && nums[stack.peek()] < nums[i % size]) {
+                res[stack.pop()] = nums[i % size];
+            }
+            if (i < size)
+                stack.push(i);
+        }
+        return res;
+    }
 }
