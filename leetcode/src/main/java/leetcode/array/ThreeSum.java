@@ -113,4 +113,40 @@ public class ThreeSum {
         
         return res;
     }
+
+    public List<List<Integer>> threeSum_4r(int[] nums) {
+        List<List<Integer>> res = new ArrayList<>();
+        if(nums.length < 3)
+            return res;
+        
+        Arrays.sort(nums);
+        int n = nums.length;
+        for(int i = 0; i < n; i++) {
+            if (i > 0 && nums[i - 1] == nums[i])
+                continue;
+            
+            int low = i + 1;
+            int high = n - 1;
+            while(low < high) {
+                int sum = nums[i] + nums[low] + nums[high];
+                if (sum == 0) {
+                    res.add(Arrays.asList(nums[i], nums[low], nums[high]));
+                    while(low < high && nums[low + 1] == nums[low]) {
+                        low++;
+                    }
+                    while(low < high && nums[high - 1] == nums[high]) {
+                        high--;
+                    }
+                    low++;
+                    high--;
+                } else if (sum > 0) {
+                    high--;
+                } else {
+                    low++;
+                }
+            }
+        }
+        
+        return res;
+    }
 }
