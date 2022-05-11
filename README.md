@@ -53,6 +53,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ThreeSum.java)
   - hint: sorted + two pointers
 
+- [ ] LeetCode #18 4Sum
+  - [description](https://leetcode.com/problems/4sum/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FourSum.java)
+  - hint: sorted + two pointers
+
 - [x] LeetCode #11 Container With Most Water
   - [description](https://leetcode.com/problems/container-with-most-water/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ContainerWithMostWater.java)
@@ -862,6 +867,11 @@
   - [description](https://leetcode.com/problems/sum-of-subarray-ranges/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/SumOfSubarrayRanges.java)
   - hint: similar to `Sum of Subarray Minimums`, could user monotonic stack to find index of preSmaller nextSmaller, preGreater and nextGreater for `arr[i]`
+
+- [x] LeetCode #735 Asteroid Collision
+  - [description](https://leetcode.com/problems/asteroid-collision/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/AsteroidCollision.java)
+  - hint: use stack to simulate the asteroid collision
 
 ### String
 
