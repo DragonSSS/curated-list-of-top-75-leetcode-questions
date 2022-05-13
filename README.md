@@ -937,6 +937,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/PartitionLabels.java)
   - hint: use hashtable to track last index of char in the string, greedily split the string at at the last index of any char
 
+- [x] LeetCode #1029 Two City Scheduling
+  - [description](https://leetcode.com/problems/two-city-scheduling/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/TwoCityScheduling.java)
+  - hint: dfs + memo or greedy: sort costs array by letting ppl go to B instead Of A `diff = cost[i][1] - cost[i][0]`, iterate sorted array to calculate cost
+
 ### Backtracking
 
 - [x] LeetCode #40 Combination Sum II
