@@ -974,6 +974,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/NQueens.java)
   - hint: dfs + backtracking
 
+- [x] LeetCode #46 Permutations
+  - [description](https://leetcode.com/problems/permutations/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/Permutations.java)
+  - hint: dfs + backtracking
+
 ### Heap (Priority Queue)
 
 - [x] LeetCode #378 Kth Smallest Element in a Sorted Matrix
