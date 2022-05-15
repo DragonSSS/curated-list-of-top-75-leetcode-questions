@@ -150,4 +150,62 @@ public class PacificAtlanticWaterFlow {
             }
         }
     }
+
+    // int[][] dirs = new int[][]{{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+    public List<List<Integer>> pacificAtlantic_3r(int[][] heights) {
+        int row = heights.length;
+        int col = heights[0].length;
+        boolean[][] pacific = new boolean[row][col];
+        boolean[][] atlantic = new boolean[row][col];
+        Queue<int[]> queuePacific = new LinkedList<>();
+        Queue<int[]> queueAtlantic = new LinkedList<>();
+        
+        
+        for(int i = 0; i < row; i++) {
+            pacific[i][0] = true;
+            queuePacific.offer(new int[]{i, 0});
+            atlantic[i][col - 1] = true;
+            queueAtlantic.offer(new int[]{i, col - 1});
+        }
+        
+        for(int i = 0; i < col; i++) {
+            pacific[0][i] = true;
+            queuePacific.offer(new int[]{0, i});
+            atlantic[row - 1][i] = true;
+            queueAtlantic.offer(new int[]{row - 1, i});
+        }
+        
+        helper_3r(heights, pacific, queuePacific);
+        helper_3r(heights, atlantic, queueAtlantic);
+        
+        List<List<Integer>> res = new ArrayList<>();
+        for(int i = 0; i < row; i++) {
+            for(int j = 0; j < col; j++) {
+                if (pacific[i][j] && atlantic[i][j])
+                    res.add(Arrays.asList(i, j));
+            }
+        }
+        
+        return res;
+    }
+    
+    private void helper_3r(int[][] heights, boolean[][] ocean, Queue<int[]> queue) {
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                int[] cur = queue.poll();
+                
+                for(int[] dir : dirs) {
+                    int x = cur[0] + dir[0];
+                    int y = cur[1] + dir[1];
+                    
+                    if (x < 0 || x >= heights.length || y < 0 || y >= heights[0].length || ocean[x][y] || heights[x][y] < heights[cur[0]][cur[1]])
+                        continue;
+                    
+                    ocean[x][y] = true;
+                    queue.offer(new int[] {x, y});
+                }
+            }
+        }
+    }
 }
