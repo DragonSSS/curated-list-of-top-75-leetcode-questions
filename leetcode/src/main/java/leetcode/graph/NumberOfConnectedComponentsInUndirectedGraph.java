@@ -93,4 +93,50 @@ public class NumberOfConnectedComponentsInUndirectedGraph {
             }
         }
     }
+
+    Set<Integer> visited_3r = new HashSet<>();
+    Map<Integer, List<Integer>> graph_3r = new HashMap<>();
+    public int countComponents_3r(int n, int[][] edges) {
+        // build graph
+        for(int i = 0; i < n; i++) {
+            graph_3r.put(i, new ArrayList<>());
+        }
+        
+        for(int[] edge : edges) {
+            int start = edge[0];
+            int end = edge[1];
+            graph_3r.get(start).add(end);
+            graph_3r.get(end).add(start);
+        }
+        
+        int res = 0;
+        for(int i = 0; i < n; i++) {
+            if(!visited_3r.contains(i)) {
+                res++;
+                helper_3r(i);
+            }
+        }
+        
+        return res;
+    }
+    
+    private void helper_3r(int index) {
+        Queue<Integer> queue = new LinkedList<>();
+        queue.offer(index);
+        visited_3r.add(index);
+        
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                int cur = queue.poll();
+
+                for(int next : graph_3r.get(cur)) {
+                    if(visited_3r.contains(next))
+                        continue;
+                    queue.offer(next);
+                    visited_3r.add(next);
+                }
+            }
+        }
+    }
 }
