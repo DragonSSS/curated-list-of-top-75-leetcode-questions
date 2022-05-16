@@ -165,4 +165,43 @@ public class GraphValidTree {
                 
         return visited_bfs.size() == n;
     }
+
+    Map<Integer, List<Integer>> graph_3r = new HashMap<>();
+    Set<Integer> visited_3r = new HashSet<>();
+    public boolean validTree_3r(int n, int[][] edges) {
+        // build graph
+        for(int i = 0; i < n; i++) {
+            graph_3r.put(i, new ArrayList<>());
+        }
+        
+        for(int[] edge : edges) {
+            int start = edge[0];
+            int end = edge[1];
+            graph_3r.get(start).add(end);
+            graph_3r.get(end).add(start);
+        }
+        
+        if (helper_3r(-1, 0)) {
+            return false;
+        }
+        
+        if (visited_3r.size() < n)
+            return false;
+        
+        return true;
+    }
+    
+    private boolean helper_3r(int pre, int cur) {
+        if (visited_3r.contains(cur))
+            return true;
+        
+        visited_3r.add(cur);
+        for(int next : graph.get(cur)) {
+            if (next == pre)
+                continue;
+            if (helper_3r(cur, next))
+                return true;
+        }
+        return false;
+    }
 }
