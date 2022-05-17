@@ -176,4 +176,97 @@ public class AlienDictionary {
         visited.remove(c);
         return false;
     }
+
+    // words = ["wrt","wrf","er","ett","rftt"]
+    // t -> f
+    // w -> e
+    // r -> t
+    // e -> r
+    
+    // wertf
+    
+    // if there is circle, it is invalid
+    // s  t
+    // s should be short than t
+    // time complexity O(C)
+    Map<Character, List<Character>> graph_3r = new HashMap<>();
+    int[] indegree_3r = new int[26];
+    public String alienOrder_3r(String[] words) {
+        
+        for(String word : words) {
+            for (char c : word.toCharArray()) {
+                graph_3r.putIfAbsent(c, new ArrayList<>());
+            }
+        }
+        
+        for(int i = 1; i < words.length; i++) {
+            String first = words[i - 1];
+            String second = words[i];
+            
+            if (first.length() > second.length() && first.startsWith(second)) {
+                return "";
+            }
+            
+            for(int j = 0; j < Math.min(first.length(), second.length()); j++) {
+                if (first.charAt(j) != second.charAt(j)) {
+                    graph_3r.get(first.charAt(j)).add(second.charAt(j));
+                    indegree_3r[second.charAt(j) - 'a']++;
+                    break;
+                }
+            }
+        }
+        
+        // detect circle
+        boolean[] visited = new boolean[26];
+        for(char c : graph_3r.keySet()) {
+            if (helper_3r(c, visited))
+                return "";
+        }
+        
+        
+        StringBuilder sb = new StringBuilder();
+        Set<Character> seen = new HashSet<>();
+        Queue<Character> queue = new LinkedList<>();
+        for(char c : graph_3r.keySet()) {
+            if(indegree_3r[c - 'a'] == 0) {
+                queue.offer(c);
+                seen.add(c);
+                sb.append(c);
+            }
+        }
+        
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                char cur = queue.poll();
+                for(char next : graph_3r.get(cur)) {
+                    if (seen.contains(next)) {
+                        continue;
+                    }
+                    indegree_3r[next - 'a']--;
+                    if (indegree_3r[next - 'a'] == 0) {
+                        queue.offer(next);
+                        seen.add(next);
+                        sb.append(next);
+                    }
+                }
+            }
+        }
+        
+        return sb.toString();
+    }
+    
+    private boolean helper_3r(char c, boolean[] visited) {
+        if (visited[c - 'a'])
+            return true;
+        
+        visited[c - 'a'] = true;
+        for(char next : graph_3r.get(c)) {
+            if (helper_3r(next, visited))
+                return true;
+        }
+        visited[c - 'a'] = false;
+        
+        return false;
+    }
 }
