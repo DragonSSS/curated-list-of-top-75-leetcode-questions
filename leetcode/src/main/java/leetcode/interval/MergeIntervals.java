@@ -57,4 +57,30 @@ public class MergeIntervals {
         
         return res;
     }
+
+    public int[][] merge_3r(int[][] intervals) {
+        List<int[]> list = new ArrayList<>();
+        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+        int[] mergeInterval = intervals[0];
+        
+        for(int i = 1; i < intervals.length; i++) {
+            if(mergeInterval[1] < intervals[i][0]) {
+                list.add(mergeInterval);
+                mergeInterval = intervals[i];
+            } else if(mergeInterval[0] > intervals[i][1]){
+                list.add(intervals[i]);
+            } else {
+                mergeInterval[0] = Math.min(mergeInterval[0], intervals[i][0]);
+                mergeInterval[1] = Math.max(mergeInterval[1], intervals[i][1]);
+            }
+        }
+        
+        list.add(mergeInterval);
+        
+        int[][] res = new int[list.size()][2];
+        for(int i = 0; i < list.size(); i++) {
+            res[i] = list.get(i);
+        }
+        return res;
+    }
 }
