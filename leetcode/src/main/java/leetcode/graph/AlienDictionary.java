@@ -192,7 +192,6 @@ public class AlienDictionary {
     Map<Character, List<Character>> graph_3r = new HashMap<>();
     int[] indegree_3r = new int[26];
     public String alienOrder_3r(String[] words) {
-        
         for(String word : words) {
             for (char c : word.toCharArray()) {
                 graph_3r.putIfAbsent(c, new ArrayList<>());
