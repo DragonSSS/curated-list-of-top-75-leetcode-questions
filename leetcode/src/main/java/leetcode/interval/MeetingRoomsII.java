@@ -59,4 +59,22 @@ public class MeetingRoomsII {
         
         return pq.size();
     }
+
+    public int minMeetingRooms_3r(int[][] intervals) {
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+        
+        for(int[] interval : intervals) {
+            int start = interval[0];
+            int end = interval[1];
+            
+            if(!pq.isEmpty() && pq.peek() <= start) {
+                pq.poll();
+            }
+            
+            pq.offer(end);
+        }
+        
+        return pq.size();
+    }
 }
