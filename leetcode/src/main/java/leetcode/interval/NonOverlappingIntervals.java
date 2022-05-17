@@ -59,4 +59,23 @@ public class NonOverlappingIntervals {
         
         return removedCount;
     }
+
+
+    public int eraseOverlapIntervals_3r(int[][] intervals) {
+        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+        int res = 0;
+        int preEnd = intervals[0][1];
+        
+        for(int i = 1; i < intervals.length; i++) {
+            if(preEnd > intervals[i][0]) {
+                res++;
+                // tricky part to make greedy work
+                preEnd = Math.min(preEnd, intervals[i][1]);
+            } else {
+                preEnd = intervals[i][1];
+            }
+        }
+        
+        return res;
+    }
 }
