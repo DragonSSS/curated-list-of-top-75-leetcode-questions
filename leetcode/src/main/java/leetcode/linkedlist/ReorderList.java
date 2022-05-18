@@ -117,6 +117,58 @@ public class ReorderList {
         }
         dummy.next = null;
     }
+
+    public void reorderList_3r(ListNode head) {
+        if (head.next == null)
+            return;
+        ListNode slow = head, fast = head, pre = null;
+        
+        
+        while(fast != null && fast.next != null) {
+            pre = slow;
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        
+        pre.next = null;
+        ListNode head1 = head;
+        ListNode head2 = reverse_3r(slow);
+        
+        
+        ListNode dummy = new ListNode(0);
+        ListNode cur = dummy;
+        
+        while(head1 != null && head2 != null) {
+            cur.next = head1;
+            head1 = head1.next;
+            cur = cur.next;
+            cur.next = head2;
+            head2 = head2.next;
+            cur = cur.next;
+        }
+        
+        if (head1 != null) {
+            cur.next = head1;
+        }
+        
+        if (head2 != null) {
+            cur.next = head2;
+        }
+        
+        dummy.next = null;
+    }
+    
+    private ListNode reverse_3r(ListNode head) {
+        ListNode pre = null;
+        while( head != null) {
+           ListNode temp = head.next;
+            head.next = pre;
+            pre = head;
+            head = temp;
+        }
+        
+        return pre;
+    }
 }
 
 
