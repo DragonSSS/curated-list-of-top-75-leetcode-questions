@@ -44,4 +44,17 @@ public class ReverseLinkedList {
         
         return pre;
     }
+
+    public ListNode reverseList_3r(ListNode head) {
+        ListNode pre = null;
+        ListNode node = head;
+        while(node != null) {
+            ListNode temp = node.next;
+            node.next = pre;
+            pre = node;
+            node = temp;
+        }
+        
+        return pre;
+    }
 }
