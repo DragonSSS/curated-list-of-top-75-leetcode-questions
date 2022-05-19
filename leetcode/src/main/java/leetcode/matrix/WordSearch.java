@@ -72,4 +72,38 @@ public class WordSearch {
         visited[i][j] = false;
         return false;
     }
+
+    // int[][] dirs = new int[][]{{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+    public boolean exist_3r(char[][] board, String word) {
+        int row = board.length;
+        int col = board[0].length;
+        for(int i = 0; i < row; i++) {
+            for(int j = 0; j < col; j++) {
+                if(helper_3r(i, j, 0, word, board, new boolean[row][col])){
+                    return true;
+                }
+            }
+        }
+        
+        return false;
+    }
+    
+    private boolean helper_3r(int i, int j, int index, String s, char[][] board, boolean[][] visited) {
+        if(index == s.length())
+            return true;
+        if( i < 0  || i >= board.length || j < 0 || j >= board[0].length || visited[i][j] || board[i][j] != s.charAt(index))
+            return false;
+        
+        visited[i][j] = true;
+        for(int[] dir : dirs) {
+            int x = i + dir[0];
+            int y = j + dir[1];
+            
+            if (helper_3r(x, y, index + 1, s, board, visited)) {
+                return true;
+            }
+        }
+        visited[i][j] = false;
+        return false;
+    }
 }
