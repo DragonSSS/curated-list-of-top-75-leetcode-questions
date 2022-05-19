@@ -888,6 +888,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/MinimumNumberOfSwapsToMakeStringBalanced.java)
   - hint: stack, trick is to calculate number of swap based size of stack, looking for a pattern, one swap could remove 4 invalid chars
 
+- [x] LeetCode #1653 Minimum Deletions to Make String Balanced
+  - [description](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/MinimumDeletionsToMakeStringBalanced.java)
+  - hint: stack
+
 ### String
 
 - [x] LeetCode #71 Simplify Path
