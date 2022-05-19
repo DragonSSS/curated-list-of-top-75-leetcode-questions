@@ -40,4 +40,25 @@ public class ValidAnagram {
         
         return true;
     }
+
+    public boolean isAnagram_3r(String s, String t) {
+        int[] freq = new int[26];
+        
+        if (s.length() != t.length())
+            return false;
+        
+        for(int i = 0; i < s.length(); i++) {
+            char c1 = s.charAt(i);
+            char c2 = t.charAt(i);
+            freq[c1 - 'a']++;
+            freq[c2 - 'a']--;
+        }
+        
+        for(int val : freq) {
+            if(val != 0)
+                return false;
+        }
+        
+        return true;
+    }
 }
