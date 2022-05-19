@@ -873,6 +873,21 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/AsteroidCollision.java)
   - hint: use stack to simulate the asteroid collision
 
+- [x] LeetCode #1047 Remove All Adjacent Duplicates In String
+  - [description](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/RemoveAllAdjacentDuplicatesInString.java)
+  - hint: stack
+
+- [x] LeetCode #1209 Remove All Adjacent Duplicates In String II
+  - [description](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/RemoveAllAdjacentDuplicatesInStringII.java)
+  - hint: stack
+
+- [x] LeetCode #1963 Minimum Number of Swaps to Make the String Balanced
+  - [description](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/MinimumNumberOfSwapsToMakeStringBalanced.java)
+  - hint: stack, trick is to calculate number of swap based size of stack, looking for a pattern, one swap could remove 4 invalid chars
+
 ### String
 
 - [x] LeetCode #71 Simplify Path
