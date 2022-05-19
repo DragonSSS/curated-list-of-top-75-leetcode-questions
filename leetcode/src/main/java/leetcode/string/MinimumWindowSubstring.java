@@ -101,4 +101,49 @@ public class MinimumWindowSubstring {
         
         return minLen == Integer.MAX_VALUE? "" : s.substring(index, index + minLen);
     }
+
+    public String minWindow_3r(String s, String t) {
+        Map<Character, Integer> freq = new HashMap<>();
+        
+        for(char c : t.toCharArray()) {
+            freq.put(c, freq.getOrDefault(c, 0) + 1);
+        }
+        
+        int count = 0;
+        int minLen = Integer.MAX_VALUE;
+        int index = 0;
+        int left = 0;
+        
+        for(int right = 0; right < s.length(); right++) {
+            char rightChar = s.charAt(right);
+            if(!freq.containsKey(rightChar))
+                continue;
+            
+            int rightCharFreq = freq.get(rightChar);
+            freq.put(rightChar, rightCharFreq - 1);
+            if (rightCharFreq == 1) {
+                count++;
+            }
+            
+            while(count == freq.size()) {
+                if (right - left + 1 < minLen) {
+                    minLen = right - left + 1;
+                    index = left;
+                }
+                
+                char leftChar = s.charAt(left);
+                left++;
+                if(!freq.containsKey(leftChar))
+                    continue;
+                
+                int leftCharFreq = freq.get(leftChar);
+                freq.put(leftChar, leftCharFreq + 1);
+                if (leftCharFreq == 0) {
+                    count--;
+                }   
+            }
+        }
+        
+        return minLen == Integer.MAX_VALUE? "" : s.substring(index, index + minLen);
+    }
 }
