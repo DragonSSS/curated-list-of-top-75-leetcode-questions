@@ -53,4 +53,26 @@ public class GroupAnagrams {
         
         return res;
     }
+
+    public List<List<String>> groupAnagrams_3r(String[] strs) {
+        Map<String, List<String>> map = new HashMap<>();
+        int[] freq;
+        
+        for(String s : strs) {
+            freq = new int[26];
+            for (char c : s.toCharArray()) {
+                freq[c - 'a']++;
+            }
+            String key = Arrays.toString(freq);
+            map.putIfAbsent(key, new ArrayList<>());
+            map.get(key).add(s);
+        }
+        
+        List<List<String>> res = new ArrayList<>();
+        for(Map.Entry<String, List<String>> entry : map.entrySet()) {
+            res.add(entry.getValue());
+        }
+        
+        return res;
+    }
 }
