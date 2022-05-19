@@ -21,5 +21,25 @@ public class MinimumAddToMakeParenthesesValid {
         }
         
         return stack.size() + addLeft;
-    }   
+    }
+
+    public int minAddToMakeValid_2r(String s) {
+        Stack<Character> stack = new Stack<>();
+        int addLeft = 0;
+        
+        for(int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c == '(') {
+                stack.push(c);
+            } else {
+                if (stack.isEmpty()) {
+                    addLeft++;
+                } else {
+                    stack.pop();
+                }
+            }
+        }
+        
+        return addLeft + stack.size();
+    }
 }

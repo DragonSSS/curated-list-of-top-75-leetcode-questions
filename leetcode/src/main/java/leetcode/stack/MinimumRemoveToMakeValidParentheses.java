@@ -32,5 +32,38 @@ public class MinimumRemoveToMakeValidParentheses {
             res.append(s.charAt(i));
         }
         return res.toString();
-    }    
+    }
+    
+    public String minRemoveToMakeValid_2r(String s) {
+        Set<Integer> removed = new HashSet<>();
+        Stack<Integer> stack = new Stack<>();
+        
+        for(int i = 0; i < s.length(); i++) {
+            char cur = s.charAt(i);
+            
+            if (cur == '(') {
+                stack.push(i);
+            } else if (cur == ')') {
+                if(stack.isEmpty()) {
+                    removed.add(i);
+                } else {
+                    stack.pop();
+                }
+            }
+        }
+        
+        while(!stack.isEmpty()) {
+            removed.add(stack.pop());
+        }
+        
+        
+        StringBuilder sb = new StringBuilder();
+        for(int i = 0; i < s.length(); i++) {
+            if(removed.contains(i))
+                continue;
+            sb.append(s.charAt(i));
+        }
+        
+        return sb.toString();
+    }
 }
