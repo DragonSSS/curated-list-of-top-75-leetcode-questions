@@ -54,4 +54,31 @@ public class ValidPalindrome {
         }
         return true;
     }
+
+    public boolean isPalindrome_3r(String s) {
+        s = s.trim();
+        if (s == "")
+            return true;
+        s = s.toLowerCase();
+        int left = 0;
+        int right = s.length() - 1;
+        
+        while(left <= right) {
+            while(left <= right && !Character.isLetterOrDigit(s.charAt(left))){
+                left++;
+            }
+            
+            while(left <= right && !Character.isLetterOrDigit(s.charAt(right))){
+                right--;
+            }
+            
+            if (left <= right && s.charAt(left) != s.charAt(right))
+                return false;
+            
+            left++;
+            right--;
+        }
+        
+        return true;
+    }
 }
