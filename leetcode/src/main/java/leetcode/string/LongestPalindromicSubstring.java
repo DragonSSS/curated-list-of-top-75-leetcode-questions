@@ -55,4 +55,31 @@ public class LongestPalindromicSubstring {
         
         return s.substring(left + 1, right);
     }
+
+    public String longestPalindrome_3r(String s) {
+        String res = "";
+        for(int i = 0; i < s.length(); i++) {
+            String even = helper_3r(i, i + 1, s);
+            String odd = helper_3r(i, i, s);
+
+            if (even.length() > res.length()) {
+                res = even;
+            }
+            
+            if (odd.length() > res.length()) {
+                res = odd;
+            }
+        }
+        return res;
+    }
+    
+    
+    private String helper_3r(int left, int right, String s) {
+        while(left >= 0 && right <= s.length() - 1 && s.charAt(left) == s.charAt(right)){
+            left--;
+            right++;
+        }
+        
+        return s.substring(left + 1, right);
+    }
 }
