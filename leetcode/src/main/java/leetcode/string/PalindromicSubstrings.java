@@ -46,4 +46,23 @@ public class PalindromicSubstrings {
         }
         return count;
     }
+
+    public int countSubstrings_3r(String s) {
+        int res = 0;
+        for(int i = 0; i < s.length(); i++) {
+            res += helper_3r(i, i + 1, s);
+            res += helper_3r(i, i, s);
+        }
+        return res;
+    }
+    
+    private int helper_3r(int left, int right, String s) {
+        int count = 0;
+        while(left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+            left--;
+            right++;
+            count++;
+        }
+        return count;
+    }
 }
