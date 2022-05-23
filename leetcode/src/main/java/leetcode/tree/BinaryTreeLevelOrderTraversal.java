@@ -52,4 +52,31 @@ public class BinaryTreeLevelOrderTraversal {
         helper(node.left, level + 1);
         helper(node.right, level + 1);
     }
+
+    public List<List<Integer>> levelOrder_3r(TreeNode root) {
+        List<List<Integer>> res = new ArrayList<>();
+        if (root == null)
+            return res;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        
+        while(!queue.isEmpty()) {
+            List<Integer> cur = new ArrayList<>();
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                TreeNode node = queue.poll();
+                cur.add(node.val);
+                
+                if(node.left != null) {
+                    queue.offer(node.left);
+                }
+                if(node.right != null) {
+                    queue.offer(node.right);
+                }
+            }
+            res.add(cur);
+        }
+        
+        return res;
+    }
 }

@@ -102,4 +102,41 @@ public class SerializeDeserializeBinaryTree {
         node.right = deserializeHelper_2r(queue);
         return node;
     }
+
+        // Encodes a tree to a single string.
+        public String serialize_3r(TreeNode root) {
+            StringBuilder sb = new StringBuilder();
+            serializeHelper_3r(root, sb);
+            return sb.toString();
+        }
+        
+        private void serializeHelper_3r(TreeNode node, StringBuilder sb) {
+            if(node == null) {
+                sb.append("null").append(",");
+                return;
+            }
+            sb.append(node.val).append(",");
+            serializeHelper_3r(node.left, sb);
+            serializeHelper_3r(node.right, sb);
+        }
+    
+        // Decodes your encoded data to tree.
+        public TreeNode deserialize_3r(String data) {
+            String[] nodes = data.split(","); // remove trailing empty string ;-)
+            LinkedList<String> listNodes = new LinkedList<>(Arrays.asList(nodes));
+            TreeNode root = deserializeHelper_3r(listNodes);
+            return root;
+        }
+        
+        private TreeNode deserializeHelper_3r(LinkedList<String> listNodes) {
+            String val = listNodes.removeFirst();
+            if (val.equals("null"))
+                return null;
+            
+            TreeNode node = new TreeNode(Integer.valueOf(val));
+            node.left = deserializeHelper_3r(listNodes);
+            node.right = deserializeHelper_3r(listNodes);
+            return node;
+            
+        }
 }
