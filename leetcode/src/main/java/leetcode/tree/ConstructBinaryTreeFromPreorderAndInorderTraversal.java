@@ -104,4 +104,24 @@ public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
         node.right = helper_4r(preorder, inIndex + 1, inRight);
         return node;
     }
+
+    // Map<Integer, Integer> map = new HashMap<>();
+    public TreeNode buildTree_5r(int[] preorder, int[] inorder) {
+        for(int i = 0; i < inorder.length; i++) {
+            map.put(inorder[i], i);
+        }
+        return helper_5r(0, 0, inorder.length - 1, preorder);
+    }
+    
+    private TreeNode helper_5r(int indexPre, int startIn, int endIn, int[] preorder) {
+        if(indexPre == preorder.length || startIn > endIn) {
+            return null;
+        }
+        
+        TreeNode node = new TreeNode(preorder[indexPre]);
+        int indexIn = map.get(preorder[indexPre]);
+        node.left = helper_5r(indexPre + 1, startIn, indexIn - 1, preorder);
+        node.right = helper_5r(indexPre + indexIn - startIn + 1, indexIn + 1, endIn, preorder);
+        return node;
+    }
 }
