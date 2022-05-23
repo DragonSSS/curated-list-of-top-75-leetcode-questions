@@ -76,4 +76,19 @@ public class ValidateBinarySearchTree {
         
         return helper_2r(node.left, node.val, min) && helper_2r(node.right, max, node.val);
     }
+
+
+    public boolean isValidBST_3r(TreeNode root) {
+        return helper_3r(root, Long.MAX_VALUE, Long.MIN_VALUE);
+    }
+    
+    private boolean helper_3r(TreeNode node, long max, long min) {
+        if (node == null)
+            return true;
+        
+        if (node.val >= max || node.val <= min)
+            return false;
+        
+        return helper_3r(node.left, node.val, min) && helper_3r(node.right, max, node.val);
+    }
 }
