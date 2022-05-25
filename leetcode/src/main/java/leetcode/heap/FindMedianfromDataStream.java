@@ -54,6 +54,24 @@ public class FindMedianfromDataStream {
             return (smallHalf.peek() + largeHalf.peek()) / 2.0;
         }
     }
+    
+    public void addNum_3r(int num) {
+        if(smallHalf.size() > largeHalf.size()) {
+            smallHalf.offer(num);
+            largeHalf.offer(smallHalf.poll());
+        } else {
+            largeHalf.offer(num);
+            smallHalf.offer(largeHalf.poll());
+        }
+    }
+    
+    public double findMedian_3r() {
+        if (smallHalf.size() == largeHalf.size()) {
+            return (smallHalf.peek() + largeHalf.peek()) / 2.0;
+        } else {
+            return smallHalf.peek();
+        }
+    }
 }
 
 /**
