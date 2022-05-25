@@ -134,4 +134,56 @@ public class WordSearch2 {
             node.word = word;
         }
     }
+
+    // TreeNode root;
+    // int[][] dirs = new int[][]{{0,1},{1,0},{0,-1},{-1,0}};
+    // boolean[][] visited;
+    List<String> res = new ArrayList<>();
+    public List<String> findWords_3r(char[][] board, String[] words) {
+        int row = board.length;
+        int col = board[0].length;
+        
+        visited = new boolean[row][col];
+        root = new TreeNode();
+        buildTrie_3r(words);
+        
+        for(int i = 0; i < row; i++) {
+            for(int j = 0; j < col; j++) {
+                helper_3r(i, j, root, board);
+            }
+        }
+        return res;
+    }
+    
+    private void helper_3r(int i, int j, TreeNode node, char[][] board) {
+        if( i < 0 || i >= board.length || j < 0 || j >= board[0].length || visited[i][j] || node.children[board[i][j] - 'a'] == null)
+            return;
+        
+        char cur = board[i][j];
+        TreeNode next = node.children[cur - 'a'];
+        
+        if(next.word != null) {
+            res.add(next.word);
+            next.word = null;
+        }
+        
+        visited[i][j] = true;
+        for(int[] dir : dirs) {
+            helper_3r(i + dir[0], j + dir[1], next, board);
+        }
+        visited[i][j] = false;
+    }
+    
+    private void buildTrie_3r(String[] words) {
+        for(String word : words) {
+            TreeNode node = root;
+            for(char c : word.toCharArray()) {
+                if(node.children[c - 'a'] == null) {
+                    node.children[c - 'a'] = new TreeNode();
+                }
+                node = node.children[c - 'a'];
+            }
+            node.word = word;
+        }
+    }
 }
