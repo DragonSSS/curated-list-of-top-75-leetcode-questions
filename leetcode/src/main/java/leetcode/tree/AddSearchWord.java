@@ -85,6 +85,54 @@ public class AddSearchWord {
                 return node.children[cur - 'a'] != null && helper_2r(index + 1, word, node.children[cur - 'a']);
             }
         }
+
+        // class TreeNode {
+        //     TreeNode[] children;
+        //     boolean isWord;
+            
+        //     public TreeNode() {
+        //         this.children = new TreeNode[26];
+        //         this.isWord = false;
+        //     }
+        // }
+    
+        // TreeNode root;
+        // public WordDictionary() {
+        //     root = new TreeNode();
+        // }
+        
+        public void addWord_3r(String word) {
+            TreeNode node = root;
+            for(char c : word.toCharArray()) {
+                if(node.children[c - 'a'] == null) {
+                    node.children[c - 'a'] = new TreeNode();
+                }
+                node = node.children[c - 'a'];
+            }
+            node.isWord = true;
+        }
+        
+        public boolean search_3r(String word) {
+            return helper_3r(0, word, root);
+        }
+        
+        private boolean helper_3r(int index, String word, TreeNode node) {
+            if (index == word.length()) {
+                return node.isWord;
+            }
+            
+            char cur = word.charAt(index);
+            
+            if (cur == '.') {
+                for(int i = 0; i < 26; i++) {
+                    if(node.children[i] != null && helper_3r(index + 1, word, node.children[i]))
+                        return true;
+                }
+                return false;
+            } else {
+                return node.children[cur - 'a'] != null && helper_3r(index + 1, word, node.children[cur - 'a']);
+            }
+        }
     }
 
 /**
