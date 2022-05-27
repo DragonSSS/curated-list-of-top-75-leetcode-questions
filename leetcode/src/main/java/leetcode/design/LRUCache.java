@@ -164,4 +164,33 @@ public class LRUCache {
             tail = node;
         }
     }
+
+    private void removeNode_3r(Node node) {
+        Node pre = node.pre;
+        Node next = node.next;
+        if(pre != null) {
+            pre.next = next;
+        } else {
+            head = next;
+        }
+
+        if (next != null) {
+            next.pre = pre;
+        } else {
+            tail = pre;
+        }
+    }
+
+    private void setHead_3r(Node node) {
+        node.next = head;
+        node.pre = null;
+
+        if (head != null) {
+            head.pre = node;
+        }
+        head = node;
+        if(tail == null) {
+            tail = node;
+        }
+    }
 }
