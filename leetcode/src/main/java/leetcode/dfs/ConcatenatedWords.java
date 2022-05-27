@@ -104,4 +104,32 @@ public class ConcatenatedWords {
         memo.put(index, false);
         return false;
     }
+
+    private boolean helper_3r(int index, int count, String word, Map<Integer, Boolean> memo) {
+        if(index == word.length()){
+            memo.put(index, count > 1);
+            return count > 1;
+        }
+
+        if (memo.containsKey(index)) {
+            return memo.get(index);
+        }
+
+        TrieNode node = root;
+        for(int i = index; i < word.length(); i++) {
+            char c = word.charAt(i);
+            if (node.children[c - 'a'] == null) {
+                memo.put(index, false);
+                return false;
+            } else {
+                node = node.children[c - 'a'];
+                if (node.isWord && helper_3r(index + 1, count + 1, word, memo)) {
+                    memo.put(index, true);
+                    return true;
+                }
+            }
+        }
+        memo.put(index, false);
+        return false;
+    }
 }
