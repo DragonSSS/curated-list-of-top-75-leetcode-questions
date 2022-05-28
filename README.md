@@ -579,6 +579,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/PerfectSquares.java)
   - hint: standard bfs
 
+- [x] LeetCode #994 Rotting Oranges
+  - [description](https://leetcode.com/problems/rotting-oranges/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/RottingOranges.java)
+  - hint: standard bfs
+
 ### Array
 
 - [x] LeetCode #4 Median of Two Sorted Arrays
