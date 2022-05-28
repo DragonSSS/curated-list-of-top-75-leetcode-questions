@@ -629,7 +629,7 @@
 - [x] LeetCode #2134 Minimum Swaps to Group All 1's Together II
   - [description](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimumSwapsToGroupAllOnesTogetherII.java)
-  - hint: address circular array by doubling array, the result is `allOnes - maxOnesInWindow` where window size is `allOnes`Sell Diminishing-Valued Colored Balls
+  - hint: address circular array by doubling array, the result is `allOnes - maxOnesInWindow` where window size is `allOnes`
 
 - [x] LeetCode #1481 Least Number of Unique Integers after K Removals
   - [description](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)
