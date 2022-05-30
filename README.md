@@ -784,6 +784,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/FindLeavesOfBinaryTree.java)
   - hint: dfs and use height (number of edges to lowest node of subtree) as index of subarray in array
 
+- [x] LeetCode #545 Boundary of Binary Tree
+  - [description](https://leetcode.com/problems/boundary-of-binary-tree/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BoundaryOfBinaryTree.java)
+  - hint: three recursion: `findLeftBoundary`, `findRightBoundary` and `findLeaves`
+
 ### LinkedList
 
 - [x] LeetCode #61 Rotate List
