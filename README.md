@@ -1051,6 +1051,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/LongestHappyString.java)
   - hint: use priorityQueue to store the char with its frequency
 
+- [x] LeetCode #2102 Sequentially Ordinal Rank Tracker
+  - [description](https://leetcode.com/problems/sequentially-ordinal-rank-tracker/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/SORTracker.java)
+  - hint: simialr to `Find Median from Data Stream` using minHeap + maxHeap
+
 ### Design
 
 - [x] LeetCode #146 LRU Cache
