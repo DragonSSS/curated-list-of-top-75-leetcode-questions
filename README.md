@@ -1026,11 +1026,6 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/KClosestPointsToOrigin.java)
   - hint: use priorityQueue to store the points based on shortest distance to origin, `poll()` first kth points
 
-- [x] LeetCode #239 Sliding Window Maximum
-  - [description](https://leetcode.com/problems/sliding-window-maximum/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/SlidingWindowMaximum.java)
-  - hint: priorityQueue is TLE, use deque to track valid index of nums that is at `peek()`, keep cleaning old index from `peek()` that is out of the window, keep cleaning useless index that has smaller value from `peekLast()`
-
 - [x] LeetCode #1167 Minimum Cost to Connect Sticks
   - [description](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/MinimumCostToConnectSticks.java)
@@ -1168,6 +1163,17 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/SnakeGame.java)
   - hint:
 
+### Monotonic Queue
+
+- [x] LeetCode #239 Sliding Window Maximum
+  - [description](https://leetcode.com/problems/sliding-window-maximum/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/queue/SlidingWindowMaximum.java)
+  - hint: priorityQueue is TLE, use deque to track valid index of nums that is at `peek()`, keep cleaning old index from `peek()` that is out of the window, keep cleaning useless index that has smaller value from `peekLast()`
+
+- [ ] LeetCode #1438 Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
+  - [description](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/queue/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.java)
+  - hint:
 <!---
 ## Misc
 
