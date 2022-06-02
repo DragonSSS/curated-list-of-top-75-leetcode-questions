@@ -1170,10 +1170,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/queue/SlidingWindowMaximum.java)
   - hint: priorityQueue is TLE, use deque to track valid index of nums that is at `peek()`, keep cleaning old index from `peek()` that is out of the window, keep cleaning useless index that has smaller value from `peekLast()`
 
-- [ ] LeetCode #1438 Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
+- [x] LeetCode #1438 Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
   - [description](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/queue/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.java)
-  - hint:
+  - hint: use two deque to track min and max values with two pointers `left` and `right`
 <!---
 ## Misc
 
