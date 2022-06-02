@@ -1056,6 +1056,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/SORTracker.java)
   - hint: simialr to `Find Median from Data Stream` using minHeap + maxHeap
 
+- [x] LeetCode #767 Reorganize String
+  - [description](https://leetcode.com/problems/reorganize-string/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/ReorganizeString.java)
+  - hint: use priorityQueue to store char with its freq, greedy to poll one or two to build string
+
 ### Design
 
 - [x] LeetCode #146 LRU Cache
