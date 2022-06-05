@@ -1,4 +1,4 @@
-package leetcode.tree;
+package leetcode.bfs;
 
 import util.TreeNode;
 
@@ -6,8 +6,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Queue;
 import java.util.Set;
 
 public class AllNodesDistanceKInBinaryTree {
@@ -91,5 +93,59 @@ public class AllNodesDistanceKInBinaryTree {
             buildGraph(node.left, node);
             buildGraph(node.right, node);
         }
+    }
+
+    Map<Integer, List<Integer>> graph_2r = new HashMap<>();
+    public List<Integer> distanceK_2r(TreeNode root, TreeNode target, int k) {
+        List<Integer> res = new ArrayList<>();
+        if (root == null)
+            return res;
+        
+        buildGraph_2r(null, root);
+        int distance = k;
+        Set<Integer> visited = new HashSet<>();
+        Queue<Integer> queue = new LinkedList<>();
+        queue.offer(target.val);
+        visited.add(target.val);
+        
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                int cur = queue.poll();
+                if (distance == 0) {
+                    res.add(cur);
+                    if (i == size - 1)
+                        break;
+                }
+                
+                for(int next : graph_2r.get(cur)) {
+                    if (visited.contains(next))
+                        continue;
+                    queue.offer(next);
+                    visited.add(next);
+                }
+                
+                
+            }
+            distance--;
+        }
+        
+        return res;
+    }
+    
+    private void buildGraph_2r(TreeNode parent, TreeNode node) {
+        if (node == null)
+            return;
+        
+        graph_2r.putIfAbsent(node.val, new ArrayList<>());
+        if (parent != null) {
+            graph_2r.putIfAbsent(parent.val, new ArrayList<>());
+            graph_2r.get(parent.val).add(node.val);
+            graph_2r.get(node.val).add(parent.val);
+        }
+        
+        
+        buildGraph_2r(node, node.left);
+        buildGraph_2r(node, node.right);
     }
 }

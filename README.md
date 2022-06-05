@@ -584,6 +584,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/RottingOranges.java)
   - hint: standard bfs
 
+- [x] LeetCode #863 All Nodes Distance K in Binary Tree
+  - [description](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/AllNodesDistanceKInBinaryTree.java)
+  - hint: convert tree to graph via hashmap, avoid duplicates via hashset, bfs with queue or dfs with recursion
+
 ### Array
 
 - [x] LeetCode #4 Median of Two Sorted Arrays
@@ -1315,11 +1320,6 @@
   - [description](https://leetcode.com/problems/add-two-numbers-ii/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/AddTwoNumbersII.java)
   - hint: two stack, pop up both and record carry
-
-- [x] LeetCode #863 All Nodes Distance K in Binary Tree (Tree)
-  - [description](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/AllNodesDistanceKInBinaryTree.java)
-  - hint: convert tree to graph via hashmap, avoid duplicates via hashset, bfs with queue or dfs with recursion
 
 - [x] LeetCode #987 Vertical Order Traversal of a Binary Tree (Tree)
   - [description](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
