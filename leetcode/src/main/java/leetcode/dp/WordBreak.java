@@ -95,4 +95,28 @@ public class WordBreak {
         
         return false;
     }
+
+    boolean[] visited;
+    public boolean wordBreak_4r(String s, List<String> wordDict) {
+        visited = new boolean[s.length() + 1];
+        Set<String> words = new HashSet<>(wordDict);
+        return helper_4r(s, 0, words);
+    }
+    
+    private boolean helper_4r(String s, int index, Set<String> words) {
+        if(index == s.length()) {
+            return true;
+        }
+        
+        visited[index] = true;
+        
+        for(int i = index + 1; i <= s.length(); i++) {
+            String cur = s.substring(index, i);
+            if (!visited[i] && words.contains(cur) && helper_4r(s, i, words)) {
+                return true;
+            }
+        }
+        
+        return false;
+    }
 }
