@@ -53,11 +53,6 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ThreeSum.java)
   - hint: sorted + two pointers
 
-- [ ] LeetCode #18 4Sum
-  - [description](https://leetcode.com/problems/4sum/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FourSum.java)
-  - hint: sorted + two pointers
-
 - [x] LeetCode #11 Container With Most Water
   - [description](https://leetcode.com/problems/container-with-most-water/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ContainerWithMostWater.java)
@@ -660,6 +655,11 @@
   - [description](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MaximumLengthOfSubarrayWithPositiveProduct.java)
   - hint: record latest zeroIndex(`-1`) and first negativeIndex(`-1`), update max length by `i - zeroIndex` and `i - negativeIndex` only if `negativeCount%2 != 0`
+
+- [ ] LeetCode #18 4Sum
+  - [description](https://leetcode.com/problems/4sum/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FourSum.java)
+  - hint: sorted + two pointers
 
 ### Binary Search
 
