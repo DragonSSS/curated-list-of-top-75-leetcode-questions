@@ -908,6 +908,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/MinimumDeletionsToMakeStringBalanced.java)
   - hint: stack
 
+- [ ] LeetCode #456 132 Pattern
+  - [description](https://leetcode.com/problems/132-pattern/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/132Pattern.java)
+  - hint: stack
+
 ### String
 
 - [x] LeetCode #71 Simplify Path
@@ -1017,6 +1022,11 @@
 - [x] LeetCode #46 Permutations
   - [description](https://leetcode.com/problems/permutations/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/Permutations.java)
+  - hint: dfs + backtracking
+
+- [x] LeetCode #17 Letter Combinations of a Phone Number
+  - [description](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/LetterCombinationsOfPhoneNumber.java)
   - hint: dfs + backtracking
 
 ### Heap (Priority Queue)
