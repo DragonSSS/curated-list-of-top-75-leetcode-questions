@@ -908,10 +908,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/MinimumDeletionsToMakeStringBalanced.java)
   - hint: stack
 
-- [ ] LeetCode #456 132 Pattern
+- [x] LeetCode #456 132 Pattern
   - [description](https://leetcode.com/problems/132-pattern/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/132Pattern.java)
-  - hint: stack
+  - hint: stack and scan from right to left
 
 ### String
 
