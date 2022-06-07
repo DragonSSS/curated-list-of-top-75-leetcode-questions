@@ -1183,10 +1183,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/FileSystem.java)
   - hint: trie, similar to `Design In-Memory File System`
 
-- [ ] LeetCode #353 Design Snake Game
+- [x] LeetCode #353 Design Snake Game
   - [description](https://leetcode.com/problems/design-snake-game/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/SnakeGame.java)
-  - hint:
+  - hint: use queue to simulate the snake
 
 ### Monotonic Queue
 
