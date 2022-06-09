@@ -13,7 +13,7 @@ public class NumberOfDistinctIslands {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] == 1) {
                     StringBuilder sb = new StringBuilder();
-                    helper(grid, i, j, islands, sb, "o");
+                    helper(grid, i, j, sb, "o");
                     String s = sb.toString();
                     if (!islands.contains(s)) {
                         islands.add(s);
@@ -25,17 +25,17 @@ public class NumberOfDistinctIslands {
         return islands.size();
     }
 
-    private void helper(int[][] grid, int i, int j, Set<String> islands, StringBuilder sb, String dir) {
+    private void helper(int[][] grid, int i, int j, StringBuilder sb, String dir) {
         if (i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || grid[i][j] != 1) {
             return;
         }
 
         grid[i][j] = 0; // mark it as visited, otherwise pass boolean[][] visited
         sb.append(dir);
-        helper(grid, i + 1, j, islands, sb, "r");
-        helper(grid, i - 1, j, islands, sb, "l");
-        helper(grid, i, j + 1, islands, sb, "d");
-        helper(grid, i, j - 1, islands, sb, "u");
+        helper(grid, i + 1, j, sb, "r");
+        helper(grid, i - 1, j, sb, "l");
+        helper(grid, i, j + 1, sb, "d");
+        helper(grid, i, j - 1, sb, "u");
         sb.append("b"); // the trick that marks backtracking step to avoid missing unique shapes
     }
 }
