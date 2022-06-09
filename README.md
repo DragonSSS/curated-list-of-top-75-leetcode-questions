@@ -341,7 +341,7 @@
 
 - [x] LeetCode #102 Binary Tree Level Order Traversal
   - [description](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BinaryTreeMaximumPathSum.java)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BinaryTreeLevelOrderTraversal.java)
   - hint: dfs or bfs + queue
 
 - [x] LeetCode #297 Serialize and Deserialize Binary Tree
