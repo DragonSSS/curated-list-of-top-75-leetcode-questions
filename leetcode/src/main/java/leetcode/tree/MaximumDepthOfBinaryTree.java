@@ -19,8 +19,8 @@ public class MaximumDepthOfBinaryTree {
         if (root == null)
             return 0;
         
-        int left = maxDepth(root.left);
-        int right = maxDepth(root.right);
+        int left = maxDepth_2r(root.left);
+        int right = maxDepth_2r(root.right);
         
         return Math.max(left, right) + 1;
     }
@@ -28,8 +28,8 @@ public class MaximumDepthOfBinaryTree {
     public int maxDepth_3r(TreeNode root) {
         if (root == null)
             return 0;
-        int left = maxDepth(root.left);
-        int right = maxDepth(root.right);
+        int left = maxDepth_3r(root.left);
+        int right = maxDepth_3r(root.right);
         
         int curMax = Math.max(left, right) + 1;
         
