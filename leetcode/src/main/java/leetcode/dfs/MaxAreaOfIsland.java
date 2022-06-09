@@ -1,8 +1,7 @@
 package leetcode.dfs;
 
 public class MaxAreaOfIsland {
-    int[] dx = new int[]{-1, 1, 0, 0};
-    int[] dy = new int[]{0, 0, -1, 1};
+    int[][] dirs = new int[][]{{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
     int max = 0;
     public int maxAreaOfIsland(int[][] grid) {
         boolean[][] visited = new boolean[grid.length][grid[0].length];
@@ -23,8 +22,8 @@ public class MaxAreaOfIsland {
         visited[i][j] = true;
         int cur = 1;
         
-        for (int k = 0; k < 4; k++) {
-            cur += helper(grid, visited, i + dx[k], j + dy[k]);
+        for(int[] dir : dirs) {
+            cur += helper(grid, visited, i + dir[0], j + dir[1]);
         }
         return cur;
     }
