@@ -584,6 +584,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/AllNodesDistanceKInBinaryTree.java)
   - hint: convert tree to graph via hashmap, avoid duplicates via hashset, bfs with queue or dfs with recursion
 
+- [x] LeetCode #1291 Sequential Digits
+  - [description](https://leetcode.com/problems/sequential-digits/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/SequentialDigits.java)
+  - hint: add `1 - 9` into queue, every time poll one number, get lowerest single digit by `% 10`, add next one `cur * 10 + singleDigit + 1` only if `<= high` and `singleDigit < 9`
+
 ### Array
 
 - [x] LeetCode #4 Median of Two Sorted Arrays
@@ -1085,6 +1090,11 @@
   - [description](https://leetcode.com/problems/reorganize-string/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/ReorganizeString.java)
   - hint: use priorityQueue to store char with its freq, greedy to poll one or two to build string
+
+- [x] LeetCode #692 Top K Frequent Words
+  - [description](https://leetcode.com/problems/top-k-frequent-words/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/TopKFrequentWords.java)
+  - hint: use priorityQueue to store map entry with string as key and freqency as value
 
 ### Design
 
