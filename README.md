@@ -794,6 +794,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BoundaryOfBinaryTree.java)
   - hint: three recursion: `findLeftBoundary`, `findRightBoundary` and `findLeaves`
 
+- [x] LeetCode #1372 Longest ZigZag Path in a Binary Tree
+  - [description](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/LongestZigZagPathInBinaryTree.java)
+  - hint: use flag `isLeft` and track current path with recursion
+
 ### LinkedList
 
 - [x] LeetCode #61 Rotate List
