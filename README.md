@@ -1034,6 +1034,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/LetterCombinationsOfPhoneNumber.java)
   - hint: dfs + backtracking
 
+- [x] LeetCode #140 Word Break II
+  - [description](https://leetcode.com/problems/word-break-ii/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/WordBreakII.java)
+  - hint: dfs + backtracking
+
 ### Heap (Priority Queue)
 
 - [x] LeetCode #378 Kth Smallest Element in a Sorted Matrix
@@ -1236,11 +1241,6 @@
   - [description](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/MinimumTimeToCollectAllApplesInTree.java)
   - hint: dfs + memorization, each node makes count += 2 except node 0
-  
-- [x] LeetCode #140 Word Break II (DP)
-  - [description](https://leetcode.com/problems/word-break-ii/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/WordBreakII.java)
-  - hint: dfs + memorization + recursion
 
 - [x] LeetCode #392 Is Subsequence (String)
   - [description](https://leetcode.com/problems/is-subsequence/)
