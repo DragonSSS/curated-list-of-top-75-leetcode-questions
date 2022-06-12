@@ -137,4 +137,48 @@ public class CheapestFlightsWithinKStops {
             }
         }
     }
+
+    public int findCheapestPrice_2r(int n, int[][] flights, int src, int dst, int k) {
+        boolean[][] visited = new boolean[n][k + 2];
+        Map<Integer, List<int[]>> graph = new HashMap<>();
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
+        pq.offer(new int[]{0, src, k + 1});
+        
+        // build graph
+        for(int[] flight : flights) {
+            int from = flight[0];
+            int to = flight[1];
+            int cost = flight[2];
+            
+            graph.putIfAbsent(from, new ArrayList<>());
+            graph.get(from).add(new int[]{to, cost});
+        }
+        
+        while(!pq.isEmpty()) {
+            int[] cur = pq.poll();
+            int curCost = cur[0];
+            int curCity = cur[1];
+            int curCount = cur[2];
+            
+            if(curCity == dst)
+                return curCost;
+            
+            if(visited[curCity][curCount])
+                continue;
+            
+            visited[curCity][curCount] = true;
+            
+            if (curCount <= 0)
+                continue;
+  
+            if(!graph.containsKey(curCity))
+                continue;
+            
+            for(int[] next : graph.get(curCity)) {
+                pq.offer(new int[]{curCost + next[1], next[0], curCount - 1});
+            }
+        }
+        
+        return -1;
+    }
 }
