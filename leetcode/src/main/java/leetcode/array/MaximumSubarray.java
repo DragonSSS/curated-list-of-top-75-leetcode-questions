@@ -62,4 +62,18 @@ public class MaximumSubarray {
         
         return res;
     }
+
+    // Kadane's algorithm - Maximum subrray sum
+    public int maxSubArray_3r(int[] nums) {
+        int localMax = 0, globalMax = Integer.MIN_VALUE;
+        
+        for(int num : nums) {
+            localMax = Math.max(num, num + localMax);
+            if (localMax > globalMax) {
+                globalMax = localMax;
+            }
+        }
+        
+        return globalMax;
+    }
 }
