@@ -80,4 +80,51 @@ public class ReconstructItinerary {
         return false;
     }
 
+    public List<String> findItinerary_2r(List<List<String>> tickets) {
+        List<String> res = new ArrayList<>();
+        Map<String, List<String>> graph = new HashMap<>();
+        
+        // build graph
+        for(List<String> ticket : tickets) {
+            String from = ticket.get(0);
+            String to = ticket.get(1);
+            
+            graph.putIfAbsent(from, new ArrayList<>());
+            graph.get(from).add(to);
+        }
+        
+        for(List<String> list : graph.values()) {
+            Collections.sort(list);
+        }
+        
+        // dfs to construct result with backtracking
+        int total = tickets.size() + 1;
+        res.add("JFK");
+        helper_2r("JFK", graph, res, total);
+        return res;
+    }
+    
+    private boolean helper_2r(String start, Map<String, List<String>> graph, List<String> res, int total) {
+        if (res.size() == total)
+            return true;
+        
+        if (!graph.containsKey(start) || graph.get(start).isEmpty())
+            return false;
+        
+        List<String> nexts = graph.get(start);
+        for(int i = 0; i < nexts.size(); i++) {
+            String next = nexts.get(i);
+            res.add(next);
+            nexts.remove(i);
+            
+            if(helper_2r(next, graph, res, total))
+                return true;
+            
+            res.remove(res.size() - 1);
+            nexts.add(i, next);
+            
+        }
+        
+        return false;
+    }
 }
