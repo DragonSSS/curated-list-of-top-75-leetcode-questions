@@ -4,6 +4,10 @@ import java.util.PriorityQueue;
 
 public class SwimInRisingWater {
     // O(n^2logn)
+    // From top left to right bottom, there are many paths. For each path we have one maximum value. 
+    // Let's find the minimal one of such maximum value.
+    // So the minimal maximum value in each path.
+    // similar to #1102 Path With Maximum Minimum Value
     int[][] dirs = {{0, 1}, {1, 0},{-1, 0}, {0, -1}};
     public int swimInWater(int[][] grid) {
         PriorityQueue<int[]> pq = new PriorityQueue<>((a,b) -> (grid[a[0]][a[1]] - grid[b[0]][b[1]]));
