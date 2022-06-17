@@ -534,11 +534,6 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/BusRoutes.java)
   - hint: bfs finds shortest number of buses from source to target, build graph based on which buses (value) could reach each stop (key)
 
-- [x] LeetCode #787 Cheapest Flights Within K Stops (DFS, BFS, PriorityQueue)
-  - [description](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/CheapestFlightsWithinKStops.java)
-  - hint: bfs, dfs(backtracing), Dijkstra's algorithm(minHeap) or Bellman Ford(dp)
-
 - [x] LeetCode #1197 Minimum Knight Moves
   - [description](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/MinimumKnightMoves.java)
@@ -1095,6 +1090,16 @@
   - [description](https://leetcode.com/problems/top-k-frequent-words/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/TopKFrequentWords.java)
   - hint: use priorityQueue to store map entry with string as key and freqency as value
+
+- [x] LeetCode #787 Cheapest Flights Within K Stops (Dijkstra's algorithm)
+  - [description](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/CheapestFlightsWithinKStops.java)
+  - hint: bfs, dfs(backtracing), Dijkstra's algorithm(minHeap) or Bellman Ford(dp)
+
+- [x] LeetCode #743 Network Delay Time (Dijkstra's algorithm)
+  - [description](https://leetcode.com/problems/network-delay-time/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/NetworkDelayTime.java)
+  - hint: Dijkstra's algorithm(minHeap)
 
 ### Design
 
