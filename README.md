@@ -1101,6 +1101,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/NetworkDelayTime.java)
   - hint: Dijkstra's algorithm(minHeap)
 
+- [x] LeetCode #778 Swim in Rising Water (Dijkstra's algorithm)
+  - [description](https://leetcode.com/problems/swim-in-rising-water/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/SwimInRisingWater.java)
+  - hint: Dijkstra's algorithm(minHeap)
+
 ### Design
 
 - [x] LeetCode #146 LRU Cache
