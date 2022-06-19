@@ -1106,6 +1106,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/SwimInRisingWater.java)
   - hint: Dijkstra's algorithm(minHeap)
 
+- [ ] LeetCode #1631 Path With Minimum Effort
+  - [description](https://leetcode.com/problems/path-with-minimum-effort/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/PathWithMinimumEffort.java)
+  - hint:
+
 ### Design
 
 - [x] LeetCode #146 LRU Cache
