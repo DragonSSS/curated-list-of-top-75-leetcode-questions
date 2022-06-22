@@ -695,6 +695,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ShortestSubarrayWithSumAtLeastK.java)
   - hint: calculate prefix sum array (size is `array.length + 1`) from `[0]` to `[array.length]`, use deque to store and maintain start indexes, before adding `i` index during iteration, check `prefixSum[i] - prefixSum[startIndexes.peek()] >= k` and `prefixSum[i] <= prefixSum[startIndexes.peekLast()]`
 
+- [ ] LeetCode #2100 Find Good Days to Rob the Bank
+  - [description](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FindGoodDaysToRobTheBank.java)
+  - hint:
+
 ### Dynamic Programming
 
 - [x] LeetCode #741 Cherry Pickup
