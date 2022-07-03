@@ -16,3 +16,9 @@
 - [ ] lc#588 Design in-memory File System
 - [ ] lc#212 Word Search II
 - [ ] lc#1628 Design an Expression Tree
+
+<br />
+
+- [ ] lc#2102 Sequentially Ordinal Rank Tracker
+- [ ] lc#348 Design Tic-Tac-Toe
+- [ ] lc#239 Sliding Window Maximum
