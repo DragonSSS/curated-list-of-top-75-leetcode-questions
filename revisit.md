@@ -22,3 +22,13 @@
 - [ ] lc#2102 Sequentially Ordinal Rank Tracker
 - [ ] lc#348 Design Tic-Tac-Toe
 - [ ] lc#239 Sliding Window Maximum
+- [ ] lc#1438 Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
+- [ ] lc#767 Reorgnize String
+
+<br />
+
+- [ ] lc#1597 Build Binary Expression Tree From Infix Expression
+- [ ] lc#103 Binary Tree Zigzag Level Order Traversal
+- [ ] lc#863 All Nodes Distance K in Binary Tree
+- [ ] lc#909 Snakes and Ladders
+- [ ] lc#140 Word Break II
