@@ -32,3 +32,10 @@
 - [ ] lc#863 All Nodes Distance K in Binary Tree
 - [ ] lc#909 Snakes and Ladders
 - [ ] lc#140 Word Break II
+
+<br />
+
+- [ ] lc#1353 Maximum Number of Events That Can Be Attended
+- [ ] lc#642 Design Search Autocomplete System
+- [ ] lc#1192 Critical Connections in a Network
+- [ ] lc#862 Shortest Subarray with Sum at Least K
