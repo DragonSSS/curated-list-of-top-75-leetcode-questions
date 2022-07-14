@@ -1044,6 +1044,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/WordBreakII.java)
   - hint: dfs + backtracking
 
+- [x] LeetCode #473 Matchsticks to Square
+  - [description](https://leetcode.com/problems/matchsticks-to-square/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/MatchsticksToSquare.java)
+  - hint: dfs + backtracking
+
 ### Heap (Priority Queue)
 
 - [x] LeetCode #378 Kth Smallest Element in a Sorted Matrix
