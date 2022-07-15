@@ -923,6 +923,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/132Pattern.java)
   - hint: stack and scan from right to left
 
+- [x] LeetCode #1762 Buildings With an Ocean View
+  - [description](https://leetcode.com/problems/buildings-with-an-ocean-view/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/BuildingsWithAnOceanView.java)
+  - hint: monotonic stack
+
 ### String
 
 - [x] LeetCode #71 Simplify Path
