@@ -804,6 +804,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/LongestZigZagPathInBinaryTree.java)
   - hint: use flag `isLeft` and track current path with recursion
 
+- [x] LeetCode #333 Largest BST Subtree
+  - [description](https://leetcode.com/problems/largest-bst-subtree/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/LargestBstSubtree.java)
+  - hint: use an array `{ min, max, size }` as a recursion func's result, similar to `Validate Binary Search Tree`
+
 ### LinkedList
 
 - [x] LeetCode #61 Rotate List
