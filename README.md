@@ -584,6 +584,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/SequentialDigits.java)
   - hint: add `1 - 9` into queue, every time poll one number, get lowerest single digit by `% 10`, add next one `cur * 10 + singleDigit + 1` only if `<= high` and `singleDigit < 9`
 
+- [x] LeetCode #1091 Shortest Path in Binary Matrix
+  - [description](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/ShortestPathInBinaryMatrix.java)
+  - hint: standard bfs
+
 ### Array
 
 - [x] LeetCode #4 Median of Two Sorted Arrays
