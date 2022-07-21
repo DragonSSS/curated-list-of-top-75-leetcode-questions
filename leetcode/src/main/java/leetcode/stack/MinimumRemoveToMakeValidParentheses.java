@@ -66,4 +66,35 @@ public class MinimumRemoveToMakeValidParentheses {
         
         return sb.toString();
     }
+
+    // stack to track the parentheses
+    public String minRemoveToMakeValid_3r(String s) {
+        Set<Integer> remove = new HashSet<>();
+        Stack<Integer> stack = new Stack<>();
+        char[] chars = s.toCharArray();
+        for(int i = 0; i < chars.length; i++) {
+            char cur = chars[i];
+            if (cur == '(') {
+                stack.push(i);
+            } else if (cur == ')') {
+                if(stack.isEmpty()) {
+                    remove.add(i);
+                } else {
+                    stack.pop();
+                }
+            }
+        }
+        
+        while(!stack.isEmpty()) {
+            remove.add(stack.pop());
+        }
+        
+        StringBuilder sb = new StringBuilder();
+        for(int i = 0; i < chars.length; i++) {
+            if(!remove.contains(i)) {
+                sb.append(chars[i]);
+            }
+        }
+        return sb.toString();
+    }    
 }
