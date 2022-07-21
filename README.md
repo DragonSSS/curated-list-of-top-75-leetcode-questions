@@ -985,6 +985,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/SearchSuggestionsSystem.java)  
   - hint: trie, treeNode has additional property `linkedList<String>`, so size could be limited to 3 and sorted by `Collections.sort()`
 
+- [x] LeetCode #249 Group Shifted Strings
+  - [description](https://leetcode.com/problems/group-shifted-strings/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/GroupShiftedStrings.java)
+  - hint: hashtable
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
