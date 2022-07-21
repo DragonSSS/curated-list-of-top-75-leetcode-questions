@@ -28,7 +28,6 @@ public class GroupShiftedStrings {
     
     private String generateHashKey(String s) {
         char[] chars = s.toCharArray();
-        StringBuilder sb = new StringBuilder();
         char base = chars[0];
         int[] key = new int[chars.length];
         for(int i = 0; i < chars.length; i++) {
