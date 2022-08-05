@@ -678,6 +678,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/KokoEatingBananas.java)
   - hint: binary search with speed k `start=1` and `end=max(piles[x])`, calculate current hours with speed `mid`, compare current hours with provided `h`
 
+- [ ] LeetCode #1891 Cutting Ribbons
+  - [description](https://leetcode.com/problems/cutting-ribbons/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/CuttingRibbons.java)
+  - hint: binary search, start with left `1` and right `max(ribbons)`, calculate current `k` number of ribbons using mid and compare with required `k`
+
 ### Prefix Sum
 
 - [x] LeetCode #560 Subarray Sum Equals K
