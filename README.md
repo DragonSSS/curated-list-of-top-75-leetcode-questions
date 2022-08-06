@@ -678,7 +678,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/KokoEatingBananas.java)
   - hint: binary search with speed k `start=1` and `end=max(piles[x])`, calculate current hours with speed `mid`, compare current hours with provided `h`
 
-- [ ] LeetCode #1891 Cutting Ribbons
+- [x] LeetCode #1891 Cutting Ribbons
   - [description](https://leetcode.com/problems/cutting-ribbons/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/CuttingRibbons.java)
   - hint: binary search, start with left `1` and right `max(ribbons)`, calculate current `k` number of ribbons using mid and compare with required `k`
@@ -709,6 +709,11 @@
   - [description](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FindGoodDaysToRobTheBank.java)
   - hint: use to arrays to track non-increase (forward) `nonincrease[i - 1]` and non-decrease (backward) `nondecrease[i + 1]` days at current `day[i]`, use `time` to decide which day is fine
+
+- [x] LeetCode #523 Continuous Subarray Sum
+  - [description](https://leetcode.com/problems/continuous-subarray-sum/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ContinuousSubarraySum.java)
+  - hint: prefix + hashmap to find existing remainder value by `% k`
 
 ### Dynamic Programming
 
