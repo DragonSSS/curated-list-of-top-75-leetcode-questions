@@ -752,6 +752,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/LongestStringChain.java)
   - hint: dfs + memorization
 
+- [x] LeetCode #1220 Count Vowels Permutation
+  - [description](https://leetcode.com/problems/count-vowels-permutation/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/CountVowelsPermutation.java)
+  - hint: dp to track the number of string ending by each character `['a', 'e', 'i', 'o', 'u']`
+
 - [ ] LeetCode #123 Best Time to Buy and Sell Stock III
   - [description](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/BestTimeToBuySndSellStockIII.java)
@@ -1003,6 +1008,11 @@
 - [x] LeetCode #249 Group Shifted Strings
   - [description](https://leetcode.com/problems/group-shifted-strings/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/GroupShiftedStrings.java)
+  - hint: hashtable
+
+- [x] LeetCode #791 Custom Sort String
+  - [description](https://leetcode.com/problems/custom-sort-string/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/CustomSortString.java)
   - hint: hashtable
 
 ### Greedy
