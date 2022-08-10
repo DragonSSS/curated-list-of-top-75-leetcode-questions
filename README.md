@@ -1015,6 +1015,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/CustomSortString.java)
   - hint: hashtable
 
+- [x] LeetCode #567 Permutation in String
+  - [description](https://leetcode.com/problems/permutation-in-string/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/PermutationInString.java)
+  - hint: hashtable + sliding window
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
