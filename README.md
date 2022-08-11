@@ -956,7 +956,12 @@
 - [x] LeetCode #636 Exclusive Time of Functions
   - [description](https://leetcode.com/problems/exclusive-time-of-functions/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/ExclusiveTimeOfFunctions.java)
-  - hint: use stack to store function id, and track the previous timestamp, brach code based on `start` or `end`
+  - hint: use stack to store function id, and track the previous timestamp, branch code based on `start` or `end`
+
+- [x] LeetCode #150 Evaluate Reverse Polish Notation
+  - [description](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/EvaluateReversePolishNotation.java)
+  - hint: one stack for operands
 
 ### String
 
