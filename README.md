@@ -498,9 +498,9 @@
   - hint: Tarjan's algorithm, record visitedTimes and lowTimes for each node, dfs with visited set, track previous node and current node
 
 - [x] LeetCode #582 Kill Process
-- [description](https://leetcode.com/problems/kill-process/)
-- [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/KillProcess.java)
-- hint: dfs or bfs with buidling graph
+  - [description](https://leetcode.com/problems/kill-process/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/KillProcess.java)
+  - hint: dfs or bfs with buidling graph
 
 ### BFS
 
@@ -541,8 +541,8 @@
 
 - [x] LeeCode #909 Snakes and Ladders
   - [description](https://leetcode.com/problems/snakes-and-ladders/)
-    - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/SnakesAndLadders.java)
-    - hint: bfs with square value `1 to n^2`, one tricky function for converting square one `1 to n^2` to board matrix value `board[x][y]`
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/SnakesAndLadders.java)
+  - hint: bfs with square value `1 to n^2`, one tricky function for converting square one `1 to n^2` to board matrix value `board[x][y]`
 
 - [x] LeetCode #126 Word Ladder II
   - [description](https://leetcode.com/problems/word-ladder-ii/)
