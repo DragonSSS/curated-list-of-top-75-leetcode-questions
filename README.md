@@ -963,6 +963,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/EvaluateReversePolishNotation.java)
   - hint: one stack for operands
 
+- [x] LeetCode #739 Daily Temperatures
+  - [description](https://leetcode.com/problems/daily-temperatures/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/DailyTemperatures.java)
+  - monotonic stack
+
 ### String
 
 - [x] LeetCode #71 Simplify Path
