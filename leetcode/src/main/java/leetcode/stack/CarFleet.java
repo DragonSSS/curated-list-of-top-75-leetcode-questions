@@ -34,5 +34,5 @@ public class CarFleet {
             stack.push(carData[i].time);
         }
         return stack.size();
-    }    
+    }
 }
