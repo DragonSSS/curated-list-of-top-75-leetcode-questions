@@ -968,6 +968,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/DailyTemperatures.java)
   - monotonic stack
 
+- [x] LeetCode #853 Car Fleet
+  - [description](https://leetcode.com/problems/car-fleet/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/CarFleet.java)
+  - sorting + monotonic stack, calculate time based on distance and speed and sort data based on position/distance
+
 ### String
 
 - [x] LeetCode #71 Simplify Path
