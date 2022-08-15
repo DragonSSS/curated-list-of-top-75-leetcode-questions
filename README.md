@@ -48,7 +48,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/SearchInRotatedSortedArray.java)
   - hint: binary search, compare `target` with `nums[mid]`
   
-- [x] LeetCode #15 3Sum
+- [x] LeetCode #15 3Sum (NeetCode 150)
   - [description](https://leetcode.com/problems/3sum/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ThreeSum.java)
   - hint: sorted + two pointers
@@ -297,7 +297,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/ValidParentheses.java)
   - hint: stack
 
-- [x] LeetCode #125 Valid Palindrome
+- [x] LeetCode #125 Valid Palindrome (NeetCode 150)
   - [description](https://leetcode.com/problems/valid-palindrome/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/ValidPalindrome.java)
   - hint: two pointers + `Character.isLetterOrDigit()`
@@ -963,15 +963,20 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/EvaluateReversePolishNotation.java)
   - hint: one stack for operands
 
-- [x] LeetCode #739 Daily Temperatures
+- [x] LeetCode #739 Daily Temperatures (NeetCode 150)
   - [description](https://leetcode.com/problems/daily-temperatures/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/DailyTemperatures.java)
   - monotonic stack
 
-- [x] LeetCode #853 Car Fleet
+- [x] LeetCode #853 Car Fleet (NeetCode 150)
   - [description](https://leetcode.com/problems/car-fleet/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/CarFleet.java)
   - sorting + monotonic stack, calculate time based on distance and speed and sort data based on position/distance
+
+- [x] LeetCode #84 Largest Rectangle in Histogram (NeetCode 150)
+  - [description](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/LargestRectangleInHistogram.java)
+  - monotonic stack `Stack<int[index, height]>()`, look backward with `start index` with current current to push into stack
 
 ### String
 
