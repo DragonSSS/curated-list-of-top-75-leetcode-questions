@@ -661,6 +661,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MaximumLengthOfSubarrayWithPositiveProduct.java)
   - hint: record latest zeroIndex(`-1`) and first negativeIndex(`-1`), update max length by `i - zeroIndex` and `i - negativeIndex` only if `negativeCount%2 != 0`
 
+- [x] LeetCode #167 Two Sum II - Input Array Is Sorted (NeetCode 150)
+  - [description](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/TwoSumII.java)
+  - hint: two pointers
+
 - [ ] LeetCode #18 4Sum
   - [description](https://leetcode.com/problems/4sum/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FourSum.java)
@@ -1310,7 +1315,7 @@
 
 ### Monotonic Queue
 
-- [x] LeetCode #239 Sliding Window Maximum
+- [x] LeetCode #239 Sliding Window Maximum (NeetCode 150)
   - [description](https://leetcode.com/problems/sliding-window-maximum/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/queue/SlidingWindowMaximum.java)
   - hint: priorityQueue is TLE, use deque to track valid index of nums that is at `peek()`, keep cleaning old index from `peek()` that is out of the window, keep cleaning useless index that has smaller value from `peekLast()`
