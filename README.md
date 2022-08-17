@@ -1124,6 +1124,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/MatchsticksToSquare.java)
   - hint: dfs + backtracking
 
+- [x] LeetCode #22 Generate Parentheses (NeetCode 150)
+  - [description](https://leetcode.com/problems/generate-parentheses/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/GenerateParentheses.java)
+  - hint: dfs or backtracking + stack
+
 ### Heap (Priority Queue)
 
 - [x] LeetCode #378 Kth Smallest Element in a Sorted Matrix
