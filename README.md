@@ -688,7 +688,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/CuttingRibbons.java)
   - hint: binary search, start with left `1` and right `max(ribbons)`, calculate current `k` number of ribbons using mid and compare with required `k`
 
-- [ ] LeetCode #74 Search a 2D Matrix
+- [ ] LeetCode #74 Search a 2D Matrix (NeetCode 150)
   - [description](https://leetcode.com/problems/search-a-2d-matrix/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/Search2dMatrix.java)
   - hint:
