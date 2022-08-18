@@ -688,6 +688,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/CuttingRibbons.java)
   - hint: binary search, start with left `1` and right `max(ribbons)`, calculate current `k` number of ribbons using mid and compare with required `k`
 
+- [ ] LeetCode #74 Search a 2D Matrix
+  - [description](https://leetcode.com/problems/search-a-2d-matrix/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/Search2dMatrix.java)
+  - hint:
+
 ### Prefix Sum
 
 - [x] LeetCode #560 Subarray Sum Equals K
@@ -1243,7 +1248,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/SparseVector.java)
   - hint: use hashmap only store the index with value which is not zero
 
-- [x] LeetCode #981 Time Based Key-Value Store
+- [x] LeetCode #981 Time Based Key-Value Store (NeetCode 150)
   - [description](https://leetcode.com/problems/time-based-key-value-store/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/TimeMap.java)
   - hint: use treeMap with `floorKey()` or use arrayList( of `class Value(){}`) with binary search as the value of map
