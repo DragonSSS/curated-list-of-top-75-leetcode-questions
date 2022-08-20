@@ -1134,6 +1134,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/GenerateParentheses.java)
   - hint: dfs or backtracking + stack
 
+- [x] LeetCode #679 24 Game
+  - [description](https://leetcode.com/problems/24-game/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/TwentyFourGame.java)
+  - hint: backtracking + dfs with an input list of possible cards for this round
+
 ### Heap (Priority Queue)
 
 - [x] LeetCode #378 Kth Smallest Element in a Sorted Matrix
