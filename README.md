@@ -678,7 +678,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/SingleElementInSortedArray.java)
   - hint: check left and right boundaries first, check `nums[mid] == nums[mid + 1]` or `nums[mid] == nums[mid + 1]`, then check if number of elements at right half is even
 
-- [x] LeetCode #875 Koko Eating Bananas
+- [x] LeetCode #875 Koko Eating Bananas (NeetCode 150)
   - [description](https://leetcode.com/problems/koko-eating-bananas/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/KokoEatingBananas.java)
   - hint: binary search with speed k `start=1` and `end=max(piles[x])`, calculate current hours with speed `mid`, compare current hours with provided `h`
