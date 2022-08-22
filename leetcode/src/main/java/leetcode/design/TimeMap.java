@@ -83,4 +83,47 @@ public class TimeMap {
     //     }
     //     return treeMap.get(floor);
     // }
+
+    // 2r with binary search 
+    class Data {
+        String value;
+        int timestamp;
+        public Data(String value, int timestamp) {
+            this.value = value;
+            this.timestamp = timestamp;
+        }
+    }
+    
+    Map<String, List<Data>> map;
+
+    // public TimeMap() {
+    //      map = new HashMap<>();
+    // }
+    
+    public void set_2r(String key, String value, int timestamp) {
+        map.putIfAbsent(key, new ArrayList<>());
+        map.get(key).add(new Data(value, timestamp));
+    }
+    
+    public String get_2r(String key, int timestamp) {
+        String res = "";
+        if (!map.containsKey(key)) {
+            return res;
+        }
+        
+        List<Data> list = map.get(key);
+        int start = 0;
+        int end = list.size() - 1;
+        while(start <= end) {
+            int mid = start + (end - start) / 2;
+            Data curData = list.get(mid);
+            if (curData.timestamp <= timestamp) {
+                res = curData.value;
+                start = mid + 1;
+            } else {
+                end = mid - 1;
+            }
+        }
+        return res;
+    }
 }
