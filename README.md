@@ -1077,10 +1077,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/MinimumHealthToBeatGame.java)
   - hint: greedy
 
-- [ ] LeetCode #1899 Merge Triplets to Form Target Triplet
+- [x] LeetCode #1899 Merge Triplets to Form Target Triplet (NeetCode 150)
   - [description](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/MergeTripletsToFormTargetTriplet.java)
-  - hint:
+  - hint: greedy, skip invalid triplets that has greater value than target one, build the final triplet and check if it is equal to target one
 
 ### Backtracking
 
