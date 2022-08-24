@@ -1072,10 +1072,15 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/TwoCityScheduling.java)
   - hint: dfs + memo or greedy: sort costs array by letting ppl go to B instead Of A `diff = cost[i][1] - cost[i][0]`, iterate sorted array to calculate cost
 
-  - [x] LeetCode #2214 Minimum Health to Beat Game
+- [x] LeetCode #2214 Minimum Health to Beat Game
   - [description](https://leetcode.com/problems/minimum-health-to-beat-game/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/MinimumHealthToBeatGame.java)
   - hint: greedy
+
+- [ ] LeetCode #1899 Merge Triplets to Form Target Triplet
+  - [description](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/MergeTripletsToFormTargetTriplet.java)
+  - hint:
 
 ### Backtracking
 
