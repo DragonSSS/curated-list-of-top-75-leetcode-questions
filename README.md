@@ -415,10 +415,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/MinimumDegreeOfConnectedTrioInGraph.java)  
   - hint: compute degree for each node, build hashmap for each edge to indicate if it is a edge with given two nodes, calculate min degree by sum of degree of three nodes in a trio
 
-- [ ] LeetCode #684 Redundant Connection (NeetCode 150)
+- [x] LeetCode #684 Redundant Connection (NeetCode 150)
   - [description](https://leetcode.com/problems/redundant-connection/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/RedundantConnection.java)  
-  - hint:
+  - hint: recurisvely dfs graph before adding the current edge into graph
 
 ### DFS
 
