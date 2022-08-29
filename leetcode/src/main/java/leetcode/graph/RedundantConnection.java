@@ -42,5 +42,47 @@ public class RedundantConnection {
                 return true;
         }
         return false;
-    }    
+    }
+    // union find
+    // union func -> check if two nodes has same parent, set parent between them
+    // find func -> find the parent of current node
+    int[] parents;
+    public int[] findRedundantConnection_2r(int[][] edges) {
+        int n = edges.length;
+        parents = new int[n + 1];
+        for(int i = 1; i <= n; i++) {
+            parents[i] = i;
+        }
+        
+        for(int[] edge : edges) {
+            int node1 = edge[0];
+            int node2 = edge[1];
+            if(!union(node1, node2))
+                return edge;
+        }
+        return new int[]{-1, -1};
+    }
+    
+    private boolean union(int node1, int node2) {
+        int parent1 = find(node1);
+        int parent2 = find(node2);
+        if(parent1 == parent2)
+            return false;
+        
+        parents[parent1] = parent2;
+        return true;
+    }
+    
+    private int find(int node) {
+        // if (node != parents[node]) {
+        //     return find(parents[node]);
+        // }
+        // return parents[node];
+        while(node != parents[node]) {
+            parents[node] = parents[parents[node]];
+            node = parents[node];
+        }
+        
+        return parents[node];
+    }
 }
