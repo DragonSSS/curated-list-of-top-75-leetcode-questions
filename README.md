@@ -418,7 +418,12 @@
 - [x] LeetCode #684 Redundant Connection (NeetCode 150)
   - [description](https://leetcode.com/problems/redundant-connection/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/RedundantConnection.java)  
-  - hint: union find or recurisvely dfs graph before adding the current edge into graph
+  - hint: union-find or recurisvely dfs graph before adding the current edge into graph
+
+- [ ] LeetCode #785 Is Graph Bipartite
+  - [description](https://leetcode.com/problems/is-graph-bipartite/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/IsGraphBipartite.java)  
+  - hint: dfs recursively colorize graph with two colors or union-find
 
 ### DFS
 
