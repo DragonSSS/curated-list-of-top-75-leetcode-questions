@@ -47,9 +47,11 @@ public class RedundantConnection {
     // union func -> check if two nodes has same parent, set parent between them
     // find func -> find the parent of current node
     int[] parents;
+    int[] rank;
     public int[] findRedundantConnection_2r(int[][] edges) {
         int n = edges.length;
         parents = new int[n + 1];
+        rank = new int[n + 1];
         for(int i = 1; i <= n; i++) {
             parents[i] = i;
         }
@@ -69,15 +71,29 @@ public class RedundantConnection {
         if(parent1 == parent2)
             return false;
         
-        parents[parent1] = parent2;
+        // original version:
+        // parents[parent1] = parent2;
+
+        // optimize by ranking:
+        if (rank[parent1] > rank[parent2]) {
+            parents[parent2] = parent1;
+        } else if (rank[parent1] < rank[parent2]) {
+            parents[parent1] = parent2;
+        } else {
+            parents[parent2] = parent1;
+            rank[parent1]++;
+        }
         return true;
     }
     
     private int find(int node) {
+        // original version
         // if (node != parents[node]) {
         //     return find(parents[node]);
         // }
         // return parents[node];
+
+        // path compression version: 
         while(node != parents[node]) {
             parents[node] = parents[parents[node]];
             node = parents[node];
