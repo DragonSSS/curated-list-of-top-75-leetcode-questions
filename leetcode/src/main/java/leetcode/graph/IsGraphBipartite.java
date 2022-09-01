@@ -26,5 +26,61 @@ public class IsGraphBipartite {
                 return false;
         }
         return true;
-    }    
+    }
+
+    // union-find
+    // find func check if current node and adjacent nodes have same parent
+    // return false if the parent is the same one
+    // try to union the all adjacent node as one group
+    // could use path compression with ranking
+    int[] parents;
+    int[] rank;
+    public boolean isBipartite_2r(int[][] graph) {
+        int n = graph.length;
+        parents = new int[n];
+        rank = new int[n];
+        
+        for(int i = 0; i < n; i++) {
+            parents[i] = i;
+        }
+        
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j < graph[i].length; j++) {
+                int adjacent = graph[i][j];
+                if(find(i) == find(adjacent)) {
+                    return false;
+                }
+                // union all adajcent ones
+                union(graph[i][0], adjacent);
+            }
+        }
+        return true;
+    }
+    
+    // ranking
+    private void union(int i, int j) {
+        int p1 = find(i);
+        int p2 = find(j);
+        
+        if (p1 == p2)
+            return;
+        
+        if(rank[p1] > rank[p2]) {
+            parents[p2] = p1;
+        } else if (rank[p1] < rank[p2]) {
+            rank[p1] = p2;
+        } else {
+            parents[p2] = p1;
+            rank[p1]++;
+        }
+    }
+    
+    // path compression
+    private int find(int i) {
+        while(parents[i] != i) {
+            parents[i] = parents[parents[i]];
+            i = parents[i];
+        }
+        return parents[i];
+    }
 }
