@@ -866,6 +866,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/MaximumTwinSumOfLinkedList.java)
   - hint: two points to break linkedlist into two parts, reverse second one, iterate two linkedlist
 
+- [ ] LeetCode #25 Reverse Nodes in k-Group (NeetCode 150)
+  - [description](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/ReverseNodesInKGroup.java)
+  - hint:
+
 ### Stack
 
 - [x] LeetCode #71 Simplify Path
