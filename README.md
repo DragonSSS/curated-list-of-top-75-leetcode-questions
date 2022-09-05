@@ -871,6 +871,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/ReverseNodesInKGroup.java)
   - hint: reverse the linkedlist by recursion (using sub-linkedlist as split by group size `k`)
 
+- [ ] LeetCode #138 Copy List with Random Pointer (NeetCode 150)
+  - [description](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/CopyListWithRandomPointer.java)
+  - hint:
+
 ### Stack
 
 - [x] LeetCode #71 Simplify Path
