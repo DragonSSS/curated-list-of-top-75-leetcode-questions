@@ -876,6 +876,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/CopyListWithRandomPointer.java)
   - hint: hashtable of `<orignialNode, copiedNode>`
 
+- [x] LeetCode #287 Find the Duplicate Number (NeetCode 150)
+  - [description](https://leetcode.com/problems/find-the-duplicate-number/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/FindTheDuplicateNumber.java)
+  - hint: linkedlist cycle detection by slow and fast pointers, floyd’s algorithm to find intersaction point
+
 ### Stack
 
 - [x] LeetCode #71 Simplify Path
