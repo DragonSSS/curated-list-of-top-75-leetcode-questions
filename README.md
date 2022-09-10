@@ -881,6 +881,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/FindTheDuplicateNumber.java)
   - hint: linkedlist cycle detection by slow and fast pointers, floyd’s algorithm to find intersaction point
 
+- [x] LeetCode #2 Add Two Numbers (NeetCode 150)
+  - [description](https://leetcode.com/problems/add-two-numbers/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/AddTwoNumbers.java)
+  - hint: two linklist node pointers with while loop, take care of `carry` by `sum / 10`
+
 ### Stack
 
 - [x] LeetCode #71 Simplify Path
