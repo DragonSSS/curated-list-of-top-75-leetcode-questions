@@ -193,4 +193,60 @@ public class LRUCache {
             tail = node;
         }
     }
+
+    
+    public int get_4r(int key) {
+        if (!map.containsKey(key))
+            return -1;
+        Node node = map.get(key);
+        removeNode_4r(node);
+        setHead_4r(node);
+        return node.value;
+    }
+    
+    public void put_4r(int key, int value) {
+        if (map.containsKey(key)) {
+            Node node = map.get(key);
+            node.value = value;
+            removeNode_4r(node);
+            setHead_4r(node);
+        } else {
+            Node node = new Node(key, value);
+            if (map.size() >= cap) {
+                map.remove(tail.key);
+                removeNode_4r(tail);
+            }
+            map.put(key, node);
+            setHead_4r(node);
+        }
+    }
+    
+    private void setHead_4r(Node node) {
+        node.next = head;
+        node.pre = null;
+        
+        if (head != null)
+            head.pre = node;
+        
+        head = node;
+        
+        if (tail == null)
+            tail = node;
+    }
+    
+    private void removeNode_4r(Node node) {
+        Node next = node.next;
+        Node pre = node.pre;
+        if (pre != null) {
+            pre.next = next;
+        } else {
+            head = next;
+        }
+        
+        if (next != null) {
+            next.pre = pre;
+        } else {
+            tail = pre;
+        }
+    }
 }
