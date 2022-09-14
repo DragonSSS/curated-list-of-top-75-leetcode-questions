@@ -425,10 +425,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/IsGraphBipartite.java)  
   - hint: dfs recursively colorize graph with two colors or union-find
 
-- [ ] LeetCode #1584 Min Cost to Connect All Points
+- [x] LeetCode #1584 Min Cost to Connect All Points (NeetCode 150)
   - [description](https://leetcode.com/problems/min-cost-to-connect-all-points/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/MinCostToConnectAllPoints.java)  
-  - hint:
+  - hint: minimum spaning tree (MST) using Prim's algorithm
 
 ### DFS
 
