@@ -60,5 +60,67 @@ public class MinCostToConnectAllPoints {
             }
         }
         return cost;
-    }    
+    }
+
+    // Kruskal's algorithm
+    // union-find with min heap
+    int[] parents;
+    int[] rank;
+    public int minCostConnectPoints_2r(int[][] points) {
+        int n = points.length;
+        parents = new int[n];
+        rank = new int[n];
+        int islands = n;
+        int[][] dict = new int[n][n]; // store the weight between i and j
+        int res = 0;
+        
+        for(int i = 0; i < n; i++) {
+            parents[i] = i;
+        }
+        
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> dict[a[0]][a[1]] - dict[b[0]][b[1]]);
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j < n; j++) {
+                dict[i][j] = Math.abs(points[i][0] - points[j][0]) + Math.abs(points[i][1] - points[j][1]);
+                pq.offer(new int[] {i, j});
+            }
+        }
+        
+        while(!pq.isEmpty() && islands > 1) {
+            int[] curEdge = pq.poll();
+            if (union(curEdge[0], curEdge[1])) {
+                res += dict[curEdge[0]][curEdge[1]];
+                islands--;
+            }
+        }
+        
+        return res;
+    }
+    
+    private boolean union(int i, int j) {
+        int p1 = find(i);
+        int p2 = find(j);
+        
+        if (p1 == p2)
+            return false;
+        
+        if (rank[p1] > rank[p2]) {
+            parents[p2] = p1;
+        } else if (rank[p1] < rank[p2]) {
+            parents[p1] = p2;
+        } else {
+            parents[p1] = p2;
+            rank[p2]++;
+        }
+        
+        return true;
+    }
+    
+    private int find(int i) {
+        while(parents[i] != i) {
+            parents[i] = parents[parents[i]];
+            i = parents[i];
+        }
+        return parents[i];
+    }
 }
