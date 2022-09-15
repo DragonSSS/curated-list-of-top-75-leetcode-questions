@@ -428,7 +428,7 @@
 - [x] LeetCode #1584 Min Cost to Connect All Points (NeetCode 150)
   - [description](https://leetcode.com/problems/min-cost-to-connect-all-points/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/MinCostToConnectAllPoints.java)  
-  - hint: minimum spaning tree (MST) using Prim's algorithm
+  - hint: minimum spaning tree (MST) using Prim's algorithm (BFS with minHeap) or Kruskal's algorithm (union-find with minHeap)
 
 ### DFS
 
