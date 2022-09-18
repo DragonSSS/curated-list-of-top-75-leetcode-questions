@@ -1256,6 +1256,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/PathWithMaximumMinimumValue.java)
   - hint:
 
+- [ ] LeetCode #621 Task Scheduler (NeetCode 150)
+  - [description](https://leetcode.com/problems/task-scheduler/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/TaskScheduler.java)
+  - hint:
+
 ### Design
 
 - [x] LeetCode #146 LRU Cache (NeetCode 150)
