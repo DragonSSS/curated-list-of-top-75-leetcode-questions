@@ -1373,6 +1373,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/SnakeGame.java)
   - hint: use queue to simulate the snake
 
+- [ ] LeetCode #355 Design Twitter (NeetCode 150)
+  - [description](https://leetcode.com/problems/design-twitter/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/Twitter.java)
+  - hint:
+
 ### Monotonic Queue
 
 - [x] LeetCode #239 Sliding Window Maximum (NeetCode 150)
