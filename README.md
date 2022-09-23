@@ -1373,10 +1373,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/SnakeGame.java)
   - hint: use queue to simulate the snake
 
-- [ ] LeetCode #355 Design Twitter (NeetCode 150)
+- [x] LeetCode #355 Design Twitter (NeetCode 150)
   - [description](https://leetcode.com/problems/design-twitter/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/Twitter.java)
-  - hint:
+  - hint: `Tweet` and `User` classes, `User` class stores the tweets as the linkedlist by tracking head, use maxHeap to return news feed of recent 10 tweet ids
 
 ### Monotonic Queue
 
