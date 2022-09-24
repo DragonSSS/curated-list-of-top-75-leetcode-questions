@@ -1261,6 +1261,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/TaskScheduler.java)
   - hint: PriorityQueue (store cpu task to process) + queue (store awaiting task)
 
+- [x] LeetCode #1046 Last Stone Weight (NeetCode 150)
+  - [description](https://leetcode.com/problems/last-stone-weight/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/LastStoneWeight.java)
+  - hint: maxHeap
+
 ### Design
 
 - [x] LeetCode #146 LRU Cache (NeetCode 150)
