@@ -430,7 +430,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/MinCostToConnectAllPoints.java)  
   - hint: minimum spaning tree (MST) using Prim's algorithm (BFS with minHeap) or Kruskal's algorithm (union-find with minHeap)
 
-- [ ] LeetCode #2115 Find All Possible Recipes from Given Supplies
+- [x] LeetCode #2115 Find All Possible Recipes from Given Supplies
   - [description](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/FindAllPossibleRecipesFromGivenSupplies.java)  
   - hint: topological sort with bfs
