@@ -164,7 +164,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/NumberOfIslands.java)
   - hint: dfs + memorization
 
-- [x] LeetCode #128 Longest Consecutive Sequence
+- [x] LeetCode #128 Longest Consecutive Sequence (NeetCode 150)
   - [description](https://leetcode.com/problems/longest-consecutive-sequence/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/LongestConsecutiveSequence.java)
   - hint: sort first + iteration with while loop (could use union-find or hashtable as well)
