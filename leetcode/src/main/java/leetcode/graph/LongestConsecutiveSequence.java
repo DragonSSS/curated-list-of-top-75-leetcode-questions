@@ -80,4 +80,28 @@ public class LongestConsecutiveSequence {
         int cur = helper_3r(num - 1) + 1 + helper_3r(num + 1);
         return cur;
     }
+
+    public int longestConsecutive_4r(int[] nums) {
+        if (nums.length == 0)
+            return 0;
+        
+        Set<Integer> numsSet = new HashSet<>();
+        for(int num : nums) {
+            numsSet.add(num);
+        }
+        
+        int res = 1;
+        for(int num : nums) {
+            if (!numsSet.contains(num - 1)) {
+                int count = 1;
+                int cur = num;
+                while(numsSet.contains(cur + 1)) {
+                    count++;
+                    cur++;
+                }
+                res = Math.max(res, count);
+            }
+        }
+        return res;
+    }
 }
