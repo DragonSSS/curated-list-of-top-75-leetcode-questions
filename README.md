@@ -1241,7 +1241,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/CheapestFlightsWithinKStops.java)
   - hint: bfs, dfs(backtracing), Dijkstra's algorithm(minHeap) or Bellman Ford(dp)
 
-- [x] LeetCode #743 Network Delay Time (Dijkstra's algorithm)
+- [x] LeetCode #743 Network Delay Time (NeetCode 150) (Dijkstra's algorithm)
   - [description](https://leetcode.com/problems/network-delay-time/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/NetworkDelayTime.java)
   - hint: Dijkstra's algorithm(minHeap)
