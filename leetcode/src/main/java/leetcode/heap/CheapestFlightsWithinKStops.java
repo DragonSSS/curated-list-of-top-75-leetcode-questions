@@ -181,4 +181,52 @@ public class CheapestFlightsWithinKStops {
         
         return -1;
     }
+    // dijkstra algorithm
+    // build graph Map<Integer, List<Integer>>
+    // miniHeap int[]{cost, citry, stop}
+    // boolean visited[][] - [city, stop]
+    public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
+        Map<Integer, List<int[]>> graph = new HashMap<>();
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
+        boolean[][] visited = new boolean[n][k + 2];
+        pq.offer(new int[]{0, src, k + 1});
+        
+        // build graph
+        for (int[] flight : flights) {
+            int start = flight[0];
+            int end = flight[1];
+            int cost = flight[2];
+            
+            graph.putIfAbsent(start, new ArrayList<>());
+            graph.get(start).add(new int[]{end, cost});
+        }
+        
+        while(!pq.isEmpty()) {
+            int[] cur = pq.poll();
+            int curCost = cur[0];
+            int curCity = cur[1];
+            int curStop = cur[2];
+            
+            if (curCity == dst)
+                return curCost;
+            
+            if (curStop <= 0)
+                continue;
+            
+            if (visited[curCity][curStop])
+                continue;
+            
+            visited[curCity][curStop] = true;
+            
+            if (graph.containsKey(curCity)) {
+                for(int[] next : graph.get(curCity)) {
+                    int nextCity = next[0];
+                    int nextCost = next[1];
+                    pq.offer(new int[] {curCost + nextCost, nextCity, curStop - 1});
+                }
+            }
+            
+        }
+        return -1;
+    }
 }

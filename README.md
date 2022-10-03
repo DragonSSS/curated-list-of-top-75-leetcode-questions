@@ -1236,7 +1236,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/TopKFrequentWords.java)
   - hint: use priorityQueue to store map entry with string as key and freqency as value
 
-- [x] LeetCode #787 Cheapest Flights Within K Stops (Dijkstra's algorithm)
+- [x] LeetCode #787 Cheapest Flights Within K Stops (NeetCode 150) (Dijkstra's algorithm)
   - [description](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/CheapestFlightsWithinKStops.java)
   - hint: bfs, dfs(backtracing), Dijkstra's algorithm(minHeap) or Bellman Ford(dp)
