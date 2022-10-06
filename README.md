@@ -797,6 +797,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/InterleavingString.java)
   - hint: 2D dynamic programming
 
+- [ ] LeetCode #494 Target Sum (NeetCode 150)
+  - [description](https://leetcode.com/problems/target-sum/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/TargetSum.java)
+  - hint:
+
 ### Tree
 
 - [x] LeetCode #236 Lowest Common Ancestor of a Binary Tree
