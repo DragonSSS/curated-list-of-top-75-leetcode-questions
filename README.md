@@ -800,7 +800,7 @@
 - [x] LeetCode #494 Target Sum (NeetCode 150)
   - [description](https://leetcode.com/problems/target-sum/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/TargetSum.java)
-  - hint: recursion
+  - hint: recursion, could add memorization to optimize brute force method
 
 ### Tree
 
