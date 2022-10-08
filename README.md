@@ -802,6 +802,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/TargetSum.java)
   - hint: recursion, could add memorization to optimize brute force method
 
+- [ ] LeetCode #312 Burst Balloons
+  - [description](https://leetcode.com/problems/burst-balloons/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/BurstBalloons.java)
+  -hint:
+
 ### Tree
 
 - [x] LeetCode #236 Lowest Common Ancestor of a Binary Tree
