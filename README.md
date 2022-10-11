@@ -802,10 +802,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/TargetSum.java)
   - hint: recursion, could add memorization to optimize brute force method
 
-- [ ] LeetCode #312 Burst Balloons
+- [x] LeetCode #312 Burst Balloons (NeetCode 150)
   - [description](https://leetcode.com/problems/burst-balloons/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/BurstBalloons.java)
-  -hint:
+  - hint: dp, use left and right as range to split one question to sub problems, treat ith boolean to last hit instead of first hit
 
 ### Tree
 
