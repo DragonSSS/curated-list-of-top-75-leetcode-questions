@@ -492,7 +492,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/IslandPerimeter.java)
   - hint: dfs recursion + memorization, trick is to make the condition when return 1 or 0 in recursion func.
 
-- [x] LeetCode #329 Longest Increasing Path in a Matrix
+- [x] LeetCode #329 Longest Increasing Path in a Matrix (NeetCode 150)
   - [description](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/LongestIncreasingPathInMatrix.java)
   - hint: dfs recursion + memorization (like addressing DP question)
@@ -806,6 +806,16 @@
   - [description](https://leetcode.com/problems/burst-balloons/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/BurstBalloons.java)
   - hint: dp + memorization, use left and right as range to split one question to sub problems, treat ith boolean to last hit instead of first hit
+
+- [ ] LeetCode #115 Distinct Subsequences (NeetCode 150)
+  - [description](https://leetcode.com/problems/distinct-subsequences/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/DistinctSubsequences.java)
+  - hint:
+
+- [ ] LeetCode #10 Regular Expression Matching (NeetCode 150)
+  - [description](https://leetcode.com/problems/regular-expression-matching/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/RegularExpressionMatching.java)
+  - hint:
 
 ### Tree
 
