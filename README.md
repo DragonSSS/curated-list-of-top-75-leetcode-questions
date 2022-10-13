@@ -807,10 +807,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/BurstBalloons.java)
   - hint: dp + memorization, use left and right as range to split one question to sub problems, treat ith boolean to last hit instead of first hit
 
-- [ ] LeetCode #115 Distinct Subsequences (NeetCode 150)
+- [x] LeetCode #115 Distinct Subsequences (NeetCode 150)
   - [description](https://leetcode.com/problems/distinct-subsequences/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/DistinctSubsequences.java)
-  - hint:
+  - hint: dp + memorization, two string index pointers start with `0`
 
 - [ ] LeetCode #10 Regular Expression Matching (NeetCode 150)
   - [description](https://leetcode.com/problems/regular-expression-matching/)
