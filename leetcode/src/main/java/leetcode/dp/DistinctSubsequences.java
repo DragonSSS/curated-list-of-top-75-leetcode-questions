@@ -10,6 +10,7 @@ public class DistinctSubsequences {
     }
     
     private int helper(String s, String t, int indexS, int indexT) {
+        // this has to be before indexS check
         if (indexT == t.length())
             return 1;
         
@@ -19,13 +20,12 @@ public class DistinctSubsequences {
         if (memo[indexS][indexT] != null)
             return memo[indexS][indexT];
         
-        int res;
         if (s.charAt(indexS) == t.charAt(indexT)) {
-            res = helper(s, t, indexS + 1, indexT + 1) + helper(s, t, indexS + 1, indexT);   
+            memo[indexS][indexT] = helper(s, t, indexS + 1, indexT + 1) + helper(s, t, indexS + 1, indexT);   
         } else {
-            res = helper(s, t, indexS + 1, indexT);
+            memo[indexS][indexT] = helper(s, t, indexS + 1, indexT);
         }
-        memo[indexS][indexT] = res;
-        return res;
-    }    
+        
+        return memo[indexS][indexT];
+    }   
 }
