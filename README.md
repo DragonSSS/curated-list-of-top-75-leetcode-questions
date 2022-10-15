@@ -812,7 +812,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/DistinctSubsequences.java)
   - hint: dp + memorization, two string index pointers start with `0`
 
-- [ ] LeetCode #10 Regular Expression Matching (NeetCode 150)
+- [x] LeetCode #10 Regular Expression Matching (NeetCode 150)
   - [description](https://leetcode.com/problems/regular-expression-matching/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/RegularExpressionMatching.java)
   - hint: top-down memoization
