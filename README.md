@@ -186,27 +186,27 @@
 
 ## Interval (5)
 
-- [x] LeetCode #57 Insert Interval
+- [x] LeetCode #57 Insert Interval (NeetCode 150)
   - [description](https://leetcode.com/problems/insert-interval/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/interval/InsertInterval.java)
   - hint: if `newInterval[1] < interval[0]` else if `newInterval[0] > interval[1]` else do sth
 
-- [x] LeetCode #57 Merge Intervals
+- [x] LeetCode #57 Merge Intervals (NeetCode 150)
   - [description](https://leetcode.com/problems/merge-intervals/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/interval/MergeIntervals.java)
   - hint: same as Insert Interval, if `newInterval[1] < interval[0]` else if `newInterval[0] > interval[1]` else do sth
 
-- [x] LeetCode #435 Non-overlapping Intervals
+- [x] LeetCode #435 Non-overlapping Intervals (NeetCode 150)
   - [description](https://leetcode.com/problems/non-overlapping-intervals/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/interval/NonOverlappingIntervals.java)
   - hint: sort array first by start of interval, record preEnd and compare it with intervals
 
-- [x] LeetCode #252 Meeting Rooms
+- [x] LeetCode #252 Meeting Rooms (NeetCode 150)
   - [description](https://leetcode.com/problems/meeting-rooms/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/interval/MeetingRooms.java)
   - hint: sort array first by start of interval, compare two intervals with sliding window size of 2
 
-- [x] LeetCode #253 Meeting Rooms II
+- [x] LeetCode #253 Meeting Rooms II (NeetCode 150)
   - [description](https://leetcode.com/problems/meeting-rooms-ii/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/interval/MeetingRoomsII.java)
   - hint: sort array first by start of interval, use priorityQueue (sorted by end of interval) to record the intervals as required rooms
