@@ -245,12 +245,12 @@
   
 ## Matrix (4)
 
-- [x] LeetCode #73 Set Matrix Zeroes
+- [x] LeetCode #73 Set Matrix Zeroes (NeetCode 150)
   - [description](https://leetcode.com/problems/set-matrix-zeroes/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/matrix/SetMatrixZeroes.java)
   - hint: use hashtable/hashset to record row and column of 0 in matrix
 
-- [x] LeetCode #54 Spiral Matrix
+- [x] LeetCode #54 Spiral Matrix (NeetCode 150)
   - [description](https://leetcode.com/problems/spiral-matrix/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/matrix/SpiralMatrix.java)
   - hint: four pointers for corners: top, bottom, left and right when `res.size() < m * n`
@@ -1417,6 +1417,11 @@
   - [description](https://leetcode.com/problems/design-twitter/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/Twitter.java)
   - hint: create `Tweet` and `User` classes, `User` class stores the tweets as the linkedlist by tracking head, use maxHeap to return news feed of recent 10 tweet ids
+
+- [ ] LeetCode #2013 Detect Squares (NeetCode 150)
+  - [description](https://leetcode.com/problems/detect-squares/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/DetectSquares.java)
+  - hint:
 
 ### Monotonic Queue
 
