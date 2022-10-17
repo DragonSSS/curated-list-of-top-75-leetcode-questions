@@ -255,7 +255,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/matrix/SpiralMatrix.java)
   - hint: four pointers for corners: top, bottom, left and right when `res.size() < m * n`
   
-- [x] LeetCode #48 Rotate Image
+- [x] LeetCode #48 Rotate Image (NeetCode 150)
   - [description](https://leetcode.com/problems/rotate-image/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/matrix/RotateImage.java)
   - hint: `clockwise rotate = reverse up to down + swap the symmetry`, `anticlockwise = reverse left to right + swap the symmetry`
