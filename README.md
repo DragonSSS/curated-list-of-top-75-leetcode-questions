@@ -1418,10 +1418,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/Twitter.java)
   - hint: create `Tweet` and `User` classes, `User` class stores the tweets as the linkedlist by tracking head, use maxHeap to return news feed of recent 10 tweet ids
 
-- [ ] LeetCode #2013 Detect Squares (NeetCode 150)
+- [x] LeetCode #2013 Detect Squares (NeetCode 150)
   - [description](https://leetcode.com/problems/detect-squares/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/DetectSquares.java)
-  - hint:
+  - hint: use hashtable with list to check if diagonal point exists, then verify existence of other two points
 
 ### Monotonic Queue
 
