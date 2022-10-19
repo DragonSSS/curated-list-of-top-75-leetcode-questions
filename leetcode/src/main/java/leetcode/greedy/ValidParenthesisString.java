@@ -3,7 +3,7 @@ package leetcode.greedy;
 import java.util.Stack;
 
 public class ValidParenthesisString {
-    // solution 1 using stacks
+    // solution 1 - stacks
     public boolean checkValidString(String s) {
         Stack<Integer> op = new Stack<>();
         Stack<Integer> st = new Stack<>();
@@ -33,5 +33,27 @@ public class ValidParenthesisString {
         }
         
         return op.isEmpty();
-    }    
+    }
+
+    // solution 2 - greedy
+    public boolean checkValidString_greedy(String s) {
+        int leftMin = 0, leftMax = 0;
+        for(char c : s.toCharArray()) {
+            if (c == '(') {
+                leftMin++;
+                leftMax++;
+            } else if (c == ')') {
+                if (leftMin > 0) 
+                    leftMin--;
+                leftMax--;
+            } else {
+                if (leftMin > 0) 
+                    leftMin--;
+                leftMax++;
+            }
+            if (leftMax < 0)
+                return false;
+        }
+        return leftMin == 0;
+    } 
 }
