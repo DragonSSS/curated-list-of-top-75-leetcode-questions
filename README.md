@@ -1147,10 +1147,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/MergeTripletsToFormTargetTriplet.java)
   - hint: greedy, skip invalid triplets that has greater value than target one, build the final triplet and check if it is equal to target one
 
-- [ ] LeetCode #678 Valid Parenthesis String (NeetCode 150)
+- [x] LeetCode #678 Valid Parenthesis String (NeetCode 150)
   - [description](https://leetcode.com/problems/valid-parenthesis-string/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/ValidParenthesisString.java)
-  - hint:
+  - hint: two stacks to iterate each char or greedy using min and mix number of left parenthesis
 
 ### Backtracking
 
