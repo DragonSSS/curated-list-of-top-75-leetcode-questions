@@ -884,10 +884,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/LargestBstSubtree.java)
   - hint: use an array `{ min, max, size }` as a recursion func's result, similar to `Validate Binary Search Tree`
 
-- [ ] LeetCode #543 Diameter of Binary Tree
+- [x] LeetCode #543 Diameter of Binary Tree
   - [description](hhttps://leetcode.com/problems/diameter-of-binary-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/DiameterOfBinaryTree.java)
-  - hint:
+  - hint: dfs and meet `null` tree node to return `-1`
 
 ### LinkedList
 
