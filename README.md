@@ -1439,6 +1439,13 @@
   - [description](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/queue/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.java)
   - hint: use two deque to track min and max values with two pointers `left` and `right`
+
+### Interval
+
+- [ ] LeetCode #1851  Minimum Interval to Include Each Query
+  - [description](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/interval/MinimumIntervalToIncludeEachQuery.java)
+  - hint: sort two arrays, use minHeap to find smallest interval
 <!---
 ## Misc
 
