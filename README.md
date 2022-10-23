@@ -609,6 +609,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/ShortestPathInBinaryMatrix.java)
   - hint: standard bfs
 
+- [ ] LeetCode #818 Race Car
+  - [description](https://leetcode.com/problems/race-car/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/RaceCar.java)
+  - hint:
+
 ### Array
 
 - [x] LeetCode #4 Median of Two Sorted Arrays (NeetCode 150)
@@ -1442,7 +1447,7 @@
 
 ### Interval
 
-- [ ] LeetCode #1851  Minimum Interval to Include Each Query
+- [x] LeetCode #1851  Minimum Interval to Include Each Query (NeetCode 150)
   - [description](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/interval/MinimumIntervalToIncludeEachQuery.java)
   - hint: sort two arrays, use minHeap to find smallest interval
