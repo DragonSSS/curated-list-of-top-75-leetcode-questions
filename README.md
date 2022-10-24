@@ -609,9 +609,14 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/ShortestPathInBinaryMatrix.java)
   - hint: standard bfs
 
-- [ ] LeetCode #818 Race Car
+- [x] LeetCode #818 Race Car
   - [description](https://leetcode.com/problems/race-car/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/RaceCar.java)
+  - hint: bfs, try overshooting, and detect overshooting asap with trying reverse
+
+- [ ] LeetCode #1293 Shortest Path in a Grid with Obstacles Elimination
+  - [description](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/ShortestPathInGridWithObstaclesElimination.java)
   - hint:
 
 ### Array
