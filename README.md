@@ -614,10 +614,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/RaceCar.java)
   - hint: bfs, try overshooting, and detect overshooting asap with trying reverse
 
-- [ ] LeetCode #1293 Shortest Path in a Grid with Obstacles Elimination
+- [x] LeetCode #1293 Shortest Path in a Grid with Obstacles Elimination
   - [description](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/ShortestPathInGridWithObstaclesElimination.java)
-  - hint:
+  - hint: bfs, with `int[]{x, y, k}` where `k` is number of elimination step left
 
 ### Array
 
@@ -1166,6 +1166,11 @@
   - [description](https://leetcode.com/problems/valid-parenthesis-string/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/ValidParenthesisString.java)
   - hint: two stacks to iterate each char or greedy using min and mix number of left parenthesis
+
+- [ ] LeetCode #2193 Minimum Number of Moves to Make Palindrome
+  - [description](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/MinimumNumberOfMovesToMakePalindrome.java)
+  - hint: try to make first (`String.indexOf()`) and last chars (`String.charAt(String.length() - 1)`) same (greedy), if char appear once, move to the middle position.
 
 ### Backtracking
 
