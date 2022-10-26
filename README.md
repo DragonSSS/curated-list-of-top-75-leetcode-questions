@@ -1167,10 +1167,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/ValidParenthesisString.java)
   - hint: two stacks to iterate each char or greedy using min and mix number of left parenthesis
 
-- [ ] LeetCode #2193 Minimum Number of Moves to Make Palindrome
+- [x] LeetCode #2193 Minimum Number of Moves to Make Palindrome
   - [description](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/MinimumNumberOfMovesToMakePalindrome.java)
-  - hint: try to make first (`String.indexOf()`) and last chars (`String.charAt(String.length() - 1)`) same (greedy), if char appear once, move to the middle position.
+  - hint: find `String.lastIndexOf()` of first char and `String.indexOf()` of last char, compare the steps move them into palindrome position, `substring` string for each round
 
 ### Backtracking
 
@@ -1442,6 +1442,11 @@
   - [description](https://leetcode.com/problems/detect-squares/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/DetectSquares.java)
   - hint: use hashtable with list to check if diagonal point exists, then verify existence of other two points
+
+- [ ] LeetCode #2034 Stock Price Fluctuation
+  - [description](https://leetcode.com/problems/stock-price-fluctuation/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/StockPrice.java)
+  - hint:
 
 ### Monotonic Queue
 
