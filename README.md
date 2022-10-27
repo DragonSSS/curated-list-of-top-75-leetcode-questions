@@ -971,7 +971,7 @@
 - [x] LeetCode #921 Minimum Add to Make Parentheses Valid
   - [description](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/MinimumAddToMakeParenthesesValid.java)
-  - hint: similar to #1249 Minimum Remove to Make Valid Parentheses, use count (add `(` at left side) to record number of index `)` if stack is empty, return `stack.size() + count`
+  - hint: similar to #1249 Minimum Remove to Make Valid Parentheses, use count add `(` at left side) to record number of index `)` if stack is empty, return `stack.size() + count`
 
 - [x] LeetCode #772  Basic Calculator
   - [description](https://leetcode.com/problems/basic-calculator/)
@@ -1443,10 +1443,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/DetectSquares.java)
   - hint: use hashtable with list to check if diagonal point exists, then verify existence of other two points
 
-- [ ] LeetCode #2034 Stock Price Fluctuation
+- [x] LeetCode #2034 Stock Price Fluctuation
   - [description](https://leetcode.com/problems/stock-price-fluctuation/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/StockPrice.java)
-  - hint:
+  - hint: hashtable + minheap + maxheap
 
 ### Monotonic Queue
 
