@@ -1453,6 +1453,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/StockPrice.java)
   - hint: hashtable + minheap + maxheap
 
+- [ ] LeetCode #729 My Calendar I
+  - [description](https://leetcode.com/problems/my-calendar-i/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/MyCalendarI.java)
+  - hint:
+
 ### Monotonic Queue
 
 - [x] LeetCode #239 Sliding Window Maximum (NeetCode 150)
