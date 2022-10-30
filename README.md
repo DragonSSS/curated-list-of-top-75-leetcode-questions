@@ -902,7 +902,7 @@
 - [ ] LeetCode #2096 Step-By-Step Directions From a Binary Tree Node to Another
   - [description](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/StepByStepDirectionsFromBinaryTreeNodeToAnother.java)
-  - hint:
+  - hint: find LCA of two nodes, traversal from LCA node to two nodes (start, end nodes) by recursion to build the path, combine two path together (reverse the path from LCA node to start node, all `U`)
 
 ### LinkedList
 
