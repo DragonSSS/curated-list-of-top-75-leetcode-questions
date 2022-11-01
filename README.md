@@ -1456,7 +1456,7 @@
 - [x] LeetCode #729 My Calendar I
   - [description](https://leetcode.com/problems/my-calendar-i/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/MyCalendarI.java)
-  - hint: brute force or TreeMap
+  - hint: brute force or TreeMap using `floorKey` and `ceilingKey`
 
 ### Monotonic Queue
 
