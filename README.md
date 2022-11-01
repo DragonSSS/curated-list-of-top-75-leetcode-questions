@@ -435,6 +435,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/FindAllPossibleRecipesFromGivenSupplies.java)  
   - hint: topological sort with bfs
 
+- [ ] LeetCode #1101 The Earliest Moment When Everyone Become Friends
+  - [description](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/TheEarliestMomentWhenEveryoneBecomeFriends.java)  
+  - hint: union-find
+
 ### DFS
 
 - [x] LeetCode #332 Reconstruct Itinerary
