@@ -435,10 +435,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/FindAllPossibleRecipesFromGivenSupplies.java)  
   - hint: topological sort with bfs
 
-- [ ] LeetCode #1101 The Earliest Moment When Everyone Become Friends
+- [x] LeetCode #1101 The Earliest Moment When Everyone Become Friends
   - [description](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/TheEarliestMomentWhenEveryoneBecomeFriends.java)  
-  - hint: union-find
+  - hint: union-find with path compression and ranking
 
 ### DFS
 
@@ -623,6 +623,11 @@
   - [description](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/ShortestPathInGridWithObstaclesElimination.java)
   - hint: bfs, with `int[]{x, y, k}` where `k` is number of elimination step left
+
+- [ ] LeetCode #286 Walls and Gates
+  - [description](https://leetcode.com/problems/walls-and-gates/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/WallsAndGates.java)
+  - hint: bfs
 
 ### Array
 
