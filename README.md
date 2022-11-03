@@ -624,7 +624,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/ShortestPathInGridWithObstaclesElimination.java)
   - hint: bfs, with `int[]{x, y, k}` where `k` is number of elimination step left
 
-- [ ] LeetCode #286 Walls and Gates
+- [x] LeetCode #286 Walls and Gates
   - [description](https://leetcode.com/problems/walls-and-gates/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/WallsAndGates.java)
   - hint: bfs
