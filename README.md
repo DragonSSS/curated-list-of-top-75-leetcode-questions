@@ -1468,6 +1468,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/MyCalendarI.java)
   - hint: brute force or TreeMap using `floorKey` and `ceilingKey`
 
+- [ ] LeetCode #715 Range Module
+  - [description](https://leetcode.com/problems/range-module/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/RangeModule.java)
+  - hint:
+
 ### Monotonic Queue
 
 - [x] LeetCode #239 Sliding Window Maximum (NeetCode 150)
