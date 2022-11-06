@@ -1471,7 +1471,7 @@
 - [ ] LeetCode #715 Range Module
   - [description](https://leetcode.com/problems/range-module/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/RangeModule.java)
-  - hint:
+  - hint: `TreeMap<left, right>`, use `floorKey()` to find if there is a value before or equal to the key
 
 ### Monotonic Queue
 
