@@ -1468,10 +1468,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/MyCalendarI.java)
   - hint: brute force or TreeMap using `floorKey` and `ceilingKey`
 
-- [ ] LeetCode #715 Range Module
+- [x] LeetCode #715 Range Module
   - [description](https://leetcode.com/problems/range-module/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/RangeModule.java)
-  - hint: `TreeMap<left, right>`, use `floorKey()` to find if there is a value before or equal to the key
+  - hint: `TreeMap<left, right>`, use `floorKey()` to find if there is a value before or equal to the key, use `subMap().clear() to remove additional keys`
 
 ### Monotonic Queue
 
