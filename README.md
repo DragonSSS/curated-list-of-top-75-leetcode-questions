@@ -1249,6 +1249,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/TwentyFourGame.java)
   - hint: backtracking + dfs with an input list of possible cards for this round
 
+- [ ] LeetCode #465 Optimal Account Balancing
+  - [description](https://leetcode.com/problems/optimal-account-balancing/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/OptimalAccountBalancing.java)
+  - hint:
+
 ### Heap (Priority Queue)
 
 - [x] LeetCode #378 Kth Smallest Element in a Sorted Matrix
