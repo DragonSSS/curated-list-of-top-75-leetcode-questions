@@ -1249,10 +1249,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/TwentyFourGame.java)
   - hint: backtracking + dfs with an input list of possible cards for this round
 
-- [ ] LeetCode #465 Optimal Account Balancing
+- [x] LeetCode #465 Optimal Account Balancing
   - [description](https://leetcode.com/problems/optimal-account-balancing/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/OptimalAccountBalancing.java)
-  - hint:
+  - hint: hashmap to track each person balance, dfs + backtracking to find minimum transactions
 
 ### Heap (Priority Queue)
 
