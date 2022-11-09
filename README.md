@@ -1254,6 +1254,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/OptimalAccountBalancing.java)
   - hint: hashmap to track each person balance, dfs + backtracking to find minimum transactions
 
+- [ ] LeetCode #489 Robot Room Cleaner
+  - [description](https://leetcode.com/problems/robot-room-cleaner/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/RobotRoomCleaner.java)
+  - hint:
+
 ### Heap (Priority Queue)
 
 - [x] LeetCode #378 Kth Smallest Element in a Sorted Matrix
