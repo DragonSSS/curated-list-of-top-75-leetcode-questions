@@ -1346,10 +1346,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/LastStoneWeight.java)
   - hint: maxHeap
 
-- [ ] LeetCode #1229 Meeting Scheduler
+- [x] LeetCode #1229 Meeting Scheduler
   - [description](https://leetcode.com/problems/meeting-scheduler/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/MeetingScheduler.java)
-  - hint:
+  - hint: minHeap to store valid slots (`>= duration`), compare `poll()[1]` and `peek()[0] + duration`
 
 ### Design
 
