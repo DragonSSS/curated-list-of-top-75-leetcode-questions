@@ -1346,6 +1346,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/LastStoneWeight.java)
   - hint: maxHeap
 
+- [ ] LeetCode #1229 Meeting Scheduler
+  - [description](https://leetcode.com/problems/meeting-scheduler/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/MeetingScheduler.java)
+  - hint:
+
 ### Design
 
 - [x] LeetCode #146 LRU Cache (NeetCode 150)
