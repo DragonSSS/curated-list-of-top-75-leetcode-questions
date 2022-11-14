@@ -1351,6 +1351,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/MeetingScheduler.java)
   - hint: minHeap to store valid slots (`>= duration`), compare `poll()[1]` and `peek()[0] + duration`
 
+- [x] LeetCode #759 Employee Free Time
+  - [description](https://leetcode.com/problems/employee-free-time/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/EmployeeFreeTime.java)
+  - hint: minHeap to store interval, track previous interval and merge current interval with previous one if need, if previous one has no interaction with current one, add the new interval into result
+
 ### Design
 
 - [x] LeetCode #146 LRU Cache (NeetCode 150)
