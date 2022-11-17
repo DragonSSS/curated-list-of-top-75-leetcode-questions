@@ -527,6 +527,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/KillProcess.java)
   - hint: dfs or bfs with buidling graph
 
+- [ ] LeetCode #256 Paint House
+  - [description](https://leetcode.com/problems/paint-house/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/PaintHouse.java)
+  - hint: dfs + memorization
+
 ### BFS
 
 - [x] LeetCode #103 Binary Tree Zigzag Level Order Traversal
