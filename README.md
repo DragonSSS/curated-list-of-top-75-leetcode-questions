@@ -1150,6 +1150,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/PermutationInString.java)
   - hint: hashtable + sliding window
 
+- [ ] LeetCode #1055 Shortest Way to Form String
+  - [description](https://leetcode.com/problems/shortest-way-to-form-string/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/ShortestWayToFormString.java)
+  - hint: while loop starts with index of target string, within while loop to do for loop on the source string
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
