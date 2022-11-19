@@ -1339,12 +1339,12 @@
 - [ ] LeetCode #1631 Path With Minimum Effort
   - [description](https://leetcode.com/problems/path-with-minimum-effort/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/PathWithMinimumEffort.java)
-  - hint:
+  - hint: variant of Dijkstra algorithm(minHeap)
 
 - [ ] LeetCode #1102 Path With Maximum Minimum Value
   - [description](https://leetcode.com/problems/path-with-maximum-minimum-value/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/PathWithMaximumMinimumValue.java)
-  - hint:
+  - hint: variant of Dijkstra algorithm(minHeap)
 
 - [x] LeetCode #621 Task Scheduler (NeetCode 150)
   - [description](https://leetcode.com/problems/task-scheduler/)
