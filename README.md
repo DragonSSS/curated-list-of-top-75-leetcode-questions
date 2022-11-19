@@ -1521,6 +1521,12 @@
   - [description](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/interval/MinimumIntervalToIncludeEachQuery.java)
   - hint: sort two arrays, use minHeap to find smallest interval
+
+- [ ] LeetCode #2158 Amount of New Area Painted Each Day
+  - [description](https://leetcode.com/problems/amount-of-new-area-painted-each-day/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/interval/AmountOfNewAreaPaintedEachDay.java)
+  - hint: merge interval + treeMap
+
 <!---
 ## Misc
 
