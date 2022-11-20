@@ -1503,10 +1503,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/RangeModule.java)
   - hint: `TreeMap<left, right>`, use `floorKey()` to find if there is a value before or equal to the key, use `subMap().clear() to remove additional keys`
 
-- [ ] LeetCode #1244 Design A Leaderboard
+- [x] LeetCode #1244 Design A Leaderboard
   - [description](https://leetcode.com/problems/design-a-leaderboard/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/Leaderboard.java)
-  - hint:
+  - hint: hashmap + maxHeap
 
 ### Monotonic Queue
 
