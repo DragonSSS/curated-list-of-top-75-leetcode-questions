@@ -842,6 +842,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/RegularExpressionMatching.java)
   - hint: top-down memoization
 
+- [x] LeetCode #2222 Number of Ways to Select Buildings
+  - [description](https://leetcode.com/problems/number-of-ways-to-select-buildings/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/NumberOfWaysToSelectBuildings.java)
+  - hint: kind of dp, result = number of `1..0..1` + number of `0..1..0` (`..` could be blank), use one loop count number of `1`, `0`, `0..1` and `1..0`
+
 ### Tree
 
 - [x] LeetCode #236 Lowest Common Ancestor of a Binary Tree
