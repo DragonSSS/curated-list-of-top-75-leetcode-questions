@@ -770,6 +770,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ContinuousSubarraySum.java)
   - hint: prefix + hashmap to find existing remainder value by `% k`
 
+- [ ] LeetCode #2055 Plates Between Candles
+  - [description](https://leetcode.com/problems/plates-between-candles/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/PlatesBetweenCandles.java)
+  - hint:
+
 ### Dynamic Programming
 
 - [x] LeetCode #741 Cherry Pickup
