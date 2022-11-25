@@ -770,10 +770,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ContinuousSubarraySum.java)
   - hint: prefix + hashmap to find existing remainder value by `% k`
 
-- [ ] LeetCode #2055 Plates Between Candles
+- [x] LeetCode #2055 Plates Between Candles
   - [description](https://leetcode.com/problems/plates-between-candles/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/PlatesBetweenCandles.java)
-  - hint:
+  - hint: for each index of string, find the index of first left candle and the index of first right candle by using two arrays, count prefix sum of candles for each index, calculate the result by `res[index] = rightCandle - leftCandle + 1 - (candlePrefixSum[rightCandle] - candlePrefixSum[leftCandle] + 1);`
 
 ### Dynamic Programming
 
