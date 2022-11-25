@@ -46,14 +46,18 @@ public class PlatesBetweenCandles {
             int leftCandle = firstRightCandle[left];
             int rightCandle = firstLeftCandle[right];
             
-            int distance = 0;
+            // if one side there is no candle at all
             if (leftCandle == -1 || rightCandle == -1) {
                 res[index] = 0;
             } else {
-                distance = rightCandle - leftCandle;
+                // this is to check the case |**| with query [1, 2]
+                // query could be [1, 1] as well
+                // distance is negative or zero
+                int distance = rightCandle - leftCandle;
                 if (distance > 1) {
                     res[index] = rightCandle - leftCandle + 1 - (candlePrefixSum[rightCandle] - candlePrefixSum[leftCandle] + 1);
                 } else {
+                    // || case
                     res[index] = 0;
                 }
             }
