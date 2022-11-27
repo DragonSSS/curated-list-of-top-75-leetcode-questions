@@ -1098,10 +1098,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/LargestRectangleInHistogram.java)
   - hint: monotonic stack `Stack<int[index, height]>()`, look backward with `start index` with current current to push into stack
 
-- [ ] LeetCode #1944 Number of Visible People in a Queue
+- [x] LeetCode #1944 Number of Visible People in a Queue
   - [description](https://leetcode.com/problems/number-of-visible-people-in-a-queue/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/NumberOfVisiblePeopleInQueue.java)
-  - hint:
+  - hint: monotonic stack, similar to next greater element
 
 ### String
 
