@@ -1033,10 +1033,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/SumOfSubarrayMinimums.java)
   - hint: monotonic stack to find index of preSmaller and nextSmaller for `arr[i]`
 
-- [ ] LeetCode #2281 Sum of Total Strength of Wizards
+- [x] LeetCode #2281 Sum of Total Strength of Wizards
   - [description](https://leetcode.com/problems/sum-of-total-strength-of-wizards/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/SumOfTotalStrengthOfWizards.java)
-  - hint: similar to `Sum of Subarray Minimums`
+  - hint: similar to `Sum of Subarray Minimums`, see the detailed comments within the code
 
 - [x] LeetCode #2104 Sum of Subarray Ranges
   - [description](https://leetcode.com/problems/sum-of-subarray-ranges/)

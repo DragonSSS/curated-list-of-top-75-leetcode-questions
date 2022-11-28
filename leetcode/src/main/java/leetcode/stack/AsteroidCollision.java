@@ -28,5 +28,31 @@ public class AsteroidCollision {
         }
         
         return res;
-    }    
+    }
+
+    public int[] asteroidCollision_2r(int[] asteroids) {
+        Stack<Integer> stack = new Stack<>();
+        for(int asteroid : asteroids) {
+            if (asteroid > 0) {
+                stack.push(asteroid);
+            } else {
+                while(!stack.isEmpty() && stack.peek() > 0 && Math.abs(asteroid) > stack.peek()) {
+                    stack.pop();
+                }
+                
+                if (!stack.isEmpty() && Math.abs(asteroid) == stack.peek()) {
+                    stack.pop();
+                } else if (stack.isEmpty() || stack.peek() < 0) {
+                    stack.push(asteroid);
+                }
+            }
+        }
+        
+        int[] res = new int[stack.size()];
+        int index = stack.size() - 1;
+        while(!stack.isEmpty()) {
+            res[index--] = stack.pop();
+        }
+        return res;
+    }
 }
