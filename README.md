@@ -634,7 +634,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/WallsAndGates.java)
   - hint: bfs
 
-- [ ] LeetCode #317 Shortest Distance from All Buildings
+- [x] LeetCode #317 Shortest Distance from All Buildings
   - [description](https://leetcode.com/problems/shortest-distance-from-all-buildings/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/ShortestDistanceFromAllBuildings.java)
   - hint: bfs
