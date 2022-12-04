@@ -716,6 +716,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/TwoSumII.java)
   - hint: two pointers
 
+- [x] LeetCode #881 Boats to Save People
+  - [description](https://leetcode.com/problems/boats-to-save-people/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/BoatsToSavePeople.java)
+  - hint: two pointers + greedy, try to put heaviest and lightest ppl in one boat if possible
+
 - [ ] LeetCode #18 4Sum
   - [description](https://leetcode.com/problems/4sum/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FourSum.java)
