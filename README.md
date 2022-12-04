@@ -1180,10 +1180,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/ShortestWayToFormString.java)
   - hint: while loop starts with index of target string, within while loop to do for loop on the source string
 
-- [ ] LeetCode #187 Repeated DNA Sequences
+- [x] LeetCode #187 Repeated DNA Sequences
   - [description](https://leetcode.com/problems/repeated-dna-sequences/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/RepeatedDnaSequences.java)
-  - hint:
+  - hint: hashSet
 
 ### Greedy
 
