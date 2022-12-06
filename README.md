@@ -862,6 +862,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/NumberOfWaysToSelectBuildings.java)
   - hint: kind of dp, result = number of `1..0..1` + number of `0..1..0` (`..` could be blank), use one loop count number of `1`, `0`, `0..1` and `1..0`
 
+- [ ] LeetCode #1553 Minimum Number of Days to Eat N Oranges
+  - [description](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/MinimumNumberOfDaysToEatOranges.java)
+  - hint:
+
 ### Tree
 
 - [x] LeetCode #236 Lowest Common Ancestor of a Binary Tree
