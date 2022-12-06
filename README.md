@@ -865,7 +865,7 @@
 - [x] LeetCode #1553 Minimum Number of Days to Eat N Oranges
   - [description](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/MinimumNumberOfDaysToEatOranges.java)
-  - hint: top-down dp + memorization
+  - hint: top-down dp + memorization or bfs
 
 ### Tree
 
