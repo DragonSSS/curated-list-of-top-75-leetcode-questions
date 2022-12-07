@@ -981,6 +981,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/AddTwoNumbers.java)
   - hint: two linklist node pointers with while loop, take care of `carry` by `sum / 10`
 
+- [ ] LeetCode #328 Odd Even Linked List
+  - [description](https://leetcode.com/problems/odd-even-linked-list/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/OddEvenLinkedList.java)
+  - hint:
+
 ### Stack
 
 - [x] LeetCode #71 Simplify Path
