@@ -1314,6 +1314,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/RobotRoomCleaner.java)
   - hint: backtracking (using robot apis `turnRight()` and `move()`) + dfs, traversal by clockwise
 
+- [ ] LeetCode #698 Partition to K Equal Sum Subsets
+  - [description](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/PartitionToKEqualSumSubsets.java)
+  - hint:
+
 ### Heap (Priority Queue)
 
 - [x] LeetCode #378 Kth Smallest Element in a Sorted Matrix
