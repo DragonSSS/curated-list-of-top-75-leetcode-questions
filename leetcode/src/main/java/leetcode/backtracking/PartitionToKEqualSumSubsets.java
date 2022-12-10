@@ -29,6 +29,8 @@ public class PartitionToKEqualSumSubsets {
                     return true;
                 buckets[i] -= nums[index];
             }
+            // important: cut the branches that there is no way to feed nums into one bucket,
+            // which means all sum combinatin are valid
             if(buckets[i] == 0)
                 break;
         }
