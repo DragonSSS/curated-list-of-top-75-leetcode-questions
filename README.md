@@ -1200,6 +1200,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/RepeatedDnaSequences.java)
   - hint: hashSet
 
+- [x] LeetCode #953 Verifying an Alien Dictionary
+  - [description](https://leetcode.com/problems/verifying-an-alien-dictionary/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/VerifyingAnAlienDictionary.java)
+  - hint: hashtable
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
