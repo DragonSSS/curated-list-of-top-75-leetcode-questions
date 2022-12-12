@@ -532,10 +532,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/PaintHouse.java)
   - hint: dfs + memorization
 
-- [ ] LeetCode #1905 Count Sub Islands
+- [x] LeetCode #1905 Count Sub Islands
   - [description](https://leetcode.com/problems/count-sub-islands/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/CountSubIslands.java)
-  - hint:
+  - hint: dfs
 
 ### BFS
 
