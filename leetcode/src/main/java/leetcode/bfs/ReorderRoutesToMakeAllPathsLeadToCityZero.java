@@ -43,5 +43,32 @@ public class ReorderRoutesToMakeAllPathsLeadToCityZero {
             }
         }
         return res;
-    }    
+    }
+    
+    public int minReorder_dfs(int n, int[][] connections) {
+        Map<Integer, List<int[]>> graph = new HashMap<>();
+        for(int[] connection : connections) {
+            int start = connection[0];
+            int end = connection[1];
+            graph.putIfAbsent(start, new ArrayList<>());
+            // if reverse current route, cost 1
+            graph.get(start).add(new int[]{end, 1});
+            graph.putIfAbsent(end, new ArrayList<>());
+            // if reverse reversed current route, cost 0
+            graph.get(end).add(new int[]{start, 0});
+        }
+        return helper(0, graph, new HashSet<>());
+    }
+
+    private int helper(int city, Map<Integer, List<int[]>> graph, Set<Integer> visited) {
+        int cost = 0;
+        visited.add(city);
+        for(int[] next : graph.get(city)) {
+            if (visited.contains(next[0]))
+                continue;
+            cost += next[1];
+            cost += helper(next[0], graph, visited);
+        }
+        return cost;
+    }
 }
