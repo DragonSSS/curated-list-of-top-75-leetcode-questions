@@ -647,7 +647,7 @@
 - [x] LeetCode #1466 Reorder Routes to Make All Paths Lead to the City Zero
   - [description](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/ReorderRoutesToMakeAllPathsLeadToCityZero.java)
-  - hint: bfs starts with zero city, reverse current connection, cost `1`, reverse reversed current connection, cost `0`
+  - hint: dfs or bfs starts with zero city, reverse current connection, cost `1`, reverse reversed current connection, cost `0`
 
 ### Array
 
