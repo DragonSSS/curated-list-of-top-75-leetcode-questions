@@ -1215,6 +1215,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/VerifyingAnAlienDictionary.java)
   - hint: hashtable
 
+- [ ] LeetCode #14 Longest Common Prefix
+  - [description](https://leetcode.com/problems/longest-common-prefix/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/LongestCommonPrefix.java)
+  - hint:
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
