@@ -14,7 +14,9 @@ public class DetonateMaximumBombs {
         int curCount = 1;
         visited[index] = true;
         for(int i = 0; i < bombs.length; i++) {
-            if (!visited[i] && isInRange(bombs[index], bombs[i]))
+            if (visited[i])
+                continue;
+            if (isInRange(bombs[index], bombs[i]))
                 curCount += helper(i, bombs, visited);
         }
         return curCount;
