@@ -537,6 +537,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/CountSubIslands.java)
   - hint: dfs
 
+- [x] LeetCode #2101 Detonate the Maximum Bombs
+  - [description](https://leetcode.com/problems/detonate-the-maximum-bombs/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/DetonateMaximumBombs.java)
+  - hint: bfs or dfs
+
 ### BFS
 
 - [x] LeetCode #103 Binary Tree Zigzag Level Order Traversal
@@ -648,11 +653,6 @@
   - [description](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/ReorderRoutesToMakeAllPathsLeadToCityZero.java)
   - hint: dfs or bfs starts with zero city, reverse current connection, cost `1`, reverse reversed current connection, cost `0`
-
-- [ ] LeetCode #2101 Detonate the Maximum Bombs
-  - [description](https://leetcode.com/problems/detonate-the-maximum-bombs/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/DetonateMaximumBombs.java)
-  - hint: bfs or dfs
 
 ### Array
 
