@@ -890,7 +890,7 @@
 - [ ] LeetCode #1105 Filling Bookcase Shelves
   - [description](https://leetcode.com/problems/filling-bookcase-shelves/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/FillingBookcaseShelves.java)
-  - hint:
+  - hint: dfs + memorization
 
 ### Tree
 
