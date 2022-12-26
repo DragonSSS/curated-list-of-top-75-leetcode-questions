@@ -892,6 +892,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/FillingBookcaseShelves.java)
   - hint: dfs + memorization
 
+- [ ] LeetCode #1387 Sort Integers by The Power Value
+  - [description](https://leetcode.com/problems/sort-integers-by-the-power-value/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/SortIntegersByPowerValue.java)
+  - hint:
+
 ### Tree
 
 - [x] LeetCode #236 Lowest Common Ancestor of a Binary Tree
