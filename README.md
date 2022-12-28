@@ -1240,6 +1240,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/LongestCommonPrefix.java)
   - hint: sort the array of strings, compare first string with last one with index increment
 
+- [ ] LeetCode #792 Number of Matching Subsequences
+  - [description](https://leetcode.com/problems/number-of-matching-subsequences/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/NumberOfMatchingSubsequences.java)
+  - hint:
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
