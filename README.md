@@ -1245,6 +1245,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/NumberOfMatchingSubsequences.java)
   - hint: hashtable + two pointers
 
+- [x] LeetCode #392 Is Subsequence
+  - [description](https://leetcode.com/problems/is-subsequence/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/IsSubsequence.java)
+  - hint: two pointers or binary search
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
@@ -1659,11 +1664,6 @@
   - [description](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/MinimumTimeToCollectAllApplesInTree.java)
   - hint: dfs + memorization, each node makes count += 2 except node 0
-
-- [x] LeetCode #392 Is Subsequence (String)
-  - [description](https://leetcode.com/problems/is-subsequence/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/IsSubsequence.java)
-  - hint: two pointers or binary search
  
 - [x] LeetCode #791 Accounts Merge (Graph)
   - [description](https://leetcode.com/problems/accounts-merge/)
