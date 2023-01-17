@@ -1,8 +1,8 @@
 package leetcode.string;
 
 public class NumberOfMatchingSubsequences {
-    // trie + dfs
+    // hashtable + IsSubsequence
     public int numMatchingSubseq(String s, String[] words) {
         return 0;
-    }    
+    }
 }
