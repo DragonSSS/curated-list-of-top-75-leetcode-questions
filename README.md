@@ -1240,10 +1240,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/LongestCommonPrefix.java)
   - hint: sort the array of strings, compare first string with last one with index increment
 
-- [ ] LeetCode #792 Number of Matching Subsequences
+- [x] LeetCode #792 Number of Matching Subsequences
   - [description](https://leetcode.com/problems/number-of-matching-subsequences/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/NumberOfMatchingSubsequences.java)
-  - hint: hashtable + two pointers
+  - hint: hashtable + two pointers (Is Subsequence)
 
 - [x] LeetCode #392 Is Subsequence
   - [description](https://leetcode.com/problems/is-subsequence/)
