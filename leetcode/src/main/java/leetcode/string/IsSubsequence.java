@@ -23,4 +23,24 @@ public class IsSubsequence {
 
         return false;
     }
+
+    public boolean isSubsequence_2r(String s, String t) {
+        int i = 0, j = 0;
+        char[] sChars = s.toCharArray();
+        char[] tChars = t.toCharArray();
+        
+        while(i < sChars.length && j < tChars.length) {
+            if (sChars[i] == tChars[j]) {
+                i++;
+                j++;
+            } else {
+                j++;
+            }
+        }
+        
+        if (i == sChars.length)
+            return true;
+        
+        return false;
+    }
 }
