@@ -90,4 +90,37 @@ public class SearchInRotatedSortedArray {
         }
         return -1;
     }
+
+    public int search_4r(int[] nums, int target) {
+        if (nums.length == 1)
+            return nums[0] == target ? 0 : -1;
+        
+        int start = 0;
+        int end = nums.length - 1;
+        
+        while(start <= end) {
+            int mid = start + (end - start) / 2;
+            if (nums[mid] == target)
+                return mid;
+            
+            // right part
+            if (nums[start] > nums[mid]) {
+                if (nums[end] < target || nums[mid] > target) {
+                    end = mid - 1;
+                } else {
+                    start = mid + 1;
+                }
+                
+            } else {
+                // left part
+                if (nums[start] > target || nums[mid] < target) {
+                    start = mid + 1;
+                } else {
+                    end = mid - 1;
+                }
+            }
+        }
+        
+        return -1;
+    }
 }
