@@ -56,10 +56,10 @@ public class AsteroidCollision {
         return res;
     }
 
-    // stack
+    // use stack to simulate the process
     // + + 
     // - -
-    // + - have to address
+    // + - (have to address)
     // - + 
     public int[] asteroidCollision_3r(int[] asteroids) {
         Stack<Integer> stack = new Stack<>();
