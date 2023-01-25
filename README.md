@@ -1801,4 +1801,9 @@
   - [description](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/RemoveZeroSumConsecutiveNodesFromLinkedList.java)
   - hint: prefix sum + hashmap
+
+- [ ] LeetCode #1885 Count Pairs in Two Arrays
+  - [description](https://leetcode.com/problems/count-pairs-in-two-arrays/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/CountPairsInTwoArrays.java)
+  - hint: sort + two pointers
 -->
