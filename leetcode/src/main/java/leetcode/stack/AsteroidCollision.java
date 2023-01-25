@@ -57,6 +57,7 @@ public class AsteroidCollision {
     }
 
     // use stack to simulate the process
+    // cases:
     // + + 
     // - -
     // + - (have to address)
