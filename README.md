@@ -974,6 +974,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/StepByStepDirectionsFromBinaryTreeNodeToAnother.java)
   - hint: find LCA of two nodes, traversal from LCA node to two nodes (start, end nodes) by recursion and backtracking to build the path, combine two path together (reverse the path from LCA node to start node, all `U`)
 
+- [x] LeetCode #1448 Count Good Nodes in Binary Tree
+  - [description](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/CountGoodNodesInBinaryTree.java)
+  - hint: dfs pre-order traversal + compare node val with current max
+
 ### LinkedList
 
 - [x] LeetCode #61 Rotate List
@@ -1773,11 +1778,6 @@
   - [description](https://leetcode.com/problems/water-and-jug-problem/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/WaterAndJugProblem.java)
   - hint: bfs `[x, -x, y, -y]`
-
-- [x] LeetCode #1448 Count Good Nodes in Binary Tree
-  - [description](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/CountGoodNodesInBinaryTree.java)
-  - hint: pre-order + compare node val with current max
 
 - [x] LeetCode #130 Surrounded Regions (move to dfs)
   - [description](https://leetcode.com/problems/surrounded-regions/)
