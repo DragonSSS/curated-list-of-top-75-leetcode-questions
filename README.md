@@ -897,10 +897,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/SortIntegersByPowerValue.java)
   - hint: dfs + memorization
 
-- [ ] LeetCode #120 Triangle
+- [x] LeetCode #120 Triangle
   - [description](https://leetcode.com/problems/triangle/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/Triangle.java)
-  - hint:
+  - hint: dfs top-down + memorization
 
 ### Tree
 
