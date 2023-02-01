@@ -654,6 +654,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/ReorderRoutesToMakeAllPathsLeadToCityZero.java)
   - hint: dfs or bfs starts with zero city, reverse current connection, cost `1`, reverse reversed current connection, cost `0`
 
+- [ ] LeetCode #691 Stickers to Spell Word
+  - [description](https://leetcode.com/problems/stickers-to-spell-word/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/StickersToSpellWord.java)
+  - hint: bfs
+
 ### Array
 
 - [x] LeetCode #4 Median of Two Sorted Arrays (NeetCode 150)
