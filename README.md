@@ -440,6 +440,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/TheEarliestMomentWhenEveryoneBecomeFriends.java)  
   - hint: union-find with path compression and ranking
 
+- [ ] LeetCode #802 Find Eventual Safe States
+  - [description](https://leetcode.com/problems/find-eventual-safe-states/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/FindEventualSafeStates.java)  
+  - hint: bfs + topological sort or dfs + backtracking
+
 ### DFS
 
 - [x] LeetCode #332 Reconstruct Itinerary
