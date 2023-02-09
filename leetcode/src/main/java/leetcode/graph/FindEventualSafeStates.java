@@ -51,5 +51,39 @@ public class FindEventualSafeStates {
         
         Collections.sort(res);
         return res;
-    }    
+    }
+    
+    int[] memo;
+    public List<Integer> eventualSafeNodes_dfs(int[][] graph) {
+        List<Integer> res = new ArrayList<>();
+        int n = graph.length;
+        // 0 -> not visited yet
+        // -1 -> visiting
+        // 1 -> safe node
+        memo = new int[n];
+        for (int i = 0; i < n; i++) {
+            if (helper(i, graph) == 1) {
+                res.add(i);
+            }
+        }
+        
+        return res;
+    }
+    
+    private int helper(int index, int[][] graph) {
+        if (memo[index] != 0)
+            return memo[index];
+        
+        // visiting
+        memo[index] = -1;
+        for(int next : graph[index]) {
+            if (helper(next, graph) == -1) {
+                return -1;
+            }
+        }
+        
+        // safe node
+        memo[index] = 1;
+        return memo[index];
+    }
 }
