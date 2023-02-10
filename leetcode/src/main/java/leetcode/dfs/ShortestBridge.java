@@ -55,4 +55,53 @@ public class ShortestBridge {
             helper(grid, visited, i + dir[0], j + dir[1], queue);
         }
     }
+
+    boolean[][] visited;
+    // int[][] dirs = new int[][]{{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+    public int shortestBridge_2r(int[][] grid) {
+        int m = grid.length, n = grid[0].length;
+        visited = new boolean[m][n];
+        boolean found = false;
+        Queue<int[]> queue = new LinkedList<>();
+        
+        for(int i = 0; i < m && !found; i++) {
+            for(int j = 0; j < n && !found; j++) {
+                if(grid[i][j] == 1) {
+                    helper(i, j, grid, queue);
+                    found = true;
+                }
+            }
+        }
+        
+        int step = 0;
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                int[] cur = queue.poll();
+                for(int[] dir : dirs) {
+                    int x = cur[0] + dir[0], y = cur[1] + dir[1];
+                    if (x < 0 || x >= m || y < 0 || y >= n || visited[x][y])
+                        continue;
+                    
+                    if (grid[x][y] == 1)
+                        return step;
+                    queue.offer(new int[]{x, y});
+                    visited[x][y] = true;
+                }  
+            }
+            step++;
+        }
+        return -1;
+    }
+    
+    private void helper(int i, int j, int[][] grid, Queue<int[]> queue) {
+        if (i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || visited[i][j] || grid[i][j] == 0)
+            return;
+        
+        visited[i][j] = true;
+        queue.offer(new int[]{i, j});
+        for(int[] dir : dirs) {
+            helper(i + dir[0], j + dir[1], grid, queue);
+        }
+    }
 }
