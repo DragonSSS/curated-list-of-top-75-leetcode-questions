@@ -756,6 +756,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/BrickWall.java)
   - hint: use hashtable to store the width index of bricks with its count, so the result is `wall.size() - maxCount`, not consider the last brick
 
+- [ ] LeetCode #665 Non-decreasing Array
+  - [description](https://leetcode.com/problems/non-decreasing-array/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/NonDecreasingArray.java)
+  - hint:
+
 ### Binary Search
 
 - [x] LeetCode #540 Single Element in a Sorted Array
