@@ -56,5 +56,9 @@ public class OpenTheLock {
             sb.setCharAt(i, (char) (cur + '0'));
         }
         return res;
-    }    
+    }
+    
+    public int openLock_2r(String[] deadends, String target) {
+        return 0;
+    }
 }
