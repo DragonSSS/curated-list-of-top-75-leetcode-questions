@@ -14,7 +14,6 @@ public class PascalTriangle {
                 } else {
                     cur.add(res.get(i - 1).get(j - 1) + res.get(i - 1).get(j));
                 }
-                
             }
             res.add(cur);
         }
