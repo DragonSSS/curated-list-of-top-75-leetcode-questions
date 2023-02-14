@@ -761,10 +761,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/PascalTriangle.java)
   - hint: two for-loops
 
-- [ ] LeetCode #605 Can Place Flowers
+- [x] LeetCode #605 Can Place Flowers
   - [description](https://leetcode.com/problems/can-place-flowers/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/CanPlaceFlowers.java)
-  - hint:
+  - hint: for-loop checks if previous and next flower bed are empty
 
 - [ ] LeetCode #665 Non-decreasing Array
   - [description](https://leetcode.com/problems/non-decreasing-array/)
