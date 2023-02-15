@@ -766,6 +766,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/CanPlaceFlowers.java)
   - hint: for-loop checks if previous and next flower bed are empty
 
+- [ ] LeetCode #838 Push Dominoes
+  - [description](https://leetcode.com/problems/push-dominoes/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/PushDominoes.java)
+  - hint:
+
 - [ ] LeetCode #665 Non-decreasing Array
   - [description](https://leetcode.com/problems/non-decreasing-array/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/NonDecreasingArray.java)
