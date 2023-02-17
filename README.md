@@ -1290,7 +1290,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/IsSubsequence.java)
   - hint: two pointers or binary search
 
-- [ ] LeetCode #28 Find the Index of the First Occurrence in a String
+- [x] LeetCode #28 Find the Index of the First Occurrence in a String
   - [description](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/FindIndexOfFirstOccurrenceInString.java)
   - hint: two pointers
