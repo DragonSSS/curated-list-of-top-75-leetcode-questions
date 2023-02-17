@@ -61,4 +61,48 @@ public class PushDominoes {
             sb.setCharAt(right--, 'L');
         }
     }    
+
+    public String pushDominoes_2r(String dominoes) {
+        char[] chars = dominoes.toCharArray();
+        int n = chars.length;
+        int[] force = new int[n];
+        
+        int curForce = 0;
+        for(int i = 0 ; i < n; i++) {
+            if(chars[i] == 'R') {
+                curForce = n;
+            } else if (chars[i] == 'L')  {
+                curForce = 0;
+            } else {
+                curForce = Math.max(curForce - 1, 0);
+            }
+            force[i] += curForce;
+        }
+        
+        curForce = 0;
+        for (int i = n - 1; i >= 0; i--) {
+            if(chars[i] == 'R') {
+                curForce = 0;
+            } else if (chars[i] == 'L')  {
+                curForce = n;
+            } else {
+                curForce = Math.max(curForce - 1, 0);
+            }
+            force[i] -= curForce;
+        }
+        
+        StringBuilder sb = new StringBuilder();
+        for(int f : force) {
+            char c;
+            if (f > 0) {
+                c = 'R';
+            } else if (f < 0) {
+                c = 'L';
+            } else {
+                c = '.';
+            }
+            sb.append(c);
+        }
+        return sb.toString();
+    }
 }
