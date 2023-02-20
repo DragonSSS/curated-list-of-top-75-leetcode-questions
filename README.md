@@ -1198,10 +1198,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/NumberOfVisiblePeopleInQueue.java)
   - hint: monotonic stack, similar to next greater element
 
-- [ ] LeetCode #402 Remove K Digits
+- [x] LeetCode #402 Remove K Digits
   - [description](https://leetcode.com/problems/remove-k-digits/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/RemoveKDigits.java)
-  - hint:
+  - hint: stack + StringBuilder
 
 ### String
 
