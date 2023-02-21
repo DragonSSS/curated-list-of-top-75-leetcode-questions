@@ -1203,6 +1203,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/RemoveKDigits.java)
   - hint: stack + StringBuilder
 
+- [ ] LeetCode #895 Maximum Frequency Stack
+  - [description](https://leetcode.com/problems/maximum-frequency-stack/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/MaximumFrequencyStack.java)
+  - hint:
+
 ### String
 
 - [x] LeetCode #71 Simplify Path
