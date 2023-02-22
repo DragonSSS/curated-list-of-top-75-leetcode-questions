@@ -1203,10 +1203,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/RemoveKDigits.java)
   - hint: stack + StringBuilder
 
-- [ ] LeetCode #895 Maximum Frequency Stack
+- [x] LeetCode #895 Maximum Frequency Stack
   - [description](https://leetcode.com/problems/maximum-frequency-stack/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/MaximumFrequencyStack.java)
-  - hint:
+  - hint: two hashmaps: `Map<Integer, Integer> freqOfVal; Map<Integer, Stack<Integer>> freqToVals;`
 
 ### String
 
