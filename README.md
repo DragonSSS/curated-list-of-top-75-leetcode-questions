@@ -667,7 +667,7 @@
 - [x] LeetCode #490 The Maze
   - [description](https://leetcode.com/problems/the-maze/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/TheMaze.java)
-  - hint: bfs
+  - hint: bfs or dfs
 
 ### Array
 

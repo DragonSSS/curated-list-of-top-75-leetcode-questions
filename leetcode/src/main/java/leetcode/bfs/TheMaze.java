@@ -41,5 +41,35 @@ public class TheMaze {
             }
         }
         return false;
-    }   
+    }
+
+    // dfs
+    // int[][] dirs = new int[][]{{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+    public boolean hasPath_dfs(int[][] maze, int[] start, int[] destination) {
+        return helper(maze, start[0], start[1], destination, new boolean[maze.length][maze[0].length]);
+    }
+    
+    private boolean helper(int[][] maze, int i, int j, int[] destination, boolean[][] visited) {
+        if(i == destination[0] && j == destination[1])
+            return true;
+        
+        if(visited[i][j])
+            return false;
+        
+        visited[i][j] = true;
+        for(int[] dir : dirs) {
+            int x = i, y = j;
+            while(x >= 0 && x < maze.length && y >= 0 && y < maze[0].length && maze[x][y] == 0) {
+                x += dir[0];
+                y += dir[1];
+            }
+            
+            x -= dir[0];
+            y -= dir[1];
+            
+            if(helper(maze, x, y, destination, visited))
+                return true;
+        }
+        return false;
+    }
 }
