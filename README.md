@@ -1019,6 +1019,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/CountGoodNodesInBinaryTree.java)
   - hint: dfs pre-order traversal + compare node val with current max
 
+- [x] LeetCode #337 House Robber III
+  - [description](https://leetcode.com/problems/house-robber-iii/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/HouseRobberIII.java)
+  - hint: dfs, use `new int[2]` as output of helper func, 2 array elements means two states: rob and non-rob
+
 ### LinkedList
 
 - [x] LeetCode #61 Rotate List
