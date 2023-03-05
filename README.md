@@ -1692,6 +1692,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/interval/MinimumIntervalToIncludeEachQuery.java)
   - hint: sort two arrays, use minHeap to find smallest interval
 
+- [x] LeetCode #1288 Remove Covered Intervals
+  - [description](https://leetcode.com/problems/remove-covered-intervals/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/interval/RemoveCoveredIntervals.java)
+  - hint: sort array by start of interval (if starts are equal, compare ends of intervals), loop sorted intervals with comparing current end value
+
 - [ ] LeetCode #2158 Amount of New Area Painted Each Day
   - [description](https://leetcode.com/problems/amount-of-new-area-painted-each-day/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/interval/AmountOfNewAreaPaintedEachDay.java)
