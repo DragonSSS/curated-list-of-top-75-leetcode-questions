@@ -1357,10 +1357,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/MinimumNumberOfMovesToMakePalindrome.java)
   - hint: find `String.lastIndexOf()` of first char and `String.indexOf()` of last char, compare the steps move them into palindrome position, `substring` string for each round
 
-- [ ] LeetCode #1921 Eliminate Maximum Number of Monsters
+- [x] LeetCode #1921 Eliminate Maximum Number of Monsters
   - [description](https://leetcode.com/problems/eliminate-maximum-number-of-monsters/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/EliminateMaximumNumberOfMonsters.java)
-  - hint:
+  - hint: sort an array of arrival time
 
 ### Backtracking
 
