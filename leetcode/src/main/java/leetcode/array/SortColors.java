@@ -9,6 +9,7 @@ public class SortColors {
     // 0 1 2
     public void sortColors(int[] nums) {
         int curIndex = 0, zeroIndex = 0, twoIndex = nums.length - 1;
+        // <= is used to cover the case that the middle index could be zero
         while(curIndex <= twoIndex) {
             if(nums[curIndex] == 0) {
                 swap(curIndex, zeroIndex, nums);
