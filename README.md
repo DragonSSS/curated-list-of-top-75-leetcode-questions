@@ -776,10 +776,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/PushDominoes.java)
   - hint: calculate force on each domino, scan from left to right and right to left
 
-- [ ] LeetCode #665 Non-decreasing Array
+- [x] LeetCode #665 Non-decreasing Array
   - [description](https://leetcode.com/problems/non-decreasing-array/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/NonDecreasingArray.java)
-  - hint:
+  - hint: greedy, compare `nums[i - 1]` with `nums[i]`
 
 - [x] LeetCode #75 Sort Colors
   - [description](https://leetcode.com/problems/sort-colors/)
