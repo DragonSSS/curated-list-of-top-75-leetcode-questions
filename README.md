@@ -786,6 +786,16 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/SortColors.java)
   - hint: three pointers, current index, zero index and two index
 
+- [ ] LeetCode #1498 Number of Subsequences That Satisfy the Given Sum Condition
+  - [description](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/NumberOfSubsequencesThatSatisfyGivenSumCondition.java)
+  - hint:
+
+- [ ] LeetCode #1968 Array With Elements Not Equal to Average of Neighbors
+  - [description](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ArrayWithElementsNotEqualToAverageOfNeighbors.java)
+  - hint:
+
 ### Binary Search
 
 - [x] LeetCode #540 Single Element in a Sorted Array
