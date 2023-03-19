@@ -1551,10 +1551,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/EmployeeFreeTime.java)
   - hint: minHeap to store interval, track previous interval and merge current interval with previous one if need, if previous one has no interaction with current one, add the new interval into result
 
-- [ ] LeetCode #1834 Single-Threaded CPU
+- [x] LeetCode #1834 Single-Threaded CPU
   - [description](https://leetcode.com/problems/single-threaded-cpu/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/SingleThreadedCpu.java)
-  - hint:
+  - hint: sorted array + mini heap + two while loop
 
 ### Design
 
