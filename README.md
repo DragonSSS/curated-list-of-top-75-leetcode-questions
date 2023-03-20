@@ -1698,6 +1698,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/Leaderboard.java)
   - hint: hashmap + maxHeap
 
+- [ ] LeetCode #1845 Seat Reservation Manager
+  - [description](https://leetcode.com/problems/seat-reservation-manager/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/SeatManager.java)
+  - hint:
+
 ### Monotonic Queue
 
 - [x] LeetCode #239 Sliding Window Maximum (NeetCode 150)
