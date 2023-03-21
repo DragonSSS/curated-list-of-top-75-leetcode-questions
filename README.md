@@ -1556,6 +1556,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/SingleThreadedCpu.java)
   - hint: sorted array + mini heap + two while loop
 
+- [ ] LeetCode #502 IPO
+  - [description](https://leetcode.com/problems/ipo/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/IPO.java)
+  - hint:
+
 ### Design
 
 - [x] LeetCode #146 LRU Cache (NeetCode 150)
