@@ -1708,10 +1708,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/SeatManager.java)
   - hint: minHeap
 
-- [ ] LeetCode #703 Kth Largest Element in a Stream
+- [x] LeetCode #703 Kth Largest Element in a Stream
   - [description](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/KthLargest.java)
-  - hint:
+  - hint: minHeap, keep `queue.size == k`
 
 ### Monotonic Queue
 
