@@ -1561,6 +1561,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/IPO.java)
   - hint: greedy + sorting + maxHeap
 
+- [ ] LeetCode #1882 Process Tasks Using Servers
+  - [description](https://leetcode.com/problems/process-tasks-using-servers/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/ProcessTasksUsingServers.java)
+  - hint:
+
 ### Design
 
 - [x] LeetCode #146 LRU Cache (NeetCode 150)
