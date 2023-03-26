@@ -669,6 +669,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/TheMaze.java)
   - hint: bfs or dfs
 
+- [ ] LeetCode 1136 Parallel Courses
+  - [description](https://leetcode.com/problems/parallel-courses/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/ParallelCourses.java)
+  - hint: topological sort with bfs
+
 ### Array
 
 - [x] LeetCode #4 Median of Two Sorted Arrays (NeetCode 150)
