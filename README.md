@@ -1561,7 +1561,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/IPO.java)
   - hint: greedy + sorting + maxHeap
 
-- [ ] LeetCode #1882 Process Tasks Using Servers
+- [x] LeetCode #1882 Process Tasks Using Servers
   - [description](https://leetcode.com/problems/process-tasks-using-servers/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/ProcessTasksUsingServers.java)
   - hint: two heaps, one is for free servers, the other is for used server
