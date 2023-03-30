@@ -1754,7 +1754,7 @@
 
 ### Bit Manipulation (Bitmask)
 
-- [ ] LeetCode #1494 Parallel Courses II
+- [x] LeetCode #1494 Parallel Courses II
   - [description](https://leetcode.com/problems/parallel-courses-ii/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binary/ParallelCoursesII.java)
   - hint: bitmask + dp
