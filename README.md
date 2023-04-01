@@ -674,7 +674,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/ParallelCourses.java)
   - hint: topological sort with bfs
 
-- [ ] LeetCode 2050 Parallel Courses III
+- [x] LeetCode 2050 Parallel Courses III
   - [description](https://leetcode.com/problems/parallel-courses-iii/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/ParallelCoursesIII.java)
   - hint: topological sort with tracking max elasped time of courses
