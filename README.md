@@ -1764,6 +1764,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binary/ParallelCoursesII.java)
   - hint: bitmask + dp
 
+- [ ] LeetCode #2035 Partition Array Into Two Arrays to Minimize Sum Difference
+  - [description](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binary/PartitionArrayIntoTwoArraysToMinimizeSumDifference.java)
+  - hint:
+
 <!---
 ## Misc
 
