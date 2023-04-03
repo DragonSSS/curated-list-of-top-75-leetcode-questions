@@ -1769,6 +1769,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binary/PartitionArrayIntoTwoArraysToMinimizeSumDifference.java)
   - hint:
 
+- [ ] LeetCode #2184 Number of Ways to Build Sturdy Brick Wall
+  - [description](https://leetcode.com/problems/number-of-ways-to-build-sturdy-brick-wall/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binary/NumberOfWaysToBuildSturdyBrickWall.java)
+  - hint:
+
 <!---
 ## Misc
 
