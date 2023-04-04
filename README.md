@@ -1774,6 +1774,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binary/ShortestPathVisitingAllNodes.java)
   - hint: bitmask + dp + bfs
 
+- [ ] LeetCode #943 Find the Shortest Superstring
+  - [description](https://leetcode.com/problems/find-the-shortest-superstring/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binary/FindTheShortestSuperstring.java)
+  - hint:
+
 - [ ] LeetCode #2035 Partition Array Into Two Arrays to Minimize Sum Difference
   - [description](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binary/PartitionArrayIntoTwoArraysToMinimizeSumDifference.java)
