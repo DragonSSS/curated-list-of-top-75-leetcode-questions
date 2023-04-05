@@ -865,6 +865,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/PlatesBetweenCandles.java)
   - hint: for each index of string, find the index of first left candle and the index of first right candle by using two arrays, count prefix sum of candles for each index, calculate the result by `res[index] = rightCandle - leftCandle + 1 - (candlePrefixSum[rightCandle] - candlePrefixSum[leftCandle] + 1);`
 
+- [x] LeetCode #724 Find Pivot Index
+  - [description](https://leetcode.com/problems/find-pivot-index/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FindPivotIndex.java)
+  - hint: prefix sum
+
 ### Dynamic Programming
 
 - [x] LeetCode #741 Cherry Pickup
