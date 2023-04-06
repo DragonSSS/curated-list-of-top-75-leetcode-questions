@@ -43,4 +43,18 @@ public class IsSubsequence {
         
         return false;
     }
+
+    public boolean isSubsequence_3r(String s, String t) {
+        if (s.length() > t.length()) {
+            return false;
+        }
+
+        int index = 0, i = 0;
+        while(i < t.length() && index < s.length()) {
+            if(s.charAt(index) == t.charAt(i++)) {
+                index++;
+            }
+        }
+        return index == s.length() ? true : false;
+    }
 }
