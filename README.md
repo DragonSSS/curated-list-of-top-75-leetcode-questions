@@ -1345,6 +1345,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/FindIndexOfFirstOccurrenceInString.java)
   - hint: two pointers
 
+- [x] LeetCode #205 Isomorphic Strings
+  - [description](https://leetcode.com/problems/isomorphic-strings/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/IsomorphicStrings.java)
+  - hint: hashtable
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
