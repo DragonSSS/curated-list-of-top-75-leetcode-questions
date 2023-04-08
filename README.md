@@ -1096,6 +1096,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/OddEvenLinkedList.java)
   - hint: two linklist node pointers, also track evenHead
 
+- [x] LeetCode #876 Middle of the Linked List
+  - [description](https://leetcode.com/problems/middle-of-the-linked-list/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/MiddleOfLinkedList.java)
+  - hint: slow and fast pointers
+
 ### Stack
 
 - [x] LeetCode #71 Simplify Path
