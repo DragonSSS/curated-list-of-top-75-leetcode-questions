@@ -88,4 +88,28 @@ public class MergeTwoSortedLists {
         
         return dummy.next;
     }
+
+    public ListNode mergeTwoLists_4r(ListNode list1, ListNode list2) {
+        ListNode dummy = new ListNode();
+        ListNode node = dummy;
+        while(list1 != null && list2 != null) {
+            if (list1.val < list2.val) {
+                node.next = list1;
+                node = list1;
+                list1 = list1.next;
+            } else {
+                node.next = list2;
+                node = list2;
+                list2 = list2.next;
+            }
+        }
+
+        if (list1 != null) {
+            node.next = list1;
+        } else if (list2 != null) {
+            node.next = list2;
+        }
+
+        return dummy.next;
+    }
 }
