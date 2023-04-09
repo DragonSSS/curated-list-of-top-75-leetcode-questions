@@ -1101,6 +1101,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/MiddleOfLinkedList.java)
   - hint: slow and fast pointers
 
+- [x] LeetCode #142 Linked List Cycle II
+  - [description](https://leetcode.com/problems/linked-list-cycle-ii/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/LinkedListCycleII.java)
+  - hint: slow and fast pointers
+
 ### Stack
 
 - [x] LeetCode #71 Simplify Path
