@@ -828,6 +828,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/Search2dMatrix.java)
   - hint: binary search
 
+- [x] LeetCode #278 First Bad Version
+  - [description](https://leetcode.com/problems/first-bad-version/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/FirstBadVersion.java)
+  - hint: binary search
+
 ### Prefix Sum
 
 - [x] LeetCode #560 Subarray Sum Equals K
