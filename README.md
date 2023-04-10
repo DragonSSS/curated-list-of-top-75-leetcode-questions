@@ -1054,6 +1054,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/HouseRobberIII.java)
   - hint: dfs, use `new int[2]` as output of helper func, 2 array elements means two states: rob and non-rob
 
+- [x] LeetCode #589 N-ary Tree Preorder Traversal
+  - [description](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/NaryTreePreorderTraversal.java)
+  - hint: preorder traversal by dfs
+
 ### LinkedList
 
 - [x] LeetCode #61 Rotate List

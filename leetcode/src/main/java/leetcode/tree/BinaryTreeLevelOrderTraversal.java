@@ -1,11 +1,10 @@
 package leetcode.tree;
 
-import util.TreeNode;
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+import util.TreeNode;
 
 public class BinaryTreeLevelOrderTraversal {
     public List<List<Integer>> levelOrder(TreeNode root) {
@@ -78,5 +77,28 @@ public class BinaryTreeLevelOrderTraversal {
         }
         
         return res;
+    }
+
+    // List<List<Integer>> res = new ArrayList<>();
+    public List<List<Integer>> levelOrder_4r(TreeNode root) {
+        if (root == null) {
+            return res;
+        }
+        helper_4r(root, 0);
+        return res;
+    }
+
+    private void helper_4r(TreeNode node, int level) {
+        if (node == null) {
+            return;
+        }
+
+        if (res.size() <= level) {
+            res.add(new ArrayList<>());
+        }
+
+        res.get(level).add(node.val);
+        helper(node.left, level + 1);
+        helper(node.right, level + 1);
     }
 }
