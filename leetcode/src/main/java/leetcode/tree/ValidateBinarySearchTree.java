@@ -1,8 +1,7 @@
 package leetcode.tree;
 
-import util.TreeNode;
-
 import java.util.Stack;
+import util.TreeNode;
 
 public class ValidateBinarySearchTree {
 
@@ -90,5 +89,21 @@ public class ValidateBinarySearchTree {
             return false;
         
         return helper_3r(node.left, node.val, min) && helper_3r(node.right, max, node.val);
+    }
+
+    public boolean isValidBST_4r(TreeNode root) {
+        return helper_4r(root, Long.MAX_VALUE, Long.MIN_VALUE);
+    }
+
+    private boolean helper_4r(TreeNode node, long max, long min) {
+        if (node == null) {
+            return true;
+        }
+
+        if (node.val >= max || node.val <= min) {
+            return false;
+        }
+
+        return helper_4r(node.left, node.val, min) && helper_4r(node.right, max, node.val);
     }
 }
