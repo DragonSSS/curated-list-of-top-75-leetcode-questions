@@ -1,7 +1,7 @@
 package leetcode.dp;
 
-import java.util.Map;
 import java.util.HashMap;
+import java.util.Map;
 
 public class ClimbingStairs {
     // 1 <= n <= 45
@@ -115,6 +115,21 @@ public class ClimbingStairs {
             dp[i] = dp[i - 1] + dp[i - 2];
         }
         
+        return dp[n];
+    }
+
+    public int climbStairs_4r(int n) {
+        if (n <= 2) {
+            return n;
+        }
+        int[] dp = new int[n + 1];
+        dp[0] = 0;
+        dp[1] = 1;
+        dp[2] = 2;
+        for(int i = 3; i <= n; i++) {
+            dp[i] = dp[i - 1] + dp[i - 2];
+        }
+
         return dp[n];
     }
 }
