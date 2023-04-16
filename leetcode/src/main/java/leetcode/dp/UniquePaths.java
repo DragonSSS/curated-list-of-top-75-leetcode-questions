@@ -108,4 +108,28 @@ public class UniquePaths {
 
         return dp[m - 1][n - 1];
     }
+
+    // int[][] dirs = new int[][]{{0, 1}, {1, 0}};
+    // Integer[][] memo;
+    public int uniquePaths_4r_dfs(int m, int n) {
+        memo = new Integer[m][n];
+        return helper_4r(m, n, 0, 0);
+    }
+
+    private int helper_4r(int m, int n, int x, int y) {
+        if (x >= m || y >= n) {
+            return 0;
+        } else if ((x == m - 1) && (y == n - 1)) {
+            return 1;
+        } else if (memo[x][y] != null) {
+            return memo[x][y];
+        }
+
+        int res = 0;
+        for(int[] dir : dirs) {
+            res += helper_4r(m, n, x + dir[0], y + dir[1]);
+        }
+        memo[x][y] = res;
+        return memo[x][y];
+    }
 }
