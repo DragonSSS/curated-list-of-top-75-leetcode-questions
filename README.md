@@ -1268,6 +1268,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/MaximumFrequencyStack.java)
   - hint: two hashmaps: `Map<Integer, Integer> freqOfVal; Map<Integer, Stack<Integer>> freqToVals;`
 
+- [x] LeetCode #844 Backspace String Compare
+  - [description](https://leetcode.com/problems/backspace-string-compare/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/BackspaceStringCompare.java)
+  - hint: two stacks
+
 ### String
 
 - [x] LeetCode #71 Simplify Path
