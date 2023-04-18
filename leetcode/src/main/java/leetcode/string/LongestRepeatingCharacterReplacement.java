@@ -1,5 +1,8 @@
 package leetcode.string;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class LongestRepeatingCharacterReplacement {
     public int characterReplacement(String s, int k) {
         if (s == null || s.length() == 0)
@@ -68,6 +71,33 @@ public class LongestRepeatingCharacterReplacement {
             right++;
         }
         
+        return res;
+    }
+
+    public int characterReplacement_4r(String s, int k) {
+        Map<Character, Integer> map = new HashMap<>();
+        for(char c : s.toCharArray()) {
+            map.putIfAbsent(c, 0);
+        }
+
+        int left = 0, right = 0;
+        int maxFreq = 0, res = 0;
+        while(right < s.length()) {
+            char rightChar = s.charAt(right);
+            int rightFreq = map.get(rightChar) + 1;
+            map.put(rightChar, rightFreq);
+            maxFreq = Math.max(maxFreq, rightFreq);
+            int len = right - left + 1;
+            if (len - maxFreq > k) {
+                char leftChar = s.charAt(left);
+                int leftFreq = map.get(leftChar);
+                map.put(leftChar, leftFreq - 1);
+                left++;
+            } else {
+                res = Math.max(res, len);
+            }
+            right++;
+        }
         return res;
     }
 }
