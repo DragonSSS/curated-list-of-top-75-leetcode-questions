@@ -74,4 +74,51 @@ public class FindAllAnagramsInString {
 
         return res;
     }
+
+    public List<Integer> findAnagrams_2r(String s, String p) {
+        List<Integer> res = new ArrayList<>();
+        if (s.length() < p.length()) {
+            return res;
+        }
+        // build the char map for p string
+        Map<Character, Integer> map = new HashMap<>();
+        for(char c : p.toCharArray()) {
+            map.put(c, map.getOrDefault(c, 0) + 1);
+        }
+
+        // sliding window with two pointers
+        int count = map.size();
+        int left = 0, right = 0;
+        while(right < s.length()) {
+            // move right first to cover map of p
+            char rightChar = s.charAt(right);
+            if (map.containsKey(rightChar)) {
+                int curFreq = map.get(rightChar);
+                map.put(rightChar, curFreq - 1);
+                if (curFreq == 1) {
+                    count--;
+                }
+            }
+            right++;
+
+            while(count == 0) {
+                char leftChar = s.charAt(left);
+                if (map.containsKey(leftChar)) {
+                    int curFreq = map.get(leftChar);
+                    map.put(leftChar, curFreq + 1);
+                    if (curFreq == 0) {
+                        count++;
+                    }
+                }
+
+                if (right - left == p.length()) {
+                    res.add(left);
+                }
+                left++;
+            }
+
+        }
+        
+        return res;
+    }
 }

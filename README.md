@@ -1370,6 +1370,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/IsomorphicStrings.java)
   - hint: hashtable
 
+- [x] LeetCode #438 Find All Anagrams in a String
+  - [description](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/FindAllAnagramsInString.java)
+  - hint: sliding window + hashtable + two pointers
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
@@ -1831,11 +1836,6 @@
   - [description](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/MinimumNumberOfVerticesToReachAllNodes.java)
   - hint: vertices.filter(vertex => vertex.inDegree == 0)
-  
-- [x] LeetCode #438 Find All Anagrams in a String (String)
-  - [description](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/FindAllAnagramsInString.java)
-  - hint: sliding window + hashtable + two pointers
   
 - [x] LeetCode #64 Minimum Path Sum (DP)
   - [description](https://leetcode.com/problems/minimum-path-sum/)
