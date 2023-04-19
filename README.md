@@ -1276,7 +1276,7 @@
 - [x] LeetCode #394 Decode String
   - [description](https://leetcode.com/problems/decode-string/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/DecodeString.java)
-  - hint: two stacks, one for digit value, the other for preious string result
+  - hint: two stacks, one for digit value, the other for preious string result, track current built string
 
 ### String
 
