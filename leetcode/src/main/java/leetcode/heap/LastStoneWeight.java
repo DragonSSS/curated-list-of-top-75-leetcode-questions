@@ -26,5 +26,28 @@ public class LastStoneWeight {
         }
         
         return pq.size() == 0? 0 : pq.peek();
-    }    
+    }
+
+    public int lastStoneWeight_2r(int[] stones) {
+        if (stones.length == 1) {
+            return stones[0];
+        }
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> b - a);
+        for(int stone : stones) {
+            pq.offer(stone);
+        }
+
+        while(pq.size() > 1) {
+            int stone1 = pq.poll();
+            int stone2 = pq.poll();
+            if (stone1 == stone2) {
+                continue;
+            } else {
+                int left = stone1 - stone2;
+                pq.offer(left);
+            }
+        }
+
+        return pq.size() == 0? 0 : pq.poll();
+    }
 }
