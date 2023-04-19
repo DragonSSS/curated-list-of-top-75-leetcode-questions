@@ -1385,6 +1385,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/FindAllAnagramsInString.java)
   - hint: sliding window + hashtable + two pointers
 
+- [x] LeetCode #299 Bulls and Cows
+  - [description](https://leetcode.com/problems/bulls-and-cows/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/BullsAndCows.java)
+  - hint: hashtable with counting frequency of digit
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
