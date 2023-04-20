@@ -2,7 +2,6 @@ package leetcode.string;
 
 public class BullsAndCows {
     public String getHint(String secret, String guess) {
-        // size is same;
         int[] map = new int[10];
 
         StringBuilder sb = new StringBuilder();
