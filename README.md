@@ -972,6 +972,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/Triangle.java)
   - hint: dfs top-down + memorization
 
+- [x] LeetCode #1706 Where Will the Ball Fall
+  - [description](https://leetcode.com/problems/where-will-the-ball-fall/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/WhereWillTheBallFall.java)
+  - hint: dfs
+
 ### Tree
 
 - [x] LeetCode #236 Lowest Common Ancestor of a Binary Tree
