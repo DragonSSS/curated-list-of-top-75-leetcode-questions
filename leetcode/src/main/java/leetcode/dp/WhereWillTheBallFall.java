@@ -2,8 +2,8 @@ package leetcode.dp;
 
 public class WhereWillTheBallFall {
     // stuck cases
-    // [i, j] = 1, [i + 1, j] = -1 (have to be pre:1, next:1)
-    // [i, j] = -1, [i, j - 1] = 1 (have to be pre:-1, next:-1)
+    // [i, j] = 1, [i, j + 1] = -1
+    // [i, j] = -1, [i, j - 1] = 1
     // dfs
     public int[] findBall(int[][] grid) {
         int[] res = new int[grid[0].length];
