@@ -1395,6 +1395,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/BullsAndCows.java)
   - hint: hashtable with counting frequency of digit
 
+- [x] LeetCode #43 Multiply Strings
+  - [description](https://leetcode.com/problems/multiply-strings/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/MultiplyStrings.java)
+  - hint: `result[i+j+1] = (nums[i] * nums[j]) % 10` and `result[i+j] = (nums[i] * nums[j]) / 10`
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
