@@ -1,9 +1,8 @@
 package leetcode.linkedlist;
 
-import util.ListNode;
-
-import java.util.Map;
 import java.util.HashMap;
+import java.util.Map;
+import util.ListNode;
 
 public class PalindromeLinkedList {
     public boolean isPalindrome(ListNode head) {
@@ -68,5 +67,37 @@ public class PalindromeLinkedList {
         }
         
         return true;
+    }
+
+    public boolean isPalindrome_2r(ListNode head) {
+        ListNode slow = head;
+        ListNode fast = head;
+        while(fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        slow = reverse_2r(slow);
+        fast = head;
+
+        while(slow != null) {
+            if(slow.val != fast.val) {
+                return false;
+            }
+            slow = slow.next;
+            fast = fast.next;
+        }
+        return true;
+    }
+
+    private ListNode reverse_2r(ListNode head) {
+        ListNode pre = null;
+        while(head != null) {
+            ListNode temp = head.next;
+            head.next = pre;
+            pre = head;
+            head = temp;
+        }
+        return pre;
     }
 }
