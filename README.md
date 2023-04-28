@@ -1410,6 +1410,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/MultiplyStrings.java)
   - hint: `result[i+j+1] = (nums[i] * nums[j]) % 10` and `result[i+j] = (nums[i] * nums[j]) / 10`
 
+- [x] LeetCode #2131 Longest Palindrome by Concatenating Two Letter Words
+  - [description](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/LongestPalindromeByConcatenatingTwoLetterWords.java)
+  - hint: use hashtable to store string with its frequency, and check reverse of string's existence in hashtable
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
