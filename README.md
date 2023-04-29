@@ -1047,7 +1047,7 @@
 - [x] LeetCode #543 Diameter of Binary Tree
   - [description](https://leetcode.com/problems/diameter-of-binary-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/DiameterOfBinaryTree.java)
-  - hint: dfs and meet `null` tree node to return `-1`
+  - hint: dfs, get length of left and right paths recursively
 
 - [x] LeetCode #2096 Step-By-Step Directions From a Binary Tree Node to Another
   - [description](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/)

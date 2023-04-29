@@ -19,5 +19,24 @@ public class DiameterOfBinaryTree {
         res = Math.max(res, left + right);
         
         return Math.max(left, right);
-    }    
+    }
+    
+    int result = 0;
+    public int diameterOfBinaryTree_2r(TreeNode root) {
+        helper(root);
+        return result;
+    }
+
+    private int helper_2r(TreeNode node) {
+        if (node == null) {
+            return 0;
+        }
+
+        int left = helper(node.left);
+        int right = helper(node.right);
+
+        res = Math.max(res, left + right);
+
+        return Math.max(left, right) + 1;
+    }
 }
