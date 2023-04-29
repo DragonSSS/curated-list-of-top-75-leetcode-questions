@@ -1069,6 +1069,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/NaryTreePreorderTraversal.java)
   - hint: preorder traversal by dfs
 
+- [x] LeetCode #110 Balanced Binary Tree
+  - [description](https://leetcode.com/problems/balanced-binary-tree/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BalancedBinaryTree.java)
+  - hint: calculate height of current node's left subtree and right substree recusively
+
 ### LinkedList
 
 - [x] LeetCode #61 Rotate List
