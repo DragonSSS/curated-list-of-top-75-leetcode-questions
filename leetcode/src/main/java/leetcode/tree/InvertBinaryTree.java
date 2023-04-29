@@ -1,9 +1,8 @@
 package leetcode.tree;
 
-import util.TreeNode;
-
 import java.util.LinkedList;
 import java.util.Queue;
+import util.TreeNode;
 
 public class InvertBinaryTree {
     public TreeNode invertTree(TreeNode root) {
@@ -52,6 +51,20 @@ public class InvertBinaryTree {
         
         root.right = left;
         root.left = right;
+        return root;
+    }
+
+    public TreeNode invertTree_4r(TreeNode root) {
+        if(root == null) {
+            return root;
+        }
+
+        TreeNode left = invertTree_4r(root.left);
+        TreeNode right = invertTree_4r(root.right);
+
+        root.left = right;
+        root.right = left;
+
         return root;
     }
 }
