@@ -58,5 +58,42 @@ public class TaskScheduler {
             
         }
         return time;
-    }    
+    }
+
+    public int leastInterval_2r(char[] tasks, int n) {
+        int[] map = new int[26];
+        for(char task : tasks) {
+            map[task - 'A']++;
+        }
+
+        // store the tasks based on its freqency, so we want process high frequency asap greedly
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> b - a);
+        for(int freq : map) {
+            if(freq != 0) {
+                pq.offer(freq);
+            }
+        }
+
+        // use queue to store processed task but not ready to be back to pq, based on cooldown
+        // time, <freq, time_back_to_pq>
+        Queue<int[]> queue = new LinkedList<>();
+        int time = 0;
+        while(!pq.isEmpty() || !queue.isEmpty()) {
+            time++;
+            if (!pq.isEmpty()) {
+                int curTask = pq.poll();
+                curTask--;
+                if (curTask > 0) {
+                    queue.offer(new int[]{curTask, time + n});
+                }
+            }
+
+            while(!queue.isEmpty() && queue.peek()[1] == time) {
+                int[] task = queue.poll();
+                pq.offer(task[0]);
+            }
+        }
+
+        return time;
+    }
 }
