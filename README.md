@@ -1074,6 +1074,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BalancedBinaryTree.java)
   - hint: calculate height of current node's left subtree and right substree recusively
 
+- [x] LeetCode #437 Path Sum III
+  - [description](https://leetcode.com/problems/path-sum-iii/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/PathSumIII.java)
+  - hint: prefix sum + hashtable + preorder + backtracking
+
 ### LinkedList
 
 - [x] LeetCode #61 Rotate List
