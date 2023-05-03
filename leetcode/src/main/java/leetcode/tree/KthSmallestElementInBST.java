@@ -1,10 +1,10 @@
 package leetcode.tree;
 
-import util.TreeNode;
-import java.util.List;
-import java.util.Queue;
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+import util.TreeNode;
 
 public class KthSmallestElementInBST {
     public int kthSmallest(TreeNode root, int k) {
@@ -64,5 +64,22 @@ public class KthSmallestElementInBST {
         helper_3r(node.left);
         queue.offer(node.val);
         helper_3r(node.right);
+    }
+
+    // in-order traversal
+    List<Integer> list = new ArrayList<>();
+    public int kthSmallest_4r(TreeNode root, int k) {
+        helper_4r(root);
+        return list.get(k - 1);
+    }
+
+    private void helper_4r(TreeNode node) {
+        if (node == null) {
+            return;
+        }
+
+        helper_4r(node.left);
+        list.add(node.val);
+        helper_4r(node.right);
     }
 }
