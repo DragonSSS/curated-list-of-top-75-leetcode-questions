@@ -1079,6 +1079,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/PathSumIII.java)
   - hint: prefix sum + hashtable + preorder + backtracking
 
+- [x] LeetCode #108 Convert Sorted Array to Binary Search Tree
+  - [description](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/ConvertSortedArrayToBinarySearchTree.java)
+  - hint: dfs + left and right pointer of array
+
 ### LinkedList
 
 - [x] LeetCode #61 Rotate List
