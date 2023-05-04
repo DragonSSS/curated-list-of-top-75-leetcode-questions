@@ -31,6 +31,18 @@ public class SameTree {
         if (p == null || q == null)
             return false;
         
-        return p.val == q.val && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+        return p.val == q.val && isSameTree_3r(p.left, q.left) && isSameTree_3r(p.right, q.right);
+    }
+
+    public boolean isSameTree_4r(TreeNode p, TreeNode q) {
+        if (p == null && q == null) {
+            return true;
+        } else if (p == null || q == null) {
+            return false;
+        } else if (p.val != q.val) {
+            return false;
+        } else {
+            return isSameTree_4r(p.left, q.left) && isSameTree_4r(p.right, q.right);
+        }
     }
 }
