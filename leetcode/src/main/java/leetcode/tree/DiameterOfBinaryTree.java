@@ -23,7 +23,7 @@ public class DiameterOfBinaryTree {
     
     int result = 0;
     public int diameterOfBinaryTree_2r(TreeNode root) {
-        helper(root);
+        helper_2r(root);
         return result;
     }
 
@@ -32,8 +32,8 @@ public class DiameterOfBinaryTree {
             return 0;
         }
 
-        int left = helper(node.left);
-        int right = helper(node.right);
+        int left = helper_2r(node.left);
+        int right = helper_2r(node.right);
 
         res = Math.max(res, left + right);
 
