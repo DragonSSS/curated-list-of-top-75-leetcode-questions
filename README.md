@@ -1084,6 +1084,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/ConvertSortedArrayToBinarySearchTree.java)
   - hint: dfs + left and right pointer of array
 
+- [x] LeetCode #101 Symmetric Tree
+  - [description](https://leetcode.com/problems/symmetric-tree/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/SymmetricTree.java)
+  - hint: dfs, similar to Same Tree
+
 ### LinkedList
 
 - [x] LeetCode #61 Rotate List
