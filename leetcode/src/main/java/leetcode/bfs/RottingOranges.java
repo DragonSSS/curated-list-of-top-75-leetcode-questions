@@ -46,5 +46,60 @@ public class RottingOranges {
         }
         
         return mins;
-    }   
+    }
+
+    // int[][] dirs = new int[][]{{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+    public int orangesRotting_2r(int[][] grid) {
+        int m = grid.length, n = grid[0].length;
+        Queue<int[]> queue = new LinkedList<>();
+        int refresh = 0;
+        for(int i = 0; i < m; i++) {
+            for(int j = 0; j < n; j++) {
+                if(grid[i][j] == 2) {
+                    queue.offer(new int[]{i, j});
+                }
+
+                if(grid[i][j] == 1) {
+                    refresh++;
+                }
+            }
+        }
+
+        // edge cause
+        if (refresh == 0) {
+            return 0;
+        }
+
+        int res = 0;
+        // if not refresh left, we don't need to last scan even queue is not empty
+        while(!queue.isEmpty() && refresh > 0) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                int[] cur = queue.poll();
+                
+                for(int[] dir : dirs) {
+                    int x = dir[0] + cur[0];
+                    int y = dir[1] + cur[1];
+
+                    if (x < 0 || x >= m || y < 0 || y >= n || grid[x][y] != 1) {
+                        continue;
+                    }
+
+                    queue.offer(new int[]{x, y});
+                    refresh--;
+                    grid[x][y] = 2;
+                }
+            }
+            res++;
+        }
+
+        for(int i = 0; i < m; i++) {
+            for(int j = 0; j < n; j++) {
+                if(grid[i][j] == 1) {
+                    return -1;
+                }
+            }
+        }
+        return res;
+    }
 }
