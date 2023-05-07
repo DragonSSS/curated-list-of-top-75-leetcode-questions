@@ -65,7 +65,29 @@ public class InsertInterval {
         for(int i = 0; i < resList.size(); i++) {
             res[i] = resList.get(i);
         }
-        
+        return res;
+    }
+
+    public int[][] insert_4r(int[][] intervals, int[] newInterval) {
+        List<int[]> list = new ArrayList<>();
+        // Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+        int[] insert = newInterval;
+        for(int[] interval: intervals) {
+            if(insert[1] < interval[0]) {
+                list.add(insert);
+                insert = interval;
+            } else if (insert[0] > interval[1]) {
+                list.add(interval);
+            } else {
+               insert[0] = Math.min(insert[0], interval[0]);
+               insert[1] = Math.max(insert[1], interval[1]); 
+            }
+        }
+        list.add(insert);
+        int[][] res = new int[list.size()][2];
+        for(int i = 0; i < list.size(); i++) {
+            res[i] = list.get(i);
+        }
         return res;
     }
 }
