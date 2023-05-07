@@ -997,7 +997,7 @@
 - [x] LeetCode #199 Binary Tree Right Side View
   - [description](https://leetcode.com/problems/binary-tree-right-side-view/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BinaryTreeRightSideView.java)
-  - hint: bfs via queue to do level traversal and pick up last node at each level
+  - hint: bfs via queue to do level traversal and pick up last node at each level or dfs that starts with rightmost child and tracks the level of tree (node val is added into res only if `level == res.size()`, so that only add single node val per level if any node exists)
 
 - [x] LeetCode #314 Binary Tree Vertical Order Traversal (Tree, BFS, even DFS or HashTable)
   - [description](https://leetcode.com/problems/binary-tree-vertical-order-traversal)

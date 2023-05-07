@@ -31,4 +31,29 @@ public class BinaryTreeRightSideView {
         }
         return res;
     }
+
+    List<Integer> res = new ArrayList<>();
+    public List<Integer> rightSideView_2r(TreeNode root) {
+        if (root == null) {
+            return res;
+        }
+        helper(root, 0);
+        return res;
+    }
+
+    private void helper(TreeNode node, int level) {
+        // each level only add one TreeNod if exists
+        // make sure node is not null
+        if (level == res.size()) {
+            res.add(node.val);
+        }
+
+        if (node.right != null) {
+            helper(node.right, level + 1);
+        }
+
+        if (node.left != null) {
+            helper(node.left, level + 1);
+        }
+    }
 }
