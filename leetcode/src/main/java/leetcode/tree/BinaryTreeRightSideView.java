@@ -1,11 +1,10 @@
-package leetcode.bfs;
-
-import util.TreeNode;
+package leetcode.tree;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+import util.TreeNode;
 
 public class BinaryTreeRightSideView {
     public List<Integer> rightSideView(TreeNode root) {
@@ -30,7 +29,6 @@ public class BinaryTreeRightSideView {
                     queue.offer(node.right);
             }
         }
-
         return res;
     }
 }
