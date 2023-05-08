@@ -1,13 +1,13 @@
 package leetcode.bfs;
 
-import java.util.List;
 import java.util.ArrayList;
-import java.util.Map;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
 import java.util.Queue;
 import java.util.Set;
-import java.util.LinkedList;
 
 public class CourseScheduleII {
     public int[] findOrder_bfs(int numCourses, int[][] prerequisites) {
@@ -165,5 +165,58 @@ public class CourseScheduleII {
         }
         
         return index == numCourses? res : new int[]{};
+    }
+
+    public int[] findOrder_3r(int numCourses, int[][] prerequisites) {
+        Queue<Integer> queue = new LinkedList<>();
+        Set<Integer> visited = new HashSet<>();
+        List<Integer> list = new ArrayList<>();
+        int[] res = new int[numCourses];
+
+        Map<Integer, List<Integer>> graph = new HashMap<>();
+        int[] indegree = new int[numCourses];
+
+        for(int[] prerequisite : prerequisites) {
+            int from = prerequisite[1];
+            int to = prerequisite[0];
+
+            graph.putIfAbsent(from, new ArrayList<>());
+            graph.get(from).add(to);
+            indegree[to]++;
+        }
+
+        for(int i = 0 ; i < numCourses; i++) {
+            if (indegree[i] == 0) {
+                queue.offer(i);
+                visited.add(i);
+            }
+        }
+
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                int cur = queue.poll();
+                list.add(cur);
+
+                if(graph.containsKey(cur)) {
+                    for(int next : graph.get(cur)) {
+                        indegree[next]--;
+                        if(indegree[next] == 0 && !visited.contains(next)) {
+                            queue.offer(next);
+                            visited.add(next);
+                        }
+                    }
+                }
+            }
+        }
+
+        if (list.size() != numCourses) {
+            return new int[]{};
+        }
+
+        for(int i = 0; i < numCourses; i++) {
+            res[i] = list.get(i);
+        }
+        return res;
     }
 }
