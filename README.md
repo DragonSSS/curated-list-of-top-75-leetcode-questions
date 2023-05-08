@@ -1823,6 +1823,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/KthLargest.java)
   - hint: minHeap, keep `queue.size == k`
 
+- [x] LeetCode #232 Implement Queue using Stacks
+  - [description](https://leetcode.com/problems/implement-queue-using-stacks/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/MyQueue.java)
+  - hint: use two stacks, one for input and the other for output
+
 ### Monotonic Queue
 
 - [x] LeetCode #239 Sliding Window Maximum (NeetCode 150)
