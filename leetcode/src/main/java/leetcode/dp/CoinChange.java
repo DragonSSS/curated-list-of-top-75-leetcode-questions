@@ -110,4 +110,36 @@ public class CoinChange {
         
         return -1;
     }
+
+    public int coinChange_4r(int[] coins, int amount) {
+        Queue<Integer> queue = new LinkedList<>();
+        Set<Integer> visited = new HashSet<>();
+        queue.offer(amount);
+        visited.add(amount);
+        int res = 0;
+
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                int cur = queue.poll();
+                if (cur == 0) {
+                    return res;
+                }
+
+                for(int coin : coins) {
+                    if (cur - coin < 0) {
+                        continue;
+                    }
+
+                    int next = cur - coin;
+                    if (!visited.contains(next)) {
+                        queue.offer(next);
+                        visited.add(next);
+                    }
+                }
+            }
+            res++;
+        }
+        return -1;
+    }
 }
