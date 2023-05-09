@@ -157,7 +157,7 @@
 - [x] LeetCode #417 Pacific Atlantic Water Flow
   - [description](https://leetcode.com/problems/pacific-atlantic-water-flow/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/PacificAtlanticWaterFlow.java)
-  - hint: dfs + memorization
+  - hint: dfs + memorization or bfs
   
 - [x] LeetCode #200 Number of Islands
   - [description](https://leetcode.com/problems/number-of-islands/)

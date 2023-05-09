@@ -208,4 +208,66 @@ public class PacificAtlanticWaterFlow {
             }
         }
     }
+
+    // int[][] dirs = new int[][]{{0, 1},  {1, 0}, {-1, 0}, {0, -1}};
+    public List<List<Integer>> pacificAtlantic_4r(int[][] heights) {
+        int row = heights.length, col = heights[0].length;
+
+        boolean[][] pacVisited = new boolean[row][col];
+        boolean[][] atlVisited = new boolean[row][col];
+
+        Queue<int[]> pacQueue = new LinkedList<>();
+        Queue<int[]> atlQueue = new LinkedList<>();
+
+        // top and bottom
+        for(int i = 0; i < col; i++) {
+            pacVisited[0][i] = true;
+            pacQueue.offer(new int[]{0, i});
+            atlVisited[row - 1][i] = true;
+            atlQueue.offer(new int[]{row - 1, i});
+        }
+
+        // left and right
+        for(int i = 0; i < row; i++) {
+            pacVisited[i][0] = true;
+            pacQueue.offer(new int[]{i, 0});
+            atlVisited[i][col - 1] = true;
+            atlQueue.offer(new int[]{i, col - 1});
+        }
+
+        helper_4r(heights, pacQueue, pacVisited);
+        helper_4r(heights, atlQueue, atlVisited);
+
+        List<List<Integer>> res = new ArrayList<>();
+        for(int i = 0; i < row; i++) {
+            for(int j = 0; j < col; j++) {
+                if(pacVisited[i][j] && atlVisited[i][j]) {
+                    res.add(Arrays.asList(i, j));
+                }
+            }
+        }
+
+        return res;
+    }
+
+    private void helper_4r(int[][] heights, Queue<int[]> queue, boolean[][] visited) {
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                int[] cur = queue.poll();
+
+                for(int[] dir : dirs) {
+                    int x = dir[0] + cur[0];
+                    int y = dir[1] + cur[1];
+
+                    if (x < 0 || x >= heights.length || y < 0 || y >= heights[0].length || visited[x][y] || heights[x][y] < heights[cur[0]][cur[1]]) {
+                        continue;
+                    }
+
+                    queue.offer(new int[]{x, y});
+                    visited[x][y] = true;
+                }
+            }
+        }
+    }
 }
