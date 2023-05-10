@@ -88,4 +88,49 @@ public class AsteroidCollision {
          }
          return res;
      }
+
+    // + +: + push
+    // + -:
+    // case + == -: + pop
+    // case + > -; nothing
+    // case + < -: + pop
+    // - +: + push
+    // - -: - push
+    public int[] asteroidCollision_4r(int[] asteroids) {
+        Stack<Integer> stack = new Stack<>();
+        for(int asteroid : asteroids) {
+            boolean push = true;
+            while(!stack.isEmpty() && stack.peek() > 0 && asteroid < 0) {
+                int peek = stack.peek();
+                // case + > -; nothing and case + == -: + pop
+                if(peek >= Math.abs(asteroid)) {
+                    push = false;
+                    // case + == -: + pop
+                    if(peek == Math.abs(asteroid)) {
+                        stack.pop();
+                    }
+                    // current asteroid explore/disappear
+                    break;
+                } else {
+                    // case + < -: + pop
+                    stack.pop();
+                }
+            }
+
+            // + +: + push
+            // - +: + push
+            // - -: - push
+            if(push) {
+                stack.push(asteroid);
+            }
+        }
+
+        int[] res = new int[stack.size()];
+        int index = res.length - 1;
+        while(index >= 0) {
+            res[index--] = stack.pop();
+        }
+
+        return res;
+    }
 }
