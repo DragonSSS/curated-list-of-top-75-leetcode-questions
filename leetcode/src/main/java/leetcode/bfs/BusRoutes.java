@@ -1,12 +1,12 @@
 package leetcode.bfs;
 
-import java.util.List;
-import java.util.LinkedList;
-import java.util.Map;
-import java.util.Queue;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Queue;
 import java.util.Set;
 public class BusRoutes {
     public int numBusesToDestination(int[][] routes, int source, int target) {
@@ -60,6 +60,67 @@ public class BusRoutes {
                     }
                 }
             }
+        }
+        return -1;
+    }
+
+    // bfs
+    // graph: stop -> next buses can be taken;
+    // next bus -> which stop can go next;
+    public int numBusesToDestination_2r(int[][] routes, int source, int target) {
+        Map<Integer, Set<Integer>> stopToBuses = new HashMap<>();
+        Set<Integer> takenBus = new HashSet<>();
+        Set<Integer> visitedStop = new HashSet<>();
+        Queue<Integer> queue = new LinkedList<>();
+
+        for(int i = 0; i < routes.length; i++) {
+            int[] stopsOnBus = routes[i];
+            for(int stop : stopsOnBus) {
+                stopToBuses.putIfAbsent(stop, new HashSet<>());
+                stopToBuses.get(stop).add(i);
+            }
+        }
+        
+        if (!stopToBuses.containsKey(source) || !stopToBuses.containsKey(target)) {
+            return -1;
+        }
+
+        if (source == target) {
+            return 0;
+        }
+
+        queue.offer(source);
+        visitedStop.add(source);
+
+        int res = 0;
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                int curStop = queue.poll();
+                if(curStop == target) {
+                    return res;
+                }
+
+                if(!stopToBuses.containsKey(curStop)) {
+                    continue;
+                }
+
+                for(int bus : stopToBuses.get(curStop)) {
+                    if(takenBus.contains(bus)) {
+                        continue;
+                    }
+
+                    takenBus.add(bus);
+                    for(int nextStop : routes[bus]) {
+                        if(visitedStop.contains(nextStop)) {
+                            continue;
+                        }
+                        queue.offer(nextStop);
+                        visitedStop.add(nextStop);
+                    }
+                }
+            }
+            res++;
         }
         return -1;
     }
