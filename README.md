@@ -445,11 +445,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/FindEventualSafeStates.java)  
   - hint: bfs + topological sort or dfs + backtracking
 
-- [ ] LeetCode #947 Most Stones Removed with Same Row or Column
+- [x] LeetCode #947 Most Stones Removed with Same Row or Column
   - [description](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/MostStonesRemovedWithSameRowOrColumn.java)  
-  - hint: dfs or union-find
-
+  - hint: dfs or union-find, `the most stones that can be removed = number of stones - number of islands (same row or column of stones are treated as island)`
+ 
 ### DFS
 
 - [x] LeetCode #332 Reconstruct Itinerary
