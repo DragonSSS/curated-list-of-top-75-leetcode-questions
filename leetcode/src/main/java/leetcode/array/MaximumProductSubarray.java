@@ -57,4 +57,18 @@ public class MaximumProductSubarray {
         
         return res;
     }
+
+    public int maxProduct_4r(int[] nums) {
+        int curMax = nums[0];
+        int curMin = nums[0];
+        int res = nums[0];
+
+        for(int i = 1; i < nums.length; i++) {
+            int temp = curMax;
+            curMax = Math.max(Math.max(nums[i] * curMax, nums[i] * curMin), nums[i]);
+            curMin = Math.min(Math.min(nums[i] * temp, nums[i] * curMin), nums[i]);
+            res = Math.max(res, curMax);
+        }
+        return res;
+    }
 }
