@@ -1,7 +1,7 @@
 package leetcode.dfs;
 
-import java.util.Queue;
 import java.util.LinkedList;
+import java.util.Queue;
 
 public class NumberOfProvinces {
     public int findCircleNum(int[][] isConnected) {
@@ -41,6 +41,30 @@ public class NumberOfProvinces {
                     visited[j] = true;
                     helper_bfs(isConnected, visited, j);
                 }
+            }
+        }
+    }
+
+        // dfs or union-find
+    boolean[] visited;
+    public int findCircleNum_2r(int[][] isConnected) {
+        int n = isConnected.length;
+        visited = new boolean[n];
+        int res = 0;
+        for(int i = 0; i < n; i++) {
+            if(!visited[i]) {
+                helper_2r(isConnected, i);
+                res++;
+            }
+        }
+        return res;
+    }
+    
+    private void helper_2r(int[][] isConnected, int city) {
+        for(int i = 0; i < isConnected[city].length; i++) {
+            if(!visited[i] && isConnected[city][i] == 1) {
+                visited[i] = true;
+                helper_2r(isConnected, i);
             }
         }
     }
