@@ -806,6 +806,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ArrayWithElementsNotEqualToAverageOfNeighbors.java)
   - hint: greedy + two pointers, use the pattern: small, big, small, big..on sorted array
 
+- [x] LeetCode #16 3Sum Closest
+  - [description](https://leetcode.com/problems/3sum-closest/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ThreeSumClosest.java)
+  - hint: three pointers, track the diff between current sum and target sum, return `target sum - diff`
+
 ### Binary Search
 
 - [x] LeetCode #540 Single Element in a Sorted Array
