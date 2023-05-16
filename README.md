@@ -811,6 +811,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ThreeSumClosest.java)
   - hint: three pointers, track the diff between current sum and target sum, return `target sum - diff`
 
+- [x] LeetCode #416 Partition Equal Subset Sum
+  - [description](https://leetcode.com/problems/partition-equal-subset-sum/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/PartitionEqualSubsetSum.java)
+  - hint: dfs + memorization, calculate sum and use half of sum as target sum for subset array, `Boolean memo[index][target sum + 1]`
+
 ### Binary Search
 
 - [x] LeetCode #540 Single Element in a Sorted Array
