@@ -816,6 +816,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/PartitionEqualSubsetSum.java)
   - hint: dfs + memorization, calculate sum and use half of sum as target sum for subset array, `Boolean memo[index][target sum + 1]`
 
+- [x] LeetCode #39 Combination Sum
+  - [description](https://leetcode.com/problems/combination-sum/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/CombinationSum.java)
+  - hint: dfs + backtracking
+
 ### Binary Search
 
 - [x] LeetCode #540 Single Element in a Sorted Array
