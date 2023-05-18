@@ -449,7 +449,7 @@
   - [description](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/MostStonesRemovedWithSameRowOrColumn.java)  
   - hint: dfs or union-find, `the most stones that can be removed = number of stones - number of islands (same row or column of stones are treated as island)`
- 
+
 ### DFS
 
 - [x] LeetCode #332 Reconstruct Itinerary
