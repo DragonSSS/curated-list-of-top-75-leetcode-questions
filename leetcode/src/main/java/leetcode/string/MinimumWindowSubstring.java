@@ -146,4 +146,46 @@ public class MinimumWindowSubstring {
         
         return minLen == Integer.MAX_VALUE? "" : s.substring(index, index + minLen);
     }
+
+    public String minWindow_4r(String s, String t) {
+        Map<Character, Integer> map = new HashMap<>();
+        for(char c : t.toCharArray()) {
+            map.put(c, map.getOrDefault(c, 0) + 1);
+        }
+
+        int minLen = Integer.MAX_VALUE;
+        int count = 0;
+        int left = 0;
+        int index = 0;
+        for(int right = 0; right < s.length(); right++) {
+            char charRight = s.charAt(right);
+            if(!map.containsKey(charRight)) {
+                continue;
+            }
+
+            map.put(charRight, map.get(charRight) - 1);
+            if(map.get(charRight) == 0) {
+                count++;
+            }
+
+            while(count == map.size()) {
+                int curLen = right - left + 1;
+                if (curLen < minLen) {
+                    minLen = curLen;
+                    index = left;
+                }
+
+                char leftChar = s.charAt(left++);
+                if(!map.containsKey(leftChar)) {
+                    continue;
+                }
+
+                map.put(leftChar, map.get(leftChar) + 1);
+                if (map.get(leftChar) == 1) {
+                    count--;
+                }
+            }
+        }
+        return minLen == Integer.MAX_VALUE? "" : s.substring(index, index + minLen);
+    }
 }
