@@ -29,5 +29,58 @@ public class MostStonesRemovedWithSameRowOrColumn {
                 helper(stones, stone);
             } 
         }
+    }
+ 
+    // union-find
+    int[] parents;
+    int[] ranking;
+    public int removeStones_union_find(int[][] stones) {
+        int n = stones.length;
+        parents = new int[n];
+        ranking = new int[n];
+        for(int i = 0; i < n; i++) {
+            parents[i] = i;
+        }
+
+        for(int i = 0; i < n; i++) {
+            for(int j = i + 1; j < n; j++) {
+                if((stones[i][0] == stones[j][0] || stones[i][1] == stones[j][1])) {
+                    union(i, j);
+                }
+            }
+        }
+
+        int count = 0;
+        for(int i = 0; i < n; i++) {
+            if(parents[i] == i) {
+                count++;
+            }
+        }
+        return n - count;
+    }
+
+    private void union(int s1, int s2) {
+        int p1 = find(s1);
+        int p2 = find(s2);
+
+        if(p1 == p2) {
+            return;
+        }
+
+        if(ranking[p1] > ranking[p2]) {
+            parents[p2] = p1;
+        } else if(ranking[p1] < ranking[p2]) {
+            parents[p1] = p2;
+        } else {
+            parents[p2] = p1;
+            ranking[p1]++;
+        }
+    }
+
+    private int find(int stone) {
+        while(stone != parents[stone]) {
+            stone = parents[stone];
+        }
+        return parents[stone];
     }    
 }
