@@ -82,4 +82,28 @@ public class LongestPalindromicSubstring {
         
         return s.substring(left + 1, right);
     }
+
+    public String longestPalindrome_4r(String s) {
+        String res = "";
+        for(int i = 0; i < s.length(); i++){
+            String even = helper_4r(s, i, i + 1);
+            String odd = helper_4r(s, i, i);
+            if(even.length() > res.length()) {
+                res = even;
+            }
+
+            if(odd.length() > res.length()) {
+                res = odd;
+            }
+        }
+        return res;
+    }
+
+    private String helper_4r(String s, int left, int right) {
+        while(left >= 0 && right <= s.length() - 1 && s.charAt(left) == s.charAt(right)) {
+            left--;
+            right++;
+        }
+        return s.substring(left + 1, right);
+    }
 }
