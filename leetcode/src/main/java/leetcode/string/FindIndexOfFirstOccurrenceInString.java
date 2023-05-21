@@ -20,5 +20,21 @@ public class FindIndexOfFirstOccurrenceInString {
             index++;
         }
         return -1;
-    }    
+    }
+
+    public int strStr_2r(String haystack, String needle) {
+        for(int i = 0; i < haystack.length(); i++) {
+            int index = 0;
+            int start = i;
+            while(start < haystack.length() && index < needle.length() && haystack.charAt(start) == needle.charAt(index)) {
+                start++;
+                index++;
+            }
+
+            if(index == needle.length()) {
+                return start - needle.length();
+            }
+        }
+        return -1;
+    }
 }
