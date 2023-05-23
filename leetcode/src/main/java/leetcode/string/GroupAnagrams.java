@@ -1,10 +1,10 @@
 package leetcode.string;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Arrays;
 
 public class GroupAnagrams {
     public List<List<String>> groupAnagrams(String[] strs) {
@@ -73,6 +73,23 @@ public class GroupAnagrams {
             res.add(entry.getValue());
         }
         
+        return res;
+    }
+
+    public List<List<String>> groupAnagrams_4r(String[] strs) {
+        Map<String, List<String>> map = new HashMap<>();
+        for(String str : strs) {
+            int[] freq = new int[26];
+            for(char c : str.toCharArray()) {
+                freq[c - 'a']++;
+            }
+            String key = Arrays.toString(freq);
+            map.putIfAbsent(key, new ArrayList<>());
+            map.get(key).add(str);
+        }
+
+        List<List<String>> res = new ArrayList<>();
+        res.addAll(map.values());
         return res;
     }
 }
