@@ -450,6 +450,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/MostStonesRemovedWithSameRowOrColumn.java)  
   - hint: dfs or union-find, `the most stones that can be removed = number of stones - number of islands (same row or column of stones are treated as island)`
 
+- [x] LeetCode #791 Accounts Merge
+  - [description](https://leetcode.com/problems/accounts-merge/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/AccountsMerge.java)
+  - hint: build undirected graph using email + dfs
+
 ### DFS
 
 - [x] LeetCode #332 Reconstruct Itinerary
@@ -1931,11 +1936,6 @@
   - [description](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/MinimumTimeToCollectAllApplesInTree.java)
   - hint: dfs + memorization, each node makes count += 2 except node 0
- 
-- [x] LeetCode #791 Accounts Merge (Graph)
-  - [description](https://leetcode.com/problems/accounts-merge/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/AccountsMerge.java)
-  - hint: build undirected graph using email + dfs
  
 - [x] LeetCode #1138 Alphabet Board Path (String)
   - [description](https://leetcode.com/problems/alphabet-board-path/)
