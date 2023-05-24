@@ -453,7 +453,7 @@
 - [x] LeetCode #791 Accounts Merge
   - [description](https://leetcode.com/problems/accounts-merge/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/AccountsMerge.java)
-  - hint: build undirected graph using email + dfs
+  - hint: build undirected graph using email + dfs or union-find
 
 ### DFS
 
