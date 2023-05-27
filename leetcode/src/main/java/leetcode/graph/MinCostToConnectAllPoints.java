@@ -123,4 +123,65 @@ public class MinCostToConnectAllPoints {
         }
         return parents[i];
     }
+
+    // int[] parents;
+    int[] ranking;
+    public int minCostConnectPoints_3r(int[][] points) {
+        int n = points.length;
+        parents = new int[n];
+        ranking = new int[n];
+        int[][] dist = new int[n][n];
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> dist[a[0]][a[1]] - dist[b[0]][b[1]]);
+
+        for(int i = 0; i < n; i++) {
+           parents[i] = i; 
+        }
+
+        for(int i = 0; i < n; i++) {
+            int[] point1 = points[i];
+            for(int j = 0; j < n; j++) {
+                int[] point2 = points[j];
+                dist[i][j] = Math.abs(point1[0] - point2[0]) + Math.abs(point1[1] - point2[1]);
+                pq.offer(new int[]{i, j});
+            }
+        }
+        int count = n;
+        int res = 0;
+        while(!pq.isEmpty() && count > 1) {
+            int[] cur = pq.poll();
+            if(union_3r(cur[0], cur[1])) {
+                count--;
+                res += dist[cur[0]][cur[1]];
+            }
+        }
+        return res;
+    }
+
+
+    private boolean union_3r(int id1, int id2) {
+        int p1 = find_3r(id1);
+        int p2 = find_3r(id2);
+
+        if (p1 == p2) {
+            return false;
+        }
+
+        if(ranking[p1] > ranking[p2]) {
+            parents[p2] = p1;
+        } else if(ranking[p2] > ranking[p1]) {
+            parents[p1] = p2;
+        } else {
+            parents[p2] = p1;
+            ranking[p1]++;
+        }
+
+        return true;
+    }
+
+    private int find_3r(int id) {
+        while(parents[id] != id) {
+            id = parents[id];
+        }
+        return parents[id];
+    }
 }
