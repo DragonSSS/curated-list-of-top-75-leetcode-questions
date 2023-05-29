@@ -28,4 +28,28 @@ public class RotateList {
 
         return newHead;
     }
+
+    public ListNode rotateRight_2r(ListNode head, int k) {
+        if(head == null) {
+            return head;
+        }
+
+        int len = 1;
+        ListNode node = head;
+        while(node.next != null) {
+            node = node.next;
+            len++;
+        }
+
+        node.next = head;
+
+
+        for(int i = len - k % len; i > 1; i--) {
+            head = head.next;
+        }
+
+        ListNode newHead = head.next;
+        head.next = null;
+        return newHead;
+    }
 }
