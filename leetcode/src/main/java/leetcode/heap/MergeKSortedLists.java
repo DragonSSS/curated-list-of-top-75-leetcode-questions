@@ -1,9 +1,8 @@
 package leetcode.heap;
 
-import util.ListNode;
-
 import java.util.PriorityQueue;
 import java.util.Queue;
+import util.ListNode;
 
 public class MergeKSortedLists {
     public ListNode mergeKLists(ListNode[] lists) {
@@ -51,6 +50,30 @@ public class MergeKSortedLists {
             node = cur;
         }
         
+        return dummy.next;
+    }
+
+    public ListNode mergeKLists_3r(ListNode[] lists) {
+        PriorityQueue<ListNode> pq = new PriorityQueue<>((a, b) -> a.val - b.val);
+        ListNode dummy = new ListNode(0);
+        ListNode node = dummy;
+        for(ListNode list : lists) {
+            if(list != null) {
+                pq.offer(list);
+            }
+        }
+
+        while(!pq.isEmpty()) {
+            ListNode curNode = pq.poll();
+            ListNode nextHead = curNode.next;
+            curNode.next = null;
+            node.next = curNode;
+            node = node.next;
+            if(nextHead != null) {
+                pq.offer(nextHead);
+            }
+        }
+
         return dummy.next;
     }
 }
