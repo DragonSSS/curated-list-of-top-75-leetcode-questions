@@ -1109,6 +1109,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/SymmetricTree.java)
   - hint: dfs, similar to Same Tree
 
+- [ ] LeetCode #662 Maximum Width of Binary Tree
+  - [description](https://leetcode.com/problems/maximum-width-of-binary-tree/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/MaximumWidthOfBinaryTree.java)
+  - hint:
+
 ### LinkedList
 
 - [x] LeetCode #61 Rotate List
