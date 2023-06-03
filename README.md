@@ -1109,10 +1109,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/SymmetricTree.java)
   - hint: dfs, similar to Same Tree
 
-- [ ] LeetCode #662 Maximum Width of Binary Tree
+- [x] LeetCode #662 Maximum Width of Binary Tree
   - [description](https://leetcode.com/problems/maximum-width-of-binary-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/MaximumWidthOfBinaryTree.java)
-  - hint: bfs
+  - hint: bfs, two queues: one is to track index of node, the other is to track tree node itself, check rightmost index and leftmost index: `width = rightmost - leftmost + 1`
 
 ### LinkedList
 
