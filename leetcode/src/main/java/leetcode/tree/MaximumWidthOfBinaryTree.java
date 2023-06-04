@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import util.TreeNode;
 
-// tree index:
+// build tree node index:
 // left child index = parent index * 2;
 // right child index = parent index * 2 + 1
 // width of each level = rightmost index - leftmost index + 1
