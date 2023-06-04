@@ -5,6 +5,10 @@ import java.util.Queue;
 import util.TreeNode;
 
 // tree index:
+// left child index = parent index * 2;
+// right child index = parent index * 2 + 1
+// width of each level = rightmost index - leftmost index + 1
+// e.g.
 //                   0
 
 //            0              1
