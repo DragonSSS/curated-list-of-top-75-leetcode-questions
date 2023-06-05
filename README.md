@@ -627,7 +627,7 @@
 - [x] LeetCode #863 All Nodes Distance K in Binary Tree
   - [description](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/AllNodesDistanceKInBinaryTree.java)
-  - hint: convert tree to graph via hashmap, avoid duplicates via hashset, bfs with queue or dfs with recursion
+  - hint: convert tree to graph via hashmap(`parent node <=> child nodes`), avoid duplicates via hashset, bfs with queue or dfs with recursion
 
 - [x] LeetCode #1291 Sequential Digits
   - [description](https://leetcode.com/problems/sequential-digits/)
