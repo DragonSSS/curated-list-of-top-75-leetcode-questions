@@ -1,7 +1,5 @@
 package leetcode.bfs;
 
-import util.TreeNode;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -11,6 +9,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Queue;
 import java.util.Set;
+import util.TreeNode;
 
 public class AllNodesDistanceKInBinaryTree {
     // build graph using hashmap;
@@ -147,5 +146,61 @@ public class AllNodesDistanceKInBinaryTree {
         
         buildGraph_2r(node, node.left);
         buildGraph_2r(node, node.right);
+    }
+
+    // Map<TreeNode, List<TreeNode>> graph;
+    public List<Integer> distanceK_3r(TreeNode root, TreeNode target, int k) {
+        // build graph
+        graph = new HashMap<>();
+        helper(root);
+
+        // bfs to reach the target node
+        Set<Integer> visited = new HashSet<>();
+        Queue<TreeNode> queue = new LinkedList<>();
+        List<Integer> res = new ArrayList<>();
+        int count = 0;
+
+        visited.add(target.val);
+        queue.offer(target);
+        
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                TreeNode cur = queue.poll();
+                if(count == k) {
+                    res.add(cur.val);
+                }
+                for(TreeNode next : graph.get(cur)) {
+                    if(visited.contains(next.val)) {
+                        continue;
+                    }
+                    queue.offer(next);
+                    visited.add(next.val);
+                }
+            }
+            count++;
+        }
+        return res;
+    }
+
+    private void helper(TreeNode root) {
+        if(root == null) {
+            return;
+        }
+
+        graph.putIfAbsent(root, new ArrayList<>());
+        if(root.left != null) {
+            graph.putIfAbsent(root.left, new ArrayList<>());
+            graph.get(root).add(root.left);
+            graph.get(root.left).add(root);
+            helper(root.left);
+        }
+
+        if(root.right != null) {
+            graph.putIfAbsent(root.right, new ArrayList<>());
+            graph.get(root).add(root.right);
+            graph.get(root.right).add(root);
+            helper(root.right);
+        }
     }
 }
