@@ -57,10 +57,11 @@ public class MinimumHeightTrees {
         if (n == 1) {
             return Arrays.asList(0);
         }
-        Map<Integer, Set<Integer>> graph = new HashMap<>();
+        // Use set here to avoid duplicates
+        Map<Integer, List<Integer>> graph = new HashMap<>();
 
         for(int i = 0; i < n; i++) {
-            graph.put(i, new HashSet<>());
+            graph.put(i, new ArrayList<>());
         }
 
         for(int[] edge : edges) {
@@ -81,8 +82,8 @@ public class MinimumHeightTrees {
             n -= leaves.size();
             List<Integer> newLeaves = new ArrayList<>();
             for(int i : leaves) {
-                int j = graph.get(i).iterator().next();
-                graph.get(j).remove(i);
+                int j = graph.get(i).get(0);
+                graph.get(j).remove(Integer.valueOf(i));
                 if (graph.get(j).size() == 1) {
                     newLeaves.add(j);
                 }
