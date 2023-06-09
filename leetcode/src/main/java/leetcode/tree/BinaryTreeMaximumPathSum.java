@@ -59,4 +59,23 @@ public class BinaryTreeMaximumPathSum {
         res = Math.max(res, Math.max(cur, left + node.val + right));
         return cur;
     }
+
+    // dfs
+    // int res = Integer.MIN_VALUE;
+    public int maxPathSum_4r(TreeNode root) {
+        helper_4r(root);
+        return res;
+    }
+
+    private int helper_4r(TreeNode node) {
+        if (node == null) {
+            return 0;
+        }
+
+        int left = helper_4r(node.left);
+        int right = helper_4r(node.right);
+        int cur = Math.max(node.val, Math.max(node.val + left, node.val + right));
+        res = Math.max(res, Math.max(cur, node.val + left + right));
+        return cur;
+    }
 }
