@@ -57,4 +57,34 @@ public class PathSumIII {
         // reach the end of path, remove the prefixSum, continue to process the diff branch
         map.put(curSum, map.get(curSum) - 1);
     }
+
+    // prefix + preorder +
+    // Map<Long, Integer> map = new HashMap<>();
+    // int res = 0;
+    // int target;
+    public int pathSum_3r(TreeNode root, int targetSum) {
+        target = targetSum;
+        helper_3r(root, 0L);
+        return res;
+    }
+
+    private void helper_3r(TreeNode node, long curSum) {
+        if(node == null) {
+            return;
+        }
+
+        curSum += node.val;
+
+        if (curSum == target) {
+            res++;
+        }
+
+        res+= map.getOrDefault(curSum - target, 0);
+        map.put(curSum, map.getOrDefault(curSum, 0) + 1);
+
+        helper_3r(node.left, curSum);
+        helper_3r(node.right, curSum);
+        map.put(curSum, map.get(curSum) - 1);
+        return;
+    }
 }
