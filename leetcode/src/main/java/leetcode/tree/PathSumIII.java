@@ -33,11 +33,11 @@ public class PathSumIII {
     int target;
     public int pathSum_2r(TreeNode root, int targetSum) {
         target = targetSum;
-        helper(root, 0L);
+        helper_2r(root, 0L);
         return res;
     }
 
-    private void helper(TreeNode node, long curSum) {
+    private void helper_2r(TreeNode node, long curSum) {
         if (node == null) {
             return;
         }
@@ -51,8 +51,8 @@ public class PathSumIII {
 
         map.put(curSum, map.getOrDefault(curSum, 0) + 1);
 
-        helper(node.left, curSum);
-        helper(node.right, curSum);
+        helper_2r(node.left, curSum);
+        helper_2r(node.right, curSum);
 
         // reach the end of path, remove the prefixSum, continue to process the diff branch
         map.put(curSum, map.get(curSum) - 1);
