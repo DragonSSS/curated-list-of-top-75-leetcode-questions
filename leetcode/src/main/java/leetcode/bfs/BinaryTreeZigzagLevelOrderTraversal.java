@@ -1,11 +1,10 @@
 package leetcode.bfs;
 
-import util.TreeNode;
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+import util.TreeNode;
 
 public class BinaryTreeZigzagLevelOrderTraversal {
     public List<List<Integer>> zigzagLevelOrder_BFS(TreeNode root) {
@@ -66,5 +65,40 @@ public class BinaryTreeZigzagLevelOrderTraversal {
 
         helper(node.left, level + 1, res);
         helper(node.right, level + 1, res);
+    }
+
+    // bfs or dfs
+    public List<List<Integer>> zigzagLevelOrder_2r(TreeNode root) {
+        List<List<Integer>> res = new ArrayList<>();
+        if(root == null) {
+            return res;
+        }
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+
+        boolean flag = true;
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            List<Integer> list = new ArrayList<>();
+            for(int i = 0; i < size; i++) {
+                TreeNode node = queue.poll();
+                if(flag) {
+                    list.add(node.val);
+                } else {
+                    list.add(0, node.val);
+                }
+                if(node.left != null) {
+                    queue.offer(node.left);
+                }
+                if(node.right != null) {
+                    queue.offer(node.right);
+                }
+            }
+            flag = !flag;
+            if(!list.isEmpty()) {
+                res.add(list);
+            }
+        }
+        return res;
     }
 }
