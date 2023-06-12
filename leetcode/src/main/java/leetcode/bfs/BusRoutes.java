@@ -124,4 +124,62 @@ public class BusRoutes {
         }
         return -1;
     }
+
+    // stop maps to buses using hashtable
+    // track visited stop and bus that is taken
+    // bfs using queue
+    public int numBusesToDestination_3r(int[][] routes, int source, int target) {
+        Map<Integer, Set<Integer>> stopToBuses = new HashMap<>();
+        Set<Integer> busTaken = new HashSet<>();
+        Set<Integer> visitedStop = new HashSet<>();
+        Queue<Integer> queue = new LinkedList<>();
+        int res = 0;
+
+        for(int i  =0 ; i < routes.length; i++) {
+            int[] route = routes[i];
+            for(int stop : route) {
+                stopToBuses.putIfAbsent(stop, new HashSet<>());
+                stopToBuses.get(stop).add(i);
+            }
+        }
+
+        if(!stopToBuses.containsKey(source) || !stopToBuses.containsKey(target)) {
+            return -1;
+        }
+
+        queue.offer(source);
+        visitedStop.add(source);
+
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                int curStop = queue.poll();
+
+                if (curStop == target) {
+                    return res;
+                }
+
+                if (!stopToBuses.containsKey(curStop)) {
+                    continue;
+                }
+
+                for(int bus : stopToBuses.get(curStop)) {
+                    if (busTaken.contains(bus)) {
+                        continue;
+                    }
+                    busTaken.add(bus);
+
+                    for(int nextStop : routes[bus]) {
+                        if(visitedStop.contains(nextStop)) {
+                            continue;
+                        }
+                        visitedStop.add(nextStop);
+                        queue.offer(nextStop);
+                    }
+                }
+            }
+            res++;
+        }
+        return -1;
+    }
 }
