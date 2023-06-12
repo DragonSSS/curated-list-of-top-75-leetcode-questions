@@ -1,11 +1,11 @@
 package leetcode.bfs;
 
 import java.util.ArrayList;
-import java.util.Queue;
-import java.util.List;
-import java.util.LinkedList;
-import java.util.Set;
 import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+import java.util.Set;
 
 public class WordLadder {
     // find shortest path to chain words via bfs ;-)
@@ -84,6 +84,46 @@ public class WordLadder {
                 }    
             }
             len++;
+        }
+        return 0;
+    }
+
+    public int ladderLength_3r(String beginWord, String endWord, List<String> wordList) {
+        Set<String> visited = new HashSet<>();
+        Set<String> words = new HashSet<>(wordList);
+        Queue<String> queue = new LinkedList<>();
+
+        if(!words.contains(endWord)){
+            return 0;
+        }
+        queue.offer(beginWord);
+        visited.add(beginWord);
+        int res = 1;
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                String cur = queue.poll();
+                if (cur.equals(endWord)) {
+                    return res;
+                }
+                char[] chars = cur.toCharArray();
+                for(int j = 0; j < cur.length(); j++) {
+                    for(char c = 'a'; c <= 'z'; c++) {
+                        char temp = chars[j];
+                        if(temp == c) {
+                            continue;
+                        }
+                        chars[j] = c;
+                        String newStr = new String(chars);
+                        if(words.contains(newStr) && !visited.contains(newStr)) {
+                            queue.offer(newStr);
+                            visited.add(newStr);
+                        }
+                        chars[j] = temp;
+                    }
+                }
+            }
+            res++;
         }
         return 0;
     }
