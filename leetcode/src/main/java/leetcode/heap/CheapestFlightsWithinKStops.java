@@ -1,12 +1,12 @@
 package leetcode.heap;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
-import java.util.List;
-import java.util.ArrayList;
 import java.util.Queue;
-import java.util.LinkedList;
 
 public class CheapestFlightsWithinKStops {
     int res = Integer.MAX_VALUE;
@@ -185,7 +185,7 @@ public class CheapestFlightsWithinKStops {
     // build graph Map<Integer, List<Integer>>
     // miniHeap int[]{cost, citry, stop}
     // boolean visited[][] - [city, stop]
-    public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
+    public int findCheapestPrice_3r(int n, int[][] flights, int src, int dst, int k) {
         Map<Integer, List<int[]>> graph = new HashMap<>();
         PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
         boolean[][] visited = new boolean[n][k + 2];
@@ -226,6 +226,49 @@ public class CheapestFlightsWithinKStops {
                 }
             }
             
+        }
+        return -1;
+    }
+
+    public int findCheapestPrice_4r(int n, int[][] flights, int src, int dst, int k) {
+        Map<Integer, List<int[]>> graph = new HashMap<>();
+        boolean[][] visited = new boolean[n][k + 2];
+        for(int[] flight : flights) {
+            int from = flight[0];
+            int to = flight[1];
+            int cost = flight[2];
+            graph.putIfAbsent(from, new ArrayList<>());
+            graph.get(from).add(new int[]{to, cost});
+        }
+
+        if(!graph.containsKey(src)) {
+            return -1;
+        }
+
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
+        pq.offer(new int[]{0, src, k + 1});
+        while(!pq.isEmpty()) {
+            int[] cur = pq.poll();
+            int curCost = cur[0];
+            int curDst = cur[1];
+            int curStop = cur[2];
+
+            if(curDst == dst) {
+                return curCost;
+            }
+
+            if(curStop <= 0 || visited[curDst][curStop]) {
+                continue;
+            };
+
+            visited[curDst][curStop] = true;
+            if (!graph.containsKey(curDst)) {
+                continue;
+            }
+
+            for(int[] next : graph.get(curDst)) {
+                pq.offer(new int[]{curCost + next[1], next[0], curStop - 1});
+            }
         }
         return -1;
     }
