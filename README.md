@@ -1746,7 +1746,7 @@
 - [x] LeetCode #981 Time Based Key-Value Store (NeetCode 150)
   - [description](https://leetcode.com/problems/time-based-key-value-store/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/TimeMap.java)
-  - hint: use treeMap with `floorKey()` or use arrayList( of `class Value(){}`) with binary search as the value of map
+  - hint: use treeMap with `floorKey()` or use `HashMap<String, List<Data>>()` where the Data class has two properties: timestamp and value, binary search on timestamp
 
 - [x] LeetCode #244 Shortest Word Distance II
   - [description](https://leetcode.com/problems/shortest-word-distance-ii/)
