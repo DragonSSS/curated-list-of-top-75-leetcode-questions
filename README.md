@@ -1716,7 +1716,7 @@
 - [x] LeetCode # 460 LFU Cache
   - [description](https://leetcode.com/problems/lfu-cache/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/LFUCache.java)
-  - hint: three hashmaps: vals map, usage counts map and usage count-listOfvals map. use `min` to track minimum usage count
+  - hint: three hashmaps: vals map, usage counts map and usage count-listOfKeys map. use `min` to track minimum usage count
 
 - [x] LeetCode #588 Design In-Memory File System
   - [description](https://leetcode.com/problems/design-in-memory-file-system/)

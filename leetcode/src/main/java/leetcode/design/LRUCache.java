@@ -249,4 +249,84 @@ public class LRUCache {
             tail = pre;
         }
     }
+
+    // class Node {
+    //     int key;
+    //     int value;
+    //     Node pre;
+    //     Node next;
+
+    //     public Node(int key, int value) {
+    //         this.key = key;
+    //         this.value = value;
+    //     }
+    // }
+
+    // Node head;
+    // Node tail;
+    // Map<Integer, Node> map;
+    // int size;
+    // public LRUCache(int capacity) {
+    //     this.size = capacity;
+    //     this.map = new HashMap<>();
+    // }
+    
+    public int get_5r(int key) {
+        if(!map.containsKey(key)) {
+            return -1;
+        }
+        Node node = map.get(key);
+        removeNode_5r(node);
+        setHead_5r(node);
+        return node.value;
+    }
+    
+    public void put_5r(int key, int value) {
+        if(map.containsKey(key)) {
+            Node node = map.get(key);
+            node.value = value;
+            removeNode_5r(node);
+            setHead_5r(node);
+        } else {
+            Node node = new Node(key, value);
+            if(map.size() >= cap) {
+                map.remove(tail.key);
+                removeNode_5r(tail);
+            }
+            map.put(key, node);
+            setHead_5r(node);
+        }
+    }
+
+    private void removeNode_5r(Node node) {
+        Node pre = node.pre;
+        Node next = node.next;
+
+        if(pre != null) {
+            pre.next = next;
+        } else {
+            head = next;
+        }
+
+        if(next != null) {
+            next.pre = pre;
+        } else {
+            tail = pre;
+        }
+    }
+
+    private void setHead_5r(Node node) {
+        node.next = head;
+        node.pre = null;
+
+        if(head != null) {
+            head.pre = node;
+        }
+
+        head = node;
+
+        if(tail == null) {
+            tail = node;
+        }
+    }
 }
