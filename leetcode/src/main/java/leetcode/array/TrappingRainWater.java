@@ -61,4 +61,30 @@ public class TrappingRainWater {
 
         return res;
     }
+
+    public int trap_2r(int[] height) {
+        int size = height.length;
+        int[] left = new int[size];
+        int[] right = new int[size];
+
+        int max = height[0];
+        left[0] = height[0];
+        for(int i = 1; i < size; i++) {
+            left[i] = Math.max(max, height[i]);
+            max = Math.max(max, height[i]);
+        }
+
+        right[size - 1] = height[size - 1];
+        max = height[size - 1];
+        for(int i = size - 2; i >= 0; i--) {
+            right[i] = Math.max(max, height[i]);
+            max = Math.max(max, height[i]);
+        }
+
+        int res = 0;
+        for(int i = 1; i < size - 1; i++) {
+            res += Math.min(left[i], right[i]) - height[i];
+        }
+        return res;
+    }
 }
