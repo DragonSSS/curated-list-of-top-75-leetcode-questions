@@ -1465,7 +1465,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/LongestPalindromeByConcatenatingTwoLetterWords.java)
   - hint: use hashtable to store string with its frequency, and check reverse of string's existence in hashtable
 
-- [ ] LeetCode #13 Roman to Integer
+- [x] LeetCode #13 Roman to Integer
   - [description](https://leetcode.com/problems/roman-to-integer/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/RomanToInteger.java)
   - hint: use hashtable to map each Roman char to integer, compare preious and current Roman char to decide add the `value of current char` or `(value of current char - value of preious char)`, e.g. `IV = 5 - 1 = 4`
