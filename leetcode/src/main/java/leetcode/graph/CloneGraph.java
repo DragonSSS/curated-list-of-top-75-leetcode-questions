@@ -1,11 +1,10 @@
 package leetcode.graph;
 
-import util.Node;
-
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
 import java.util.Queue;
+import util.Node;
 
 public class CloneGraph {
     // dfs
@@ -111,6 +110,23 @@ public class CloneGraph {
                     map.get(cur.val).neighbors.add(map.get(next.val));
                 }
             }
+        }
+        return map.get(node.val);
+    }
+
+    // Map<Integer, Node> map = new HashMap<>();
+    public Node cloneGraph_4r(Node node) {
+        if (node == null) {
+            return node;
+        }
+
+        if (map.containsKey(node.val)) {
+            return map.get(node.val);
+        }
+
+        map.put(node.val, new Node(node.val));
+        for(Node next : node.neighbors) {
+            map.get(node.val).neighbors.add(cloneGraph(next));
         }
         return map.get(node.val);
     }
