@@ -4,6 +4,7 @@ import java.util.Stack;
 
 public class LargestRectangleInHistogram {
     // monotonic stack
+    // https://youtu.be/zx5Sw9130L0
     int maxArea = 0;
     public int largestRectangleArea(int[] heights) {
         Stack<int[]> stack = new Stack<>(); // [0] - starting index by looking backward, [1] - height

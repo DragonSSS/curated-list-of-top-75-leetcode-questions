@@ -1316,7 +1316,7 @@
 - [x] LeetCode #84 Largest Rectangle in Histogram (NeetCode 150)
   - [description](https://leetcode.com/problems/largest-rectangle-in-histogram/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/LargestRectangleInHistogram.java)
-  - hint: monotonic stack `Stack<int[index, height]>()`, look backward with `start index` with current current to push into stack
+  - hint: monotonic stack `Stack<int[index, height]>()`, look backward with `start index` with current height to push into stack if height decreases, look forward with non-empty stack (increasing height)
 
 - [x] LeetCode #1944 Number of Visible People in a Queue
   - [description](https://leetcode.com/problems/number-of-visible-people-in-a-queue/)
