@@ -119,4 +119,25 @@ public class WordBreak {
         
         return false;
     }
+
+    // boolean[] visited;
+    public boolean wordBreak_5r(String s, List<String> wordDict) {
+        visited = new boolean[s.length() + 1];
+        Set<String> wordSet = new HashSet<>(wordDict);
+        return helper(s, 0, wordSet);
+    }
+
+    private boolean helper(String s, int index, Set<String> wordSet) {
+        if(index == s.length()) {
+            return true;
+        }
+
+        visited[index] = true;
+        for(int i = index + 1; i <= s.length(); i++) {
+            if(!visited[i] && wordSet.contains(s.substring(index, i)) && helper(s, i, wordSet)) {
+                return true;
+            }
+        }
+        return false;
+    }
 }
