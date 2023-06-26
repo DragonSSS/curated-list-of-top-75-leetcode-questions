@@ -1002,6 +1002,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/WhereWillTheBallFall.java)
   - hint: dfs
 
+- [x] LeetCode #221 Maximal Square
+  - [description](https://leetcode.com/problems/maximal-square/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/MaximalSquare.java)
+  - hint: bottom-up dp to find max length of square
+
 ### Tree
 
 - [x] LeetCode #236 Lowest Common Ancestor of a Binary Tree
