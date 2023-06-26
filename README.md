@@ -674,15 +674,20 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/TheMaze.java)
   - hint: bfs or dfs
 
-- [x] LeetCode 1136 Parallel Courses
+- [x] LeetCode #1136 Parallel Courses
   - [description](https://leetcode.com/problems/parallel-courses/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/ParallelCourses.java)
   - hint: topological sort with bfs
 
-- [x] LeetCode 2050 Parallel Courses III
+- [x] LeetCode #2050 Parallel Courses III
   - [description](https://leetcode.com/problems/parallel-courses-iii/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/ParallelCoursesIII.java)
   - hint: topological sort with tracking max elasped time of courses
+
+- [x] LeetCode #542 01 Matrix
+  - [description](https://leetcode.com/problems/01-matrix/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/ZeroOneMatrix.java)
+  - hint: bfs
 
 ### Array
 
