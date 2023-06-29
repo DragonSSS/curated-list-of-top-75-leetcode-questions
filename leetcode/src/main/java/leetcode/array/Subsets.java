@@ -28,4 +28,20 @@ public class Subsets {
             subset.remove(subset.size() - 1);
         }
     }
+
+    List<List<Integer>> res = new ArrayList<>();
+    public List<List<Integer>> subsets_2rs(int[] nums) {
+        helper_2r(nums, 0, new ArrayList<>());
+        return res;
+    }
+
+    private void helper_2r(int[] nums, int index, List<Integer> curList) {
+        res.add(new ArrayList<>(curList));
+
+        for(int i = index; i < nums.length; i++) {
+            curList.add(nums[i]);
+            helper_2r(nums, i + 1, curList);
+            curList.remove(curList.size() - 1);
+        }
+    }
 }
