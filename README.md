@@ -1721,6 +1721,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/ProcessTasksUsingServers.java)
   - hint: two heaps, one is for free servers, the other is for used server
 
+- [ ] LeetCode #632 Smallest Range Covering Elements from K Lists
+  - [description](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/SmallestRangeCoveringElementsFromKLists.java)
+  - hint:
+
 ### Design
 
 - [x] LeetCode #146 LRU Cache (NeetCode 150)
