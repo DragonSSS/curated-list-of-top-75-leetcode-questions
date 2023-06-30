@@ -1721,10 +1721,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/ProcessTasksUsingServers.java)
   - hint: two heaps, one is for free servers, the other is for used server
 
-- [ ] LeetCode #632 Smallest Range Covering Elements from K Lists
+- [x] LeetCode #632 Smallest Range Covering Elements from K Lists
   - [description](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/SmallestRangeCoveringElementsFromKLists.java)
-  - hint:
+  - hint: pq + greedy, every time we have `lists.size()` number of nums in the pq from lists, track the max nums if we offer new num into pq and poll() minimum num from minHeap to compare range, until one of lists exhausted, e.g, imagine that each list only contains one number
 
 ### Design
 
