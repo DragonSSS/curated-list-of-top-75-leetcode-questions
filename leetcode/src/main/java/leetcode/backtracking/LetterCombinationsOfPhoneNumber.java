@@ -36,5 +36,39 @@ public class LetterCombinationsOfPhoneNumber {
             helper(index + 1, digits, res, sb);
             sb.delete(len, len + 1);
         }
-    }    
+    }
+
+    String[][] letterMapping = new String[][]{
+        {""},
+        {"a", "b", "c"},
+        {"d", "e", "f"},
+        {"g", "h", "i"},
+        {"j", "k", "l"},
+        {"m", "n", "o"},
+        {"p", "q", "r", "s"},
+        {"t", "u", "v"},
+        {"w", "x", "y", "z"}
+    };
+    List<String> res = new ArrayList<>();
+    public List<String> letterCombinations_2r(String digits) {
+        if (digits.length() == 0) {
+            return res;
+        }
+        helper_2r(digits, 0, new StringBuilder());
+        return res;
+    }
+
+    private void helper_2r(String digits, int index, StringBuilder sb) {
+        if (index == digits.length()) {
+            res.add(sb.toString());
+            return;
+        }
+
+        int digit = digits.charAt(index) - '0';
+        for(String s : letterMapping[digit - 1]) {
+            sb.append(s);
+            helper_2r(digits, index + 1, sb);
+            sb.deleteCharAt(sb.length() - 1);
+        }
+    }
 }
