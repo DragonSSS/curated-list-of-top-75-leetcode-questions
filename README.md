@@ -831,6 +831,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/CombinationSum.java)
   - hint: dfs + backtracking
 
+- [x] LeetCode #2244 Minimum Rounds to Complete All Tasks
+  - [description](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimumRoundsToCompleteAllTasks.java)
+  - hint: count the task's frequency by hashtable, consider the frequency cases: [3k, 3k + 1 and 3k + 2](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/editorial/)
+
 ### Binary Search
 
 - [x] LeetCode #540 Single Element in a Sorted Array
