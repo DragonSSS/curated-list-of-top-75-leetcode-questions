@@ -1532,6 +1532,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/EliminateMaximumNumberOfMonsters.java)
   - hint: sort an array of arrival time
 
+- [x] LeetCode #2136 Earliest Possible Day of Full Bloom
+  - [description](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/EarliestPossibleDayOfFullBloom.java)
+  - hint: early plant the seed which takes longer to glow, so that it bloom earlier, sorting + greedy
+
 ### Backtracking
 
 - [x] LeetCode #40 Combination Sum II
