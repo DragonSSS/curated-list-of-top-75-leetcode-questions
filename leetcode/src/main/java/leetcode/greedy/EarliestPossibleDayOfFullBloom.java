@@ -9,7 +9,7 @@ public class EarliestPossibleDayOfFullBloom {
         int size = plantTime.length;
         int[][] sortedTime = new int[size][2];
         for(int i = 0; i < size; i++) {
-            sortedTime[i] = new int[]{i, growTime[i]};
+            sortedTime[i] = new int[]{i, growTime[i]}; // [size][index, growTime]
         }
 
         Arrays.sort(sortedTime, (a, b) -> b[1] - a[1]);
