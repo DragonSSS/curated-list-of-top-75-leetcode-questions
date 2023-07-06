@@ -52,6 +52,7 @@ public class LongestIncreasingSubsequence {
         return res;
     }
 
+    // n^2
     public int lengthOfLIS_3r(int[] nums) {
         int[] dp = new int[nums.length];
         Arrays.fill(dp, 1);
