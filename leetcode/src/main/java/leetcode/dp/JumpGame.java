@@ -60,4 +60,14 @@ public class JumpGame {
         
         return curIndex == 0;
     }
+
+    public boolean canJump_4r(int[] nums) {
+        int curIndex = nums.length - 1;
+        for(int i = nums.length - 1; i >=0; i--) {
+            if (i + nums[i] >= curIndex) {
+                curIndex = i;
+            }
+        }
+        return curIndex == 0;
+    }
 }
