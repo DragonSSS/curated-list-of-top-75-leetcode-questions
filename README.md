@@ -100,7 +100,7 @@
 - [x] LeetCode #300 Longest Increasing Subsequence
   - [description](https://leetcode.com/problems/longest-increasing-subsequence/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/LongestIncreasingSubsequence.java)
-  - hint: two pointers of current index and previous index (`start with -1`) + recursion + memorization
+  - hint: two pointers of current index and previous index (`start with -1`) + recursion + memorization, or dp
 
 - [x] LeetCode #1143 Longest Common Subsequence
   - [description](https://leetcode.com/problems/longest-common-subsequence/)
