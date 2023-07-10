@@ -71,4 +71,40 @@ public class LongestIncreasingPathInMatrix {
         memo[i][j] = curRes + 1;
         return memo[i][j];
     }
+
+    // dfs + recursion + memorization
+    // int[][] dirs = new int[][]{{0, 1}, {1, 0}, {-1, 0}, {0, -1}};
+    // int[][] memo;
+    public int longestIncreasingPath_3r(int[][] matrix) {
+        int m = matrix.length;
+        int n = matrix[0].length;
+        memo = new int[m][n];
+        int res = 0;
+        for(int i = 0; i < m; i++) {
+            for(int j = 0; j < n; j++) {
+                res = Math.max(res, helper_3r(matrix, i, j, -1));
+            }
+        }
+        return res;
+    }
+
+    private int helper_3r(int[][] matrix, int i, int j, int pre) {
+        if(i < 0 || i >= matrix.length || j < 0 || j >= matrix[0].length || matrix[i][j] <= pre) {
+            return 0;
+        }
+
+        if (memo[i][j] != 0) {
+            return memo[i][j];
+        }
+
+        int cur = 0;
+        for(int[] dir : dirs) {
+            int x = i + dir[0];
+            int y = j + dir[1];
+            cur = Math.max(cur, helper_3r(matrix, x, y, matrix[i][j]) + 1);
+        }
+
+        memo[i][j] = cur;
+        return memo[i][j];
+    }
 }
