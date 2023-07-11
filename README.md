@@ -1231,7 +1231,7 @@
 - [x] LeetCode #921 Minimum Add to Make Parentheses Valid
   - [description](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/MinimumAddToMakeParenthesesValid.java)
-  - hint: similar to #1249 Minimum Remove to Make Valid Parentheses, use count add `(` at left side) to record number of index `)` if stack is empty, return `stack.size() + count`
+  - hint: similar to #1249 Minimum Remove to Make Valid Parentheses, use count add `(` at left side to record number of index `)` if stack is empty, return `stack.size() + count`
 
 - [x] LeetCode #772  Basic Calculator
   - [description](https://leetcode.com/problems/basic-calculator/)
@@ -1357,6 +1357,11 @@
   - [description](https://leetcode.com/problems/decode-string/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/DecodeString.java)
   - hint: two stacks, one for digit value, the other for preious string result, track current built string
+
+- [x] LeetCode #32 Longest Valid Parentheses
+  - [description](https://leetcode.com/problems/longest-valid-parentheses/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/LongestValidParentheses.java)
+  - hint: stack with tracking the start index
 
 ### String
 
