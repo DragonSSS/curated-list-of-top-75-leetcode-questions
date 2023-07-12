@@ -42,4 +42,24 @@ public class RandomPickWithWeight {
         }
         return start;
     }
+    
+    public int pickIndex_2r() {
+        int num = ran.nextInt(totalSum) + 1;
+        int left = 0;
+        int right = prefixSum.length - 1;
+        while(left <= right) {
+            int mid = left + (right - left) / 2;
+
+            if (prefixSum[mid] == num) {
+                return mid;
+            }
+
+            if (prefixSum[mid] > num) {
+                right = mid - 1;
+            } else {
+                left = mid + 1;
+            }
+        }
+        return left;
+    }
 }
