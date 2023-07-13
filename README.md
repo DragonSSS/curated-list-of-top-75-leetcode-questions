@@ -863,6 +863,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/FirstBadVersion.java)
   - hint: binary search
 
+- [x] LeetCode #678 Find K Closest Elements
+  - [description](https://leetcode.com/problems/find-k-closest-elements/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/FindKClosestElements.java)
+  - hint: binary search
+
 ### Prefix Sum
 
 - [x] LeetCode #560 Subarray Sum Equals K
