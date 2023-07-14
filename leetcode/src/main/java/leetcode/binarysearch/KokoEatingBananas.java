@@ -60,4 +60,29 @@ public class KokoEatingBananas {
         
         return res;
     }
+
+    public int minEatingSpeed_3r(int[] piles, int h) {
+        int maxSpeed = Integer.MIN_VALUE;
+        for(int pile : piles) {
+            maxSpeed = Math.max(maxSpeed, pile);
+        }
+
+        int left = 1, right = maxSpeed;
+        int res = maxSpeed;
+        while(left <= right) {
+            int mid = left + (right - left) / 2;
+            int curTime = 0;
+            for(int pile : piles) {
+                curTime += Math.ceil(pile * 1.0 / mid);
+            }
+
+            if(curTime <= h) {
+                res = mid;
+                right = mid - 1;
+            } else {
+                left = mid + 1;
+            }
+        }
+        return res;
+    }
 }
