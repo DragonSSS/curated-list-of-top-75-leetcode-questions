@@ -1751,6 +1751,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/SmallestRangeCoveringElementsFromKLists.java)
   - hint: pq + greedy, every time we have `lists.size()` size of numbers in the pq from sorted lists (start from first/smallest num), track the max num (and start and end of min range) if we offer new num into pq and poll() minimum num from minHeap to compare range, until one of lists exhausted, e.g, imagine that each list only contains one number
 
+- [x] LeetCode #215 Kth Largest Element in an Array
+  - [description](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/KthLargestElementInArray.java)
+  - hint: minHeap
+
 ### Design
 
 - [x] LeetCode #146 LRU Cache (NeetCode 150)
