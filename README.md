@@ -1754,7 +1754,7 @@
 - [x] LeetCode #215 Kth Largest Element in an Array
   - [description](https://leetcode.com/problems/kth-largest-element-in-an-array/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/KthLargestElementInArray.java)
-  - hint: minHeap
+  - hint: minHeap, keep heap size to `k`
 
 ### Design
 
