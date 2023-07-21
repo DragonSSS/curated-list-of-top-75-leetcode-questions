@@ -1,9 +1,9 @@
 package leetcode.design;
 
-import java.util.List;
-import java.util.Map;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.Random;
 public class InsertDeleteGetRandom {
     List<Integer> res; // store the val at tail of list
@@ -44,5 +44,44 @@ public class InsertDeleteGetRandom {
     
     public int getRandom() {
         return res.get(rand.nextInt(res.size()));
+    }
+
+    List<Integer> list;
+    // Map<Integer, Integer> map; // val - index
+    Random ran;
+    // public RandomizedSet() {
+    //     list = new ArrayList<>();
+    //     map = new HashMap<>();
+    //     ran = new java.util.Random();
+    // }
+    
+    public boolean insert_2r(int val) {
+        if(map.containsKey(val)) {
+            return false;
+        }
+        map.put(val, list.size());
+        list.add(val);
+        return true;
+    }
+    
+    public boolean remove_2r(int val) {
+        if(!map.containsKey(val)) {
+            return false;
+        }
+
+        int index = map.get(val);
+        if(index != list.size() - 1) {
+            //swap val with last element in list;
+            int last = list.get(list.size() - 1);
+            map.put(last, index);
+            list.set(index, last);
+        }
+        map.remove(val);
+        list.remove(list.size() - 1);
+        return true;
+    }
+    
+    public int getRandom_2r() {
+        return list.get(ran.nextInt(list.size()));
     }
 }
