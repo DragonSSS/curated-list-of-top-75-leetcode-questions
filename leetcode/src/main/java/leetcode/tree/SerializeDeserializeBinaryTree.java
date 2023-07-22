@@ -1,10 +1,9 @@
 package leetcode.tree;
 
-import util.TreeNode;
-
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
+import util.TreeNode;
 
 public class SerializeDeserializeBinaryTree {
     // Encodes a tree to a single string.
@@ -137,6 +136,44 @@ public class SerializeDeserializeBinaryTree {
             node.left = deserializeHelper_3r(listNodes);
             node.right = deserializeHelper_3r(listNodes);
             return node;
-            
+        }
+
+        public String serialize_4r(TreeNode root) {
+            StringBuilder sb = new StringBuilder();
+            serializeHelper_4r(root, sb);
+            return sb.toString();
+        }
+    
+        private void serializeHelper_4r(TreeNode node, StringBuilder sb) {
+            if (node == null) {
+                sb.append("null");
+                sb.append(",");
+                return;
+            }
+    
+            sb.append(node.val);
+            sb.append(",");
+            serializeHelper_4r(node.left, sb);
+            serializeHelper_4r(node.right, sb);
+        }
+    
+        // Decodes your encoded data to tree.
+        public TreeNode deserialize_4r(String data) {
+            String[] parts = data.split(",");
+            LinkedList<String>  linkelist = new LinkedList<>(Arrays.asList(parts));
+            return deserializeHelper_4r(linkelist);
+        }
+    
+        private TreeNode deserializeHelper_4r(LinkedList<String> linkelist) {
+            // double linked list here to remove first element from the queue
+            String cur = linkelist.removeFirst();
+            if ("null".equals(cur)) {
+                return null;
+            }
+    
+            TreeNode node = new TreeNode(Integer.valueOf(cur));
+            node.left = deserializeHelper_4r(linkelist);
+            node.right = deserializeHelper_4r(linkelist);
+            return node;
         }
 }
