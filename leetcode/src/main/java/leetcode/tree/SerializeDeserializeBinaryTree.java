@@ -159,7 +159,7 @@ public class SerializeDeserializeBinaryTree {
     
         // Decodes your encoded data to tree.
         public TreeNode deserialize_4r(String data) {
-            String[] parts = data.split(",");
+            String[] parts = data.split(","); // split will remove empty string at tail position
             LinkedList<String>  linkelist = new LinkedList<>(Arrays.asList(parts));
             return deserializeHelper_4r(linkelist);
         }
