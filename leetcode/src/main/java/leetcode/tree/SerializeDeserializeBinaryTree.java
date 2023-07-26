@@ -165,7 +165,7 @@ public class SerializeDeserializeBinaryTree {
         }
     
         private TreeNode deserializeHelper_4r(LinkedList<String> linkelist) {
-            // double linked list here to remove first element from the queue
+            // use double linked list here to remove first element from the queue
             String cur = linkelist.removeFirst();
             if ("null".equals(cur)) {
                 return null;
