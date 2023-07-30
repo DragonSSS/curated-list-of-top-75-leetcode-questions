@@ -95,7 +95,7 @@
 - [x] LeetCode #332 Coin Change
   - [description](https://leetcode.com/problems/coin-change/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/CoinChange.java)
-  - hint: recursion + memorization
+  - hint: bfs or recursion + memorization
 
 - [x] LeetCode #300 Longest Increasing Subsequence
   - [description](https://leetcode.com/problems/longest-increasing-subsequence/)
