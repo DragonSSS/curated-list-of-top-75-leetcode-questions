@@ -132,13 +132,17 @@ public class SearchInRotatedSortedArray {
                 return mid;
             }
 
+            // mid index is located at left part
             if (nums[left] <= nums[mid]) {
+                // compare value of left and mid index with target one
                 if (nums[left] > target || target > nums[mid]) {
                     left = mid + 1;
                 } else {
                     right = mid - 1;
                 }
             } else {
+                // mid index is located at right part
+                // compare value of right and mid index with target one
                 if (nums[right] < target || target < nums[mid]) {
                     right = mid - 1;
                 } else {
