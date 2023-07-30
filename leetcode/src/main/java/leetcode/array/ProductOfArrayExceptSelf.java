@@ -18,7 +18,6 @@ public class ProductOfArrayExceptSelf {
             res[i] = res[i] * right;
             right = right * nums[i];
         }
-
         return res;
     }
 
@@ -40,7 +39,6 @@ public class ProductOfArrayExceptSelf {
         for(int i = 0; i < nums.length; i++) {
             res[i] = leftPrefixProduct[i] * rightPrefixProduct[i];
         }
-        
         return res;
     }
 
@@ -61,7 +59,6 @@ public class ProductOfArrayExceptSelf {
             result[i] = right * leftPrefix[i];
             right *= nums[i];
         }
-        
         return result;
     }
 }
