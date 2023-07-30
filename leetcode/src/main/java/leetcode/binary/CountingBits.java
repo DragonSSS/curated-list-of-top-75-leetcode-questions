@@ -30,7 +30,7 @@ public class CountingBits {
     }
 
     public int[] countBits_2r(int n) {
-        int[] dp = new int[n  + 1];
+        int[] dp = new int[n + 1];
         dp[0] = 0;
         if(n == 0) {
             return dp;
