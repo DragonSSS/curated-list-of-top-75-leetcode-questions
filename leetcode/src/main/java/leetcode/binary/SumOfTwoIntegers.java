@@ -7,7 +7,6 @@ public class SumOfTwoIntegers {
             a = a ^ b; // complementary components
             b = carry << 1;
         }
-
         return a;
     }
 
