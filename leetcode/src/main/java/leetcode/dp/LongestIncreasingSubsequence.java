@@ -83,4 +83,20 @@ public class LongestIncreasingSubsequence {
         }
         return res;
     }
+
+    public int lengthOfLIS_5r(int[] nums) {
+        int size = nums.length;
+        int[] dp = new int[size];
+        int res = 1;
+        Arrays.fill(dp, 1);
+        for(int i = 0; i < size; i++) {
+            for(int j = 0; j < i; j++) {
+                if (nums[i] > nums[j]) {
+                    dp[i] = Math.max(dp[i], dp[j] + 1);
+                    res = Math.max(res, dp[i]);
+                }        
+            }
+        }
+        return res;
+    }
 }
