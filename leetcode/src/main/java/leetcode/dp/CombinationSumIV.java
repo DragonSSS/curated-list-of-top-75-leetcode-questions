@@ -1,5 +1,6 @@
 package leetcode.dp;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
@@ -95,6 +96,34 @@ public class CombinationSumIV {
         }
         
         memo_3r[target] = res;
+        return res;
+    }
+
+    // recursion + memorization
+    Integer[] memo_4r;
+    public int combinationSum4_4r(int[] nums, int target) {
+        memo_4r = new Integer[target + 1];
+        Arrays.sort(nums);
+        return helper_4r(nums, target);
+    }
+
+    private int helper_4r(int[] nums, int target) {
+        if(target == 0) {
+            return 1;
+        }
+
+        if (memo_4r[target] != null) {
+            return memo_4r[target];
+        }
+
+        int res = 0;
+        for(int num : nums) {
+            if (target - num >= 0) {
+                res += helper_4r(nums, target - num);
+            }
+        }
+
+        memo_4r[target] = res;
         return res;
     }
 }
