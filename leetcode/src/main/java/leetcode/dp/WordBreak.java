@@ -124,17 +124,39 @@ public class WordBreak {
     public boolean wordBreak_5r(String s, List<String> wordDict) {
         visited = new boolean[s.length() + 1];
         Set<String> wordSet = new HashSet<>(wordDict);
-        return helper(s, 0, wordSet);
+        return helper_5r(s, 0, wordSet);
     }
 
-    private boolean helper(String s, int index, Set<String> wordSet) {
+    private boolean helper_5r(String s, int index, Set<String> wordSet) {
         if(index == s.length()) {
             return true;
         }
 
         visited[index] = true;
         for(int i = index + 1; i <= s.length(); i++) {
-            if(!visited[i] && wordSet.contains(s.substring(index, i)) && helper(s, i, wordSet)) {
+            if(!visited[i] && wordSet.contains(s.substring(index, i)) && helper_5r(s, i, wordSet)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // boolean[] visited;
+    Set<String> wordSet;
+    public boolean wordBreak_6r(String s, List<String> wordDict) {
+        visited = new boolean[s.length() + 1];
+        wordSet = new HashSet<>(wordDict);
+        return helper_6r(0, s);
+    }
+
+    private boolean helper_6r(int index, String s) {
+        if(index == s.length()) {
+            return true;
+        }
+
+        visited[index] = true;
+        for(int i = index + 1; i <= s.length(); i++) {
+            if(!visited[i] && wordSet.contains(s.substring(index, i)) && helper_6r(i, s)) {
                 return true;
             }
         }
