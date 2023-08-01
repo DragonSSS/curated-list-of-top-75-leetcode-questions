@@ -1,7 +1,7 @@
 package leetcode.stack;
 
-import java.util.Map;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Stack;
 
 public class NextGreaterElementI {
@@ -48,6 +48,29 @@ public class NextGreaterElementI {
                 res[index] = -1;
             } else {
                 res[index] = map.get(num);
+            }
+            index++;
+        }
+        return res;
+    }
+
+    public int[] nextGreaterElement_3r(int[] nums1, int[] nums2) {
+        Stack<Integer> stack = new Stack<>();
+        Map<Integer, Integer> map = new HashMap<>();
+        for(int num : nums2) {
+            while(!stack.isEmpty() && stack.peek() < num) {
+                map.put(stack.pop(), num);
+            }
+            stack.push(num);
+        }
+
+        int[] res = new int[nums1.length];
+        int index = 0;
+        for(int num : nums1) {
+            if (map.containsKey(num)) {
+                res[index] = map.get(num);
+            } else {
+                res[index] = -1;
             }
             index++;
         }
