@@ -26,5 +26,27 @@ public class CombinationSum {
                 list.remove(list.size() - 1);
             }
         }
-    }    
+    }
+
+    // recursion + backtracking
+    // List<List<Integer>> res = new ArrayList<>();
+    public List<List<Integer>> combinationSum_2r(int[] candidates, int target) {
+        Arrays.sort(candidates);
+        helper_2r(candidates, target, 0, new ArrayList<>());
+        return res;
+    }
+
+    private void helper_2r(int[] candidates, int target, int index, List<Integer> curList) {
+        if (target < 0) {
+            return;
+        } else if (target == 0) {
+            res.add(new ArrayList<>(curList));
+        } else {
+            for(int i = index; i < candidates.length; i++) {
+                curList.add(candidates[i]);
+                helper_2r(candidates, target - candidates[i], i, curList);
+                curList.remove(curList.size() - 1);
+            }
+        }
+    }
 }
