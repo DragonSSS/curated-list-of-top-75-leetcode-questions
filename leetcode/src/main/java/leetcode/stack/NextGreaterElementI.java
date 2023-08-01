@@ -67,12 +67,7 @@ public class NextGreaterElementI {
         int[] res = new int[nums1.length];
         int index = 0;
         for(int num : nums1) {
-            if (map.containsKey(num)) {
-                res[index] = map.get(num);
-            } else {
-                res[index] = -1;
-            }
-            index++;
+            res[index++] = map.getOrDefault(num, -1);
         }
         return res;
     }
