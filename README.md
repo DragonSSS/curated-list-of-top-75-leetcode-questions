@@ -2,6 +2,38 @@
 
 # Curated List of Top 75 LeetCode Questions
 
+- [Curated List of Top 75 LeetCode Questions](#curated-list-of-top-75-leetcode-questions)
+  - [TL;DR](#tldr)
+  - [Array (10)](#array-10)
+  - [Binary (5)](#binary-5)
+  - [Dynamic Programming (11)](#dynamic-programming-11)
+  - [Graph (8)](#graph-8)
+  - [Interval (5)](#interval-5)
+  - [Linked List (6)](#linked-list-6)
+  - [Matrix (4)](#matrix-4)
+  - [String (10)](#string-10)
+  - [Tree (14)](#tree-14)
+  - [Heap (3)](#heap-3)
+  - [High Frequency (Bonus)](#high-frequency-bonus)
+    - [Graph](#graph)
+    - [DFS](#dfs)
+    - [BFS](#bfs)
+    - [Array](#array)
+    - [Binary Search](#binary-search)
+    - [Prefix Sum](#prefix-sum)
+    - [Dynamic Programming](#dynamic-programming)
+    - [Tree](#tree)
+    - [LinkedList](#linkedlist)
+    - [Stack](#stack)
+    - [String](#string)
+    - [Greedy](#greedy)
+    - [Backtracking](#backtracking)
+    - [Heap (Priority Queue)](#heap-priority-queue)
+    - [Design](#design)
+    - [Monotonic Queue](#monotonic-queue)
+    - [Interval](#interval)
+    - [Bit Manipulation (Bitmask)](#bit-manipulation-bitmask)
+
 ## TL;DR
 
 [source](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
