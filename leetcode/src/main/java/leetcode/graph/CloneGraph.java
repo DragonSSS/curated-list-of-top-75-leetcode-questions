@@ -111,6 +111,7 @@ public class CloneGraph {
                 }
             }
         }
+
         return map.get(node.val);
     }
 
@@ -128,6 +129,7 @@ public class CloneGraph {
         for(Node next : node.neighbors) {
             map.get(node.val).neighbors.add(cloneGraph(next));
         }
+
         return map.get(node.val);
     }
 }
