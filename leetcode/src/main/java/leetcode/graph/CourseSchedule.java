@@ -148,6 +148,7 @@ public class CourseSchedule {
                 }
             }
         }
+
         return count == numCourses;
     }
 }
