@@ -51,6 +51,7 @@ public class NextGreaterElementI {
             }
             index++;
         }
+
         return res;
     }
 
@@ -69,6 +70,7 @@ public class NextGreaterElementI {
         for(int num : nums1) {
             res[index++] = map.getOrDefault(num, -1);
         }
+        
         return res;
     }
 }
