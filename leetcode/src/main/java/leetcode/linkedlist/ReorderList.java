@@ -160,7 +160,8 @@ public class ReorderList {
     
     private ListNode reverse_3r(ListNode head) {
         ListNode pre = null;
-        while( head != null) {
+
+        while(head != null) {
            ListNode temp = head.next;
             head.next = pre;
             pre = head;
