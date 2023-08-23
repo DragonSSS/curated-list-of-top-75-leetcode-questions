@@ -78,4 +78,20 @@ public class NonOverlappingIntervals {
         
         return res;
     }
+
+    public int eraseOverlapIntervals_4r(int[][] intervals) {
+        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+        int count = 0;
+        int preEnd = intervals[0][1];
+        for(int i = 1; i < intervals.length; i++) {
+            if (preEnd > intervals[i][0]) {
+                count++;
+                // Math.min to get less possibility to have overlap in next comparison
+                preEnd = Math.min(preEnd, intervals[i][1]);
+            } else {
+                preEnd = intervals[i][1];
+            }
+        }
+        return count;
+    }
 }
