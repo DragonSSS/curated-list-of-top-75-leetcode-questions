@@ -40,7 +40,35 @@ public class SingleThreadedCpu {
             currentTime += processedTask[1];
             res[resIndex++] = processedTask[2];
         }
-        
         return res;
-    }    
+    }
+
+    public int[] getOrder_2r(int[][] tasks) {
+        // { enqueue time,  process time, task index }
+        int n = tasks.length;
+        int[][] sortedTasks = new int[n][3];
+        int taskIndex = 0;
+        for(int[] task : tasks) {
+            sortedTasks[taskIndex] = new int[]{task[0], task[1], taskIndex++};
+        }
+        Arrays.sort(sortedTasks, (a, b) -> a[0] - b[0]);
+        
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[1] != b[1]? a[1] - b[1]: a[2] - b[2]);
+        taskIndex = 0;
+        int resIndex = 0, currentTime = 0;
+        int[] res = new int[n];
+        while(taskIndex < n || !pq.isEmpty()) {
+            if(pq.isEmpty() && currentTime < sortedTasks[taskIndex][0]) {
+                currentTime = sortedTasks[taskIndex][0];
+            }
+            while(taskIndex < n && sortedTasks[taskIndex][0] <= currentTime) {
+                pq.offer(sortedTasks[taskIndex++]);
+            }
+
+            int[] processTask = pq.poll();
+            currentTime += processTask[1];
+            res[resIndex++] = processTask[2];
+        }
+        return res;
+    }
 }
