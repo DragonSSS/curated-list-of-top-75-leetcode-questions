@@ -37,7 +37,7 @@ public class BasicCalculator {
                 }
                 ops.pop();
             } else {
-                while(!ops.isEmpty()&&ops.peek() != '(') {
+                while(!ops.isEmpty()&& ops.peek() != '(') {
                     nums.push(operation(ops.pop(), nums.pop(), nums.pop()));
                 }
                 ops.push(c);
