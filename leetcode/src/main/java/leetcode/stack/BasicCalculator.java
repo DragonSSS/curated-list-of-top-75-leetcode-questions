@@ -4,6 +4,8 @@ import java.util.Stack;
 
 public class BasicCalculator {
     public int calculate(String s) {
+        // remove whitespace
+        s = s.replaceAll("\\s+","");
         Stack<Integer> nums = new Stack<>();
         Stack<Character> ops = new Stack<>();
         // if it is -(1 + 1) => 0 - (1 + 1)
