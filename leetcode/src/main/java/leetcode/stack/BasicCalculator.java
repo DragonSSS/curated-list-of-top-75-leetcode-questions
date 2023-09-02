@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class BasicCalculator {
     public int calculate(String s) {
-        // remove whitespace
+        // remove whitespaces
         s = s.replaceAll("\\s+","");
         Stack<Integer> nums = new Stack<>();
         Stack<Character> ops = new Stack<>();
@@ -22,8 +22,8 @@ public class BasicCalculator {
         
         for(int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
-            if (c == ' ')
-                continue;
+            // if (c == ' ')
+            //     continue;
             if (Character.isDigit(c)) {
                 int num = c - '0';
                 while(i + 1 < s.length() && Character.isDigit(s.charAt(i + 1))) {
@@ -39,7 +39,7 @@ public class BasicCalculator {
                 }
                 ops.pop();
             } else {
-                while(!ops.isEmpty()&& ops.peek() != '(') {
+                while(!ops.isEmpty() && ops.peek() != '(') {
                     nums.push(operation(ops.pop(), nums.pop(), nums.pop()));
                 }
                 ops.push(c);
