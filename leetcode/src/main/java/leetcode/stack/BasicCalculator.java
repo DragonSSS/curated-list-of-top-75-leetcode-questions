@@ -57,6 +57,5 @@ public class BasicCalculator {
         } else {
             return num2 - num1;
         }
-        
     }    
 }
