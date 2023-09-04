@@ -905,6 +905,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/FindKClosestElements.java)
   - hint: binary search
 
+- [x] LeetCode #1011 Capacity To Ship Packages Within D Days
+  - [description](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/CapacityToShipPackagesWithinDays.java)
+  - hint: binary search, simiar to `#875 Koko Eating Bananas`
+
 ### Prefix Sum
 
 - [x] LeetCode #560 Subarray Sum Equals K
