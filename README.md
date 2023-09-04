@@ -1176,6 +1176,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/MaximumWidthOfBinaryTree.java)
   - hint: bfs, two queues: one is to track index of node, the other is to track tree node itself, check rightmost index and leftmost index: `width = rightmost - leftmost + 1`
 
+- [x] LeetCode #938 Range Sum of BST
+  - [description](https://leetcode.com/problems/range-sum-of-bst/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/RangeSumOfBST.java)
+  - hint:
+
 ### LinkedList
 
 - [x] LeetCode #61 Rotate List
