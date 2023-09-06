@@ -910,6 +910,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/CapacityToShipPackagesWithinDays.java)
   - hint: binary search, simiar to `#875 Koko Eating Bananas`
 
+- [ ] LeetCode #1898 Maximum Number of Removable Characters
+  - [description](https://leetcode.com/problems/maximum-number-of-removable-characters/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/MaximumNumberOfRemovableCharacters.java)
+  - hint: binary search
+
 ### Prefix Sum
 
 - [x] LeetCode #560 Subarray Sum Equals K
