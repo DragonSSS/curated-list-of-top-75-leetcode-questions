@@ -1,7 +1,7 @@
 package leetcode.tree;
 
-import java.util.Queue;
 import java.util.LinkedList;
+import java.util.Queue;
 
 class Node {
     public int val;
@@ -61,6 +61,21 @@ class PopulatingNextRightPointersInEachNode {
         connect(root.left);
         connect(root.right);
         
+        return root;
+    }
+
+    public Node connect_2r(Node root) {
+        if (root == null || root.left == null) {
+            return root;
+        }
+
+        root.left.next = root.right;
+        if (root.next != null) {
+            root.right.next = root.next.left;
+        }
+
+        connect(root.left);
+        connect(root.right);
         return root;
     }
 }
