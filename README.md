@@ -873,6 +873,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/ValidSudoku.java)
   - hint: hashset, the index of (9) boxes is `(r / 3) * 3 + (c / 3)`
 
+- [x] LeetCode #904 Fruit Into Baskets
+  - [description](https://leetcode.com/problems/fruit-into-baskets/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FruitIntoBaskets.java)
+  - hint: sliding window with two pointers
+
 ### Binary Search
 
 - [x] LeetCode #540 Single Element in a Sorted Array
