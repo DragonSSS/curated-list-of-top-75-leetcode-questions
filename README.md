@@ -1557,6 +1557,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/RomanToInteger.java)
   - hint: use hashtable to map each Roman char to integer, compare preious and current Roman char to decide add the `value of current char` or `(value of current char - value of preious char)`, e.g. `IV = 5 - 1 = 4`
 
+- [x] LeetCode #179 Largest Number
+  - [description](https://leetcode.com/problems/largest-number/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/LargestNumber.java)
+  - hint: sort the string of num by `(num2 + num1).compareTo(num1 + num2)`
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
