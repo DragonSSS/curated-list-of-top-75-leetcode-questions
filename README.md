@@ -878,6 +878,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FruitIntoBaskets.java)
   - hint: sliding window with two pointers
 
+- [ ] LeetCode #1343 Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold
+  - [description](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/NumOfSubarrays.java)
+  - hint:
+
 ### Binary Search
 
 - [x] LeetCode #540 Single Element in a Sorted Array
