@@ -12,11 +12,10 @@ public class BrowserHistory {
         }
     }
     
-    ListNode head, cur;
+    ListNode cur;
     // double linkedlist fit perfectly
     public BrowserHistory(String homepage) {
-        head = new ListNode(homepage);
-        cur = head;
+        cur = new ListNode(homepage);
     }
     
     public void visit(String url) {
@@ -41,4 +40,43 @@ public class BrowserHistory {
         }
         return cur.url;
     }
+
+    // 2r
+    // class LinkedNode {
+    //     LinkedNode pre;
+    //     LinkedNode next;
+    //     String url;
+
+    //     public LinkedNode(String url) {
+    //         this.url = url;
+    //     }
+    // }
+
+    // LinkedNode cur;
+    // public BrowserHistory(String homepage) {
+    //     cur = new LinkedNode(homepage);
+    // }
+    
+    // public void visit(String url) {
+    //     LinkedNode add = new LinkedNode(url);
+    //     add.pre = cur;
+    //     cur.next = add;
+    //     cur = add;
+    // }
+    
+    // public String back(int steps) {
+    //     while(cur.pre != null && steps > 0) {
+    //         cur = cur.pre;
+    //         steps--;
+    //     }
+    //     return cur.url;
+    // }
+    
+    // public String forward(int steps) {
+    //     while(cur.next != null && steps > 0) {
+    //         cur = cur.next;
+    //         steps--;
+    //     }
+    //     return cur.url;
+    // }
 }
