@@ -1084,6 +1084,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/MaximalSquare.java)
   - hint: bottom-up dp to find max length of square
 
+- [ ] LeetCode #877 Stone Game
+  - [description](https://leetcode.com/problems/stone-game/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/StoneGame.java)
+  - hint: dfs + memorization
+
 ### Tree
 
 - [x] LeetCode #236 Lowest Common Ancestor of a Binary Tree
