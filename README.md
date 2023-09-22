@@ -883,6 +883,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/NumOfSubarrays.java)
   - hint: sliding window
 
+- [x] LeetCode #1658 Minimum Operations to Reduce X to Zero
+  - [description](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimumOperationsToReduceXtoZero.java)
+  - hint: sliding window
+
 ### Binary Search
 
 - [x] LeetCode #540 Single Element in a Sorted Array
