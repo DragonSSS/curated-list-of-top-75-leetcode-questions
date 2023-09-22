@@ -13,7 +13,6 @@ public class MinimumOperationsToReduceXToZero {
         int curSum = 0;
         for (int right = 0; right < nums.length; right++) {
             curSum += nums[right];
-
             // do this before curSum == target to avoid missing case
             while(left <= right && curSum > target) {
                 curSum -= nums[left];
