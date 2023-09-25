@@ -885,7 +885,7 @@
 
 - [x] LeetCode #1658 Minimum Operations to Reduce X to Zero
   - [description](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimumOperationsToReduceXtoZero.java)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimumOperationsToReduceXToZero.java)
   - hint: sliding window
 
 ### Binary Search
@@ -1093,6 +1093,11 @@
   - [description](https://leetcode.com/problems/stone-game/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/StoneGame.java)
   - hint: dfs + memorization
+
+- [x] LeetCode #799 Champagne Tower
+  - [description](https://leetcode.com/problems/champagne-tower/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/ChampagneTower.java)
+  - hint: dp
 
 ### Tree
 
