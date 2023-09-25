@@ -935,7 +935,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/ArrangingCoins.java)
   - hint: binary search
 
-- [ ] LeetCode #2616 Minimize the Maximum Difference of Pairs
+- [x] LeetCode #2616 Minimize the Maximum Difference of Pairs
   - [description](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/MinimizeTheMaximumDifferenceOfPairs.java)
   - hint: binary search
