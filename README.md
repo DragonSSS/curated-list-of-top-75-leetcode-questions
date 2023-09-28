@@ -888,9 +888,9 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimumOperationsToReduceXToZero.java)
   - hint: sliding window
 
-- [ ] LeetCode #905 Sort Array By Parit
+- [x] LeetCode #905 Sort Array By Parity
   - [description](https://leetcode.com/problems/sort-array-by-parity/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/SortArrayByParit.java)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/SortArrayByParity.java)
   - hint: two pointers
 
 ### Binary Search
