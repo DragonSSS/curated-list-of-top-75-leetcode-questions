@@ -893,6 +893,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/SortArrayByParity.java)
   - hint: two pointers
 
+- [x] LeetCode #896 Monotonic Array
+  - [description](https://leetcode.com/problems/monotonic-array/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/MonotonicArray.java)
+  - hint: one for-loop
+
 ### Binary Search
 
 - [x] LeetCode #540 Single Element in a Sorted Array
@@ -944,11 +949,6 @@
   - [description](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/MinimizeTheMaximumDifferenceOfPairs.java)
   - hint: binary search
-
-- [ ] LeetCode #896 Monotonic Array
-  - [description](https://leetcode.com/problems/monotonic-array/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/MonotonicArray.java)
-  - hint:
 
 ### Prefix Sum
 
