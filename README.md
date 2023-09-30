@@ -945,6 +945,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/MinimizeTheMaximumDifferenceOfPairs.java)
   - hint: binary search
 
+- [ ] LeetCode #896 Monotonic Array
+  - [description](https://leetcode.com/problems/monotonic-array/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/MonotonicArray.java)
+  - hint:
+
 ### Prefix Sum
 
 - [x] LeetCode #560 Subarray Sum Equals K
