@@ -1602,10 +1602,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/LargestNumber.java)
   - hint: sort the string of num by `(num2 + num1).compareTo(num1 + num2)`
 
-- [ ] LeetCode #1071 Greatest Common Divisor of Strings
+- [x] LeetCode #1071 Greatest Common Divisor of Strings
   - [description](https://leetcode.com/problems/greatest-common-divisor-of-strings/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/GreatestCommonDivisorOfStrings.java)
-  - hint:
+  - hint: loop with length range from `Math.min(str1.length(), str2.length()) to 1`
 
 ### Greedy
 
