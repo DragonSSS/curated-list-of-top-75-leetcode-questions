@@ -1107,7 +1107,7 @@
 - [x] LeetCode #877 Stone Game
   - [description](https://leetcode.com/problems/stone-game/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/StoneGame.java)
-  - hint: dfs + memorization
+  - hint: dfs + memorization (same as #486 Predict the Winner)
 
 - [x] LeetCode #799 Champagne Tower
   - [description](https://leetcode.com/problems/champagne-tower/)
