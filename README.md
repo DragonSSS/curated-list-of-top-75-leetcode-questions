@@ -1114,6 +1114,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/ChampagneTower.java)
   - hint: dp
 
+- [x] LeetCode #486 Predict the Winner
+  - [description](https://leetcode.com/problems/predict-the-winner/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/PredictTheWinner.java)
+  - hint: dfs + memorization
+
 ### Tree
 
 - [x] LeetCode #236 Lowest Common Ancestor of a Binary Tree
