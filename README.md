@@ -1241,6 +1241,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/RangeSumOfBST.java)
   - hint:
 
+- [ ] LeetCode #450 Delete Node in a BST
+  - [description](https://leetcode.com/problems/delete-node-in-a-bst//)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/DeleteNodeInBST.java)
+  - hint:
+
 ### LinkedList
 
 - [x] LeetCode #61 Rotate List
