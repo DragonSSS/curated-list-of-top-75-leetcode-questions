@@ -1239,7 +1239,7 @@
 - [x] LeetCode #938 Range Sum of BST
   - [description](https://leetcode.com/problems/range-sum-of-bst/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/RangeSumOfBST.java)
-  - hint:
+  - hint: dfs recursion
 
 - [ ] LeetCode #450 Delete Node in a BST
   - [description](https://leetcode.com/problems/delete-node-in-a-bst//)
