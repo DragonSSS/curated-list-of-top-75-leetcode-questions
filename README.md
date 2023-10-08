@@ -895,8 +895,13 @@
 
 - [x] LeetCode #896 Monotonic Array
   - [description](https://leetcode.com/problems/monotonic-array/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/MonotonicArray.java)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MonotonicArray.java)
   - hint: one for-loop
+
+- [ ] LeetCode #2439 Minimize Maximum of Array
+  - [description](https://leetcode.com/problems/minimize-maximum-of-array/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimizeMaximumOfArray.java)
+  - hint:
 
 ### Binary Search
 
