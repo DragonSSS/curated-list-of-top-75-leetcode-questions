@@ -1247,8 +1247,13 @@
   - hint: dfs recursion
 
 - [x] LeetCode #450 Delete Node in a BST
-  - [description](https://leetcode.com/problems/delete-node-in-a-bst//)
+  - [description](https://leetcode.com/problems/delete-node-in-a-bst/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/DeleteNodeInBST.java)
+  - hint: dfs recursion
+
+- [ ] LeetCode #701 Insert into a Binary Search Tree
+  - [description](https://leetcode.com/problems/insert-into-a-binary-search-tree/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/InsertIntoBinarySearchTree.java)
   - hint: dfs recursion
 
 ### LinkedList
