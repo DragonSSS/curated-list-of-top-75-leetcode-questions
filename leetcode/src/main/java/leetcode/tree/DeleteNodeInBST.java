@@ -25,6 +25,7 @@ public class DeleteNodeInBST {
             while(minNode.left != null) {
                 minNode = minNode.left;
             }
+            
             root.val = minNode.val;
             root.right = deleteNode(root.right, minNode.val);
         }
