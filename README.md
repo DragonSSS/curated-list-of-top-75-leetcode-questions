@@ -1490,6 +1490,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/LongestValidParentheses.java)
   - hint: stack with tracking the start index
 
+- [ ] LeetCode #316 Remove Duplicate Letters
+  - [description](https://leetcode.com/problems/remove-duplicate-letters/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/RemoveDuplicateLetters.java)
+  - hint:
+
 ### String
 
 - [x] LeetCode #71 Simplify Path
