@@ -1495,6 +1495,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/RemoveDuplicateLetters.java)
   - hint: greedy + stack + hashmap to track last index of char presence, same as #1081
 
+- [x] LeetCode #946 Validate Stack Sequences
+  - [description](https://leetcode.com/problems/validate-stack-sequences/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/ValidateStackSequences.java)
+  - hint: stack with pointer
+
 ### String
 
 - [x] LeetCode #71 Simplify Path
