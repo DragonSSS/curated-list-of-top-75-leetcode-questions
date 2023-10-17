@@ -1637,6 +1637,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/GreatestCommonDivisorOfStrings.java)
   - hint: loop with length range from `Math.min(str1.length(), str2.length()) to 1`
 
+- [x] LeetCode #1647 Minimum Deletions to Make Character Frequencies Unique
+  - [description](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/MinimumDeletionsToMakeCharacterFrequenciesUnique.java)
+  - hint: hashtable + greedy
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
