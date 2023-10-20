@@ -1328,6 +1328,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/SwapNodesInPairs.java)
   - hint: recursion
 
+- [x] LeetCode #1171 Remove Zero Sum Consecutive Nodes from Linked List
+  - [description](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/RemoveZeroSumConsecutiveNodesFromLinkedList.java)
+  - hint: prefix sum + hashmap
+
 ### Stack
 
 - [x] LeetCode #71 Simplify Path
@@ -2265,11 +2270,6 @@
 - [ ] LeetCode #1319 Number of Operations to Make Network Connected
   - [description](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
   - hint: similar to number of islands
-
-- [x] LeetCode #1171 Remove Zero Sum Consecutive Nodes from Linked List
-  - [description](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/RemoveZeroSumConsecutiveNodesFromLinkedList.java)
-  - hint: prefix sum + hashmap
 
 - [ ] LeetCode #1885 Count Pairs in Two Arrays
   - [description](https://leetcode.com/problems/count-pairs-in-two-arrays/)
