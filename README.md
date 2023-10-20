@@ -1256,6 +1256,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/InsertIntoBinarySearchTree.java)
   - hint: dfs recursion
 
+- [x] LeetCode #1361 Validate Binary Tree Nodes
+  - [description](https://leetcode.com/problems/validate-binary-tree-nodes/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/ValidateBinaryTreeNodes.java)
+  - hint: check all nodes connected without a cycle and it is directed graph by dfs or bfs
+
 ### LinkedList
 
 - [x] LeetCode #61 Rotate List
