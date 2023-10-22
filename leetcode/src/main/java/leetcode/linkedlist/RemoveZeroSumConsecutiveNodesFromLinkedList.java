@@ -1,8 +1,8 @@
 package leetcode.linkedlist;
 
-import util.ListNode;
-import java.util.Map;
 import java.util.HashMap;
+import java.util.Map;
+import util.ListNode;
 
 public class RemoveZeroSumConsecutiveNodesFromLinkedList {
     // 1,2,-3,3,1
@@ -29,6 +29,29 @@ public class RemoveZeroSumConsecutiveNodesFromLinkedList {
             sum += cur.val;
             cur.next = map.get(sum).next; // trick
             cur = cur.next;
+        }
+        return dummy.next;
+    }
+
+    // hashmap + prefix sum
+    public ListNode removeZeroSumSublists_2r(ListNode head) {
+        Map<Integer, ListNode> map = new HashMap<>();
+        int sum = 0;
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode node = dummy;
+        while(node != null) {
+            sum += node.val;
+            map.put(sum, node);
+            node = node.next;
+        }
+
+        node = dummy;
+        sum = 0;
+        while(node != null) {
+            sum += node.val;
+            node.next = map.get(sum).next;
+            node = node.next;
         }
         return dummy.next;
     }
