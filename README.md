@@ -1652,10 +1652,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/MinimumDeletionsToMakeCharacterFrequenciesUnique.java)
   - hint: hashtable (char frequency) + maxHeap (compare `poll()` with `peek()`) + greedy
 
-- [ ] LeetCode #880 Decoded String at Index
+- [x] LeetCode #880 Decoded String at Index
   - [description](https://leetcode.com/problems/decoded-string-at-index/description/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/DecodedStringAtIndex.java)
-  - hint: stack or loop string backward
+  - hint: stack or loop string backward (Math)
 
 ### Greedy
 
