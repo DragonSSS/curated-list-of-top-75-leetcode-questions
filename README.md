@@ -1261,7 +1261,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/ValidateBinaryTreeNodes.java)
   - hint: check all nodes connected without a cycle and it is directed graph by dfs or bfs
 
-- [ ] LeetCode #515 Find Largest Value in Each Tree Row
+- [x] LeetCode #515 Find Largest Value in Each Tree Row
   - [description](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/FindLargestValueInEachTreeRow.java)
   - hint: bfs with queue or dfs with tracking depth
