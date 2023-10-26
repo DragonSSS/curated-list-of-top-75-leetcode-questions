@@ -1525,7 +1525,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/ValidateStackSequences.java)
   - hint: stack with pointer
 
-- [ ] LeetCode #856 Score of Parentheses
+- [x] LeetCode #856 Score of Parentheses
   - [description](https://leetcode.com/problems/score-of-parentheses/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/ScoreOfParentheses.java)
   - hint: stack with tracking the score integer instead of char
