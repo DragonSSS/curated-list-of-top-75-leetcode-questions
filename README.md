@@ -1269,7 +1269,7 @@
 - [ ] LeetCode #1110 Delete Nodes And Return Forest
   - [description](https://leetcode.com/problems/delete-nodes-and-return-forest/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/DeleteNodesAndReturnForest.java)
-  - hint:
+  - hint: dfs
 
 - [ ] LeetCode #1530 Number of Good Leaf Nodes Pairs
   - [description](https://leetcode.com/problems/delete-nodes-and-return-forest/)
