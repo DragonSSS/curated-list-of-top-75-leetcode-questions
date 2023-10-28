@@ -1266,7 +1266,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/FindLargestValueInEachTreeRow.java)
   - hint: bfs with queue or dfs with tracking depth
 
-- [ ] LeetCode #1110 Delete Nodes And Return Forest
+- [x] LeetCode #1110 Delete Nodes And Return Forest
   - [description](https://leetcode.com/problems/delete-nodes-and-return-forest/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/DeleteNodesAndReturnForest.java)
   - hint: dfs
