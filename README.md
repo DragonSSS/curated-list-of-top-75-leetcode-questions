@@ -803,11 +803,6 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/BoatsToSavePeople.java)
   - hint: two pointers + greedy, try to put heaviest and lightest ppl in one boat if possible
 
-- [ ] LeetCode #18 4Sum
-  - [description](https://leetcode.com/problems/4sum/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FourSum.java)
-  - hint: sorted + two pointers
-
 - [x] LeetCode #554 Brick Wall
   - [description](https://leetcode.com/problems/brick-wall/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/BrickWall.java)
@@ -898,10 +893,20 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MonotonicArray.java)
   - hint: one for-loop
 
+- [x] LeetCode #1218 Longest Arithmetic Subsequence of Given Difference
+  - [description](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/LongestArithmeticSubsequenceOfGivenDifference.java)
+  - hint: one loop + hashtable
+
 - [ ] LeetCode #2439 Minimize Maximum of Array
   - [description](https://leetcode.com/problems/minimize-maximum-of-array/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimizeMaximumOfArray.java)
   - hint:
+
+- [ ] LeetCode #18 4Sum
+  - [description](https://leetcode.com/problems/4sum/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FourSum.java)
+  - hint: sorted + two pointers
 
 ### Binary Search
 
