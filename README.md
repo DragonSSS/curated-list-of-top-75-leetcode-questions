@@ -589,6 +589,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/DetonateMaximumBombs.java)
   - hint: bfs or dfs
 
+- [x] LeetCode #419 Battleships in a Board
+  - [description](https://leetcode.com/problems/battleships-in-a-board/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/BattleshipsInBoard.java)
+  - hint: dfs
+
 ### BFS
 
 - [x] LeetCode #103 Binary Tree Zigzag Level Order Traversal
