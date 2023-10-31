@@ -721,6 +721,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/ZeroOneMatrix.java)
   - hint: bfs
 
+- [ ] LeetCode #1376 Time Needed to Inform All Employees
+  - [description](https://leetcode.com/problems/time-needed-to-inform-all-employees/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/TimeNeededToInformAllEmployees.java)
+  - hint:
+
 ### Array
 
 - [x] LeetCode #4 Median of Two Sorted Arrays (NeetCode 150)
