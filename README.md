@@ -594,7 +594,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/BattleshipsInBoard.java)
   - hint: dfs
 
-- [ ] LeetCode #1236 Web Crawler
+- [x] LeetCode #1236 Web Crawler
   - [description](https://leetcode.com/problems/web-crawler/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/WebCrawler.java)
   - hint: dfs or bfs
