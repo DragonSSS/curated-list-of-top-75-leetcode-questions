@@ -16,14 +16,14 @@ public class WebCrawler {
     public List<String> crawl(String startUrl, HtmlParser htmlParser) {
         String[] parts = startUrl.split("/");
         hostName = parts[2];
+        visited.add(startUrl);
         helper(startUrl, htmlParser);
         return new ArrayList<>(visited);
     }
 
     private void helper(String url, HtmlParser htmlParser) {
-        visited.add(url);
         for(String next : htmlParser.getUrls(url)) {
-            if (!visited.contains(next) && hostName.equals(getHostName(next))) {
+            if (hostName.equals(getHostName(next)) && visited.add(next)) {
                 helper(next, htmlParser);
             }
         }
@@ -31,5 +31,5 @@ public class WebCrawler {
 
     private String getHostName(String url){
         return url.split("/")[2];
-    }    
+    }   
 }
