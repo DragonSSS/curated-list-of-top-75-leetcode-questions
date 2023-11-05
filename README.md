@@ -599,10 +599,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/WebCrawler.java)
   - hint: dfs or bfs
 
-- [ ] LeetCode #1242 Web Crawler Multithreaded
+- [x] LeetCode #1242 Web Crawler Multithreaded
   - [description](https://leetcode.com/problems/web-crawler-multithreaded/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/WebCrawlerMultithreaded.java)
-  - hint: dfs
+  - hint: dfs + multithreaded tasks impl
 
 ### BFS
 
