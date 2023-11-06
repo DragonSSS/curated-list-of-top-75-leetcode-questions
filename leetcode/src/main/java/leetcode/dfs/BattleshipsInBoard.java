@@ -1,3 +1,5 @@
+package leetcode.dfs;
+
 public class BattleshipsInBoard {
     int[][] dirs = new int[][]{{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
     boolean[][] visited;
