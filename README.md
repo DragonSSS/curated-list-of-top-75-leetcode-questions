@@ -604,6 +604,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/WebCrawlerMultithreaded.java)
   - hint: dfs + multithreaded tasks impl
 
+- [ ] LeetCode #886 Possible Bipartition
+  - [description](https://leetcode.com/problems/possible-bipartition/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/PossibleBipartition.java)
+  - hint: dfs or bfs, union-find
+
 ### BFS
 
 - [x] LeetCode #103 Binary Tree Zigzag Level Order Traversal
