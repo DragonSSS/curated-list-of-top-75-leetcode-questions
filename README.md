@@ -2125,6 +2125,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/MyQueue.java)
   - hint: use two stacks, one for input and the other for output
 
+- [x] LeetCode #1600 Throne Inheritance
+  - [description](https://leetcode.com/problems/throne-inheritance/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/ThroneInheritance.java)
+  - hint: dfs + hashtable
+
 ### Monotonic Queue
 
 - [x] LeetCode #239 Sliding Window Maximum (NeetCode 150)
