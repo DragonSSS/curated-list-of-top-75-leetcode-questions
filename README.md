@@ -1311,7 +1311,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/MaximumLevelSumOfBinaryTree.java)
   - hint: dfs or bfs
 
-- [ ] LeetCode #652 Find Duplicate Subtrees
+- [x] LeetCode #652 Find Duplicate Subtrees
   - [description](https://leetcode.com/problems/find-duplicate-subtrees/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/FinDuplicateSubtrees.java)
   - hint: preorder dfs + hashtable
