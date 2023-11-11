@@ -1306,7 +1306,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/NumberOfGoodLeafNodesPairs.java)
   - hint: dfs
 
-- [ ] LeetCode #1161 Maximum Level Sum of a Binary Tree
+- [x] LeetCode #1161 Maximum Level Sum of a Binary Tree
   - [description](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/MaximumLevelSumOfBinaryTree.java)
   - hint: dfs or bfs
