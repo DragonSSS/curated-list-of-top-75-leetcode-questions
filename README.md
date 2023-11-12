@@ -487,6 +487,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/AccountsMerge.java)
   - hint: build undirected graph using email + dfs or union-find
 
+- [x] LeetCode #2204 Distance to a Cycle in Undirected Graph
+  - [description](https://leetcode.com/problems/distance-to-a-cycle-in-undirected-graph/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/DistanceToCycleInUndirectedGraph.java)
+  - hint: dfs (find all nodes in the cycle) + bfs (find min distance to the cycle)
+
 ### DFS
 
 - [x] LeetCode #332 Reconstruct Itinerary
