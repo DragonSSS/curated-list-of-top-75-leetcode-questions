@@ -1321,6 +1321,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/FinDuplicateSubtrees.java)
   - hint: preorder dfs + hashtable
 
+- [x] LeetCode #894 All Possible Full Binary Trees
+  - [description](https://leetcode.com/problems/all-possible-full-binary-trees/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/AllPossibleFullBinaryTrees.java)
+  - hint: dfs + memorization
+
 ### LinkedList
 
 - [x] LeetCode #61 Rotate List
