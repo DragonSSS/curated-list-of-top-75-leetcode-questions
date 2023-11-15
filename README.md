@@ -1398,6 +1398,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/RemoveZeroSumConsecutiveNodesFromLinkedList.java)
   - hint: prefix sum + hashmap
 
+- [x] LeetCode #430 Flatten a Multilevel Doubly Linked List
+  - [description](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/FlattenMultilevelDoublyLinkedList.java)
+  - hint: recursion
+
 ### Stack
 
 - [x] LeetCode #71 Simplify Path
