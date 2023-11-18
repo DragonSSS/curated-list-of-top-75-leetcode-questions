@@ -1326,10 +1326,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/AllPossibleFullBinaryTrees.java)
   - hint: dfs + memorization
 
-- [ ] LeetCode #1104 Path In Zigzag Labelled Binary Tree
+- [x] LeetCode #1104 Path In Zigzag Labelled Binary Tree
   - [description](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/PathInZigzagLabelledBinaryTree.java)
-  - hint:
+  - hint: math
 
 ### LinkedList
 
