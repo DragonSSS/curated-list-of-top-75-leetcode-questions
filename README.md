@@ -1326,10 +1326,15 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/AllPossibleFullBinaryTrees.java)
   - hint: dfs + memorization
 
-- [x] LeetCode #1104 Path In Zigzag Labelled Binary Tree
+- [x] LeetCode #1382 Balance a Binary Search Tree
+  - [description](https://leetcode.com/problems/balance-a-binary-search-tree/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BalanceBinarySearchTree.java)
+  - hint: in-order traversal to get list of tree nodes + recontruct BST with index of list
+
+<!-- - [x] LeetCode #1104 Path In Zigzag Labelled Binary Tree
   - [description](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/PathInZigzagLabelledBinaryTree.java)
-  - hint: math
+  - hint: math -->
 
 ### LinkedList
 
