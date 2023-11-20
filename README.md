@@ -1336,6 +1336,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/DeepestLeaveSum.java)
   - hint: bfs
 
+- [x] LeetCode #530 Minimum Absolute Difference in BST
+  - [description](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/MinimumAbsoluteDifferenceInBST.java)
+  - hint: in-order traversal + dfs
+
 <!-- - [x] LeetCode #1104 Path In Zigzag Labelled Binary Tree
   - [description](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/PathInZigzagLabelledBinaryTree.java)
