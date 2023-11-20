@@ -1331,7 +1331,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BalanceBinarySearchTree.java)
   - hint: in-order traversal to get list of tree nodes + recontruct BST with index of list
 
-- [ ] LeetCode #1302 Deepest Leaves Sum
+- [x] LeetCode #1302 Deepest Leaves Sum
   - [description](https://leetcode.com/problems/deepest-leaves-sum/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/DeepestLeaveSum.java)
   - hint: bfs
