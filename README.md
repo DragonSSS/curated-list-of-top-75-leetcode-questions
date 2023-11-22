@@ -1341,7 +1341,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/MinimumAbsoluteDifferenceInBST.java)
   - hint: in-order traversal + dfs
 
-- [ ] LeetCode #1305 All Elements in Two Binary Search Trees
+- [x] LeetCode #1305 All Elements in Two Binary Search Trees
   - [description](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/AllElementsInTwoBinarySearchTrees.java)
   - hint: in-order traversal + two queues iteration
