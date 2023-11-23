@@ -928,6 +928,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/LongestArithmeticSubsequenceOfGivenDifference.java)
   - hint: one loop + hashtable
 
+- [ ] LeetCode #852 Peak Index in a Mountain Array
+  - [description](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/PeakIndexInMountainArray.java)
+  - hint: binary search
+
 - [ ] LeetCode #2439 Minimize Maximum of Array
   - [description](https://leetcode.com/problems/minimize-maximum-of-array/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimizeMaximumOfArray.java)
