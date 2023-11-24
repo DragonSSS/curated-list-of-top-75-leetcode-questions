@@ -2185,6 +2185,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/ThroneInheritance.java)
   - hint: dfs + hashtable
 
+- [x] LeetCode #1797 Design Authentication Manager
+  - [description](https://leetcode.com/problems/design-authentication-manager/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/DesignAuthenticationManager.java)
+  - hint: hashtable
+
 ### Monotonic Queue
 
 - [x] LeetCode #239 Sliding Window Maximum (NeetCode 150)
