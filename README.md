@@ -2190,6 +2190,16 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/DesignAuthenticationManager.java)
   - hint: hashtable
 
+- [x] LeetCode #2241 Design an ATM Machine
+  - [description](https://leetcode.com/problems/design-an-atm-machine/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/DesignATMMachine.java)
+  - hint: greedy
+
+- [x] LeetCode #2043 Simple Bank System
+  - [description](https://leetcode.com/problems/simple-bank-system/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/SimpleBankSystem.java)
+  - hint: simulation, reuse the func
+
 ### Monotonic Queue
 
 - [x] LeetCode #239 Sliding Window Maximum (NeetCode 150)
