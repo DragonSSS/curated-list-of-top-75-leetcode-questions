@@ -2200,6 +2200,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/SimpleBankSystem.java)
   - hint: simulation, reuse the func
 
+- [ ] LeetCode #2502 Design Memory Allocator
+  - [description](https://leetcode.com/problems/design-memory-allocator/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/DesignMemoryAllocator.java)
+  - hint:
+
 ### Monotonic Queue
 
 - [x] LeetCode #239 Sliding Window Maximum (NeetCode 150)
