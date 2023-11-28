@@ -1,9 +1,9 @@
 package leetcode.design;
 
-public class DesignATMMachine {
+public class AtmMachine {
     long[] counts;
     long[] banknotes;
-    public DesignATMMachine() {
+    public AtmMachine() {
         counts = new long[5];
         banknotes = new long[]{20, 50, 100, 200, 500};
     }

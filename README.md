@@ -2037,7 +2037,7 @@
 
 - [x] LeetCode #588 Design In-Memory File System
   - [description](https://leetcode.com/problems/design-in-memory-file-system/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/DesignInMemoryFileSystem.java)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/InMemoryFileSystem.java)
   - hint: use trie with an unit class like `File`
 
 - [x] LeetCode #1396 Design Underground System
@@ -2187,12 +2187,12 @@
 
 - [x] LeetCode #1797 Design Authentication Manager
   - [description](https://leetcode.com/problems/design-authentication-manager/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/DesignAuthenticationManager.java)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/AuthenticationManager.java)
   - hint: hashtable
 
 - [x] LeetCode #2241 Design an ATM Machine
   - [description](https://leetcode.com/problems/design-an-atm-machine/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/DesignATMMachine.java)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/AtmMachine.java)
   - hint: greedy
 
 - [x] LeetCode #2043 Simple Bank System
@@ -2200,10 +2200,15 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/SimpleBankSystem.java)
   - hint: simulation, reuse the func
 
-- [ ] LeetCode #2502 Design Memory Allocator
+- [x] LeetCode #2502 Design Memory Allocator
   - [description](https://leetcode.com/problems/design-memory-allocator/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/DesignMemoryAllocator.java)
-  - hint:
+  - hint: hashtable
+
+- [ ] LeetCode #2590 Design a Todo List
+  - [description](https://leetcode.com/problems/design-a-todo-list/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/DesignTodoList.java)
+  - hint: hashtable + OOD
 
 ### Monotonic Queue
 

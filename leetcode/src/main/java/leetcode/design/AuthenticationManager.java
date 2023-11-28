@@ -5,10 +5,10 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class DesignAuthenticationManager {
+public class AuthenticationManager {
     int ttl;
     Map<String, Integer> tokenToExpiry;
-    public DesignAuthenticationManager(int timeToLive) {
+    public AuthenticationManager(int timeToLive) {
         this.ttl = timeToLive;
         tokenToExpiry = new HashMap<>();
     }

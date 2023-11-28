@@ -1,12 +1,12 @@
 package leetcode.design;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.HashMap;
-import java.util.Collections;
 
-public class DesignInMemoryFileSystem {
+public class InMemoryFileSystem {
 
     // unit class of trie
     class File {
@@ -17,7 +17,7 @@ public class DesignInMemoryFileSystem {
     
     File root = null;
 
-    public DesignInMemoryFileSystem() {
+    public InMemoryFileSystem() {
         root = new File();
     }
     
