@@ -2205,7 +2205,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/DesignMemoryAllocator.java)
   - hint: hashtable
 
-- [ ] LeetCode #2590 Design a Todo List
+- [x] LeetCode #2590 Design a Todo List
   - [description](https://leetcode.com/problems/design-a-todo-list/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/DesignTodoList.java)
   - hint: hashtable + OOD
