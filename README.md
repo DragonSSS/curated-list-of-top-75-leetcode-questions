@@ -2210,6 +2210,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/DesignTodoList.java)
   - hint: hashtable + OOD
 
+- [x] LeetCode #2296 Design a Text Editor
+  - [description](https://leetcode.com/problems/design-a-text-editor/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/TextEditor.java)
+  - hint: two stacks
+
 ### Monotonic Queue
 
 - [x] LeetCode #239 Sliding Window Maximum (NeetCode 150)
