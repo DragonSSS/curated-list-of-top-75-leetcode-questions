@@ -1615,6 +1615,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/ScoreOfParentheses.java)
   - hint: stack with tracking the score integer instead of char
 
+- [x] LeetCode #2751 Robot Collisions
+  - [description](https://leetcode.com/problems/robot-collisions/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/RobotCollisions.java)
+  - hint: stack
+
 ### String
 
 - [x] LeetCode #71 Simplify Path
