@@ -1896,15 +1896,20 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/PartitionToKEqualSumSubsets.java)
   - hint: dfs + backtracking
 
-- [ ] LeetCode #1723 Find Minimum Time to Finish All Jobs
-  - [description](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/FindMinimumTimeToFinishAllJobs.java)
-  - hint:
-
 - [x] LeetCode #37 Sudoku Solver
   - [description](https://leetcode.com/problems/sudoku-solver/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/SudokuSolver.java)
   - hint: dfs + backtracking
+
+- [ ] LeetCode #2305 Fair Distribution of Cookies
+  - [description](https://leetcode.com/problems/fair-distribution-of-cookies/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/FairDistributionOfCookies.java)
+  - hint: backtracking
+
+<!-- - [ ] LeetCode #1723 Find Minimum Time to Finish All Jobs
+  - [description](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/FindMinimumTimeToFinishAllJobs.java)
+  - hint: -->
 
 ### Heap (Priority Queue)
 
