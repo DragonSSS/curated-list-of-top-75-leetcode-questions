@@ -1901,7 +1901,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/SudokuSolver.java)
   - hint: dfs + backtracking
 
-- [ ] LeetCode #2305 Fair Distribution of Cookies
+- [x] LeetCode #2305 Fair Distribution of Cookies
   - [description](https://leetcode.com/problems/fair-distribution-of-cookies/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/backtracking/FairDistributionOfCookies.java)
   - hint: backtracking
