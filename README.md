@@ -2225,6 +2225,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/TextEditor.java)
   - hint: two stacks
 
+- [ ] LeetCode #1804 Implement Trie II (Prefix Tree)
+  - [description](https://leetcode.com/problems/implement-trie-ii-prefix-tree/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/TrieII.java)
+  - hint:
+
 ### Monotonic Queue
 
 - [x] LeetCode #239 Sliding Window Maximum (NeetCode 150)
