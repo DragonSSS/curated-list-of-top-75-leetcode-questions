@@ -76,7 +76,7 @@ public class LRUCache {
     private void setHead(Node node) {
         node.next = head;
         node.pre = null;
-        if ( head != null) {
+        if (head != null) {
             head.pre = node;
         }
         head = node;
