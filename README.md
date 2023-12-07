@@ -2230,10 +2230,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/TrieII.java)
   - hint: track `endCount` and `startCount` in trie node
 
-- [ ] LeetCode #1500 Design a File Sharing System
+- [x] LeetCode #1500 Design a File Sharing System
   - [description](https://leetcode.com/problems/design-a-file-sharing-system/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/FileSharing.java)
-  - hint:
+  - hint: min heap for tracking ids and hashtable for tracking trunks per id
 
 ### Monotonic Queue
 
