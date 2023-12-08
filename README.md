@@ -1351,6 +1351,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/AllElementsInTwoBinarySearchTrees.java)
   - hint: in-order traversal + two queues iteration
 
+- [ ] LeetCode #1008 Construct Binary Search Tree from Preorder Traversal
+  - [description](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/ConstructBinarySearchTreeFromPreorderTraversal.java)
+  - hint: dfs
+
 <!-- - [x] LeetCode #1104 Path In Zigzag Labelled Binary Tree
   - [description](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/PathInZigzagLabelledBinaryTree.java)
