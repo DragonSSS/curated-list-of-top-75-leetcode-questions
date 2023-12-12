@@ -1042,10 +1042,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/GridGame.java)
   - hint: prefix sum, the path of robot 2 is predictable with robot 1's path
 
-- [ ] LeetCode #2483 Minimum Penalty for a Shop
+- [x] LeetCode #2483 Minimum Penalty for a Shop
   - [description](https://leetcode.com/problems/minimum-penalty-for-a-shop/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/MinimumPenaltyForShop.java)
-  - hint: prefix sum
+  - hint: prefix sum, assume close at index 0 to calculate penalty, then iterate from index 1 with close
 
 ### Dynamic Programming
 
