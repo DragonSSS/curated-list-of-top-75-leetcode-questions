@@ -1829,12 +1829,12 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/EarliestPossibleDayOfFullBloom.java)
   - hint: early plant the seed which takes longer to glow, so that it bloom earlier, sorting + greedy
 
-- [ ] LeetCode #1529 Minimum Suffix Flips
+- [x] LeetCode #1529 Minimum Suffix Flips
   - [description](https://leetcode.com/problems/minimum-suffix-flips/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/MinimumSuffixFlips.java)
   - hint: check current char with previous one, flip count + 1 if they are different
 
-- [ ] LeetCode #1328 Break a Palindrome
+- [x] LeetCode #1328 Break a Palindrome
   - [description](https://leetcode.com/problems/break-a-palindrome/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/BreakPalindrome.java)
   - hint: check any char is not `a`, change the char to `a` if found, otherwise set last char to `b`
