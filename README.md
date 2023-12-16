@@ -1777,7 +1777,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/DecodedStringAtIndex.java)
   - hint: stack or loop string backward (Math)
 
-- [ ] LeetCode #2384 Largest Palindromic Number
+- [x] LeetCode #2384 Largest Palindromic Number
   - [description](https://leetcode.com/problems/largest-palindromic-number/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/LargestPalindromicNumber.java)
   - hint: hashtable + greedy
