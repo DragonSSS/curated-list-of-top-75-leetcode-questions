@@ -492,7 +492,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/DistanceToCycleInUndirectedGraph.java)
   - hint: dfs (find all nodes in the cycle) + bfs (find min distance to the cycle)
 
-- [ ] LeetCode #1615 Maximal Network Rank
+- [x] LeetCode #1615 Maximal Network Rank
   - [description](https://leetcode.com/problems/maximal-network-rank/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/MaximalNetworkRank.java)
   - hint: calculate indegree for each node
