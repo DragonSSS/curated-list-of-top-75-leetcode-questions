@@ -1787,6 +1787,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/LargestPalindromicNumber.java)
   - hint: hashtable + greedy
 
+- [ ] LeetCode #2024 Maximize the Confusion of an Exam
+  - [description](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/MaximizeConfusionOfExam.java)
+  - hint:
+
 ### Greedy
 
 - [x] LeetCode #134 Gas Station
