@@ -1174,10 +1174,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/PredictTheWinner.java)
   - hint: dfs + memorization
 
-- [ ] LeetCode #714 Best Time to Buy and Sell Stock with Transaction Fee
+- [x] LeetCode #714 Best Time to Buy and Sell Stock with Transaction Fee
   - [description](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/BestTimeToBuyAndSellStockWithTransactionFee.java)
-  - hint:
+  - hint: dp, two dp arrys of `hold` and `sell`
 
 ### Tree
 
