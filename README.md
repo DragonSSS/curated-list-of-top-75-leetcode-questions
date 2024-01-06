@@ -223,7 +223,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/interval/InsertInterval.java)
   - hint: if `newInterval[1] < interval[0]` else if `newInterval[0] > interval[1]` else do sth
 
-- [x] LeetCode #57 Merge Intervals (NeetCode 150)
+- [x] LeetCode #56 Merge Intervals (NeetCode 150)
   - [description](https://leetcode.com/problems/merge-intervals/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/interval/MergeIntervals.java)
   - hint: same as Insert Interval, if `newInterval[1] < interval[0]` else if `newInterval[0] > interval[1]` else do sth
