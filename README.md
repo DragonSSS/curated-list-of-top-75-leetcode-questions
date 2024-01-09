@@ -1453,6 +1453,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/FlattenMultilevelDoublyLinkedList.java)
   - hint: recursion
 
+- [x] LeetCode #2487 Remove Nodes From Linked List
+  - [description](https://leetcode.com/problems/remove-nodes-from-linked-list/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/RemoveNodesFromLinkedList.java)
+  - hint: recursion
+
 ### Stack
 
 - [x] LeetCode #71 Simplify Path
