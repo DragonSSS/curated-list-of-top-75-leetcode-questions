@@ -938,6 +938,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/PeakIndexInMountainArray.java)
   - hint: binary search
 
+- [x] LeetCode #1823 Find the Winner of the Circular Game
+  - [description](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/queue/FindWinnerOfCircularGame.java)
+  - hint: use queue to simulate the process
+
 - [ ] LeetCode #2439 Minimize Maximum of Array
   - [description](https://leetcode.com/problems/minimize-maximum-of-array/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimizeMaximumOfArray.java)
