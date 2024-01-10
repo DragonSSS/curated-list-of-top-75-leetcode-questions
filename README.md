@@ -943,7 +943,12 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/queue/FindWinnerOfCircularGame.java)
   - hint: use queue to simulate the process
 
-- [ ] LeetCode #2439 Minimize Maximum of Array
+- [x] LeetCode #1838 Frequency of the Most Frequent Element
+  - [description](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FrequencyOfTheMostFrequentElement.java)
+  - hint: sliding window
+
+<!-- - [ ] LeetCode #2439 Minimize Maximum of Array
   - [description](https://leetcode.com/problems/minimize-maximum-of-array/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimizeMaximumOfArray.java)
   - hint:
@@ -951,7 +956,7 @@
 - [ ] LeetCode #18 4Sum
   - [description](https://leetcode.com/problems/4sum/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FourSum.java)
-  - hint: sorted + two pointers
+  - hint: sorted + two pointers -->
 
 ### Binary Search
 
