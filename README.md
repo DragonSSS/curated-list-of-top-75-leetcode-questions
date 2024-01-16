@@ -1807,6 +1807,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/LargestPalindromicNumber.java)
   - hint: hashtable + greedy
 
+- [x] LeetCode #340 Longest Substring with At Most K Distinct Characters
+  - [description](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/LongestSubstringWithAtMostKDistinctCharacters.java)
+  - hint: sliding window
+
 - [ ] LeetCode #2024 Maximize the Confusion of an Exam
   - [description](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/MaximizeConfusionOfExam.java)
