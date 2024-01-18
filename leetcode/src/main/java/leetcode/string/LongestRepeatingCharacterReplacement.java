@@ -100,4 +100,30 @@ public class LongestRepeatingCharacterReplacement {
         }
         return res;
     }
+
+    public int characterReplacement_5r(String s, int k) {
+        int[] map = new int[26];
+        int mostFreq = 0;
+        int left = 0, right = 0;
+        int res = 0;
+        char[] chars = s.toCharArray();
+
+        for(; right < chars.length; right++) {
+            char c = chars[right];
+            map[c - 'A']++;
+            mostFreq = Math.max(mostFreq, map[c - 'A']);
+            int len = right - left + 1;
+            // explain the scenario that mostFreq could be invalid some point, but it doesn't matter and we
+            // don't have to update it
+            // https://leetcode.com/problems/longest-repeating-character-replacement/editorial/comments/1724877
+            if (len - mostFreq > k) {
+                c = chars[left];
+                map[c - 'A']--;
+                left++;
+            } else {
+               res = Math.max(res, len); 
+            }
+        }
+        return res;
+    }
 }
