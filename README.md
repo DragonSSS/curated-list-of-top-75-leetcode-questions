@@ -1812,6 +1812,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/LongestSubstringWithAtMostKDistinctCharacters.java)
   - hint: sliding window
 
+- [ ] LeetCode #2781 Length of the Longest Valid Substring
+  - [description](https://leetcode.com/problems/length-of-the-longest-valid-substring/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/LengthOfLongestValidSubstring.java)
+  - hint: trie + sliding window
+
 - [ ] LeetCode #2024 Maximize the Confusion of an Exam
   - [description](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/MaximizeConfusionOfExam.java)
