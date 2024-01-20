@@ -1812,7 +1812,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/LongestSubstringWithAtMostKDistinctCharacters.java)
   - hint: sliding window
 
-- [ ] LeetCode #2781 Length of the Longest Valid Substring
+- [x] LeetCode #2781 Length of the Longest Valid Substring
   - [description](https://leetcode.com/problems/length-of-the-longest-valid-substring/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/LengthOfLongestValidSubstring.java)
   - hint: trie + sliding window
