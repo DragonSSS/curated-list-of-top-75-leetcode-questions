@@ -948,9 +948,14 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FrequencyOfTheMostFrequentElement.java)
   - hint: sliding window
 
-- [ ] LeetCode #1493 Longest Subarray of 1's After Deleting One Element
+- [x] LeetCode #1493 Longest Subarray of 1's After Deleting One Element
   - [description](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/LongestSubarrayOfOneAfterDeletingOneElement.java)
+  - hint: sliding window
+
+- [x] LeetCode #1004 Max Consecutive Ones III
+  - [description](https://leetcode.com/problems/max-consecutive-ones-iii/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MaxConsecutiveOnesIII.java)
   - hint: sliding window
 
 <!-- - [ ] LeetCode #2439 Minimize Maximum of Array
