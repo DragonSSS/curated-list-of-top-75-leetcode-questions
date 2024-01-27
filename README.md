@@ -1827,6 +1827,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/LengthOfLongestValidSubstring.java)
   - hint: trie + sliding window
 
+- [x] LeetCode #1297 Maximum Number of Occurrences of a Substring
+  - [description](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/MaximumNumberOfOccurrencesOfSubstring.java)
+  - hint: sliding window
+
 - [ ] LeetCode #2024 Maximize the Confusion of an Exam
   - [description](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/MaximizeConfusionOfExam.java)
