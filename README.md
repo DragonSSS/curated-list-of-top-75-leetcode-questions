@@ -619,6 +619,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/PossibleBipartition.java)
   - hint: dfs or bfs, union-find
 
+- [x] LeetCode #576 Out of Boundary Paths
+  - [description](https://leetcode.com/problems/out-of-boundary-paths/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/OutOfBoundaryPaths.java)
+  - hint: dfs
+
 ### BFS
 
 - [x] LeetCode #103 Binary Tree Zigzag Level Order Traversal
