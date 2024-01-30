@@ -963,6 +963,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MaxConsecutiveOnesIII.java)
   - hint: sliding window
 
+- [x] LeetCode #2747 Count Zero Request Servers
+  - [description](https://leetcode.com/problems/count-zero-request-servers/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/CountZeroRequestServers.java)
+  - hint: sliding window
+
 <!-- - [ ] LeetCode #2439 Minimize Maximum of Array
   - [description](https://leetcode.com/problems/minimize-maximum-of-array/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimizeMaximumOfArray.java)
@@ -2121,7 +2126,7 @@
 - [x] LeetCode #1425 Constrained Subsequence Sum
   - [description](https://leetcode.com/problems/constrained-subsequence-sum/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/ConstrainedSubsequenceSum.java)
-  - hint: maxHeap with the entry `new int[]{curSum, curIndex}`
+  - hint: maxHeap with the entry `new int[]{curMaxSum, curIndex}`
 
 ### Design
 
