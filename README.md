@@ -2118,6 +2118,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/KthLargestElementInArray.java)
   - hint: minHeap, keep heap size to `k`
 
+- [x] LeetCode #1425 Constrained Subsequence Sum
+  - [description](https://leetcode.com/problems/constrained-subsequence-sum/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/heap/ConstrainedSubsequenceSum.java)
+  - hint: maxHeap with the entry `new int[]{curSum, curIndex}`
+
 ### Design
 
 - [x] LeetCode #146 LRU Cache (NeetCode 150)
