@@ -766,6 +766,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/TimeNeededToInformAllEmployees.java)
   - hint: bfs
 
+- [x] LeetCode #2385 Amount of Time for Binary Tree to Be Infected
+  - [description](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/AmountOfTimeForBinaryTreeToBeInfected.java)
+  - hint: bfs
+
 ### Array
 
 - [x] LeetCode #4 Median of Two Sorted Arrays (NeetCode 150)
