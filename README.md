@@ -497,6 +497,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/MaximalNetworkRank.java)
   - hint: calculate indegree for each node
 
+- [x] LeetCode #2642 Design Graph With Shortest Path Calculator
+  - [description](https://leetcode.com/problems/design-graph-with-shortest-path-calculator/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/DesignGraphWithShortestPathCalculator.java)
+  - hint: Dijkstra's algorithm using minHeap
+
 ### DFS
 
 - [x] LeetCode #332 Reconstruct Itinerary
