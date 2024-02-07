@@ -62,5 +62,31 @@ public class AmountOfTimeForBinaryTreeToBeInfected {
  
         buildGraph(node.left, graph);
         buildGraph(node.right, graph);
-    }    
+    }
+    
+    int res = 0;
+    public int amountOfTime_dfs(TreeNode root, int start) {
+        helper(root, start);
+        return res;
+    }
+
+    private int helper(TreeNode node, int start) {
+        if (node == null) {
+            return 0;
+        }
+
+        int left = helper(node.left, start);
+        int right = helper(node.right, start);
+
+        if (node.val == start) {
+            res = Math.max(left, right);
+            return -1;
+        } else if (left >= 0 && right >= 0) {
+            return Math.max(left, right) + 1;
+        } else {
+            int totatLen = Math.abs(left) + Math.abs(right);
+            res = Math.max(res, totatLen);
+            return Math.min(left, right) - 1;
+        }
+    }
 }
