@@ -629,6 +629,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/OutOfBoundaryPaths.java)
   - hint: dfs
 
+- [x] LeetCode #1239 Maximum Length of a Concatenated String with Unique Characters
+  - [description](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dfs/MaximumLengthOfConcatenatedStringWithUniqueCharacters.java)
+  - hint: dfs
+
 ### BFS
 
 - [x] LeetCode #103 Binary Tree Zigzag Level Order Traversal
