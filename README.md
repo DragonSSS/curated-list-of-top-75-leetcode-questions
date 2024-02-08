@@ -1695,6 +1695,16 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/MaximumScoreOfGoodSubarray.java)
   - hint: monotonic stack to track previus and next smaller elements
 
+- [x] LeetCode #1541 Minimum Insertions to Balance a Parentheses String
+  - [description](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/MinimumInsertionsToBalanceParenthesesString.java)
+  - hint: stack, similar to #921 Minimum Add to Make Parentheses Valid
+
+- [ ] LeetCode #388 Longest Absolute File Path
+  - [description](https://leetcode.com/problems/longest-absolute-file-path/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/LongestAbsoluteFilePath.java)
+  - hint: stack, split string by `\n`, use nums of `\t` to determine the depth of path
+
 ### String
 
 - [x] LeetCode #71 Simplify Path
