@@ -1690,6 +1690,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/RobotCollisions.java)
   - hint: stack
 
+- [x] LeetCode #1793 Maximum Score of a Good Subarray
+  - [description](https://leetcode.com/problems/maximum-score-of-a-good-subarray/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/MaximumScoreOfGoodSubarray.java)
+  - hint: monotonic stack to track previus and next smaller elements
+
 ### String
 
 - [x] LeetCode #71 Simplify Path
