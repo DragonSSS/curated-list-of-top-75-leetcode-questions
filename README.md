@@ -1700,7 +1700,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/MinimumInsertionsToBalanceParenthesesString.java)
   - hint: stack, similar to #921 Minimum Add to Make Parentheses Valid
 
-- [ ] LeetCode #388 Longest Absolute File Path
+- [x] LeetCode #388 Longest Absolute File Path
   - [description](https://leetcode.com/problems/longest-absolute-file-path/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/stack/LongestAbsoluteFilePath.java)
   - hint: stack, split string by `\n`, use nums of `\t` to determine the depth of path
