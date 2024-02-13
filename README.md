@@ -1416,6 +1416,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/ConstructBinarySearchTreeFromPreorderTraversal.java)
   - hint: dfs, similar to #105
 
+- [x] LeetCode #2265 Count Nodes Equal to Average of Subtree
+  - [description](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/CountNodesEqualToAverageOfSubtree.java)
+  - hint: dfs
+
 <!-- - [x] LeetCode #1104 Path In Zigzag Labelled Binary Tree
   - [description](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/PathInZigzagLabelledBinaryTree.java)
