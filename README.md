@@ -983,6 +983,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/CountZeroRequestServers.java)
   - hint: sliding window
 
+- [ ] LeetCode #2870 Minimum Number of Operations to Make Array Empty
+  - [description](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimumNumberOfOperationsToMakeArrayEmpty.java)
+  - hint: hashtable + greedy
+
 <!-- - [ ] LeetCode #2439 Minimize Maximum of Array
   - [description](https://leetcode.com/problems/minimize-maximum-of-array/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimizeMaximumOfArray.java)
