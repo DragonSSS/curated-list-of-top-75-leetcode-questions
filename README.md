@@ -983,7 +983,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/CountZeroRequestServers.java)
   - hint: sliding window
 
-- [ ] LeetCode #2870 Minimum Number of Operations to Make Array Empty
+- [x] LeetCode #2870 Minimum Number of Operations to Make Array Empty
   - [description](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimumNumberOfOperationsToMakeArrayEmpty.java)
   - hint: hashtable + greedy
