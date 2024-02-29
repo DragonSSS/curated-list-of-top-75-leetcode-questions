@@ -409,7 +409,7 @@
 - [x] LeetCode #212 Word Search II
   - [description](https://leetcode.com/problems/word-search-ii/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/WordSearch2.java)
-  - hint: trie + dfs + memorization + backtracking
+  - hint: trie + dfs + backtracking
   
 - [x] LeetCode #230 Kth Smallest Element in a BST
   - [description](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
@@ -1426,6 +1426,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/CountNodesEqualToAverageOfSubtree.java)
   - hint: dfs
 
+- [x] LeetCode #1038 Binary Search Tree to Greater Sum Tree
+  - [description](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BinarySearchTreeToGreaterSumTree.java)
+  - hint: dfs (reverse inorder)
+
 <!-- - [x] LeetCode #1104 Path In Zigzag Labelled Binary Tree
   - [description](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/PathInZigzagLabelledBinaryTree.java)
@@ -1881,6 +1886,11 @@
   - [description](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/MaximumNumberOfOccurrencesOfSubstring.java)
   - hint: sliding window
+
+- [x] LeetCode #214 Shortest Palindrome
+  - [description](https://leetcode.com/problems/shortest-palindrome/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/ShortestPalindrome.java)
+  - hint: recursion
 
 - [ ] LeetCode #2024 Maximize the Confusion of an Exam
   - [description](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/)
