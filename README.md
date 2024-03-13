@@ -776,7 +776,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/AmountOfTimeForBinaryTreeToBeInfected.java)
   - hint: bfs
 
-- [ ] LeetCode #2850 Minimum Moves to Spread Stones Over Grid
+- [x] LeetCode #2850 Minimum Moves to Spread Stones Over Grid
   - [description](https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/MinimumMovesToSpreadStonesOverGrid.java)
   - hint: bfs
