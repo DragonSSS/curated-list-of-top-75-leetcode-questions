@@ -781,7 +781,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/MinimumMovesToSpreadStonesOverGrid.java)
   - hint: bfs
 
-- [ ] LeetCode #2477 Minimum Fuel Cost to Report to the Capital
+- [x] LeetCode #2477 Minimum Fuel Cost to Report to the Capital
   - [description](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/bfs/MinimumFuelCostToReportToCapital.java)
   - hint: bfs or dfs
