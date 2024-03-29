@@ -998,6 +998,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimumNumberOfOperationsToMakeArrayEmpty.java)
   - hint: hashtable + greedy
 
+- [ ] LeetCode #2007 Find Original Array From Doubled Array
+  - [description](https://leetcode.com/problems/find-original-array-from-doubled-array/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FindOriginalArrayFromDoubledArray.java)
+  - hint:
+
 <!-- - [ ] LeetCode #2439 Minimize Maximum of Array
   - [description](https://leetcode.com/problems/minimize-maximum-of-array/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimizeMaximumOfArray.java)
