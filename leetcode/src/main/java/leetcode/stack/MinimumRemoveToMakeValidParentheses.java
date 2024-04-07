@@ -96,5 +96,35 @@ public class MinimumRemoveToMakeValidParentheses {
             }
         }
         return sb.toString();
-    }    
+    }
+
+    // "lee(t(c)o)de)"
+    public String minRemoveToMakeValid_4r(String s) {
+        Set<Integer> remove = new HashSet<>();
+        Stack<Integer> stack = new Stack<>();
+        for(int i = 0 ; i < s.length(); i++) {
+            char cur = s.charAt(i);
+            if (cur ==  '(')  {
+                stack.push(i);
+            } else if (cur == ')') {
+                if (stack.isEmpty()) {
+                    remove.add(i);
+                } else {
+                    stack.pop();
+                }
+            }
+        }
+
+        while(!stack.isEmpty()) {
+            remove.add(stack.pop());
+        }
+
+        StringBuilder sb = new StringBuilder();
+        for(int i = 0; i < s.length(); i++) {
+            if (!remove.contains(i)) {
+                sb.append(s.charAt(i));
+            }
+        }
+        return sb.toString();
+    }
 }
