@@ -1003,6 +1003,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/FindOriginalArrayFromDoubledArray.java)
   - hint: sort + hashtable
 
+- [ ] LeetCode #1700 Number of Students Unable to Eat Lunch
+  - [description](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/NumberOfStudentsUnableToEatLunch.java)
+  - hint:
+
 <!-- - [ ] LeetCode #2439 Minimize Maximum of Array
   - [description](https://leetcode.com/problems/minimize-maximum-of-array/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimizeMaximumOfArray.java)
