@@ -1516,7 +1516,7 @@
 - [x] LeetCode #148 Sort List
   - [description](https://leetcode.com/problems/sort-list/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/SortList.java)
-  - hint: slow and fast pointers to split the linked list into two parts, sort on each part and merge them recursively
+  - hint: slow and fast pointers to split the linked list into two parts, sort on each part and merge them recursively (merge sort)
 
 - [x] LeetCode #24 Swap Nodes in Pairs
   - [description](https://leetcode.com/problems/swap-nodes-in-pairs/)
