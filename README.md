@@ -1538,6 +1538,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/RemoveNodesFromLinkedList.java)
   - hint: recursion
 
+- [ ] LeetCode #160 Intersection of Two Linked Lists
+  - [description](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/IntersectionOfTwoLinkedLists.java)
+  - hint:
+
 ### Stack
 
 - [x] LeetCode #71 Simplify Path
