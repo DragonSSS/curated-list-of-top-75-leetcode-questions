@@ -1456,6 +1456,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/BinarySearchTreeToGreaterSumTree.java)
   - hint: dfs (reverse inorder)
 
+- [x] LeetCode #270 Closest Binary Search Tree Value
+  - [description](https://leetcode.com/problems/closest-binary-search-tree-value/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/ClosestBinarySearchTreeValue.java)
+  - hint: while loop by comparing node val with target `root = root.val > target ? root.left : root.right;`
+
 <!-- - [x] LeetCode #1104 Path In Zigzag Labelled Binary Tree
   - [description](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/PathInZigzagLabelledBinaryTree.java)
