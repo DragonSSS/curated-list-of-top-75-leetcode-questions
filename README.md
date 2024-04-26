@@ -1461,7 +1461,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/ClosestBinarySearchTreeValue.java)
   - hint: while loop by comparing node val with target `root = root.val > target ? root.left : root.right;`
 
-- [ ] LeetCode #536 Construct Binary Tree from String
+- [x] LeetCode #536 Construct Binary Tree from String
   - [description](https://leetcode.com/problems/construct-binary-tree-from-string/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/ConstructBinaryTreeFromString.java)
   - hint: stack
