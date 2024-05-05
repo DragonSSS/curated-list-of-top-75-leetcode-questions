@@ -1013,6 +1013,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MissingRanges.java)
   - hint: check boundaries of sorted array with lower and upper limits, loop the sorted array with checking `nums[i + 1] - nums[i] <= 1`
 
+- [ ] LeetCode #1060 Missing Element in Sorted Array
+  - [description](https://leetcode.com/problems/missing-element-in-sorted-array/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MissingElementInSortedArray.java)
+  - hint:
+
 <!-- - [ ] LeetCode #2439 Minimize Maximum of Array
   - [description](https://leetcode.com/problems/minimize-maximum-of-array/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimizeMaximumOfArray.java)
