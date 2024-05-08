@@ -1078,7 +1078,7 @@
 - [x] LeetCode #1060 Missing Element in Sorted Array
   - [description](https://leetcode.com/problems/missing-element-in-sorted-array/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/MissingElementInSortedArray.java)
-  - hint: binary search
+  - hint: binary search or iteration
 
 ### Prefix Sum
 

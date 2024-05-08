@@ -23,5 +23,17 @@ public class MissingElementInSortedArray {
             }
         }
         return nums[left] + k;
-    }    
+    }
+
+    public int missingElement_iteration(int[] nums, int k) {
+        int n = nums.length;
+        for(int i = 1; i < n; i++) {
+            int missed = nums[i] - nums[i - 1] - 1;
+            if (missed >= k) {
+                return nums[i - 1] + k;
+            }
+            k -= missed;
+        }
+        return nums[n - 1] + k;
+    }
 }
