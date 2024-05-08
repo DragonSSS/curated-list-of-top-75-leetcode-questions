@@ -1075,9 +1075,9 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/MinimizeTheMaximumDifferenceOfPairs.java)
   - hint: binary search
 
-- [ ] LeetCode #1060 Missing Element in Sorted Array
+- [x] LeetCode #1060 Missing Element in Sorted Array
   - [description](https://leetcode.com/problems/missing-element-in-sorted-array/)
-  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MissingElementInSortedArray.java)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/MissingElementInSortedArray.java)
   - hint: binary search
 
 ### Prefix Sum
