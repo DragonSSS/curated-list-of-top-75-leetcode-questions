@@ -1471,6 +1471,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/ConstructBinaryTreeFromString.java)
   - hint: stack
 
+- [ ] LeetCode #958 Check Completeness of a Binary Tree
+  - [description](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/CheckCompletenessOfBinaryTree.java)
+  - hint:
+
 <!-- - [x] LeetCode #1104 Path In Zigzag Labelled Binary Tree
   - [description](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/PathInZigzagLabelledBinaryTree.java)
