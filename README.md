@@ -1080,6 +1080,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/MissingElementInSortedArray.java)
   - hint: binary search or iteration
 
+- [ ] LeetCode #1539 Kth Missing Positive Number
+  - [description](https://leetcode.com/problems/kth-missing-positive-number/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/KthMissingPositiveNumber.java)
+  - hint:
+
 ### Prefix Sum
 
 - [x] LeetCode #560 Subarray Sum Equals K
