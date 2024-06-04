@@ -1573,7 +1573,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/IntersectionOfTwoLinkedLists.java)
   - hint: hashset or two pointers
 
-- [ ] LeetCode #708 Insert into a Sorted Circular Linked List
+- [x] LeetCode #708 Insert into a Sorted Circular Linked List
   - [description](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list//)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/linkedlist/InsertIntoSortedCircularLinkedList.java)
   - hint: two pointers
