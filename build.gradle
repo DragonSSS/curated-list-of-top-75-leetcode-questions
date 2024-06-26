@@ -8,7 +8,6 @@ subprojects {
     apply plugin: "java"
     apply plugin: "idea"
     // apply plugin: "checkstyle"
-    // test
 
     repositories {
         mavenCentral()
