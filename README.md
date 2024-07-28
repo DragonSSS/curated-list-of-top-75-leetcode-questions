@@ -1952,6 +1952,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/ShortestPalindrome.java)
   - hint: recursion
 
+- [x] LeetCode #451 Sort Characters By Frequency
+  - [description](https://leetcode.com/problems/sort-characters-by-frequency/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/SortCharactersByFrequency.java)
+  - hint: hashtable + priorityQueue
+
 - [ ] LeetCode #2024 Maximize the Confusion of an Exam
   - [description](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/MaximizeConfusionOfExam.java)
