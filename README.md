@@ -1013,7 +1013,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MissingRanges.java)
   - hint: check boundaries of sorted array with lower and upper limits, loop the sorted array with checking `nums[i + 1] - nums[i] <= 1`
 
-- [ ] LeetCode #2191 Sort the Jumbled Numbers
+- [x] LeetCode #2191 Sort the Jumbled Numbers
   - [description](https://leetcode.com/problems/missing-ranges/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/SortTheJumbledNumbers.java)
   - hint: hashtable
