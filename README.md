@@ -1018,10 +1018,10 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/SortTheJumbledNumbers.java)
   - hint: hashtable
 
-- [ ] LeetCode #228 Summary Ranges
+- [x] LeetCode #228 Summary Ranges
   - [description](https://leetcode.com/problems/summary-ranges/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/SummaryRanges.java)
-  - hint:
+  - hint: for loop + while loop `while(i < nums.length - 1 && nums[i + 1] == nums[i] + 1) { i++; }`
 
 <!-- - [ ] LeetCode #2439 Minimize Maximum of Array
   - [description](https://leetcode.com/problems/minimize-maximum-of-array/)
