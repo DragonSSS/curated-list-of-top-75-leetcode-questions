@@ -1967,7 +1967,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/SortCharactersByFrequency.java)
   - hint: hashtable + priorityQueue
 
-- [ ] LeetCode #186 Reverse Words in a String II
+- [x] LeetCode #186 Reverse Words in a String II
   - [description](https://leetcode.com/problems/reverse-words-in-a-string-ii/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/ReverseWordsInStringII.java)
   - hint: two pointers
