@@ -2039,6 +2039,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/BreakPalindrome.java)
   - hint: check any char is not `a`, change the char to `a` if found, otherwise set last char to `b`
 
+- [ ] LeetCode #1605 Find Valid Matrix Given Row and Column Sums
+  - [description](https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/FindValidMatrixGivenRowAndColumnSums.java)
+  - hint: greedy
+
 ### Backtracking
 
 - [x] LeetCode #40 Combination Sum II
