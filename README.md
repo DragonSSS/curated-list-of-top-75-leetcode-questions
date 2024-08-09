@@ -2044,6 +2044,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/FindValidMatrixGivenRowAndColumnSums.java)
   - hint: greedy
 
+- [ ] LeetCode #2952 Minimum Number of Coins to be Added
+  - [description](https://leetcode.com/problems/minimum-number-of-coins-to-be-added/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/MinimumNumberOfCoinsToBeAdded.java)
+  - hint: greedy
+
 ### Backtracking
 
 - [x] LeetCode #40 Combination Sum II
