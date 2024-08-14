@@ -1491,7 +1491,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/CheckCompletenessOfBinaryTree.java)
   - hint: bfs, after first null node, the rest should be all of null nodes
 
-- [ ] LeetCode #606 Construct String from Binary Tree
+- [x] LeetCode #606 Construct String from Binary Tree
   - [description](https://leetcode.com/problems/construct-string-from-binary-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/ConstructStringFromBinaryTree.java)
   - hint: dfs
