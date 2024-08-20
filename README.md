@@ -1980,7 +1980,7 @@
 - [ ] LeetCode #3016 Minimum Number of Pushes to Type Word II
   - [description](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/MinimumNumberOfPushesToTypeWordII.java)
-  - hint:
+  - hint: hashtable to store the frequency of characters, sorting and greedy
 
 - [ ] LeetCode #2024 Maximize the Confusion of an Exam
   - [description](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/)
