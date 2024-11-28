@@ -214,7 +214,7 @@
 - [x] LeetCode #323 Number of Connected Components in an Undirected Graph
   - [description](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/NumberOfConnectedComponentsInUndirectedGraph.java)
-  - hint: bfs + memorization
+  - hint: bfs/dfs + memorization or union-find
 
 ## Interval (5)
 
