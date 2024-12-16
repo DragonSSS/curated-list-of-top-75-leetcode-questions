@@ -1095,7 +1095,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/KthMissingPositiveNumber.java)
   - hint: binary search
 
-- [ ] LeetCode #1482 Minimum Number of Days to Make m Bouquets
+- [x] LeetCode #1482 Minimum Number of Days to Make m Bouquets
   - [description](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/binarysearch/MinimumNumberOfDaysToMakeBouquets.java)
   - hint: binary search
