@@ -2064,6 +2064,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/MinimumNumberOfCoinsToBeAdded.java)
   - hint: greedy
 
+- [ ] LeetCode #135 Candy
+  - [description](https://leetcode.com/problems/candy/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/Candy.java)
+  - hint: greedy
+
 ### Backtracking
 
 - [x] LeetCode #40 Combination Sum II
