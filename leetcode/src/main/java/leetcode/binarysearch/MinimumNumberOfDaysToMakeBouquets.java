@@ -19,7 +19,7 @@ public class MinimumNumberOfDaysToMakeBouquets {
         }
         return res;
     }
-
+    // this is a test
     private int helper(int[] bloomDay, int mid, int k) {
         int numOfBouquests = 0;
         int curCount = 0;
