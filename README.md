@@ -1023,6 +1023,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/SummaryRanges.java)
   - hint: for loop + while loop `while(i < nums.length - 1 && nums[i + 1] == nums[i] + 1) { i++; }`
 
+- [x] LeetCode #939 Minimum Area Rectangle
+  - [description](https://leetcode.com/problems/minimum-area-rectangle/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimumAreaRectangle.java)
+  - hint: hashtable
+
 <!-- - [ ] LeetCode #2439 Minimize Maximum of Array
   - [description](https://leetcode.com/problems/minimize-maximum-of-array/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimizeMaximumOfArray.java)
