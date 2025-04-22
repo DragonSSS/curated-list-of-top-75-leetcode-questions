@@ -502,6 +502,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/DesignGraphWithShortestPathCalculator.java)
   - hint: Dijkstra's algorithm using minHeap
 
+- [ ] LeetCode #1976 Number of Ways to Arrive at Destination
+  - [description](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/graph/NumberOfWaysToArriveAtDestination.java)
+  - hint: Dijkstra's algorithm using minHeap
+
 ### DFS
 
 - [x] LeetCode #332 Reconstruct Itinerary
