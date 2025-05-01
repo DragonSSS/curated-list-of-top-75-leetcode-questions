@@ -2084,6 +2084,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/Candy.java)
   - hint: greedy
 
+- [x] LeetCode #1642 Furthest Building You Can Reach
+  - [description](https://leetcode.com/problems/furthest-building-you-can-reach/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/FurthestBuildingYouCanReach.java)
+  - hint: greedy using miniheap
+
 ### Backtracking
 
 - [x] LeetCode #40 Combination Sum II
