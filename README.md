@@ -2089,6 +2089,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/FurthestBuildingYouCanReach.java)
   - hint: greedy using miniheap
 
+- [ ] LeetCode #2144 Minimum Cost of Buying Candies With Discount
+  - [description](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/greedy/MinimumCostOfBuyingCandiesWithDiscount.java)
+  - hint:
+
 ### Backtracking
 
 - [x] LeetCode #40 Combination Sum II
