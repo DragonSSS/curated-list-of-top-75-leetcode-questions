@@ -2002,6 +2002,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/MaximumScoreAfterSplittingString.java)
   - hint: `result = Max(leftZero + rightOne) = Max(leftZero + (totalOne - leftOne)) = Max(leftZero - leftOne) + totalOne`
 
+- [ ] LeetCode #2325 Decode the Message
+  - [description](https://leetcode.com/problems/decode-the-message/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/DecodeTheMessage.java)
+  - hint: hashtable
+
 - [ ] LeetCode #2024 Maximize the Confusion of an Exam
   - [description](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/MaximizeConfusionOfExam.java)
