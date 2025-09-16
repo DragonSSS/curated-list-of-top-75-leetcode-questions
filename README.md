@@ -2515,6 +2515,11 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/FileSharing.java)
   - hint: min heap for tracking ids and hashtable for tracking trunks per id
 
+- [x] LeetCode #281 Zigzag Iterator
+  - [description](https://leetcode.com/problems/zigzag-iterator/)
+  - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/design/ZigzagIterator.java)
+  - hint: queue of Iterator
+
 ### Monotonic Queue
 
 - [x] LeetCode #239 Sliding Window Maximum (NeetCode 150)
