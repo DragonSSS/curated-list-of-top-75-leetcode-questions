@@ -2002,7 +2002,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/MaximumScoreAfterSplittingString.java)
   - hint: `result = Max(leftZero + rightOne) = Max(leftZero + (totalOne - leftOne)) = Max(leftZero - leftOne) + totalOne`
 
-- [ ] LeetCode #2325 Decode the Message
+- [x] LeetCode #2325 Decode the Message
   - [description](https://leetcode.com/problems/decode-the-message/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/string/DecodeTheMessage.java)
   - hint: hashtable
