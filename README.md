@@ -1289,7 +1289,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/BestTimeToBuyAndSellStockWithTransactionFee.java)
   - hint: dp, two dp arrys of `hold` and `sell`
 
-- [ ] LeetCode #2369 Check if There is a Valid Partition For The Array
+- [x] LeetCode #2369 Check if There is a Valid Partition For The Array
   - [description](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/CheckValidPartitionForArray.java)
   - hint: dfs + memorization
