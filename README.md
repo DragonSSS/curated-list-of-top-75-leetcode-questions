@@ -1033,7 +1033,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MinimumAreaRectangle.java)
   - hint: hashtable
 
-- [ ] LeetCode #1695 Maximum Erasure Value
+- [x] LeetCode #1695 Maximum Erasure Value
   - [description](https://leetcode.com/problems/maximum-erasure-value/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/array/MaximumErasureValue.java)
   - hint: two pointers + sliding window + hashset
