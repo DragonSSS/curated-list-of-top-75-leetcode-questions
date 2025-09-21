@@ -6,18 +6,18 @@ import java.util.Set;
 public class MaximumErasureValue {
     public int maximumUniqueSubarray(int[] nums) {
         Set<Integer> set = new HashSet<>();
-        int max = 0;
-        int cur = 0;
+        int res = 0;
+        int curMax = 0;
         int start = 0;
         for(int end = 0; end < nums.length; end++) {
             while (set.contains(nums[end])) {
                 set.remove(nums[start]);
-                cur -= nums[start++];
+                curMax -= nums[start++];
             }
-            cur += nums[end];
+            curMax += nums[end];
             set.add(nums[end]);
-            max = Math.max(max, cur);
+            res = Math.max(res, curMax);
         }
-        return max;
+        return res;
     }    
 }
