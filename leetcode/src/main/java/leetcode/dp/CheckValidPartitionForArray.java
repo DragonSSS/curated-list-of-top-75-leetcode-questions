@@ -1,7 +1,7 @@
 package leetcode.dp;
 
 public class CheckValidPartitionForArray {
-    // dfs + memeorization
+    // dfs + memorization
     public boolean validPartition(int[] nums) {
         Boolean[] memo = new Boolean[nums.length];
         return dfs(0, nums, memo);
