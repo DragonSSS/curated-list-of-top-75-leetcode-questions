@@ -1299,7 +1299,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/CheckValidPartitionForArray.java)
   - hint: dfs + memorization
 
-- [ ] LeetCode #808 Soup Servings
+- [x] LeetCode #808 Soup Servings
   - [description](https://leetcode.com/problems/soup-servings/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/SoupServings.java)
   - hint: dfs + memorization
