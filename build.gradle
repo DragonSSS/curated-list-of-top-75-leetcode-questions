@@ -11,7 +11,12 @@ subprojects {
 
     repositories {
         mavenCentral()
-        jcenter()
+    }
+
+    java {
+        toolchain {
+            languageVersion = JavaLanguageVersion.of(21)
+        }
     }
 
     ext {
@@ -95,8 +100,8 @@ subprojects {
 
         ignoreFailures = false
         reports {
-            junitXml.enabled = false
-            html.enabled = false
+            junitXml.required = false
+            html.required = false
         }
     }
 }
