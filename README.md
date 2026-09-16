@@ -124,7 +124,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/ClimbingStairs.java)
   - hint: recursion + memorization
 
-- [x] LeetCode #332 Coin Change
+- [x] LeetCode #322 Coin Change
   - [description](https://leetcode.com/problems/coin-change/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/dp/CoinChange.java)
   - hint: bfs or recursion + memorization
