@@ -28,4 +28,15 @@ public class ContainsDuplicate {
         }
         return false;
     }
+
+    public boolean containsDuplicate_3r(int[] nums) {
+        Set<Integer> set = new HashSet<>();
+        for (int num : nums) {
+            if(set.contains(num)) {
+                return true;
+            }
+            set.add(num);
+        }
+        return false;
+    }
 }
