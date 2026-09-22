@@ -61,4 +61,21 @@ public class ProductOfArrayExceptSelf {
         }
         return result;
     }
+
+    public int[] productExceptSelf_4r(int[] nums) {
+        int size = nums.length;
+        int[] prefixLeft = new int[size];
+        prefixLeft[0] = 1;
+        for(int i = 1; i < size; i++) {
+            prefixLeft[i] = prefixLeft[i - 1] * nums[i - 1];
+        }
+
+        int[] res = new int[size];
+        int right = 1;
+        for ( int i = size - 1; i >= 0; i--) {
+            res[i] = prefixLeft[i] * right;
+            right *= nums[i];
+        }
+        return res;
+    }
 }
