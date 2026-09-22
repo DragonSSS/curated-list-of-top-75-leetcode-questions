@@ -75,4 +75,16 @@ public class MaximumSubarray {
         
         return globalMax;
     }
+
+    public int maxSubArray_4r(int[] nums) {
+        int size = nums.length;
+        int[] dp = new int[size];
+        dp[0] = nums[0];
+        int res = nums[0];
+        for(int i = 1; i < size; i++) {
+            dp[i] = Math.max(nums[i], dp[i - 1] + nums[i]);
+            res = Math.max(res, dp[i]);
+        }
+        return res;
+    }
 }
