@@ -6,7 +6,7 @@ build:
 clean:
 	@./gradlew clean
 
-commit:
+commit: build
 	@git add .
 	@git commit -m "- Update on $(CURRENT_DATE)"
 	@git push
