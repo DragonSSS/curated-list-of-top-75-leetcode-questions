@@ -83,4 +83,21 @@ public class FindMinimumInRotatedSortedArray {
         }
         return res;
     }
+
+    public int findMin_5r(int[] nums) {
+        int res = Integer.MAX_VALUE;
+        int left = 0, right = nums.length - 1;
+
+        while(left <= right) {
+            int mid = left + (right - left) / 2;
+            res = Math.min(nums[mid], res);
+
+            if (nums[mid] > nums[right]) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+        return res;
+    }
 }
