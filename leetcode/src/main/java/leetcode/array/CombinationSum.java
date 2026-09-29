@@ -49,4 +49,25 @@ public class CombinationSum {
             }
         }
     }
+
+    // List<List<Integer>> res = new ArrayList<>();
+    public List<List<Integer>> combinationSum_3r(int[] candidates, int target) {
+        Arrays.sort(candidates);
+        helper_3r(0, target, candidates, new ArrayList<>());
+        return res;
+    }
+
+    private void helper_3r(int index, int target, int[] candidates, List<Integer> curList) {
+        if (target < 0) {
+            return;
+        } else if (target == 0) {
+            res.add(new ArrayList<>(curList));
+        } else {
+            for (int i = index; i < candidates.length; i++) {
+                curList.add(candidates[i]);
+                helper_3r(i, target - candidates[i], candidates, curList);
+                curList.remove(curList.size() - 1);
+            }
+        }
+    }
 }
