@@ -127,4 +127,46 @@ public class WordLadder {
         }
         return 0;
     }
+
+    public int ladderLength_4r(String beginWord, String endWord, List<String> wordList) {
+        Set<String> set = new HashSet<>(wordList);
+        Set<String> visited = new HashSet<>();
+        Queue<String> queue = new LinkedList<>();
+        
+        if (!set.contains(endWord)) {
+            return 0;
+        }
+
+        int res = 1;
+        visited.add(beginWord);
+        queue.offer(beginWord);
+
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for (int i = 0 ; i < size; i++) {
+                String cur = queue.poll();
+                if (cur.equals(endWord)) {
+                    return res;
+                }
+                char[] chars = cur.toCharArray();
+                for(int j = 0; j < chars.length; j++) {
+                    for (char c = 'a'; c <= 'z'; c++) {
+                        char tmp = chars[j];
+                        if (tmp == c) {
+                            continue;
+                        }
+                        chars[j] = c;
+                        String next = new String(chars);
+                        if (!visited.contains(next) && set.contains(next)) {
+                            queue.offer(next);
+                            visited.add(next);
+                        }
+                        chars[j] = tmp;
+                    }
+                }
+            }
+            res++;
+        }
+        return 0;
+    }
 }
