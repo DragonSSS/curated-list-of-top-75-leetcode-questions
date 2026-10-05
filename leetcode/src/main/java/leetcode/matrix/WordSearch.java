@@ -140,4 +140,40 @@ public class WordSearch {
         visited[i][j] = false;
         return false;
     }
+
+
+    // int[][] dirs = new int[][]{{0, 1}, {1, 0}, {-1, 0}, {0, -1}};
+    public boolean exist_5r(char[][] board, String word) {
+        int m = board.length;
+        int n = board[0].length;
+        for(int i = 0; i < m; i ++) {
+            for(int j = 0; j < n; j++) {
+                if (board[i][j] == word.charAt(0) && helper_5r(board, word, 1, i, j, new boolean[m][n])) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    private boolean helper_5r(char[][] board, String word, int index, int row, int col, boolean[][] visited) {
+        if (index == word.length()) {
+            return true;
+        }
+
+        visited[row][col] = true;
+
+        for (int[] dir : dirs) {
+            int newRow = row + dir[0];
+            int newCol = col + dir[1];
+            if (newRow < 0 || newRow >= board.length || newCol < 0 || newCol >= board[0].length || visited[newRow][newCol]) {
+                continue;
+            }
+            if (board[newRow][newCol] == word.charAt(index) && helper_5r(board, word, index + 1, newRow, newCol, visited)) {
+                return true;
+            }
+        }
+        visited[row][col] = false;
+        return false;
+    }
 }
