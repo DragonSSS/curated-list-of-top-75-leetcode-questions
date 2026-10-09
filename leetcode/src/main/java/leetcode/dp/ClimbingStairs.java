@@ -132,4 +132,30 @@ public class ClimbingStairs {
 
         return dp[n];
     }
+
+    public int climbStairs_5r(int n) {
+        return helper_5r(n, new Integer[n + 1]);
+    }
+
+    private int helper_5r(int n, Integer[] mem) {
+        if (n == 0) {
+            return 0;
+        }
+
+        if (n == 1) {
+            return 1;
+        }
+
+        if (n == 2) {
+            return 2;
+        }
+
+        if (mem[n] != null) {
+            return mem[n];
+        }
+
+        int res = helper_5r(n - 1, mem) + helper_5r(n - 2, mem);
+        mem[n] = res;
+        return res;
+    }
 }
