@@ -132,4 +132,32 @@ public class LongestCommonSubsequence {
         memo[index1][index2] = res;
         return res;
     }
+
+    // Integer[][] memo;
+    public int longestCommonSubsequence_6r(String text1, String text2) {
+        memo = new Integer[text1.length()][text2.length()];
+        return helper_6r(0, 0, text1, text2);
+    }
+
+    private int helper_6r(int index1, int index2, String text1, String text2) {
+        if (index1 == text1.length() || index2 == text2.length()) {
+            return 0;
+        }
+
+        if (memo[index1][index2] != null) {
+            return memo[index1][index2];
+        }
+
+        int res;
+        if (text1.charAt(index1) == text2.charAt(index2)) {
+            res = helper_6r(index1 + 1, index2 + 1, text1, text2) + 1;
+        } else {
+            res = Math.max(
+                helper_6r(index1 + 1, index2, text1, text2),
+                helper_6r(index1, index2 + 1, text1, text2)
+            );
+        }
+        memo[index1][index2] = res;
+        return res;
+    }
 }
