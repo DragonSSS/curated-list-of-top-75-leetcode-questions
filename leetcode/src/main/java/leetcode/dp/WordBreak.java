@@ -162,4 +162,25 @@ public class WordBreak {
         }
         return false;
     }
+
+    public boolean wordBreak_7r(String s, List<String> wordDict) {
+        Boolean[] visited = new Boolean[s.length() + 1];
+        Set<String> wordSet = new HashSet<>(wordDict);
+        return helper(0, s, visited, wordSet);
+    }
+
+    private boolean helper(int index, String s, Boolean[] visited, Set<String> wordSet) {
+        if (index == s.length()) {
+            return true;
+        }
+
+        visited[index] = true;
+
+        for(int i = index + 1; i <= s.length(); i++) {
+            if (visited[i] == null && wordSet.contains(s.substring(index, i)) && helper(i, s, visited, wordSet)) {
+                return true;
+            }
+        }
+        return false;
+    }
 }
