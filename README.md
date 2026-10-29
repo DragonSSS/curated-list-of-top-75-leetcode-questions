@@ -361,7 +361,7 @@
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/SameTree.java)
   - hint: dfs
   
-- [x] LeetCode #266 Invert Binary Tree
+- [x] LeetCode #226 Invert Binary Tree
   - [description](https://leetcode.com/problems/invert-binary-tree/)
   - [solution](https://github.com/DragonSSS/curated-list-of-top-75-leetcode-questions/blob/master/leetcode/src/main/java/leetcode/tree/InvertBinaryTree.java)
   - hint: queue + bfs or dfs
