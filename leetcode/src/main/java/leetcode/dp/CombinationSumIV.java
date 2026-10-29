@@ -126,4 +126,28 @@ public class CombinationSumIV {
         memo_4r[target] = res;
         return res;
     }
+
+    public int combinationSum4_5r(int[] nums, int target) {
+        Arrays.sort(nums);
+        Integer[] memo = new Integer[target + 1];
+        return helper_5r(nums, target, memo);
+    }
+
+    private int helper_5r(int[] nums, int target, Integer[] memo) {
+        if (target == 0) {
+            return 1;
+        }
+
+        if (memo[target] != null) {
+            return memo[target];
+        }
+        int res = 0;
+        for (int num : nums) {
+            if (target - num >= 0) {
+                res += helper_5r(nums, target - num, memo);
+            }
+        }
+        memo[target] = res;
+        return res;
+    }
 }
