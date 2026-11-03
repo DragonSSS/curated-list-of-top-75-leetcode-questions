@@ -87,4 +87,27 @@ public class HouseRobber {
         memo[index] = res;
         return res;
     }
+
+    public int rob_5r(int[] nums) {
+        Integer[] memo = new Integer[nums.length];
+        return helper_5r(0, nums, memo);
+    }
+
+    private int helper_5r(int index, int[] nums, Integer[] memo) {
+        if (index >= nums.length) {
+            return 0;
+        }
+
+        if (memo[index] != null) {
+            return memo[index];
+        }
+
+        int res;
+        int with = helper_5r(index + 2, nums, memo) + nums[index];
+        int without = helper_5r(index + 1, nums, memo);
+
+        res = Math.max(with, without);
+        memo[index] = res;
+        return res;
+    }
 }
