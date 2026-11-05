@@ -107,4 +107,35 @@ public class HouseRobberII {
         
         return res;
     }
+
+    public int rob_4r(int[] nums) {
+        int size = nums.length;
+        Integer[] memo1 = new Integer[size];
+        Integer[] memo2 = new Integer[size];
+        return Math.max(helper_4r(0, nums, true, memo1), helper_4r(1, nums, false, memo2));
+    }
+
+    private int helper_4r(int index, int[] nums, boolean firstRob, Integer[] memo) {
+        // edge case if size = 1
+        if (firstRob && nums.length == 1) {
+            return nums[0];
+        }
+
+        if (firstRob && index >= nums.length - 1) {
+            return 0;
+        } else if (!firstRob && index >= nums.length) {
+            return 0;
+        }
+
+        if (memo[index] != null) {
+            return memo[index];
+        }
+
+        int res;
+        int with = helper_4r(index + 2, nums, firstRob, memo) + nums[index];
+        int without = helper_4r(index + 1, nums, firstRob, memo);
+        res = Math.max(with, without);
+        memo[index] = res;
+        return res;
+    }
 }
