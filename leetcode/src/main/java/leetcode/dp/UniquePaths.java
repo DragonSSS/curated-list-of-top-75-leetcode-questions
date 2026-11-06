@@ -133,4 +133,26 @@ public class UniquePaths {
         memo[x][y] = res;
         return memo[x][y];
     }
+
+    public int uniquePaths_5r(int m, int n) {
+        return helper_5r(0, 0, m, n, new Integer[m][n]);
+    }
+
+    private int helper_5r(int i, int j, int m, int n, Integer[][] memo) {
+        int[][] dirs = new int[][]{{0, 1}, {1, 0}};
+        if (i >= m || j >= n) {
+            return 0;
+        } else if (i == m - 1 && j == n - 1) {
+            return 1;
+        } else if (memo[i][j] != null) {
+            return memo[i][j];
+        }
+
+        int res = 0;
+        for (int[] dir : dirs) {
+            res += helper_5r(i + dir[0], j + dir[1], m, n, memo);
+        }
+        memo[i][j] = res;
+        return res;
+    }
 }
