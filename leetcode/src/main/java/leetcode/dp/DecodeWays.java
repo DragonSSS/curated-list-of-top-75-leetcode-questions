@@ -90,4 +90,31 @@ public class DecodeWays {
         memo_3r[index] = res;
         return res;
     }
+
+    public int numDecodings_4r(String s) {
+        return helper_4r(0, s, new Integer[s.length()]);
+    }
+
+    private int helper_4r(int index, String s, Integer[] memo) {
+        if (index == s.length()) {
+            return 1;
+        } else if (memo[index] != null) {
+            return memo[index];
+        }
+
+        int res = 0;
+        int singleDigit = Integer.valueOf(s.substring(index, index + 1));
+        if (singleDigit >= 1 && singleDigit <= 9) {
+            res += helper_4r(index + 1, s, memo);
+        }
+        if ( index <= s.length() - 2 ) {
+            int doubleDigit = Integer.valueOf(s.substring(index, index + 2));
+            if (doubleDigit >= 10 && doubleDigit <= 26) {
+                res += helper_4r(index + 2, s, memo);
+            }
+        }
+
+        memo[index] = res;
+        return res;
+    }
 }
