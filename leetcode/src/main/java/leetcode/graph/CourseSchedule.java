@@ -151,4 +151,48 @@ public class CourseSchedule {
 
         return count == numCourses;
     }
+
+    public boolean canFinish_4r(int numCourses, int[][] prerequisites) {
+        int[] indegree = new int[numCourses];
+        Queue<Integer> queue = new LinkedList<>();
+        Map<Integer, List<Integer>> graph = new HashMap<>();
+        Set<Integer> visited = new HashSet<>();
+
+        // [ai, bi]: bi -> ai; indegree[ai] += 1
+        for(int i = 0; i <= numCourses - 1; i++) {
+            graph.put(i, new ArrayList<>());
+        }
+
+        for (int[] prerequisite : prerequisites) {
+            int start = prerequisite[1];
+            int end = prerequisite[0];
+            indegree[end]++;
+            graph.get(start).add(end);
+        }
+
+        for(int i = 0; i <= numCourses - 1; i++) {
+            if (indegree[i] == 0) {
+                queue.offer(i);
+                visited.add(i);
+            }
+        }
+        int count = 0;
+        while(!queue.isEmpty()) {
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                int cur = queue.poll();
+
+                count++;
+                for(int next : graph.get(cur)) {
+                    indegree[next]--;
+                    if (indegree[next] == 0 && !visited.contains(next)) {
+                        queue.offer(next);
+                        visited.add(next);
+                    }
+                }
+            }
+        }
+
+        return count == numCourses;
+    }
 }
