@@ -132,4 +132,21 @@ public class CloneGraph {
 
         return map.get(node.val);
     }
+
+    // Map<Integer, Node> map = new HashMap<>();
+    public Node cloneGraph_5r(Node node) {
+        if (node == null) {
+            return node;
+        }
+
+        if (map.containsKey(node.val)) {
+            return map.get(node.val);
+        }
+
+        map.put(node.val, new Node(node.val));
+        for (Node next : node.neighbors) {
+            map.get(node.val).neighbors.add(cloneGraph_5r(next));
+        }
+        return map.get(node.val);
+    }
 }
