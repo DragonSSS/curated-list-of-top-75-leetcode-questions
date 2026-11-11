@@ -188,4 +188,33 @@ public class NumberOfIslands {
             helper_4r(grid, i + dir[0], j + dir[1]);
         }
     }
+
+    // int[][] dirs = new int[][]{{0, 1}, {1, 0}, {0, -1}, {-1 , 0}};
+    public int numIslands_5r(char[][] grid) {
+        int row = grid.length;
+        int col = grid[0].length;
+        boolean[][] visited = new boolean[row][col];
+
+        int res = 0;
+        for(int i = 0; i < row; i++) {
+            for(int j = 0; j < col; j++) {
+                if(grid[i][j] == '1' && !visited[i][j]) {
+                    res++;
+                    helper_5r(i, j, grid, visited);
+                }
+            }
+        }
+        return res;
+    }
+
+    private void helper_5r(int i, int j, char[][] grid, boolean[][] visited) {
+        if (i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || visited[i][j] || grid[i][j] != '1') {
+            return;
+        }
+
+        visited[i][j] = true;
+        for(int[] dir : dirs) {
+            helper_5r(i + dir[0], j + dir[1], grid, visited);
+        }
+    }
 }
