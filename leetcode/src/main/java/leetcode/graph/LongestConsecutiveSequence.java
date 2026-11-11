@@ -104,4 +104,26 @@ public class LongestConsecutiveSequence {
         }
         return res;
     }
+
+    public int longestConsecutive_5r(int[] nums) {
+        Set<Integer> numsSet = new HashSet<>();
+        for(int num : nums) {
+            numsSet.add(num);
+        }
+        
+        int res = 0;
+        for(int num : numsSet) {
+            if (!numsSet.contains(num - 1)) {
+                int cur = num;
+                int count = 1;
+                while(numsSet.contains(cur + 1)) {
+                    count += 1;
+                    cur += 1;
+                }
+                res = Math.max(res, count);
+            }
+        }
+        
+        return res;
+    }
 }
